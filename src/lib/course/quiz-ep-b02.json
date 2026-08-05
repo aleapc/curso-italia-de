@@ -1,92 +1,92 @@
 {
   "id": "q-b02",
   "nivel": "basico",
-  "titulo": "Quiz — Say it before you need it",
-  "subtitulo": "Timing, not vocabulary",
+  "titulo": "Quiz — Sagen, bevor Sie etwas brauchen",
+  "subtitulo": "Timing, nicht Vokabular",
   "introAudioKey": "it-b02-q-i",
-  "introPt": "A traveller enters a shop, moves through a crowd and leaves properly.",
-  "cenario": "A small shop, morning.",
+  "introPt": "Jemand betritt einen Laden, geht durch eine enge Stelle und verabschiedet sich richtig.",
+  "cenario": "Ein kleiner Laden, vormittags.",
   "dialogo": [
     {
       "audioKey": "it-b02-q01",
       "voz": "target_it_f",
       "es": "Buongiorno!",
-      "pt": "Good morning!"
+      "pt": "Guten Tag!"
     },
     {
       "audioKey": "it-b02-q02",
       "voz": "target_it_m",
       "es": "Permesso.",
-      "pt": "Coming through."
+      "pt": "Darf ich durch."
     },
     {
       "audioKey": "it-b02-q03",
       "voz": "target_it_f",
       "es": "Scusi, posso chiederle una cosa?",
-      "pt": "Excuse me, can I ask you something?"
+      "pt": "Entschuldigung, darf ich Sie etwas fragen?"
     },
     {
       "audioKey": "it-b02-q04",
       "voz": "target_it_m",
       "es": "Arrivederci, buona giornata!",
-      "pt": "Goodbye, have a good day!"
+      "pt": "Auf Wiedersehen, schönen Tag noch!"
     }
   ],
   "perguntas": [
     {
-      "pergunta": "When do you say buongiorno in a small shop?",
+      "pergunta": "Wann sagt man buongiorno in einem kleinen Laden?",
       "opcoes": [
-        "On the way in, before looking at anything",
-        "Only when paying",
-        "When leaving",
-        "Only if spoken to first"
+        "Beim Eintreten, bevor Sie irgendetwas ansehen",
+        "Erst beim Bezahlen",
+        "Beim Hinausgehen",
+        "Nur wenn man Sie anspricht"
       ],
       "correta": 0,
-      "explica": "The greeting is the opening move of the transaction."
+      "explica": "Der Gruß ist der Eröffnungszug des ganzen Vorgangs."
     },
     {
-      "pergunta": "What does permesso do?",
+      "pergunta": "Was leistet permesso?",
       "opcoes": [
-        "Apologises for a mistake",
-        "Announces a movement through space",
-        "Asks a question",
-        "Ends a conversation"
+        "Es entschuldigt einen Fehler",
+        "Es kündigt eine Bewegung durch den Raum an",
+        "Es stellt eine Frage",
+        "Es beendet ein Gespräch"
       ],
       "correta": 1,
-      "explica": "You announce the move; you do not apologise for existing."
+      "explica": "Sie kündigen den Schritt an; Sie entschuldigen nicht Ihr Dasein."
     },
     {
-      "pergunta": "What does scusi do?",
+      "pergunta": "Was leistet scusi?",
       "opcoes": [
-        "Opens a question or repairs a bump",
-        "Means goodbye",
-        "Means thank you",
-        "Means please"
+        "Es eröffnet eine Frage oder repariert ein Anrempeln",
+        "Es heißt auf Wiedersehen",
+        "Es heißt danke",
+        "Es heißt bitte"
       ],
       "correta": 0,
-      "explica": "English collapses both into excuse me; Italian keeps them apart."
+      "explica": "Auf Deutsch deckt Entschuldigung beides ab; das Italienische trennt es."
     },
     {
-      "pergunta": "Should you say ciao to a waiter you just met?",
+      "pergunta": "Sollten Sie ciao zu einem Kellner sagen, den Sie eben erst sehen?",
       "opcoes": [
-        "Yes, it is the normal hello",
-        "Better not — it is informal and mutual",
-        "Only in the morning",
-        "Only when leaving"
+        "Ja, das ist das normale Hallo",
+        "Besser nicht — es ist informell und gegenseitig",
+        "Nur vormittags",
+        "Nur beim Gehen"
       ],
       "correta": 1,
-      "explica": "Buongiorno and arrivederci are the safe pair with anyone behind a counter."
+      "explica": "Buongiorno und arrivederci sind das sichere Paar hinter jedem Tresen."
     },
     {
-      "pergunta": "When does buonasera take over from buongiorno?",
+      "pergunta": "Ab wann löst buonasera das buongiorno ab?",
       "opcoes": [
-        "At midnight",
-        "Around mid-afternoon",
-        "At exactly 6pm",
-        "It never does"
+        "Um Mitternacht",
+        "Etwa ab dem späten Nachmittag",
+        "Genau um 18 Uhr",
+        "Gar nicht"
       ],
       "correta": 1,
-      "explica": "The changeover is fuzzy and regional; an early buonasera offends nobody."
+      "explica": "Der Übergang ist unscharf und regional; ein frühes buonasera stört niemanden."
     }
   ]
 }

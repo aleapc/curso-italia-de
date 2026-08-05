@@ -2,39 +2,39 @@
   "id": "q-b12",
   "nivel": "basico",
   "titulo": "Quiz — Senza",
-  "subtitulo": "Subtract instead of explaining",
+  "subtitulo": "Abziehen statt erklären",
   "introAudioKey": "it-b12-q-i",
-  "introPt": "A traveller edits a dish on the menu instead of describing a new one.",
-  "cenario": "At a trattoria table.",
+  "introPt": "Eine Reisende ändert ein Gericht von der Karte, statt ein neues zu beschreiben.",
+  "cenario": "Am Tisch in einer Trattoria.",
   "dialogo": [
     {
       "audioKey": "it-b12-q01",
       "voz": "target_it_f",
       "es": "Senza cipolla, per favore.",
-      "pt": "Without onion, please."
+      "pt": "Ohne Zwiebel, bitte."
     },
     {
       "audioKey": "it-b12-q02",
       "voz": "target_it_m",
       "es": "Certo, senza cipolla. Nient'altro?",
-      "pt": "Of course, no onion. Anything else?"
+      "pt": "Klar, ohne Zwiebel. Sonst noch etwas?"
     },
     {
       "audioKey": "it-b12-q03",
       "voz": "target_it_f",
       "es": "Acqua senza gas, per favore.",
-      "pt": "Still water, please."
+      "pt": "Stilles Wasser, bitte."
     },
     {
       "audioKey": "it-b12-q04",
       "voz": "target_it_m",
       "es": "Il formaggio è già dentro. Le faccio un altro primo?",
-      "pt": "The cheese is already in it. Shall I do you a different first course?"
+      "pt": "Der Käse ist schon drin. Mache ich Ihnen einen anderen ersten Gang?"
     }
   ],
   "perguntas": [
     {
-      "pergunta": "How do you order still water?",
+      "pergunta": "Wie bestellen Sie stilles Wasser?",
       "opcoes": [
         "Acqua senza gas",
         "Acqua frizzante",
@@ -42,21 +42,21 @@
         "Acqua semplice"
       ],
       "correta": 0,
-      "explica": "Naturale works too; frizzante and con gas are sparkling."
+      "explica": "Naturale geht auch; frizzante und con gas sind sprudelnd."
     },
     {
-      "pergunta": "The waiter says è già dentro. What does that mean?",
+      "pergunta": "Der Kellner sagt è già dentro. Was heißt das?",
       "opcoes": [
-        "It costs extra",
-        "The ingredient is cooked into the base, so senza is not possible",
-        "It is already ordered",
-        "They are out of it"
+        "Es kostet extra",
+        "Die Zutat ist in die Basis eingekocht, senza geht also nicht",
+        "Es ist schon bestellt",
+        "Es ist aus"
       ],
       "correta": 1,
-      "explica": "The substitution they offer next is the useful part."
+      "explica": "Der Tausch, der danach angeboten wird, ist der nützliche Teil."
     },
     {
-      "pergunta": "Which word adds instead of removing?",
+      "pergunta": "Welches Wort fügt hinzu, statt wegzunehmen?",
       "opcoes": [
         "Senza",
         "Con",
@@ -64,29 +64,29 @@
         "Poco"
       ],
       "correta": 1,
-      "explica": "Più asks for more of what is already there."
+      "explica": "Più bittet um mehr von dem, was schon da ist."
     },
     {
-      "pergunta": "Does senza change shape depending on what follows?",
+      "pergunta": "Ändert senza seine Form je nach dem, was folgt?",
       "opcoes": [
-        "Yes, by gender",
-        "Yes, by number",
-        "No, never",
-        "Only with drinks"
+        "Ja, nach Geschlecht",
+        "Ja, nach Zahl",
+        "Nein, nie",
+        "Nur bei Getränken"
       ],
       "correta": 2,
-      "explica": "That is why it carries more of the module than any other frame."
+      "explica": "Deshalb trägt es mehr vom Modul als jeder andere Baustein."
     },
     {
-      "pergunta": "Which situation does senza NOT cover on its own?",
+      "pergunta": "Welche Situation deckt senza allein NICHT ab?",
       "opcoes": [
-        "No onion",
-        "No ice",
-        "An allergy",
-        "No cheese"
+        "Keine Zwiebel",
+        "Kein Eis",
+        "Eine Allergie",
+        "Kein Käse"
       ],
       "correta": 2,
-      "explica": "An allergy needs an unambiguous sentence, not a polite subtraction."
+      "explica": "Eine Allergie braucht einen eindeutigen Satz, keine höfliche Auslassung."
     }
   ]
 }

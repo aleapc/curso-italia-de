@@ -3,11 +3,11 @@
   "nivel": "basico",
   "numero": 4,
   "parte": "1D",
-  "titulo": "The four files that board with you",
-  "subtitulo": "Passport, the booking you can prove offline, a working connection and two ways to pay — checked tonight, while fixing them is still cheap",
-  "cena": "Tonight, on the kitchen table, is the last moment any of this is easy to fix — tomorrow it all lives in a phone that might have no signal.",
+  "titulo": "Die vier Dinge, die mitfliegen",
+  "subtitulo": "Ausweis, eine offline belegbare Buchung, eine funktionierende Verbindung und zwei Zahlwege — heute Abend geprüft, solange das Nachbessern noch billig ist",
+  "cena": "Heute Abend am Küchentisch ist der letzte Moment, in dem sich all das leicht richten lässt — morgen lebt es in einem Handy, das vielleicht keinen Empfang hat.",
   "moldura": "protege",
-  "frasePiso": "If the phone dies at the taxi rank, the trip should still exist in your hand.",
+  "frasePiso": "Wenn das Handy am Taxistand ausgeht, muss die Reise trotzdem in Ihrer Hand existieren.",
   "moldes": [],
   "steps": [
     {
@@ -16,27 +16,27 @@
       "audioKey": "it-b04-n01",
       "gesto": 1,
       "bloco": "aquecimento",
-      "pt": "Tomorrow's trip starts tonight. Four files, checked while a mistake still costs nothing to fix."
+      "pt": "Die Reise von morgen beginnt heute Abend. Vier Dinge prüfen, solange ein Fehler noch nichts kostet."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_m",
       "audioKey": "it-b04-n02",
       "bloco": "corpo",
-      "pt": "One: the passport, and your airline's own validity rule — the airline's boarding check and the border's rule are not the same thing."
+      "pt": "Erstens: der Ausweis. Prüfen Sie das Ablaufdatum heute Abend, nicht am Gate."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_f",
       "audioKey": "it-b04-n03",
-      "pt": "Two: make the booking survive a dead phone. Save the hotel address and the return ticket somewhere that works with no signal."
+      "pt": "Zweitens: die Buchung muss ein totes Handy überleben. Hoteladresse und Rückflug offline greifbar speichern."
     },
     {
       "tipo": "ouvir",
       "voz": "target_it_m",
       "audioKey": "it-b04-r01",
       "es": "Buonasera, come posso aiutarla?",
-      "pt": "Good evening, how can I help you?",
+      "pt": "Guten Abend, wie kann ich Ihnen helfen?",
       "tts": "Buonasera, come posso aiutarla?"
     },
     {
@@ -47,18 +47,18 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-b04-p01",
-      "promptPt": "You are calling the hotel before flying. Open with the job. Speak now.",
+      "promptPt": "Sie rufen vor dem Flug im Hotel an. Nennen Sie gleich Ihr Anliegen. Sprechen Sie jetzt.",
       "audioKey": "it-b04-t01",
       "es": "Vorrei confermare la mia prenotazione.",
       "pinyin": "vor-RAY kon-fer-MA-re la MEE-a pre-no-ta-tsee-O-ne",
-      "pt": "I'd like to confirm my booking.",
+      "pt": "Ich möchte meine Buchung bestätigen.",
       "tts": "Vorrei confermare la mia prenotazione."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_m",
       "audioKey": "it-b04-n04",
-      "pt": "A green tick inside an app is not proof. Ask for the confirmation somewhere you can keep it."
+      "pt": "Ein grüner Haken in einer App ist kein Beleg. Lassen Sie sich die Bestätigung dorthin schicken, wo Sie sie behalten."
     },
     {
       "consulta": [
@@ -71,11 +71,11 @@
       "encaixe": "mandare la conferma",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-b04-p02",
-      "promptPt": "Ask them to send the confirmation by email so you can save it offline. Speak now.",
+      "promptPt": "Sie wollen den Beleg offline sichern, nicht nur in der App sehen. Ihr Postfach wartet. Sprechen Sie jetzt.",
       "audioKey": "it-b04-t02",
       "es": "Mi può mandare la conferma per email?",
       "pinyin": "mee pwoh man-DA-re la kon-FER-ma per EE-mayl",
-      "pt": "Can you send me the confirmation by email?",
+      "pt": "Können Sie mir die Bestätigung per E-Mail schicken?",
       "tts": "Mi può mandare la conferma per email?"
     },
     {
@@ -83,7 +83,7 @@
       "voz": "guide_de_f",
       "audioKey": "it-b04-n05",
       "bloco": "capsula",
-      "pt": "A hotel name is not a destination. A driver and an offline map need the full street address."
+      "pt": "Ein Hotelname ist kein Ziel. Fahrer und Offline-Karte brauchen Straße und Hausnummer."
     },
     {
       "consulta": [
@@ -93,11 +93,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-b04-p03",
-      "promptPt": "The booking shows only the hotel name. Ask for the complete address. Speak now.",
+      "promptPt": "In der Buchung steht nur der Hotelname. Das reicht keinem Fahrer. Sprechen Sie jetzt.",
       "audioKey": "it-b04-t03",
       "es": "Qual è l'indirizzo completo?",
       "pinyin": "kwal eh leen-dee-REET-tso kom-PLEH-to",
-      "pt": "What is the full address?",
+      "pt": "Wie lautet die vollständige Adresse?",
       "tts": "Qual è l'indirizzo completo?"
     },
     {
@@ -105,7 +105,7 @@
       "voz": "target_it_m",
       "audioKey": "it-b04-r02",
       "es": "Via Garibaldi quarantadue, secondo piano.",
-      "pt": "Via Garibaldi forty-two, second floor.",
+      "pt": "Via Garibaldi zweiundvierzig, zweiter Stock.",
       "tts": "Via Garibaldi quarantadue, secondo piano."
     },
     {
@@ -118,24 +118,24 @@
       "encaixe": "scrivere l'indirizzo",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-b04-p04",
-      "promptPt": "You will not remember that. Ask for it in writing. Speak now.",
+      "promptPt": "Das behalten Sie nicht im Kopf. Bitten Sie um die schriftliche Form. Sprechen Sie jetzt.",
       "audioKey": "it-b04-t04",
       "es": "Me lo può scrivere?",
       "pinyin": "meh lo pwoh SKREE-veh-re",
-      "pt": "Can you write it down for me?",
+      "pt": "Können Sie es mir aufschreiben?",
       "tts": "Me lo può scrivere?"
     },
     {
       "tipo": "intro",
       "voz": "guide_de_m",
       "audioKey": "it-b04-n06",
-      "pt": "Three: connection. Install the eSIM at home, and keep the activation steps somewhere readable without connection."
+      "pt": "Drittens: die Verbindung. EU-Roaming gilt in Italien — prüfen Sie das Datenvolumen und laden Sie die Karte offline."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_f",
       "audioKey": "it-b04-n07",
-      "pt": "Four: two ways to pay, both tested by you. Cards decline abroad for reasons nobody explains at the counter."
+      "pt": "Viertens: zwei Zahlwege, beide von Ihnen getestet. Und Bargeld für die kleine Bar, die keine Karte nimmt."
     },
     {
       "consulta": [
@@ -145,11 +145,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-b04-p05",
-      "promptPt": "Your flight lands late. Say when you arrive and check reception is open. Speak now.",
+      "promptPt": "Ihr Flug landet spät. Sagen Sie Ihre Ankunftszeit und klären Sie, ob jemand Sie noch empfängt. Sprechen Sie jetzt.",
       "audioKey": "it-b04-t05",
       "es": "Arrivo dopo le undici. La reception è aperta?",
       "pinyin": "ar-REE-vo DO-po le OON-dee-chee. la re-SEP-shon eh a-PER-ta",
-      "pt": "I arrive after eleven. Is reception open?",
+      "pt": "Ich komme nach elf an. Ist die Rezeption geöffnet?",
       "tts": "Arrivo dopo le undici. La reception è aperta?"
     },
     {
@@ -157,7 +157,7 @@
       "voz": "target_it_m",
       "audioKey": "it-b04-r03",
       "es": "Sì, siamo aperti ventiquattro ore.",
-      "pt": "Yes, we're open twenty-four hours.",
+      "pt": "Ja, wir haben rund um die Uhr geöffnet.",
       "tts": "Sì, siamo aperti ventiquattro ore."
     },
     {
@@ -168,11 +168,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-b04-p06",
-      "promptPt": "Get a phone number you can call from the airport. Speak now.",
+      "promptPt": "Besorgen Sie sich etwas, das Sie vom Flughafen aus wählen können. Sprechen Sie jetzt.",
       "audioKey": "it-b04-t06",
       "es": "Qual è il numero dell'hotel?",
       "pinyin": "kwal eh eel NOO-meh-ro del-lo-TEL",
-      "pt": "What is the hotel's phone number?",
+      "pt": "Wie lautet die Telefonnummer des Hotels?",
       "tts": "Qual è il numero dell'hotel?"
     },
     {
@@ -185,11 +185,11 @@
       "encaixe": "tenere la prenotazione",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-b04-p07",
-      "promptPt": "Ask them to hold the booking until you arrive. Speak now.",
+      "promptPt": "Sie kommen spät und wollen sicher sein, dass das Zimmer auf Sie wartet. Sprechen Sie jetzt.",
       "audioKey": "it-b04-t07",
       "es": "Mi può tenere la prenotazione?",
       "pinyin": "mee pwoh te-NEH-re la pre-no-ta-tsee-O-ne",
-      "pt": "Can you hold the booking for me?",
+      "pt": "Können Sie die Buchung für mich halten?",
       "tts": "Mi può tenere la prenotazione?"
     },
     {
@@ -200,11 +200,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-b04-p08",
-      "promptPt": "Close the call warmly. Speak now.",
+      "promptPt": "Beenden Sie das Gespräch warm. Sprechen Sie jetzt.",
       "audioKey": "it-b04-t08",
       "es": "Perfetto, grazie mille. A presto!",
       "pinyin": "per-FET-to, GRA-tsee-eh MEEL-le. a PRES-to",
-      "pt": "Perfect, thank you. See you soon!",
+      "pt": "Perfekt, vielen Dank. Bis bald!",
       "tts": "Perfetto, grazie mille. A presto!"
     },
     {
@@ -213,7 +213,7 @@
       "audioKey": "it-b04-s01",
       "es": "Vorrei confermare la mia prenotazione. Qual è l'indirizzo completo? Me lo può scrivere?",
       "pinyin": "vor-RAY kon-fer-MA-re la MEE-a pre-no-ta-tsee-O-ne. kwal eh leen-dee-REET-tso kom-PLEH-to. meh lo pwoh SKREE-veh-re",
-      "pt": "Shadow the whole pre-flight call in one run.",
+      "pt": "Sprechen Sie den ganzen Anruf vor dem Flug in einem Durchgang nach.",
       "tts": "Vorrei confermare la mia prenotazione. Qual è l'indirizzo completo? Me lo può scrivere?"
     },
     {
@@ -221,52 +221,52 @@
       "voz": "guide_de_f",
       "audioKey": "it-b04-n08",
       "bloco": "recap",
-      "pt": "B04 done. Passport checked, booking confirmed and saved offline, full address in writing, connection and two payment methods tested."
+      "pt": "B04 sitzt. Ausweis geprüft, Buchung bestätigt und offline gesichert, Adresse schriftlich, Verbindung und zwei Zahlwege getestet."
     }
   ],
   "aprofundar": {
-    "titulo": "A checklist that expires",
+    "titulo": "Eine Checkliste mit Verfallsdatum",
     "secoes": [
       {
-        "titulo": "Offline is a travel feature",
-        "corpo": "A screenshot of the address, the return booking and the eSIM steps survives airport wifi, a locked account and a dead battery in ways a chain of app links does not."
+        "titulo": "Offline ist eine Reisefunktion",
+        "corpo": "Ein Screenshot von Adresse, Rückbuchung und Hotelnummer übersteht Flughafen-WLAN, ein gesperrtes Konto und einen leeren Akku — eine Kette aus App-Links tut das nicht. Laden Sie den Kartenausschnitt der Stadt vorher offline herunter."
       },
       {
-        "titulo": "The airline rule and the border rule differ",
-        "corpo": "Passport validity is checked twice by two different parties with two different rules. Meeting the border's requirement does not guarantee the airline will board you — check both before you leave for the airport."
+        "titulo": "Die Airline prüft, auch wenn die Grenze nicht prüft",
+        "corpo": "Im Schengenraum gibt es keine systematische Grenzkontrolle, aber am Gate verlangt die Airline ein gültiges Ausweisdokument mit Foto. Ein abgelaufener Personalausweis fällt genau dort auf, wo es am teuersten ist. Prüfen Sie das Ablaufdatum, bevor Sie zum Flughafen fahren, und rechnen Sie bei Kindern mit kürzeren Laufzeiten."
       },
       {
-        "titulo": "Confirmation is an action, not a document",
-        "corpo": "The useful Italian here does not list your papers. It closes the fragile gaps in the booking before departure: confirm it, get the full address, get it in writing.",
+        "titulo": "Bestätigen ist eine Handlung, kein Dokument",
+        "corpo": "Das nützliche Italienisch zählt hier keine Papiere auf. Es schließt vor der Abreise die brüchigen Stellen der Buchung: bestätigen, die vollständige Adresse holen, sie schriftlich bekommen.",
         "exemplos": [
           {
             "es": "Vorrei confermare la mia prenotazione.",
-            "pt": "I'd like to confirm my booking."
+            "pt": "Ich möchte meine Buchung bestätigen."
           },
           {
             "es": "Qual è l'indirizzo completo?",
-            "pt": "What is the full address?"
+            "pt": "Wie lautet die vollständige Adresse?"
           }
         ]
       },
       {
-        "titulo": "Italian addresses put the number after the street",
-        "corpo": "Via Garibaldi 42, not 42 Via Garibaldi. Written down it is unambiguous, which is exactly why the writing rung of B03 earns its place here."
+        "titulo": "Adresse und Stockwerk lesen sich wie zu Hause",
+        "corpo": "Via Garibaldi 42, nicht 42 Via Garibaldi — die Hausnummer steht hinter der Straße, wie im Deutschen. Auch secondo piano meint den zweiten Stock über dem Erdgeschoss. Was fehlt, ist meist der Ort: derselbe Straßenname existiert in vielen italienischen Städten, also gehört die Stadt mit auf den Zettel."
       }
     ]
   },
   "slot": "B04",
-  "permissao": "You are allowed to over-prepare this one. Confirming a booking twice or saving an address you will probably never need is not anxious behaviour — it is the one part of the trip where five minutes tonight buys real protection against a dead phone or a closed front desk.",
+  "permissao": "Sie dürfen hier übervorbereitet sein. Eine Buchung zweimal zu bestätigen oder eine Adresse zu sichern, die Sie wahrscheinlich nie brauchen, ist nicht ängstlich — es ist der eine Teil der Reise, in dem fünf Minuten heute Abend echten Schutz gegen ein totes Handy oder eine unbesetzte Rezeption kaufen.",
   "permissaoAudioKey": "it-b04-n01",
-  "espelho": "Anyone who has ever printed a boarding pass 'just in case' the airline app fails is already running this instinct, just for one document. B04 asks for the same offline-backup habit applied to three more — not a new kind of caution, the familiar one extended.",
+  "espelho": "Wer je die Bordkarte ausgedruckt hat, für den Fall, dass die App streikt, führt diesen Reflex längst aus — nur für ein einziges Dokument. B04 verlangt dieselbe Offline-Gewohnheit für drei weitere. Keine neue Vorsicht, die vertraute, nur ausgedehnt.",
   "fichasCulturais": [
     {
-      "sinal": "You land, open the map to find the hotel, and there is no signal and nothing cached beyond the hotel's name.",
-      "suaLeitura": "I should have bought roaming, or this trip is already going wrong.",
-      "oQueEAli": "A hotel name is not routable. A driver or an offline map needs the street and the number, and in Italian cities the same street name recurs across towns, so the city matters too.",
-      "oQueVoceFaz": "Before flying, ask for the full address in writing and save it somewhere that works with no signal — not only inside a booking app.",
-      "oQueMelhora": "A driver, a stranger or an offline map can all act on it immediately, instead of you standing at arrivals holding a brand name.",
-      "ondeNaoVale": "Not a substitute for confirming the booking itself — a perfect address for the wrong reservation is still the wrong reservation.",
+      "sinal": "Sie landen, öffnen die Karte, um zum Hotel zu finden, und es gibt keinen Empfang und nichts Gespeichertes außer dem Hotelnamen.",
+      "suaLeitura": "Ich hätte die Karte vorher offline laden sollen, oder die Reise läuft schon schief.",
+      "oQueEAli": "Ein Hotelname ist keine Route. Fahrer und Offline-Karte brauchen Straße und Hausnummer, und derselbe Straßenname wiederholt sich von Stadt zu Stadt, also zählt auch der Ort.",
+      "oQueVoceFaz": "Fragen Sie vor dem Flug nach der vollständigen Adresse in Schriftform und speichern Sie sie dort, wo sie ohne Empfang funktioniert — nicht nur in einer Buchungs-App.",
+      "oQueMelhora": "Fahrer, Passanten und Offline-Karte können sofort damit arbeiten, statt dass Sie in der Ankunftshalle einen Markennamen in der Hand halten.",
+      "ondeNaoVale": "Kein Ersatz für das Bestätigen der Buchung selbst — eine perfekte Adresse zur falschen Reservierung bleibt die falsche Reservierung.",
       "evidencia": "CONSENSO",
       "audioKeys": [
         "it-b04-n05"

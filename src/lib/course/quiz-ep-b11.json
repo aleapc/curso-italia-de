@@ -1,92 +1,92 @@
 {
   "id": "q-b11",
   "nivel": "basico",
-  "titulo": "Quiz — Quanto costa — two words, asked while asking is still free",
-  "subtitulo": "Two prices, both legal",
+  "titulo": "Quiz — Quanto costa — zwei Wörter, solange Fragen noch frei ist",
+  "subtitulo": "Zwei Preise, beide erlaubt",
   "introAudioKey": "it-b11-q-i",
-  "introPt": "A traveller finds out about the second price before sitting down.",
-  "cenario": "A bar on a famous square.",
+  "introPt": "Eine Reisende erfährt vom zweiten Preis, bevor sie sich hinsetzt.",
+  "cenario": "Eine Bar an einem berühmten Platz.",
   "dialogo": [
     {
       "audioKey": "it-b11-q01",
       "voz": "target_it_f",
       "es": "Quanto costa un caffè al tavolo?",
-      "pt": "How much is a coffee at the table?"
+      "pt": "Wie viel kostet ein Kaffee am Tisch?"
     },
     {
       "audioKey": "it-b11-q02",
       "voz": "target_it_m",
       "es": "Al tavolo sono sei euro, al banco uno e trenta.",
-      "pt": "At the table it's six euros, at the counter one thirty."
+      "pt": "Am Tisch sind es sechs Euro, an der Theke eins dreißig."
     },
     {
       "audioKey": "it-b11-q03",
       "voz": "target_it_f",
       "es": "Quanto costa in tutto?",
-      "pt": "How much is it all together?"
+      "pt": "Wie viel kostet das zusammen?"
     },
     {
       "audioKey": "it-b11-q04",
       "voz": "target_it_m",
       "es": "Sono due e cinquanta. Prima paghi alla cassa.",
-      "pt": "That's two fifty. You pay at the till first."
+      "pt": "Das macht zwei fünfzig. Sie zahlen zuerst an der Kasse."
     }
   ],
   "perguntas": [
     {
-      "pergunta": "Why does the same coffee have two prices?",
+      "pergunta": "Warum hat derselbe Kaffee zwei Preise?",
       "opcoes": [
-        "The waiter decides",
-        "Standing and seated are two legal tariffs, both displayed",
-        "Tourists pay more",
-        "The second one includes a tip"
+        "Der Kellner entscheidet",
+        "Stehen und Sitzen sind zwei erlaubte Tarife, beide ausgehängt",
+        "Touristen zahlen mehr",
+        "Im zweiten ist das Trinkgeld enthalten"
       ],
       "correta": 1,
-      "explica": "The seated price buys the table and the square."
+      "explica": "Der Sitzpreis kauft den Tisch und den Platz."
     },
     {
-      "pergunta": "What does un caffè get you?",
+      "pergunta": "Was bekommen Sie mit un caffè?",
       "opcoes": [
-        "A long black coffee",
-        "An espresso",
-        "A cappuccino",
-        "Coffee with milk"
+        "Einen großen schwarzen Kaffee",
+        "Einen Espresso",
+        "Einen Cappuccino",
+        "Kaffee mit Milch"
       ],
       "correta": 1,
-      "explica": "For the long one, say caffè lungo."
+      "explica": "Für den langen sagen Sie caffè lungo."
     },
     {
-      "pergunta": "Someone points at the cassa. What is happening?",
+      "pergunta": "Jemand zeigt zur cassa. Was passiert gerade?",
       "opcoes": [
-        "You pay at the till first, then take the receipt to the counter",
-        "They are closing",
-        "You must sit",
-        "Cash only"
+        "Sie zahlen zuerst an der Kasse und bringen den Bon zur Theke",
+        "Sie schließen gleich",
+        "Sie müssen sich setzen",
+        "Nur Bargeld"
       ],
       "correta": 0,
-      "explica": "Watching the person ahead of you answers this faster than asking."
+      "explica": "Ein Blick auf die Person vor Ihnen klärt das schneller als eine Frage."
     },
     {
-      "pergunta": "When is quanto costa worth asking?",
+      "pergunta": "Wann lohnt sich quanto costa?",
       "opcoes": [
-        "After the item arrives",
-        "Before you commit",
-        "Only at markets",
-        "When the bill seems wrong"
+        "Nachdem das Bestellte da ist",
+        "Bevor Sie zusagen",
+        "Nur auf Märkten",
+        "Wenn die Rechnung seltsam wirkt"
       ],
       "correta": 1,
-      "explica": "Asking is free; finding out afterwards is not."
+      "explica": "Fragen kostet nichts; es hinterher zu erfahren schon."
     },
     {
-      "pergunta": "A table charge that appears nowhere on the menu is:",
+      "pergunta": "Ein Tischzuschlag, der nirgends auf der Karte steht, ist:",
       "opcoes": [
         "Normal",
-        "The same as al tavolo pricing",
-        "A different matter, and the scontrino is what lets you raise it",
-        "Required by law"
+        "Dasselbe wie der Tarif al tavolo",
+        "Eine andere Sache — mit dem scontrino können Sie ihn ansprechen",
+        "Gesetzlich vorgeschrieben"
       ],
       "correta": 2,
-      "explica": "The tariffs have to be displayed."
+      "explica": "Die Tarife müssen ausgehängt sein."
     }
   ]
 }

@@ -1,92 +1,92 @@
 {
   "id": "q-i10",
   "nivel": "intermediario",
-  "titulo": "Quiz — Money here",
-  "subtitulo": "Four questions with plain answers",
+  "titulo": "Quiz — Geld hier",
+  "subtitulo": "Vier Fragen mit klaren Antworten",
   "introAudioKey": "it-i10-q-i",
-  "introPt": "A traveller pays by card, splits the bill and skips the tip reflex.",
-  "cenario": "A small shop and a restaurant table.",
+  "introPt": "Ein Reisender zahlt mit Karte, teilt die Rechnung und lässt den Trinkgeldreflex weg.",
+  "cenario": "Ein kleiner Laden und ein Restauranttisch.",
   "dialogo": [
     {
       "audioKey": "it-i10-q01",
       "voz": "target_it_m",
       "es": "Eh, il POS oggi non va tanto bene...",
-      "pt": "Ah, the card machine isn't working too well today..."
+      "pt": "Ach, das Kartengerät läuft heute nicht so gut ..."
     },
     {
       "audioKey": "it-i10-q02",
       "voz": "target_it_f",
       "es": "Proviamo lo stesso, per favore? Non ho contanti.",
-      "pt": "Shall we try it anyway, please? I don't have cash."
+      "pt": "Versuchen wir es trotzdem, bitte? Ich habe kein Bargeld."
     },
     {
       "audioKey": "it-i10-q03",
       "voz": "target_it_f",
       "es": "Facciamo alla romana?",
-      "pt": "Shall we split it evenly?"
+      "pt": "Teilen wir gleichmäßig?"
     },
     {
       "audioKey": "it-i10-q04",
       "voz": "target_it_f",
       "es": "Mi dà lo scontrino, per favore?",
-      "pt": "Could you give me the receipt, please?"
+      "pt": "Geben Sie mir bitte den Kassenbon?"
     }
   ],
   "perguntas": [
     {
-      "pergunta": "Is a merchant allowed to refuse your card for a small purchase?",
+      "pergunta": "Darf ein Händler Ihre Karte bei einem kleinen Einkauf ablehnen?",
       "opcoes": [
-        "Yes, below ten euros",
-        "No — acceptance is a legal requirement with no minimum",
-        "Only in cities",
-        "Only for tourists"
+        "Ja, unter zehn Euro",
+        "Nein — die Annahme ist Pflicht, ohne Mindestbetrag",
+        "Nur in Städten",
+        "Nur bei Touristen"
       ],
       "correta": 1,
-      "explica": "A stated minimum is not permitted."
+      "explica": "Ein genannter Mindestbetrag ist nicht zulässig."
     },
     {
-      "pergunta": "What is alla romana?",
+      "pergunta": "Was heißt alla romana?",
       "opcoes": [
-        "A Roman dish",
-        "Splitting the total evenly among everyone at the table",
-        "Paying for others",
-        "Tipping"
+        "Ein römisches Gericht",
+        "Die Summe gleichmäßig auf alle am Tisch aufteilen",
+        "Für die anderen mitzahlen",
+        "Trinkgeld geben"
       ],
       "correta": 1,
-      "explica": "Faster than itemising, which is why it exists."
+      "explica": "Schneller, als jede Position einzeln zuzuordnen — darum gibt es das."
     },
     {
-      "pergunta": "How much do you tip in a restaurant?",
+      "pergunta": "Wie viel Trinkgeld geben Sie im Restaurant?",
       "opcoes": [
-        "Fifteen percent",
-        "Ten percent",
-        "Rounding up is warm; a percentage is a foreign habit",
-        "Nothing ever"
+        "Fünfzehn Prozent",
+        "Zehn Prozent",
+        "Aufrunden ist herzlich; ein Prozentsatz ist eine fremde Gewohnheit",
+        "Nie etwas"
       ],
       "correta": 2,
-      "explica": "Service is normally covered by the price or a declared servizio line."
+      "explica": "Der Service steckt normalerweise im Preis oder in einer ausgewiesenen Servizio-Zeile."
     },
     {
-      "pergunta": "Where does haggling actually happen?",
+      "pergunta": "Wo wird tatsächlich gehandelt?",
       "opcoes": [
-        "Everywhere",
-        "Flea markets, antique fairs and street vendors — mildly",
+        "Überall",
+        "Flohmärkte, Antikmärkte und Straßenhändler — in Maßen",
         "Restaurants",
         "Taxis"
       ],
       "correta": 1,
-      "explica": "Shops, bars and taxis are fixed-price."
+      "explica": "Läden, Bars und Taxis haben feste Preise."
     },
     {
-      "pergunta": "The terminal really might be broken. So what is the right register?",
+      "pergunta": "Das Gerät kann wirklich defekt sein. Welcher Ton ist also richtig?",
       "opcoes": [
-        "Demand and escalate",
-        "A level question, not a confrontation",
-        "Walk out",
-        "Call the police"
+        "Fordern und eskalieren",
+        "Eine ruhige Frage, keine Auseinandersetzung",
+        "Rausgehen",
+        "Die Polizei rufen"
       ],
       "correta": 1,
-      "explica": "Most refusals end at proviamo lo stesso."
+      "explica": "Die meisten Absagen enden bei proviamo lo stesso."
     }
   ]
 }

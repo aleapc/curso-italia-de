@@ -1077,7 +1077,7 @@ const NOMEIA_MOLDE = new RegExp(
 // o aluno achar que "the frame", "the pattern" e "the formula" são três coisas —
 // e aí ele para de reconhecer a mesma peça voltando.
 const SINONIMO_DE_MOLDE =
-  /\b(the (pattern|template|formula|structure|building block|sentence frame))\b|\b(o (padrão|gabarito|modelo)|a (fórmula|estrutura))\b/i;
+  /\b(the (pattern|template|formula|structure|building block|sentence frame))\b|\b(o (padrão|gabarito|modelo)|a (fórmula|estrutura))\b|\b(das (Muster|Schema|Gerüst)|die (Formel|Struktur|Vorlage|Satzschablone))\b/i;
 
 {
   const PARADAS = new Set([

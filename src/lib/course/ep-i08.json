@@ -3,12 +3,12 @@
   "nivel": "intermediario",
   "numero": 26,
   "parte": "I08",
-  "titulo": "Being invited into someone's home",
-  "subtitulo": "What to bring, where to sit, the toast that is a fixed formula, and the hour when leaving stops being rude",
-  "cena": "Someone you met three days ago has invited you to lunch on Sunday and you have no idea what any part of that means.",
+  "titulo": "Wenn Sie zu jemandem nach Hause eingeladen werden",
+  "subtitulo": "Was Sie mitbringen, wo Sie sitzen, der Trinkspruch als fester Spruch, und ab wann Gehen völlig in Ordnung ist",
+  "cena": "Jemand, den Sie vor drei Tagen kennengelernt haben, lädt Sie für Sonntag zum Mittagessen ein, und Sie wissen nicht, was davon was bedeutet.",
   "moldura": "ganha",
-  "frasePiso": "Bring something for the table, wait to be seated, raise the glass with the formula, and leave when the coffee is finished.",
-  "decisao": "aceitar o convite e chegar com a coisa certa na mão, em vez de recusar por não saber como funciona uma casa italiana",
+  "frasePiso": "Bringen Sie etwas für den Tisch mit, warten Sie auf Ihren Platz, heben Sie das Glas mit dem festen Spruch, und gehen Sie, wenn der Kaffee ausgetrunken ist.",
+  "decisao": "die Einladung annehmen und mit dem Richtigen in der Hand ankommen, statt abzusagen, weil man den Ablauf eines italienischen Hauses nicht kennt",
   "moldes": [],
   "steps": [
     {
@@ -17,16 +17,16 @@
       "audioKey": "it-i08-n01",
       "gesto": 1,
       "bloco": "aquecimento",
-      "pt": "An invitation home is the best thing that can happen on this trip, and the only reason to refuse one is not knowing how it works."
+      "pt": "Eine Einladung nach Hause ist das Beste, was auf dieser Reise passieren kann. Man lehnt sie nur ab, wenn man den Ablauf nicht kennt."
     },
     {
       "tipo": "ouvir",
       "voz": "target_it_m",
       "audioKey": "it-i08-r01",
       "receptivo": true,
-      "acao": "Say yes now. Work out the details after.",
+      "acao": "Sagen Sie jetzt zu. Die Einzelheiten klären Sie danach.",
       "es": "Domenica venite a pranzo da noi. Alle una.",
-      "pt": "Come to lunch at ours on Sunday. At one.",
+      "pt": "Kommen Sie am Sonntag zu uns zum Mittagessen. Um eins.",
       "tts": "Domenica venite a pranzo da noi. Alle una."
     },
     {
@@ -37,11 +37,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-i08-p01",
-      "promptPt": "Accept warmly and immediately. Speak now.",
+      "promptPt": "Nehmen Sie sofort und herzlich an. Sprechen Sie jetzt.",
       "audioKey": "it-i08-t01",
       "es": "Con molto piacere, grazie dell'invito.",
       "pinyin": "kon MOL-to pya-CHE-re, GRA-tsee-eh del-leen-VEE-to",
-      "pt": "With great pleasure, thank you for the invitation.",
+      "pt": "Sehr gern, danke für die Einladung.",
       "tts": "Con molto piacere, grazie dell'invito."
     },
     {
@@ -49,7 +49,7 @@
       "voz": "guide_de_m",
       "audioKey": "it-i08-n02",
       "bloco": "corpo",
-      "pt": "Then ask what to bring. The answer is usually nothing, and you bring something anyway — that exchange is part of the form."
+      "pt": "Fragen Sie dann, was Sie mitbringen sollen. Die Antwort ist fast immer nichts, und Sie bringen trotzdem etwas mit."
     },
     {
       "consulta": [
@@ -59,11 +59,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-i08-p02",
-      "promptPt": "Ask what you can bring. Speak now.",
+      "promptPt": "Sie wollen nicht mit leeren Händen kommen. Fragen Sie nach. Sprechen Sie jetzt.",
       "audioKey": "it-i08-t02",
       "es": "Cosa posso portare?",
       "pinyin": "KO-za POS-so por-TA-re",
-      "pt": "What can I bring?",
+      "pt": "Was kann ich mitbringen?",
       "tts": "Cosa posso portare?",
       "molde": "POSSO",
       "encaixe": "portare"
@@ -73,14 +73,14 @@
       "voz": "target_it_m",
       "audioKey": "it-i08-r02",
       "es": "Ma niente, che dice! Portate solo voi stessi.",
-      "pt": "Nothing at all, what are you saying! Just bring yourselves.",
+      "pt": "Aber gar nichts, was reden Sie denn! Bringen Sie nur sich selbst mit.",
       "tts": "Ma niente, che dice! Portate solo voi stessi."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_f",
       "audioKey": "it-i08-n03",
-      "pt": "That is not an instruction. Bring dessert from a good pastry shop, or flowers, or wine — something for the table."
+      "pt": "Das ist keine Anweisung. Bringen Sie Dolce aus einer guten Pasticceria mit, oder Wein, oder Blumen — etwas für den Tisch."
     },
     {
       "consulta": [
@@ -91,11 +91,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-i08-p03",
-      "promptPt": "You arrive holding something. Hand it over. Speak now.",
+      "promptPt": "Sie stehen mit einer Schachtel aus der Pasticceria an der Tür. Übergeben Sie sie. Sprechen Sie jetzt.",
       "audioKey": "it-i08-t03",
       "es": "Ho portato il dolce, spero vada bene.",
       "pinyin": "oh por-TA-to eel DOL-che, SPE-ro VA-da BEH-ne",
-      "pt": "I brought dessert, I hope that's all right.",
+      "pt": "Ich habe das Dessert mitgebracht, ich hoffe, es passt.",
       "tts": "Ho portato il dolce, spero vada bene.",
       "molde": "HO-FATTO",
       "encaixe": "ho portato il dolce"
@@ -105,7 +105,7 @@
       "voz": "guide_de_m",
       "audioKey": "it-i08-n04",
       "bloco": "capsula",
-      "pt": "At the table, wait to be placed. Seats at an Italian family table are not neutral, and someone will tell you where to go."
+      "pt": "Warten Sie am Tisch, bis man Ihnen einen Platz zuweist. Die Plätze sind nicht neutral, und jemand sagt Ihnen, wohin."
     },
     {
       "consulta": [
@@ -115,18 +115,18 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-i08-p04",
-      "promptPt": "Ask where you should sit rather than choosing. Speak now.",
+      "promptPt": "Alle stehen noch. Sie wollen nicht den falschen Stuhl nehmen. Sprechen Sie jetzt.",
       "audioKey": "it-i08-t04",
       "es": "Dove mi metto?",
       "pinyin": "DO-ve mee MET-to",
-      "pt": "Where should I sit?",
+      "pt": "Wohin setze ich mich?",
       "tts": "Dove mi metto?"
     },
     {
       "tipo": "intro",
       "voz": "guide_de_f",
       "audioKey": "it-i08-n05",
-      "pt": "The toast is a formula, not a speech. Glasses up, eyes on each person, cin cin or salute. That is the whole thing."
+      "pt": "Der Trinkspruch ist ein fester Spruch, keine Rede. Glas hoch, Blick in die Runde, cin cin oder salute. Mehr ist es nicht."
     },
     {
       "consulta": [
@@ -136,11 +136,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-i08-p05",
-      "promptPt": "Raise your glass and say the formula. Speak now.",
+      "promptPt": "Die Gläser sind voll und alle warten auf Sie. Heben Sie Ihres. Sprechen Sie jetzt.",
       "audioKey": "it-i08-t05",
       "es": "Cin cin! Alla salute!",
       "pinyin": "cheen cheen! AL-la sa-LOO-te",
-      "pt": "Cheers! To your health!",
+      "pt": "Prost! Auf die Gesundheit!",
       "tts": "Cin cin! Alla salute!"
     },
     {
@@ -152,11 +152,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-i08-p06",
-      "promptPt": "Praise the food to the person who cooked it, by name of dish. Speak now.",
+      "promptPt": "Der Teller vor Ihnen schlägt jedes Restaurant. Loben Sie ihn direkt bei der Person, die gekocht hat. Sprechen Sie jetzt.",
       "audioKey": "it-i08-t06",
       "es": "Questo sugo è una meraviglia.",
       "pinyin": "KWES-to SOO-go eh OO-na me-ra-VEE-lya",
-      "pt": "This sauce is a marvel.",
+      "pt": "Diese Sauce ist ein Traum.",
       "tts": "Questo sugo è una meraviglia."
     },
     {
@@ -164,9 +164,9 @@
       "voz": "target_it_m",
       "audioKey": "it-i08-r03",
       "receptivo": true,
-      "acao": "A second helping is the compliment. Take a small one rather than refusing outright.",
+      "acao": "Der Nachschlag ist das Kompliment. Nehmen Sie eine kleine Portion, statt rundweg abzulehnen.",
       "es": "Ne prenda ancora un po', su. Ce n'è tanto.",
-      "pt": "Have a bit more, go on. There's plenty.",
+      "pt": "Nehmen Sie noch etwas, na los. Es ist reichlich da.",
       "tts": "Ne prenda ancora un po', su. Ce n'è tanto."
     },
     {
@@ -177,11 +177,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-i08-p07",
-      "promptPt": "Accept a small amount and be honest about your limit. Speak now.",
+      "promptPt": "Man legt Ihnen zum dritten Mal nach. Sie sind satt, wollen aber niemanden kränken. Sprechen Sie jetzt.",
       "audioKey": "it-i08-t07",
       "es": "Solo un pochino, grazie. È troppo buono.",
       "pinyin": "SO-lo oon po-KEE-no, GRA-tsee-eh. eh TROP-po BWO-no",
-      "pt": "Just a tiny bit, thank you. It's too good.",
+      "pt": "Nur ein ganz kleines bisschen, danke. Es ist zu gut.",
       "tts": "Solo un pochino, grazie. È troppo buono."
     },
     {
@@ -192,11 +192,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-i08-p08",
-      "promptPt": "The coffee is finished and it is time. Leave properly. Speak now.",
+      "promptPt": "Der Kaffee ist ausgetrunken und es ist so weit. Verabschieden Sie sich richtig. Sprechen Sie jetzt.",
       "audioKey": "it-i08-t08",
       "es": "Vi ringraziamo di cuore, è stato bellissimo.",
       "pinyin": "vee reen-gra-TSYA-mo dee KWO-re, eh STA-to bel-LEES-see-mo",
-      "pt": "We thank you from the heart, it's been wonderful.",
+      "pt": "Wir danken Ihnen von Herzen, es war wunderschön.",
       "tts": "Vi ringraziamo di cuore, è stato bellissimo."
     },
     {
@@ -205,7 +205,7 @@
       "audioKey": "it-i08-s01",
       "es": "Ho portato il dolce, spero vada bene. Dove mi metto? Cin cin! Vi ringraziamo di cuore.",
       "pinyin": "oh por-TA-to eel DOL-che SPE-ro VA-da BEH-ne. DO-ve mee MET-to. cheen cheen. vee reen-gra-TSYA-mo dee KWO-re",
-      "pt": "Shadow the arc: arrive, sit, toast, leave.",
+      "pt": "Sprechen Sie den Bogen mit: ankommen, sitzen, anstoßen, gehen.",
       "tts": "Ho portato il dolce, spero vada bene. Dove mi metto? Cin cin! Vi ringraziamo di cuore.",
       "molde": "POSSO"
     },
@@ -214,52 +214,52 @@
       "voz": "guide_de_f",
       "audioKey": "it-i08-n06",
       "bloco": "recap",
-      "pt": "I08 done. Say yes, bring something, wait to be seated, raise the glass, and go when the coffee is done."
+      "pt": "I08 geschafft. Ja sagen, etwas mitbringen, auf den Platz warten, das Glas heben, nach dem Kaffee gehen."
     }
   ],
   "aprofundar": {
-    "titulo": "The shape of a Sunday lunch",
+    "titulo": "Die Form eines Sonntagsessens",
     "secoes": [
       {
-        "titulo": "Niente means bring something",
-        "corpo": "The refusal of your offer is part of the exchange, not the answer to it. Wine suits any register and sweets are standard. Flowers are the one trap: etiquette says send them ahead rather than hand over a bouquet at the door, because the host then has to abandon the greeting to find a vase.",
+        "titulo": "Niente heißt: bringen Sie etwas mit",
+        "corpo": "Die Ablehnung Ihres Angebots gehört zum Austausch dazu, sie ist nicht die Antwort darauf. Wein passt in jeder Tonlage, Süßes ist Standard. Blumen sind die eine Falle: Das Galateo empfiehlt, sie vorher schicken zu lassen, statt am Eingang einen Strauß zu überreichen — sonst muss der Gastgeber die Begrüßung abbrechen und eine Vase suchen.",
         "exemplos": [
           {
             "es": "Cosa posso portare?",
-            "pt": "What can I bring?"
+            "pt": "Was kann ich mitbringen?"
           },
           {
             "es": "Ho portato il dolce.",
-            "pt": "I brought dessert."
+            "pt": "Ich habe das Dessert mitgebracht."
           }
         ]
       },
       {
-        "titulo": "Cin cin, and what is actually documented",
-        "corpo": "Cin cin is what you will hear, everywhere and from everyone; it came into Italian from Chinese qing qing by way of sailors. Curiously it is the formula the etiquette academies dislike — they prefer alla salute — so if you hear someone correct it, that is a purist position rather than a rule. One real piece of folklore: toasting with water is held to bring bad luck, a sailors' superstition. You may have read that you must never cross arms and must always meet each person's eyes; those are repeated everywhere and sourced nowhere, so this course does not teach them."
+        "titulo": "Cin cin, und was davon belegt ist",
+        "corpo": "Cin cin hören Sie überall und von allen; es kam über Seeleute aus dem chinesischen qing qing ins Italienische. Kurioserweise ist es genau der Spruch, der den Etikette-Akademien missfällt — sie bevorzugen alla salute. Wer Sie also korrigiert, vertritt eine puristische Position, keine Regel. Ein echtes Stück Folklore: Mit Wasser anzustoßen gilt als Unglück, ein Aberglaube aus der Seefahrt. Dass man die Arme nie kreuzen und jedem einzeln in die Augen sehen müsse, steht überall und ist nirgends belegt; dieser Kurs lehrt es deshalb nicht."
       },
       {
-        "titulo": "Lunch is long by design",
-        "corpo": "A Sunday pranzo can run three or four hours through several courses, coffee, and often something after it. Arriving with a hard stop two hours later means leaving in the middle of the event rather than at the end of it."
+        "titulo": "Das Essen dauert lange, und das ist Absicht",
+        "corpo": "Ein Sonntags-pranzo kann drei oder vier Stunden laufen, über mehrere Gänge, Kaffee und oft noch etwas danach. Wer mit einem festen Termin zwei Stunden später ankommt, geht mitten im Ereignis statt an seinem Ende."
       },
       {
-        "titulo": "The coffee is the signal",
-        "corpo": "Once coffee has been served and drunk, leaving becomes normal rather than early. Etiquette guides put a weeknight informal dinner as ending around eleven — but that is a northern, mid-week framing, and it does not survive a southern dinner that only started at half nine. The coffee is the more portable signal than the clock."
+        "titulo": "Der Kaffee ist das Signal",
+        "corpo": "Sobald der Kaffee serviert und getrunken ist, wird Gehen normal statt früh. Etikette-Ratgeber setzen ein informelles Abendessen unter der Woche gegen elf Uhr an — das ist aber nördlich und werktäglich gedacht und hält einem südlichen Abendessen nicht stand, das erst um halb zehn begann. Der Kaffee ist das verlässlichere Signal als die Uhr."
       }
     ]
   },
   "slot": "I08",
-  "permissao": "You are allowed to accept an invitation from someone you barely know. Being invited to a table is how Italian hospitality actually works, saying yes is the expected answer, and the version of this trip where you decline because you are unsure of the etiquette is the poorer one by a wide margin.",
+  "permissao": "Sie dürfen die Einladung von jemandem annehmen, den Sie kaum kennen. An einen Tisch geladen zu werden ist italienische Gastfreundschaft in Reinform, Ja ist die erwartete Antwort, und die Version dieser Reise, in der Sie aus Unsicherheit über die Form absagen, ist mit Abstand die ärmere.",
   "permissaoAudioKey": "it-i08-n01",
-  "espelho": "Anyone who has turned down an invitation from a neighbour because accepting felt like an imposition knows the reflex. The uncertainty is not about Italy — it is about believing the offer was made out of politeness rather than because they meant it.",
+  "espelho": "Wer schon einmal die Einladung eines Nachbarn abgelehnt hat, weil Annehmen sich wie eine Zumutung anfühlte, kennt den Reflex. Die Unsicherheit hat nichts mit Italien zu tun — sie kommt aus dem Verdacht, das Angebot sei nur aus Höflichkeit gemacht worden und nicht ernst gemeint.",
   "fichasCulturais": [
     {
-      "sinal": "You are full and say no to a second helping, and the food keeps being offered — three or four more times, insistently.",
-      "suaLeitura": "They are not listening to me, and I will have to eat it to be polite.",
-      "oQueEAli": "In many Italian households the repeated offer is the hospitality performing itself, and a first refusal is read as politeness rather than as a decision. The insistence is affection, not pressure.",
-      "oQueVoceFaz": "Take a token amount — solo un pochino — and pair the refusal with praise. Accepting a little closes the exchange in a way a flat no does not.",
-      "oQueMelhora": "You stop having the same negotiation every ten minutes, and the host gets the acknowledgement the offer was actually asking for.",
-      "ondeNaoVale": "Not when there is an allergy or a real dietary limit involved — there, the hammer sentence from B13 applies and a token amount is exactly the wrong move.",
+      "sinal": "Sie sind satt und lehnen den Nachschlag ab, und es wird weiter angeboten — drei-, viermal, hartnäckig.",
+      "suaLeitura": "Man hört mir nicht zu, und ich werde aus Höflichkeit essen müssen.",
+      "oQueEAli": "In vielen italienischen Haushalten ist das wiederholte Angebot die Gastfreundschaft selbst, und ein erstes Nein wird als Höflichkeit gelesen, nicht als Entscheidung. Das Beharren ist Zuneigung, kein Druck.",
+      "oQueVoceFaz": "Nehmen Sie eine symbolische Menge — solo un pochino — und verbinden Sie die Absage mit einem Lob. Ein bisschen anzunehmen schließt den Austausch so ab, wie ein blankes Nein es nicht tut.",
+      "oQueMelhora": "Sie führen nicht alle zehn Minuten dieselbe Verhandlung, und der Gastgeber bekommt die Anerkennung, um die das Angebot eigentlich bat.",
+      "ondeNaoVale": "Nicht bei einer Allergie oder einer echten Ernährungsgrenze — dort gilt der harte Satz aus B13, und eine symbolische Menge ist genau der falsche Zug.",
       "evidencia": "CONSENSO",
       "audioKeys": [
         "it-i08-n05"
@@ -269,7 +269,7 @@
   "fatosDatados": [
     {
       "id": "it-brindisi",
-      "afirmacao": "Cin cin is the near-universal informal toast, from Chinese qing qing, carried into European ports by sailors. It is contested by prescriptive authority rather than by usage: the Accademia Italiana di Galateo advises against it and prefers «Alla salute!». The belief that toasting with water brings bad luck is a documented sailors' superstition. NOT VERIFIED: the widely circulated rules about never crossing arms and always making eye contact while toasting — no Italian source for either was found, and this course does not teach them.",
+      "afirmacao": "Cin cin ist der nahezu universelle informelle Trinkspruch, aus dem chinesischen qing qing, von Seeleuten in die europäischen Häfen getragen. Bestritten wird er von der normsetzenden Instanz, nicht vom Gebrauch: Die Accademia Italiana di Galateo rät davon ab und bevorzugt «Alla salute!». Der Glaube, dass Anstoßen mit Wasser Unglück bringt, ist ein dokumentierter Aberglaube der Seefahrt. NICHT BELEGT: die weit verbreiteten Regeln, beim Anstoßen niemals die Arme zu kreuzen und immer Blickkontakt zu halten — für beides fand sich keine italienische Quelle, und dieser Kurs lehrt sie nicht.",
       "fonte": "Callmewine — «Brindisi Cin Cin: significato ed etimologia»; Accademia Italiana di Galateo via Cookist — «Galateo del brindisi»; Il Post — «Alla salute!», 31 dicembre 2023",
       "ano": 2026,
       "revisarAte": "2028-08-05",
@@ -281,7 +281,7 @@
     },
     {
       "id": "it-cosa-portare",
-      "afirmacao": "Italian galateo holds that a guest never arrives empty-handed. Wine suits any register, including formal dinners; sweets are standard. Flowers carry a caveat: etiquette advises sending them ahead — mid-morning for a lunch, afternoon for a dinner — rather than handing over a bouquet at the door, since the host then has to stop receiving guests to find a vase. For informal weeknight dinners, etiquette places the departure at around eleven; that framing is northern and mid-week and does not survive a southern dinner that starts at half nine.",
+      "afirmacao": "Das italienische Galateo hält fest, dass ein Gast nie mit leeren Händen ankommt. Wein passt in jeder Tonlage, auch bei formellen Abendessen; Süßes ist Standard. Blumen haben einen Vorbehalt: Die Etikette rät, sie vorab schicken zu lassen — am Vormittag für ein Mittagessen, am Nachmittag für ein Abendessen — statt am Eingang einen Strauß zu überreichen, weil der Gastgeber sonst den Empfang unterbrechen muss, um eine Vase zu suchen. Für informelle Abendessen unter der Woche setzt die Etikette den Aufbruch gegen elf Uhr an; diese Rahmung ist nördlich und werktäglich und hält einem südlichen Abendessen nicht stand, das um halb zehn beginnt.",
       "fonte": "Accademia Italiana Galateo — «Cosa portare quando sono invitato?»; Donna Moderna — «Galateo degli inviti a cena»; Elisa Motterle — «Il Bon Ton delle cene informali»",
       "ano": 2026,
       "revisarAte": "2028-08-05",

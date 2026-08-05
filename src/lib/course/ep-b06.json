@@ -3,22 +3,22 @@
   "nivel": "basico",
   "numero": 6,
   "parte": "2B",
-  "titulo": "Posso, and then whatever you want to do",
-  "subtitulo": "One frame for the whole first hour — pay, wait, charge, leave the bag — because the rules change building to building and nobody tells you which",
-  "cena": "The luggage belt has stopped, your pickup has not appeared, and there are four small decisions between you and being able to sit down.",
+  "titulo": "Posso, und dann was immer Sie tun wollen",
+  "subtitulo": "Ein Baustein für die ganze erste Stunde — zahlen, warten, laden, Tasche abstellen — weil die Regeln von Haus zu Haus wechseln und niemand sagt, welche gerade gilt",
+  "cena": "Das Gepäckband steht still, Ihre Abholung ist nicht aufgetaucht, und zwischen Ihnen und dem Hinsetzen liegen vier kleine Entscheidungen.",
   "moldura": "resolve",
-  "frasePiso": "Posso plus the thing you want to do. One frame, and the whole arrivals hall becomes answerable.",
+  "frasePiso": "Posso plus das, was Sie tun wollen. Ein Baustein, und die ganze Ankunftshalle wird beantwortbar.",
   "moldes": [
     "POSSO"
   ],
   "clique": {
     "contagem": [
-      "the airport bar",
-      "the toilet",
-      "the desk"
+      "die Flughafenbar",
+      "die Toilette",
+      "der Schalter"
     ],
-    "desconto": "Nobody handed you a different sentence for each counter in that hall. You kept one opening and changed only the action after it.",
-    "piso": "Next time you are unsure whether something is allowed, you will not guess and hope. You will ask in four words."
+    "desconto": "Niemand hat Ihnen für jeden Schalter in dieser Halle einen eigenen Satz gegeben. Sie hatten einen Anfang und haben nur die Handlung dahinter getauscht.",
+    "piso": "Wenn Sie das nächste Mal unsicher sind, ob etwas erlaubt ist, raten Sie nicht mehr. Sie fragen in vier Wörtern."
   },
   "steps": [
     {
@@ -27,14 +27,14 @@
       "audioKey": "it-b06-n01",
       "gesto": 1,
       "bloco": "aquecimento",
-      "pt": "Your first hour is a run of small permissions. The rules change building to building, so the useful skill is asking, not knowing."
+      "pt": "Ihre erste Stunde ist eine Reihe kleiner Erlaubnisse. Die Regeln wechseln von Haus zu Haus — fragen schlägt wissen."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_m",
       "audioKey": "it-b06-n02",
       "bloco": "molde",
-      "pt": "Here is the frame: posso, then the action. Can I — and then the job. Same opening every time."
+      "pt": "Hier ist der Baustein: posso, dann die Handlung. Darf ich — und dann die Sache. Immer derselbe Anfang."
     },
     {
       "tipo": "ouvir",
@@ -42,7 +42,7 @@
       "audioKey": "it-b06-t01",
       "es": "Posso pagare con la carta?",
       "pinyin": "POS-so pa-GA-re kon la KAR-ta",
-      "pt": "Can I pay by card?",
+      "pt": "Darf ich mit Karte zahlen?",
       "tts": "Posso pagare con la carta?"
     },
     {
@@ -55,18 +55,18 @@
       "encaixe": "pagare con la carta",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-b06-p01",
-      "promptPt": "At the airport bar you want water and all you have is plastic. Ask. Speak now.",
+      "promptPt": "An der Flughafenbar wollen Sie Wasser, und Sie haben nur Plastik dabei. Fragen Sie. Sprechen Sie jetzt.",
       "audioKey": "it-b06-t01",
       "es": "Posso pagare con la carta?",
       "pinyin": "POS-so pa-GA-re kon la KAR-ta",
-      "pt": "Can I pay by card?"
+      "pt": "Darf ich mit Karte zahlen?"
     },
     {
       "tipo": "ouvir",
       "voz": "target_it_m",
       "audioKey": "it-b06-r01",
       "es": "Certo, anche per un caffè.",
-      "pt": "Of course, even for a coffee.",
+      "pt": "Klar, auch für einen Kaffee.",
       "tts": "Certo, anche per un caffè."
     },
     {
@@ -74,7 +74,7 @@
       "voz": "guide_de_f",
       "audioKey": "it-b06-n03",
       "bloco": "corpo",
-      "pt": "The frame holds; only the action changes. Same four words, completely different problem."
+      "pt": "Der Baustein hält; nur die Handlung wechselt. Vier gleiche Wörter, ein ganz anderes Problem."
     },
     {
       "consulta": [
@@ -87,11 +87,11 @@
       "encaixe": "usare il bagno",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-b06-p02",
-      "promptPt": "The toilets are past a staffed barrier. Ask whether you may use them. Speak now.",
+      "promptPt": "Die Waschräume liegen hinter einer besetzten Schranke. Bitten Sie um Erlaubnis. Sprechen Sie jetzt.",
       "audioKey": "it-b06-t02",
       "es": "Posso usare il bagno?",
       "pinyin": "POS-so oo-ZA-re eel BA-nyo",
-      "pt": "Can I use the toilet?",
+      "pt": "Darf ich die Toilette benutzen?",
       "tts": "Posso usare il bagno?"
     },
     {
@@ -105,11 +105,11 @@
       "encaixe": "aspettare qui",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-b06-p03",
-      "promptPt": "Your pickup is late and you want a visible spot near staff. Ask. Speak now.",
+      "promptPt": "Ihre Abholung verspätet sich, und Sie wollen einen sichtbaren Platz in Personalnähe. Fragen Sie. Sprechen Sie jetzt.",
       "audioKey": "it-b06-t03",
       "es": "Posso aspettare qui?",
       "pinyin": "POS-so as-pet-TA-re kwee",
-      "pt": "Can I wait here?",
+      "pt": "Darf ich hier warten?",
       "tts": "Posso aspettare qui?"
     },
     {
@@ -117,7 +117,7 @@
       "voz": "target_it_m",
       "audioKey": "it-b06-r02",
       "es": "Sì, si accomodi pure.",
-      "pt": "Yes, make yourself comfortable.",
+      "pt": "Ja, nur zu, machen Sie es sich bequem.",
       "tts": "Sì, si accomodi pure."
     },
     {
@@ -125,7 +125,7 @@
       "voz": "guide_de_m",
       "audioKey": "it-b06-n04",
       "bloco": "capsula",
-      "pt": "Si accomodi means go ahead, sit, help yourself. You will hear it constantly — it is a yes with a welcome attached."
+      "pt": "Si accomodi heißt: nur zu, setzen Sie sich, bedienen Sie sich. Sie hören es ständig — ein Ja mit Willkommen."
     },
     {
       "consulta": [
@@ -138,11 +138,11 @@
       "encaixe": "caricare il telefono",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-b06-p04",
-      "promptPt": "Battery nearly dead, and there is a socket by the wall. Ask. Speak now.",
+      "promptPt": "Der Akku ist fast leer, und an der Wand ist eine Steckdose. Fragen Sie. Sprechen Sie jetzt.",
       "audioKey": "it-b06-t04",
       "es": "Posso caricare il telefono?",
       "pinyin": "POS-so ka-ree-KA-re eel te-LE-fo-no",
-      "pt": "Can I charge my phone?",
+      "pt": "Darf ich mein Handy laden?",
       "tts": "Posso caricare il telefono?"
     },
     {
@@ -156,25 +156,25 @@
       "encaixe": "lasciare la valigia",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-b06-p05",
-      "promptPt": "You need both hands free at the desk. Ask about the suitcase. Speak now.",
+      "promptPt": "Am Schalter brauchen Sie beide Hände frei. Fragen Sie wegen des Koffers. Sprechen Sie jetzt.",
       "audioKey": "it-b06-t05",
       "es": "Posso lasciare qui la valigia?",
       "pinyin": "POS-so la-SHA-re kwee la va-LEE-ja",
-      "pt": "Can I leave the suitcase here?",
+      "pt": "Darf ich den Koffer hier stehen lassen?",
       "tts": "Posso lasciare qui la valigia?"
     },
     {
       "tipo": "intro",
       "voz": "guide_de_f",
       "audioKey": "it-b06-n05",
-      "pt": "And when the answer is no, it usually comes with the reason and the alternative. Listen past the no."
+      "pt": "Und ein Nein kommt meist mit Grund und Alternative. Hören Sie über das Nein hinaus."
     },
     {
       "tipo": "ouvir",
       "voz": "target_it_m",
       "audioKey": "it-b06-r03",
       "es": "Qui no, ma c'è il deposito bagagli al piano di sotto.",
-      "pt": "Not here, but there's left luggage on the floor below.",
+      "pt": "Hier nicht, aber ein Stock tiefer gibt es die Gepäckaufbewahrung.",
       "tts": "Qui no, ma c'è il deposito bagagli al piano di sotto."
     },
     {
@@ -187,11 +187,11 @@
       "encaixe": "usare il wifi",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-b06-p06",
-      "promptPt": "Your eSIM is not connecting. Ask about the wifi. Speak now.",
+      "promptPt": "Ihre eSIM verbindet sich nicht. Fragen Sie nach dem Netz im Haus. Sprechen Sie jetzt.",
       "audioKey": "it-b06-t06",
       "es": "Posso usare il wifi?",
       "pinyin": "POS-so oo-ZA-re eel WEE-fee",
-      "pt": "Can I use the wifi?",
+      "pt": "Darf ich das WLAN benutzen?",
       "tts": "Posso usare il wifi?"
     },
     {
@@ -204,11 +204,11 @@
       "encaixe": "chiedere una cosa",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-b06-p07",
-      "promptPt": "Open a question with the same frame, politely. Speak now.",
+      "promptPt": "Eröffnen Sie höflich eine Frage mit demselben Baustein. Sprechen Sie jetzt.",
       "audioKey": "it-b06-t07",
       "es": "Posso chiedere una cosa?",
       "pinyin": "POS-so kee-EH-de-re oo-na KO-za",
-      "pt": "Can I ask something?",
+      "pt": "Darf ich etwas fragen?",
       "tts": "Posso chiedere una cosa?"
     },
     {
@@ -219,11 +219,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-b06-p08",
-      "promptPt": "They sorted you out. Thank them properly. Speak now.",
+      "promptPt": "Man hat Ihnen weitergeholfen. Bedanken Sie sich richtig. Sprechen Sie jetzt.",
       "audioKey": "it-b06-t08",
       "es": "Grazie mille, molto gentile.",
       "pinyin": "GRA-tsee-eh MEEL-le, MOL-to jen-TEE-le",
-      "pt": "Thank you very much, very kind.",
+      "pt": "Vielen Dank, sehr nett.",
       "tts": "Grazie mille, molto gentile."
     },
     {
@@ -232,7 +232,7 @@
       "audioKey": "it-b06-s01",
       "es": "Posso pagare con la carta? Posso usare il bagno? Posso aspettare qui?",
       "pinyin": "POS-so pa-GA-re kon la KAR-ta. POS-so oo-ZA-re eel BA-nyo. POS-so as-pet-TA-re kwee",
-      "pt": "Shadow the same opening through three different actions.",
+      "pt": "Sprechen Sie denselben Anfang durch drei verschiedene Handlungen nach.",
       "tts": "Posso pagare con la carta? Posso usare il bagno? Posso aspettare qui?",
       "molde": "POSSO"
     },
@@ -241,52 +241,52 @@
       "voz": "guide_de_f",
       "audioKey": "it-b06-n06",
       "bloco": "recap",
-      "pt": "B06 done. Posso plus the action covers pay, toilet, wait, charge and bag — five problems, one frame, four words each."
+      "pt": "B06 geschafft. Posso plus Handlung deckt zahlen, Toilette, warten, laden und Koffer — fünf Fälle, ein Baustein."
     }
   ],
   "aprofundar": {
-    "titulo": "One opening, five permissions",
+    "titulo": "Ein Anfang, fünf Erlaubnisse",
     "secoes": [
       {
-        "titulo": "The open pattern",
-        "corpo": "Keep posso and replace only the verb after it. The infinitive never changes shape, which is what makes this the cheapest frame in the course.",
+        "titulo": "Der offene Baustein",
+        "corpo": "Behalten Sie posso und tauschen Sie nur das Verb dahinter. Der Infinitiv ändert seine Form nie, und genau das macht diesen Baustein zum billigsten im ganzen Kurs.",
         "exemplos": [
           {
             "es": "Posso pagare con la carta?",
-            "pt": "Can I pay by card?"
+            "pt": "Darf ich mit Karte zahlen?"
           },
           {
             "es": "Posso lasciare qui la valigia?",
-            "pt": "Can I leave the suitcase here?"
+            "pt": "Darf ich den Koffer hier stehen lassen?"
           }
         ]
       },
       {
-        "titulo": "Si accomodi is a yes",
-        "corpo": "Literally 'make yourself comfortable', used for sit down, come in, go ahead, help yourself. Recognising it saves the half-second of hesitation that makes a simple permission feel complicated."
+        "titulo": "Si accomodi ist ein Ja",
+        "corpo": "Wörtlich 'machen Sie es sich bequem', benutzt für setzen Sie sich, kommen Sie herein, nur zu, bedienen Sie sich. Wer es erkennt, spart die halbe Sekunde Zögern, die eine einfache Erlaubnis kompliziert wirken lässt."
       },
       {
-        "titulo": "Listen past the no",
-        "corpo": "An Italian no at a counter usually arrives with the reason and the alternative attached — qui no, ma c'è… Stopping at the no means missing the part that solves your problem."
+        "titulo": "Hören Sie über das Nein hinaus",
+        "corpo": "Ein Nein am Schalter kommt meist mit Grund und Alternative im selben Atemzug — qui no, ma c'è… Wer beim Nein aufhört, verpasst den Teil, der das Problem löst."
       },
       {
-        "titulo": "Why asking beats knowing",
-        "corpo": "Whether you can pay by card, leave a bag or sit somewhere varies by building, by city and by hour. Memorising a rule gives you one answer; the frame gives you the answer everywhere, including in the places nobody wrote a guide about."
+        "titulo": "Warum fragen besser ist als wissen",
+        "corpo": "Ob man mit Karte zahlen, eine Tasche abstellen oder irgendwo sitzen darf, hängt vom Gebäude, von der Stadt und von der Uhrzeit ab. Eine gelernte Regel gibt Ihnen eine Antwort; der Baustein gibt Ihnen die Antwort überall, auch dort, wo kein Reiseführer hinreicht."
       }
     ]
   },
   "slot": "B06",
-  "permissao": "You do not need a different sentence for every counter in that hall. Posso, the action, and a level tone is a complete request anywhere in the building, and nobody there is grading how you phrased it.",
+  "permissao": "Sie brauchen für jeden Schalter in dieser Halle keinen eigenen Satz. Posso, die Handlung und ein ruhiger Ton sind überall im Gebäude eine vollständige Bitte, und niemand dort bewertet Ihre Formulierung.",
   "permissaoAudioKey": "it-b06-n02",
-  "espelho": "Anyone navigating an unfamiliar airport at home already runs this exact triage without noticing — bag, money, toilet, somewhere to stand. The only new part here is doing it in four words that all start the same way.",
+  "espelho": "Wer an einem fremden Flughafen ankommt, macht diese Triage längst nebenbei — Gepäck, Geld, Toilette, ein Platz zum Stehen. Neu ist hier nur, dass alle vier Fragen mit demselben Wort anfangen.",
   "fichasCulturais": [
     {
-      "sinal": "You ask whether you can do something and get a no, so you thank them and walk away.",
-      "suaLeitura": "It is not allowed here, so there is nothing else to say.",
-      "oQueEAli": "At an Italian counter the no is very often only the first half — qui no, ma c'è… — with the reason and the alternative following immediately. Walking away on the no means leaving the useful half of the answer on the counter.",
-      "oQueVoceFaz": "Stay for one more beat after the no. If nothing follows, ask where you can instead — the frame you already have covers it.",
-      "oQueMelhora": "You get the left-luggage desk, the other entrance, the machine that takes cards — the thing you actually needed.",
-      "ondeNaoVale": "Not when the no is clearly final and the person has already turned away — at that point pressing for an alternative reads as not accepting the answer.",
+      "sinal": "Sie fragen, ob etwas geht, hören ein Nein, bedanken sich und gehen weiter.",
+      "suaLeitura": "Hier ist es nicht erlaubt, also gibt es nichts mehr zu sagen.",
+      "oQueEAli": "Am italienischen Schalter ist das Nein sehr oft nur die erste Hälfte — qui no, ma c'è… — Grund und Alternative folgen sofort. Wer beim Nein weggeht, lässt die nützliche Hälfte der Antwort liegen.",
+      "oQueVoceFaz": "Bleiben Sie nach dem Nein noch einen Takt stehen. Kommt nichts, fragen Sie, wo es stattdessen geht — der Baustein, den Sie haben, deckt das ab.",
+      "oQueMelhora": "Sie bekommen die Gepäckaufbewahrung, den anderen Eingang, den Automaten mit Kartenzahlung — genau das, was Sie brauchten.",
+      "ondeNaoVale": "Nicht, wenn das Nein klar endgültig ist und die Person sich schon abgewandt hat — dann wirkt Nachhaken so, als nähmen Sie die Antwort nicht an.",
       "evidencia": "CONSENSO",
       "audioKeys": [
         "it-b06-n05"

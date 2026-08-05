@@ -1,92 +1,92 @@
 {
   "id": "q-b03",
   "nivel": "basico",
-  "titulo": "Quiz — Change the channel",
-  "subtitulo": "Mi può plus the repair you need",
+  "titulo": "Quiz — Den Kanal wechseln",
+  "subtitulo": "Mi può plus die Reparatur, die Sie brauchen",
   "introAudioKey": "it-b03-q-i",
-  "introPt": "A traveller loses an answer and climbs the repair ladder instead of nodding.",
-  "cenario": "Asking directions on the street.",
+  "introPt": "Jemand verliert eine Antwort und steigt die Reparaturleiter hoch, statt zu nicken.",
+  "cenario": "Nach dem Weg fragen, auf der Straße.",
   "dialogo": [
     {
       "audioKey": "it-b03-q01",
       "voz": "target_it_m",
       "es": "Deve andare fino al semaforo e poi girare dopo il ponte.",
-      "pt": "Go to the traffic light then turn after the bridge."
+      "pt": "Gehen Sie bis zur Ampel und biegen Sie nach der Brücke ab."
     },
     {
       "audioKey": "it-b03-q02",
       "voz": "target_it_f",
       "es": "Scusi, non ho capito.",
-      "pt": "Sorry, I did not understand."
+      "pt": "Entschuldigung, ich habe nicht verstanden."
     },
     {
       "audioKey": "it-b03-q03",
       "voz": "target_it_f",
       "es": "Mi può ripetere più lentamente?",
-      "pt": "Can you repeat that more slowly?"
+      "pt": "Können Sie das langsamer wiederholen?"
     },
     {
       "audioKey": "it-b03-q04",
       "voz": "target_it_m",
       "es": "No, cinque minuti a piedi.",
-      "pt": "No, five minutes on foot."
+      "pt": "Nein, fünf Minuten zu Fuß."
     }
   ],
   "perguntas": [
     {
-      "pergunta": "What is the frame taught in this part?",
+      "pergunta": "Welcher Baustein wird in diesem Teil gelernt?",
       "opcoes": [
-        "Mi può plus the action you need",
-        "Vorrei plus a noun",
-        "Dov’è plus a place",
-        "C’è plus a thing"
+        "Mi può plus die Handlung, die Sie brauchen",
+        "Vorrei plus ein Substantiv",
+        "Dov’è plus ein Ort",
+        "C’è plus eine Sache"
       ],
       "correta": 0,
-      "explica": "One opening; you swap only the action."
+      "explica": "Eine Öffnung; Sie tauschen nur die Handlung."
     },
     {
-      "pergunta": "Why ask for più lentamente rather than repeating?",
+      "pergunta": "Warum um più lentamente bitten statt nur um Wiederholung?",
       "opcoes": [
-        "It is more polite",
-        "Repeating usually gets the same sentence louder",
-        "It is shorter",
-        "It is more formal"
+        "Es ist höflicher",
+        "Wiederholen bringt meist denselben Satz lauter",
+        "Es ist kürzer",
+        "Es ist förmlicher"
       ],
       "correta": 1,
-      "explica": "Naming the change is what makes the second attempt different."
+      "explica": "Erst das Benennen der Änderung macht den zweiten Versuch anders."
     },
     {
-      "pergunta": "When should you move to writing?",
+      "pergunta": "Wann steigen Sie auf Aufschreiben um?",
       "opcoes": [
-        "Immediately, always",
-        "When the payload is a number, name or address",
-        "Never",
-        "Only for prices"
+        "Sofort, immer",
+        "Wenn es um Zahl, Name oder Adresse geht",
+        "Nie",
+        "Nur bei Preisen"
       ],
       "correta": 1,
-      "explica": "A third identical listen rarely changes the result."
+      "explica": "Ein drittes identisches Zuhören ändert das Ergebnis selten."
     },
     {
-      "pergunta": "What does È lontano? accomplish?",
+      "pergunta": "Was leistet È lontano?",
       "opcoes": [
-        "Asks the price",
-        "Shrinks a paragraph into a decision",
-        "Asks for the name",
-        "Ends the conversation"
+        "Es fragt nach dem Preis",
+        "Es schrumpft einen Absatz zu einer Entscheidung",
+        "Es fragt nach dem Namen",
+        "Es beendet das Gespräch"
       ],
       "correta": 1,
-      "explica": "You only needed to know whether to walk."
+      "explica": "Sie mussten nur wissen, ob sich zu Fuß lohnt."
     },
     {
-      "pergunta": "Is non ho capito a confession of weakness?",
+      "pergunta": "Ist non ho capito ein Eingeständnis von Schwäche?",
       "opcoes": [
-        "Yes, avoid it",
-        "No, it is a status report and it is normal",
-        "Only for beginners",
-        "Only if said twice"
+        "Ja, besser vermeiden",
+        "Nein, es ist eine Statusmeldung und ganz normal",
+        "Nur für Anfänger",
+        "Nur wenn zweimal gesagt"
       ],
       "correta": 1,
-      "explica": "Delivered plainly, it reads as clarity."
+      "explica": "Schlicht gesagt klingt es nach Klarheit."
     }
   ]
 }

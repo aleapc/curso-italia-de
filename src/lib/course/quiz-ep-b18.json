@@ -1,92 +1,92 @@
 {
   "id": "q-b18",
   "nivel": "basico",
-  "titulo": "Quiz — The last day",
-  "subtitulo": "Check out, leave the bag, say the thing",
+  "titulo": "Quiz — Der letzte Tag",
+  "subtitulo": "Auschecken, Koffer abstellen, den Satz sagen",
   "introAudioKey": "it-b18-q-i",
-  "introPt": "A traveller closes the trip properly rather than just leaving.",
-  "cenario": "The last morning at the hotel.",
+  "introPt": "Eine Reisende schließt die Reise richtig ab, statt einfach zu gehen.",
+  "cenario": "Der letzte Morgen im Hotel.",
   "dialogo": [
     {
       "audioKey": "it-b18-q01",
       "voz": "target_it_f",
       "es": "Buongiorno, vorrei fare il check-out.",
-      "pt": "Good morning, I'd like to check out."
+      "pt": "Guten Morgen, ich möchte auschecken."
     },
     {
       "audioKey": "it-b18-q02",
       "voz": "target_it_f",
       "es": "Posso lasciare la valigia fino alle sei?",
-      "pt": "Can I leave the suitcase until six?"
+      "pt": "Kann ich den Koffer bis sechs hierlassen?"
     },
     {
       "audioKey": "it-b18-q03",
       "voz": "target_it_f",
       "es": "Il ristorante che ci ha consigliato era ottimo.",
-      "pt": "The restaurant you recommended was excellent."
+      "pt": "Das Restaurant, das Sie uns empfohlen haben, war ausgezeichnet."
     },
     {
       "audioKey": "it-b18-q04",
       "voz": "target_it_m",
       "es": "Che piacere sentirlo. Torni a trovarci!",
-      "pt": "How nice to hear. Come back and see us!"
+      "pt": "Schön, das zu hören. Kommen Sie uns wieder besuchen!"
     }
   ],
   "perguntas": [
     {
-      "pergunta": "Why ask for the itemised bill?",
+      "pergunta": "Warum nach der aufgeschlüsselten Rechnung fragen?",
       "opcoes": [
-        "To dispute it",
-        "Because the tourist tax and extras land there, not on the prepaid booking",
-        "To get a discount",
-        "For your employer"
+        "Um sie anzufechten",
+        "Weil Kurtaxe und Extras dort landen, nicht in der vorab bezahlten Buchung",
+        "Um einen Rabatt zu bekommen",
+        "Für den Arbeitgeber"
       ],
       "correta": 1,
-      "explica": "It is the last moment when a question still has an easy answer."
+      "explica": "Es ist der letzte Moment, in dem eine Frage noch leicht zu klären ist."
     },
     {
-      "pergunta": "What makes a goodbye land?",
+      "pergunta": "Was macht einen Abschied wirksam?",
       "opcoes": [
-        "Volume",
-        "Being specific about what actually helped",
-        "Speaking only Italian",
-        "Tipping"
+        "Lautstärke",
+        "Konkret zu sagen, was wirklich geholfen hat",
+        "Nur Italienisch zu sprechen",
+        "Trinkgeld"
       ],
       "correta": 1,
-      "explica": "Specific is what separates thanks from a formula."
+      "explica": "Konkret trennt Dank von Floskel."
     },
     {
-      "pergunta": "Torni a trovarci expects:",
+      "pergunta": "Torni a trovarci erwartet:",
       "opcoes": [
-        "No reply",
-        "A return shot — torneremo, or alla prossima",
-        "A tip",
-        "A review"
+        "Keine Antwort",
+        "Einen Rückschlag — torneremo oder alla prossima",
+        "Trinkgeld",
+        "Eine Bewertung"
       ],
       "correta": 1,
-      "explica": "Leaving it unanswered reads as a conversation dropped."
+      "explica": "Unbeantwortet wirkt das Gespräch abgebrochen."
     },
     {
-      "pergunta": "Deposito bagagli after checkout is:",
+      "pergunta": "Deposito bagagli nach dem Auschecken ist:",
       "opcoes": [
-        "Unusual and awkward to ask for",
-        "Routine, usually free for guests",
-        "Only at stations",
-        "Only for suitcases"
+        "Unüblich und unangenehm zu erfragen",
+        "Routine, für Gäste meist kostenlos",
+        "Nur an Bahnhöfen",
+        "Nur für Koffer"
       ],
       "correta": 1,
-      "explica": "It turns a dead last day into a real one."
+      "explica": "Es macht aus einem toten letzten Tag einen echten."
     },
     {
-      "pergunta": "How does the module close?",
+      "pergunta": "Wie schließt das Modul?",
       "opcoes": [
-        "With a warning about theft",
-        "With a goodbye",
-        "With an exam",
-        "With a shopping list"
+        "Mit einer Warnung",
+        "Mit einem Abschied",
+        "Mit einer Prüfung",
+        "Mit einer Einkaufsliste"
       ],
       "correta": 1,
-      "explica": "It opened with a greeting given before you needed anything."
+      "explica": "Es begann mit einem Gruß, gegeben bevor Sie etwas brauchten."
     }
   ]
 }

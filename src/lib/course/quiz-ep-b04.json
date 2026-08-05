@@ -1,92 +1,92 @@
 {
   "id": "q-b04",
   "nivel": "basico",
-  "titulo": "Quiz — The four files that board with you",
-  "subtitulo": "Checked tonight, while fixing is cheap",
+  "titulo": "Quiz — Die vier Dinge, die mitfliegen",
+  "subtitulo": "Heute Abend geprüft, solange Nachbessern billig ist",
   "introAudioKey": "it-b04-q-i",
-  "introPt": "A traveller calls the hotel the night before and closes every gap.",
-  "cenario": "A pre-flight phone call.",
+  "introPt": "Jemand ruft am Abend vor dem Flug im Hotel an und schließt jede offene Stelle.",
+  "cenario": "Ein Anruf vor dem Flug.",
   "dialogo": [
     {
       "audioKey": "it-b04-q01",
       "voz": "target_it_m",
       "es": "Buonasera, come posso aiutarla?",
-      "pt": "Good evening, how can I help?"
+      "pt": "Guten Abend, wie kann ich helfen?"
     },
     {
       "audioKey": "it-b04-q02",
       "voz": "target_it_f",
       "es": "Vorrei confermare la mia prenotazione.",
-      "pt": "I would like to confirm my booking."
+      "pt": "Ich möchte meine Buchung bestätigen."
     },
     {
       "audioKey": "it-b04-q03",
       "voz": "target_it_f",
       "es": "Qual è l’indirizzo completo?",
-      "pt": "What is the full address?"
+      "pt": "Wie lautet die vollständige Adresse?"
     },
     {
       "audioKey": "it-b04-q04",
       "voz": "target_it_m",
       "es": "Via Garibaldi quarantadue, secondo piano.",
-      "pt": "Via Garibaldi 42, second floor."
+      "pt": "Via Garibaldi 42, zweiter Stock."
     }
   ],
   "perguntas": [
     {
-      "pergunta": "Why ask for the full address before flying?",
+      "pergunta": "Warum vor dem Flug nach der vollständigen Adresse fragen?",
       "opcoes": [
-        "A hotel name is not routable by a driver or offline map",
-        "It is polite",
-        "It is required by law",
-        "To compare prices"
+        "Ein Hotelname ist für Fahrer und Offline-Karte keine Route",
+        "Es ist höflich",
+        "Es ist gesetzlich vorgeschrieben",
+        "Um Preise zu vergleichen"
       ],
       "correta": 0,
-      "explica": "Street and number are what a map and a driver can act on."
+      "explica": "Straße und Hausnummer sind das, womit Karte und Fahrer arbeiten können."
     },
     {
-      "pergunta": "Where do Italian addresses put the number?",
+      "pergunta": "Wo steht die Hausnummer in einer italienischen Adresse?",
       "opcoes": [
-        "Before the street name",
-        "After the street name",
-        "Never written",
-        "Only on envelopes"
+        "Vor dem Straßennamen",
+        "Hinter dem Straßennamen, wie im Deutschen",
+        "Sie wird nie geschrieben",
+        "Nur auf Briefumschlägen"
       ],
       "correta": 1,
-      "explica": "Via Garibaldi 42, not 42 Via Garibaldi."
+      "explica": "Via Garibaldi 42. Was häufiger fehlt, ist der Ort."
     },
     {
-      "pergunta": "Why is a green tick in an app not enough?",
+      "pergunta": "Warum reicht ein grüner Haken in der App nicht?",
       "opcoes": [
-        "It expires",
-        "It fails with no signal or a locked account",
-        "It is not legal proof",
-        "It is always wrong"
+        "Er läuft ab",
+        "Er versagt ohne Empfang oder bei gesperrtem Konto",
+        "Er ist kein Rechtsnachweis",
+        "Er ist immer falsch"
       ],
       "correta": 1,
-      "explica": "Offline is a travel feature."
+      "explica": "Offline ist eine Reisefunktion."
     },
     {
-      "pergunta": "Which frame asks someone to do something for you?",
+      "pergunta": "Welcher Baustein bittet jemanden, etwas für Sie zu tun?",
       "opcoes": [
-        "Mi può plus the action",
-        "Vorrei plus a noun",
-        "Dov’è plus a place",
-        "Posso plus the action"
+        "Mi può plus die Handlung",
+        "Vorrei plus ein Substantiv",
+        "Dov’è plus ein Ort",
+        "Posso plus die Handlung"
       ],
       "correta": 0,
       "explica": "Mi può mandare, mi può scrivere, mi può tenere."
     },
     {
-      "pergunta": "How many payment methods should you carry tested?",
+      "pergunta": "Wie viele Zahlwege sollten Sie getestet dabeihaben?",
       "opcoes": [
-        "One is fine",
-        "Two, both tested by you",
-        "Three minimum",
-        "None, cash only"
+        "Einer genügt",
+        "Zwei, beide von Ihnen getestet",
+        "Mindestens drei",
+        "Keiner, nur Bargeld"
       ],
       "correta": 1,
-      "explica": "Cards decline abroad for reasons nobody explains at the counter."
+      "explica": "Karten werden im Ausland abgelehnt, ohne dass es am Tresen jemand erklärt."
     }
   ]
 }

@@ -28,7 +28,11 @@
     ],
     "m2": "APROVEITO não introduz molde operacional. O trabalho dele é trocar encaixes dos moldes plantados em ME VIRO.",
     "m3": "LEIO A SALA não produz molde. A relação com moldes é auditiva — reconhecer, não montar.",
-    "ativo_de_par": "O núcleo gerador é específico do PAR (L1 × destino) e NÃO se traduz: este roster foi derivado das cenas italianas, não convertido do espanhol."
+    "ativo_de_par": "O núcleo gerador é específico do PAR (L1 × destino) e NÃO se traduz: este roster foi derivado das cenas italianas, não convertido do espanhol.",
+    "vocabulario_molde": {
+      "termo": "Baustein",
+      "porque": "O termo canonico da peca neste SKU. Metafora Lego: tijolinho de encaixe. Foi a convencao ja fixada no curso DE -> Espanha; manter identica entre os SKUs alemaes para o aluno reconhecer a mesma peca."
+    }
   },
   "moldes": [
     {

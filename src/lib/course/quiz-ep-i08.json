@@ -1,92 +1,92 @@
 {
   "id": "q-i08",
   "nivel": "intermediario",
-  "titulo": "Quiz — Being invited into someone's home",
-  "subtitulo": "The shape of a Sunday lunch",
+  "titulo": "Quiz — Zu Hause eingeladen",
+  "subtitulo": "Die Form eines Sonntagsessens",
   "introAudioKey": "it-i08-q-i",
-  "introPt": "A traveller accepts an invitation and gets the whole arc right.",
-  "cenario": "Sunday lunch at an Italian family's table.",
+  "introPt": "Ein Reisender nimmt eine Einladung an und trifft den ganzen Bogen.",
+  "cenario": "Sonntagsessen am Tisch einer italienischen Familie.",
   "dialogo": [
     {
       "audioKey": "it-i08-q01",
       "voz": "target_it_m",
       "es": "Domenica venite a pranzo da noi. Alle una.",
-      "pt": "Come to lunch at ours on Sunday. At one."
+      "pt": "Kommen Sie am Sonntag zu uns zum Mittagessen. Um eins."
     },
     {
       "audioKey": "it-i08-q02",
       "voz": "target_it_f",
       "es": "Cosa posso portare?",
-      "pt": "What can I bring?"
+      "pt": "Was kann ich mitbringen?"
     },
     {
       "audioKey": "it-i08-q03",
       "voz": "target_it_m",
       "es": "Ma niente, che dice! Portate solo voi stessi.",
-      "pt": "Nothing at all, what are you saying! Just bring yourselves."
+      "pt": "Aber gar nichts, was reden Sie denn! Bringen Sie nur sich selbst mit."
     },
     {
       "audioKey": "it-i08-q04",
       "voz": "target_it_f",
       "es": "Ho portato il dolce, spero vada bene.",
-      "pt": "I brought dessert, I hope that's all right."
+      "pt": "Ich habe das Dessert mitgebracht, ich hoffe, es passt."
     }
   ],
   "perguntas": [
     {
-      "pergunta": "The host says bring nothing. What do you do?",
+      "pergunta": "Der Gastgeber sagt, Sie sollen nichts mitbringen. Was tun Sie?",
       "opcoes": [
-        "Bring nothing",
-        "Bring something for the table — the refusal is part of the exchange",
-        "Ask again",
-        "Send flowers later"
+        "Nichts mitbringen",
+        "Etwas für den Tisch mitbringen — die Ablehnung gehört zum Austausch",
+        "Noch einmal nachfragen",
+        "Später Blumen schicken"
       ],
       "correta": 1,
-      "explica": "Dessert from a proper pasticceria is the safest choice."
+      "explica": "Dolce aus einer richtigen Pasticceria ist die sicherste Wahl."
     },
     {
-      "pergunta": "Where do you sit?",
+      "pergunta": "Wo setzen Sie sich hin?",
       "opcoes": [
-        "Anywhere",
-        "Wait to be placed — ask dove mi metto?",
-        "At the head",
-        "Nearest the door"
+        "Irgendwohin",
+        "Warten, bis man Ihnen den Platz zuweist — dove mi metto?",
+        "Ans Kopfende",
+        "Am nächsten zur Tür"
       ],
       "correta": 1,
-      "explica": "Seats at a family table are not neutral."
+      "explica": "Die Plätze an einem Familientisch sind nicht neutral."
     },
     {
-      "pergunta": "What matters most in the toast?",
+      "pergunta": "Worauf kommt es beim Anstoßen an?",
       "opcoes": [
-        "The exact word",
-        "Looking at each person as you touch glasses",
-        "Standing up",
-        "Finishing the glass"
+        "Auf das genaue Wort",
+        "Jeden ansehen, während die Gläser sich berühren",
+        "Aufstehen",
+        "Das Glas austrinken"
       ],
       "correta": 1,
-      "explica": "Cin cin and salute are both standard."
+      "explica": "Cin cin und salute sind beide üblich."
     },
     {
-      "pergunta": "When does leaving stop being early?",
+      "pergunta": "Ab wann ist Gehen nicht mehr zu früh?",
       "opcoes": [
-        "After the first course",
-        "Once coffee has been served and drunk",
-        "After two hours",
-        "When someone yawns"
+        "Nach dem ersten Gang",
+        "Sobald der Kaffee serviert und getrunken ist",
+        "Nach zwei Stunden",
+        "Wenn jemand gähnt"
       ],
       "correta": 1,
-      "explica": "Before that, standing up reads as the meal having gone wrong."
+      "explica": "Davor liest sich das Aufstehen, als sei das Essen misslungen."
     },
     {
-      "pergunta": "You are full and they keep offering. Best move?",
+      "pergunta": "Sie sind satt und es wird weiter angeboten. Bester Zug?",
       "opcoes": [
-        "Refuse flatly each time",
-        "Take a token amount and pair it with praise",
-        "Eat it all",
-        "Leave"
+        "Jedes Mal klar ablehnen",
+        "Eine symbolische Menge nehmen und sie mit einem Lob verbinden",
+        "Alles aufessen",
+        "Gehen"
       ],
       "correta": 1,
-      "explica": "Unless there is an allergy — then B13 applies instead."
+      "explica": "Außer bei einer Allergie — dann gilt stattdessen B13."
     }
   ]
 }

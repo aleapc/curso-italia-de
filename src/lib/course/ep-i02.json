@@ -3,12 +3,12 @@
   "nivel": "intermediario",
   "numero": 20,
   "parte": "I02",
-  "titulo": "The order of operations at the counter",
-  "subtitulo": "Where to stand, how loud to be, and the permission to stop being so polite that nobody serves you",
-  "cena": "Three people who arrived after you have already been served, and you are still standing back waiting to be noticed.",
+  "titulo": "Die Reihenfolge an der Theke",
+  "subtitulo": "Wo Sie stehen, wie laut Sie sprechen, und die Erlaubnis, nicht mehr unsichtbar höflich zu sein",
+  "cena": "Drei Leute, die nach Ihnen gekommen sind, haben ihren Kaffee schon, und Sie stehen immer noch im Hintergrund und warten, dass jemand Sie bemerkt.",
   "moldura": "ganha",
-  "frasePiso": "Get to the counter, catch the eye, say the thing. Politeness that keeps you invisible is not politeness here.",
-  "decisao": "chegar ao balcão e falar em volume normal em vez de esperar ser notado, porque no bar italiano esperar educadamente é ficar sem café",
+  "frasePiso": "An die Theke, Blickkontakt, den Satz sagen. Höflichkeit, die Sie unsichtbar hält, gilt hier nicht als Höflichkeit.",
+  "decisao": "an die Theke treten und in normaler Lautstärke sprechen, statt darauf zu warten, bemerkt zu werden, denn in der italienischen Bar heißt höfliches Warten: ohne Kaffee bleiben",
   "moldes": [],
   "steps": [
     {
@@ -17,23 +17,23 @@
       "audioKey": "it-i02-n01",
       "gesto": 1,
       "bloco": "aquecimento",
-      "pt": "An Italian bar has no queue and no system, and that is not chaos. It is a different system, and you can learn it in one part."
+      "pt": "Eine italienische Bar hat keine Schlange und kein System. Das ist kein Chaos, sondern ein anderes System."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_m",
       "audioKey": "it-i02-n02",
       "bloco": "corpo",
-      "pt": "Step one: go to the counter. Not near it. People are served in the order they make eye contact, not in the order they arrived."
+      "pt": "Schritt eins: an die Theke. Nicht in die Nähe. Bedient wird, wer Blickkontakt hat, nicht wer zuerst da war."
     },
     {
       "tipo": "ouvir",
       "voz": "target_it_m",
       "audioKey": "it-i02-r01",
       "receptivo": true,
-      "acao": "That was directed at you. Answer immediately — hesitating passes your turn to someone else.",
+      "acao": "Das galt Ihnen. Antworten Sie sofort — wer zögert, gibt den Zug weiter.",
       "es": "Prego? A chi tocca?",
-      "pt": "Yes? Whose turn is it?",
+      "pt": "Bitte? Wer ist dran?",
       "tts": "Prego? A chi tocca?"
     },
     {
@@ -45,18 +45,18 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-i02-p01",
-      "promptPt": "Claim the turn and order in one breath. Speak now.",
+      "promptPt": "Nehmen Sie den Zug an und bestellen Sie in einem Atemzug. Sprechen Sie jetzt.",
       "audioKey": "it-i02-t01",
       "es": "A me, grazie. Un caffè e un cornetto.",
       "pinyin": "a meh, GRA-tsee-eh. oon kaf-FEH eh oon kor-NET-to",
-      "pt": "Me, thanks. A coffee and a croissant.",
+      "pt": "Ich, danke. Einen Kaffee und ein Hörnchen.",
       "tts": "A me, grazie. Un caffè e un cornetto."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_f",
       "audioKey": "it-i02-n03",
-      "pt": "A chi tocca means whose turn. Answering a me is not pushy — it is the expected reply, and silence hands your place away."
+      "pt": "A chi tocca heißt: wer ist dran. A me ist die erwartete Antwort. Schweigen gibt Ihren Platz weg."
     },
     {
       "consulta": [
@@ -66,11 +66,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-i02-p02",
-      "promptPt": "Someone jumped ahead of you. Say it was your turn, calmly. Speak now.",
+      "promptPt": "Jemand ist Ihnen zuvorgekommen. Melden Sie sich ruhig. Sprechen Sie jetzt.",
       "audioKey": "it-i02-t02",
       "es": "Scusi, credo che toccasse a me.",
       "pinyin": "SKOO-zee, KRE-do keh tok-KAS-se a meh",
-      "pt": "Sorry, I think it was my turn.",
+      "pt": "Entschuldigung, ich glaube, ich war dran.",
       "tts": "Scusi, credo che toccasse a me."
     },
     {
@@ -78,7 +78,7 @@
       "voz": "guide_de_m",
       "audioKey": "it-i02-n04",
       "bloco": "capsula",
-      "pt": "Step two is the till. Many bars want payment first, and the receipt is what buys you the drink at the counter."
+      "pt": "Schritt zwei ist die Kasse. Viele Bars kassieren zuerst; der Bon holt Ihnen das Getränk an der Theke."
     },
     {
       "consulta": [
@@ -88,11 +88,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-i02-p03",
-      "promptPt": "Ask whether you pay first, before joining the wrong side. Speak now.",
+      "promptPt": "Sie wissen nicht, wo der Ablauf hier anfängt. Fragen Sie nach, bevor Sie sich falsch anstellen. Sprechen Sie jetzt.",
       "audioKey": "it-i02-t03",
       "es": "Si paga prima alla cassa?",
       "pinyin": "see PA-ga PREE-ma AL-la KAS-sa",
-      "pt": "Do you pay at the till first?",
+      "pt": "Zahlt man zuerst an der Kasse?",
       "tts": "Si paga prima alla cassa?"
     },
     {
@@ -100,9 +100,9 @@
       "voz": "target_it_m",
       "audioKey": "it-i02-r02",
       "receptivo": true,
-      "acao": "Pay, take the receipt, and put it on the counter where the barista can see it.",
+      "acao": "Zahlen, Bon nehmen und ihn so auf die Theke legen, dass der Barista ihn sieht.",
       "es": "Sì, poi porta lo scontrino qui al banco.",
-      "pt": "Yes, then bring the receipt here to the counter.",
+      "pt": "Ja, dann bringen Sie den Bon hierher an die Theke.",
       "tts": "Sì, poi porta lo scontrino qui al banco."
     },
     {
@@ -115,18 +115,18 @@
       "encaixe": "un bicchiere d'acqua",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-i02-p04",
-      "promptPt": "Ask for water with the coffee, using the frame from B14. Speak now.",
+      "promptPt": "Bitten Sie um Wasser zum Kaffee, mit dem Baustein aus B14. Sprechen Sie jetzt.",
       "audioKey": "it-i02-t04",
       "es": "Mi porta un bicchiere d'acqua?",
       "pinyin": "mee POR-ta oon beek-kee-EH-re DAK-kwa",
-      "pt": "Could you bring me a glass of water?",
+      "pt": "Bringen Sie mir bitte ein Glas Wasser?",
       "tts": "Mi porta un bicchiere d'acqua?"
     },
     {
       "tipo": "intro",
       "voz": "guide_de_f",
       "audioKey": "it-i02-n05",
-      "pt": "About cappuccino after eleven: order it whenever you like. Nobody will stop you, and some of them will notice. Both are true."
+      "pt": "Cappuccino nach elf: Bestellen Sie ihn, wann Sie wollen. Niemand hält Sie auf, manche merken es. Beides stimmt."
     },
     {
       "consulta": [
@@ -136,11 +136,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-i02-p05",
-      "promptPt": "It is four in the afternoon and you want one anyway. Order it. Speak now.",
+      "promptPt": "Es ist vier Uhr nachmittags und Sie wollen trotzdem einen. Bestellen Sie. Sprechen Sie jetzt.",
       "audioKey": "it-i02-t05",
       "es": "Un cappuccino, per favore.",
       "pinyin": "oon kap-poo-CHEE-no per fa-VO-re",
-      "pt": "A cappuccino, please.",
+      "pt": "Einen Cappuccino, bitte.",
       "tts": "Un cappuccino, per favore."
     },
     {
@@ -151,11 +151,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-i02-p06",
-      "promptPt": "Order the one Italians actually drink after a meal — an espresso with a drop of milk. Speak now.",
+      "promptPt": "Nach dem Essen: bestellen Sie den Kaffee, den man hier danach nimmt. Sprechen Sie jetzt.",
       "audioKey": "it-i02-t06",
       "es": "Un caffè macchiato, per favore.",
       "pinyin": "oon kaf-FEH mak-kee-A-to per fa-VO-re",
-      "pt": "An espresso with a drop of milk, please.",
+      "pt": "Einen Espresso mit einem Tropfen Milch, bitte.",
       "tts": "Un caffè macchiato, per favore."
     },
     {
@@ -166,11 +166,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-i02-p07",
-      "promptPt": "You are ordering for two people. Say it in one go. Speak now.",
+      "promptPt": "Sie bestellen für zwei Personen, in einem Zug. Sprechen Sie jetzt.",
       "audioKey": "it-i02-t07",
       "es": "Due caffè, uno macchiato.",
       "pinyin": "DOO-eh kaf-FEH, OO-no mak-kee-A-to",
-      "pt": "Two coffees, one with a drop of milk.",
+      "pt": "Zwei Kaffee, einen mit einem Tropfen Milch.",
       "tts": "Due caffè, uno macchiato."
     },
     {
@@ -181,11 +181,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-i02-p08",
-      "promptPt": "Two minutes and you are done. Close it on the way out. Speak now.",
+      "promptPt": "Zwei Minuten, fertig. Schließen Sie im Hinausgehen ab. Sprechen Sie jetzt.",
       "audioKey": "it-i02-t08",
       "es": "Grazie, buona giornata!",
       "pinyin": "GRA-tsee-eh, BWO-na jor-NA-ta",
-      "pt": "Thanks, have a good day!",
+      "pt": "Danke, einen schönen Tag!",
       "tts": "Grazie, buona giornata!"
     },
     {
@@ -194,7 +194,7 @@
       "audioKey": "it-i02-s01",
       "es": "A me, grazie. Un caffè e un cornetto. Si paga prima alla cassa? Grazie, buona giornata!",
       "pinyin": "a meh GRA-tsee-eh. oon kaf-FEH eh oon kor-NET-to. see PA-ga PREE-ma AL-la KAS-sa. GRA-tsee-eh BWO-na jor-NA-ta",
-      "pt": "Shadow the whole counter transaction, start to finish.",
+      "pt": "Sprechen Sie den ganzen Ablauf an der Theke mit, von vorn bis hinten.",
       "tts": "A me, grazie. Un caffè e un cornetto. Si paga prima alla cassa? Grazie, buona giornata!",
       "molde": "MI-PORTA"
     },
@@ -203,52 +203,52 @@
       "voz": "guide_de_f",
       "audioKey": "it-i02-n06",
       "bloco": "recap",
-      "pt": "I02 done. Go to the counter, answer a chi tocca with a me, check the till, and be out in two minutes."
+      "pt": "I02 geschafft. An die Theke, a chi tocca mit a me beantworten, Kasse klären, in zwei Minuten wieder draußen."
     }
   ],
   "aprofundar": {
-    "titulo": "No queue, but not chaos",
+    "titulo": "Keine Schlange, trotzdem Ordnung",
     "secoes": [
       {
-        "titulo": "A chi tocca is the whole system",
-        "corpo": "The bar staff track arrival order loosely and ask when they lose it. Answering a me is participating correctly; waiting to be picked out is what puts you fourth in a queue that does not exist.",
+        "titulo": "A chi tocca ist das ganze System",
+        "corpo": "Das Personal merkt sich die Reihenfolge grob und fragt nach, wenn es den Faden verliert. Mit a me zu antworten heißt mitmachen; darauf zu warten, ausgewählt zu werden, setzt Sie an vierte Stelle einer Schlange, die es gar nicht gibt.",
         "exemplos": [
           {
             "es": "A me, grazie.",
-            "pt": "Me, thanks."
+            "pt": "Ich, danke."
           },
           {
             "es": "Scusi, credo che toccasse a me.",
-            "pt": "Sorry, I think it was my turn."
+            "pt": "Entschuldigung, ich glaube, ich war dran."
           }
         ]
       },
       {
-        "titulo": "Cassa first, sometimes",
-        "corpo": "Charging before serving is entirely lawful, and both systems are in use: pay-first is common in busy urban bars, order-first and settle on the way out is common in smaller towns. The printed sign asking you to make the scontrino at the till is the tell, and watching the person ahead of you is free."
+        "titulo": "Manchmal zuerst die Kasse",
+        "corpo": "Vor dem Servieren zu kassieren ist völlig zulässig, und beide Abläufe sind in Gebrauch: erst zahlen ist in vollen Stadtbars üblich, erst bestellen und beim Hinausgehen zahlen eher in kleineren Orten. Der Zettel, der um den scontrino an der Kasse bittet, ist das Signal — und wer die Person vor sich beobachtet, weiß es umsonst."
       },
       {
-        "titulo": "The cappuccino rule, honestly",
-        "corpo": "There is a genuine convention that milky coffee belongs to the morning, and there is no rule, no hour and no refusal. Italian trade writing calls the story of the barista who says no «a travellers' legend», and the digestive reasoning behind the habit is belief rather than physiology. What Italians do is simply not order one. Order what you want, and know the convention exists — that is a different thing from obeying it."
+        "titulo": "Die Cappuccino-Regel, ehrlich",
+        "corpo": "Es gibt die echte Konvention, dass Milchkaffee zum Morgen gehört, und es gibt keine Regel, keine Uhrzeit und keine Ablehnung. Die italienische Fachpresse nennt die Geschichte vom Barista, der nein sagt, «eine Reisendenlegende», und die Verdauungsbegründung dahinter ist Überzeugung, nicht Physiologie. Was in Italien passiert, ist schlicht: man bestellt keinen. Bestellen Sie, was Sie wollen, und wissen Sie, dass die Konvention existiert — das ist etwas anderes, als sich daran zu halten."
       },
       {
-        "titulo": "Standing is the format",
-        "corpo": "The counter coffee is designed to take two minutes: order, drink, pay, leave. That speed is why it costs what it costs, and it is also why hovering back from the counter reads as not being in the transaction yet."
+        "titulo": "Stehen ist das Format",
+        "corpo": "Der Kaffee an der Theke ist auf zwei Minuten angelegt: bestellen, trinken, zahlen, gehen. Dieses Tempo erklärt den Preis, und es erklärt auch, warum ein Schritt Abstand zur Theke so gelesen wird, als seien Sie noch nicht im Vorgang drin."
       }
     ]
   },
   "slot": "I02",
-  "permissao": "You are allowed to speak up at a counter. Stepping forward and saying a me at normal volume is not rudeness in an Italian bar — it is how the room works, and the version where you wait politely to be noticed ends with you leaving without coffee.",
+  "permissao": "Sie dürfen an einer Theke den Mund aufmachen. Vorzutreten und in normaler Lautstärke a me zu sagen, ist in einer italienischen Bar keine Unhöflichkeit — so funktioniert der Raum. Die Variante, in der Sie höflich darauf warten, bemerkt zu werden, endet damit, dass Sie ohne Kaffee wieder hinausgehen.",
   "permissaoAudioKey": "it-i02-n03",
-  "espelho": "Anyone who has stood at a busy bar at home and watched two later arrivals get served first knows this feeling exactly. The instinct to wait your turn is right in most places and wrong in this one, which is the only thing that makes it hard.",
+  "espelho": "Wer schon einmal an einer vollen Theke stand und zusah, wie zwei später Gekommene zuerst bedient wurden, kennt dieses Gefühl genau. Der Reflex, brav zu warten, ist an den meisten Orten richtig und an genau diesem einen falsch — mehr macht es nicht schwer.",
   "fichasCulturais": [
     {
-      "sinal": "You are standing a polite step back from the counter and people who came in after you keep getting served.",
-      "suaLeitura": "They are being rude, or the staff are ignoring foreigners.",
-      "oQueEAli": "Service at an Italian bar runs on proximity and eye contact rather than on an ordered queue. Standing back is read as not being ready yet, so the staff move to whoever is signalling that they are.",
-      "oQueVoceFaz": "Move to the counter, look at the barista, and answer a chi tocca with a me, grazie followed immediately by your order.",
-      "oQueMelhora": "You are served in about the order you arrived, and the two-minute transaction the format is built around actually takes two minutes.",
-      "ondeNaoVale": "Not where there is a visible ticket machine or a marked queue — pharmacies, delicatessen counters, post offices and some bakeries run on numbers, and ignoring those is genuinely rude.",
+      "sinal": "Sie stehen höflich einen Schritt von der Theke zurück, und Leute, die nach Ihnen gekommen sind, werden weiter vor Ihnen bedient.",
+      "suaLeitura": "Die drängeln sich vor, oder das Personal übersieht Auswärtige.",
+      "oQueEAli": "Bedient wird in der italienischen Bar nach Nähe und Blickkontakt, nicht nach geordneter Schlange. Ein Schritt Abstand wird gelesen als: noch nicht so weit. Also geht das Personal zu dem, der signalisiert, dass er bereit ist.",
+      "oQueVoceFaz": "Treten Sie an die Theke, sehen Sie den Barista an und antworten Sie auf a chi tocca mit a me, grazie und sofort Ihrer Bestellung.",
+      "oQueMelhora": "Sie kommen ungefähr in der Reihenfolge dran, in der Sie gekommen sind, und die zwei Minuten, für die das Format gebaut ist, dauern wirklich zwei Minuten.",
+      "ondeNaoVale": "Nicht dort, wo ein Nummernautomat oder eine markierte Schlange sichtbar ist — Apotheken, Feinkosttheken, Postämter und manche Bäckereien laufen über Nummern, und die zu übergehen ist tatsächlich unhöflich.",
       "evidencia": "CONSENSO",
       "audioKeys": [
         "it-i02-n02"
@@ -258,7 +258,7 @@
   "fatosDatados": [
     {
       "id": "it-cappuccino",
-      "afirmacao": "The rule that cappuccino cannot be ordered after 11 is a habit, not a prohibition. The digestive reasoning behind it is a cultural belief rather than a physiological finding, there is no precise hour — the real line is «after breakfast» — and Italian trade sources describe the flat refusal by a barista as «una leggenda da viaggiatori», a travellers' legend. What Italians actually do is not order one.",
+      "afirmacao": "Die Regel, dass man nach 11 Uhr keinen Cappuccino bestellen kann, ist eine Gewohnheit, kein Verbot. Die Verdauungsbegründung dahinter ist eine kulturelle Überzeugung und kein physiologischer Befund, eine genaue Uhrzeit gibt es nicht — die reale Grenze heißt «nach dem Frühstück» — und italienische Fachquellen bezeichnen die glatte Ablehnung durch einen Barista als «una leggenda da viaggiatori», eine Reisendenlegende. Was in Italien tatsächlich passiert: man bestellt einfach keinen.",
       "fonte": "Pasqualini il Caffè — «Il cappuccino dopo le 11: regola, mito o snobismo tutto italiano»",
       "ano": 2026,
       "revisarAte": "2028-08-05",
@@ -270,7 +270,7 @@
     },
     {
       "id": "it-cassa-prima",
-      "afirmacao": "Requiring payment before consumption at a bar is lawful: bars, pastry shops and gelaterie may demand payment at the cassa first, and the receipt records the payment rather than the delivery of the service. Both systems coexist — pay-first is common in busy urban bars, especially in the north, while smaller towns tend to order first and pay on leaving. The tell is a printed sign asking for the scontrino to be made at the till before consuming.",
+      "afirmacao": "Zahlung vor dem Verzehr in einer Bar zu verlangen, ist zulässig: Bars, Konditoreien und Eisdielen dürfen die Zahlung zuerst an der cassa verlangen, und der Bon dokumentiert die Zahlung, nicht die Erbringung der Leistung. Beide Abläufe existieren nebeneinander — erst zahlen ist in vollen Stadtbars üblich, besonders im Norden, während in kleineren Orten eher zuerst bestellt und beim Gehen gezahlt wird. Das Signal ist ein gedruckter Hinweis, den scontrino vor dem Verzehr an der Kasse zu machen.",
       "fonte": "Cookist — «Ricevuta prima di andare al banco: i bar possono chiedere il pagamento anticipato?»",
       "ano": 2026,
       "revisarAte": "2028-08-05",

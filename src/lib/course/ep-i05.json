@@ -3,12 +3,12 @@
   "nivel": "intermediario",
   "numero": 23,
   "parte": "I05",
-  "titulo": "The five questions everyone asks you",
-  "subtitulo": "They are always the same five — which means you can have the answers ready and spend the moment listening instead of translating",
-  "cena": "A stranger has decided to talk to you, the first question landed, and you are three seconds from the polite nod that ends it.",
+  "titulo": "Die fünf Fragen, die Ihnen alle stellen",
+  "subtitulo": "Es sind immer dieselben fünf — Sie können die Antworten bereithalten und den Moment zum Zuhören nutzen statt zum Übersetzen",
+  "cena": "Jemand hat beschlossen, Sie anzusprechen, die erste Frage ist da, und Sie sind drei Sekunden von dem höflichen Nicken entfernt, das alles beendet.",
   "moldura": "ganha",
-  "frasePiso": "The questions repeat. Prepare five answers once and every conversation after that starts on the second sentence.",
-  "decisao": "ficar na conversa com cinco respostas prontas em vez de sair dela com um sorriso educado toda vez que alguém puxa assunto",
+  "frasePiso": "Die Fragen wiederholen sich. Bereiten Sie fünf Antworten einmal vor, und jedes Gespräch danach beginnt beim zweiten Satz.",
+  "decisao": "im Gespräch bleiben mit fünf fertigen Antworten, statt jedes Mal mit einem höflichen Lächeln auszusteigen, wenn jemand Sie anspricht",
   "moldes": [],
   "steps": [
     {
@@ -17,16 +17,16 @@
       "audioKey": "it-i05-n01",
       "gesto": 1,
       "bloco": "aquecimento",
-      "pt": "Nearly every conversation you have in Italy opens with the same five questions. That is not a limitation — it is a script you can learn."
+      "pt": "Fast jedes Gespräch in Italien beginnt mit denselben fünf Fragen. Das ist keine Grenze, sondern ein Skript, das man lernen kann."
     },
     {
       "tipo": "ouvir",
       "voz": "target_it_m",
       "audioKey": "it-i05-r01",
       "receptivo": true,
-      "acao": "Answer with the city, not the country, if the city is one they will know.",
+      "acao": "Nennen Sie die Stadt, nicht das Land, wenn man die Stadt kennt.",
       "es": "Di dove siete?",
-      "pt": "Where are you from?",
+      "pt": "Woher kommen Sie?",
       "tts": "Di dove siete?"
     },
     {
@@ -37,11 +37,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-i05-p01",
-      "promptPt": "Answer question one. Give a place they can picture. Speak now.",
+      "promptPt": "Beantworten Sie Frage eins. Nennen Sie einen Ort, den man sich vorstellen kann. Sprechen Sie jetzt.",
       "audioKey": "it-i05-t01",
       "es": "Siamo di Boston, negli Stati Uniti.",
       "pinyin": "SYA-mo dee BOS-ton, NE-lyee STA-tee oo-NEE-tee",
-      "pt": "We're from Boston, in the United States.",
+      "pt": "Wir sind aus Boston, in den USA.",
       "tts": "Siamo di Boston, negli Stati Uniti."
     },
     {
@@ -49,7 +49,7 @@
       "voz": "guide_de_m",
       "audioKey": "it-i05-n02",
       "bloco": "corpo",
-      "pt": "Question two is always how long. Give the number and the unit, the same way you did at the border."
+      "pt": "Frage zwei ist immer: wie lange. Nennen Sie Zahl und Einheit, wie an der Grenze."
     },
     {
       "consulta": [
@@ -60,11 +60,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-i05-p02",
-      "promptPt": "Say how long you are staying, and add where you go next. Speak now.",
+      "promptPt": "Sagen Sie, wie lange Sie bleiben, und wohin es danach geht. Sprechen Sie jetzt.",
       "audioKey": "it-i05-t02",
       "es": "Dieci giorni. Poi andiamo in Sicilia.",
       "pinyin": "dee-EH-chee JOR-nee. poy an-DYA-mo een see-CHEE-lya",
-      "pt": "Ten days. Then we're going to Sicily.",
+      "pt": "Zehn Tage. Danach fahren wir nach Sizilien.",
       "tts": "Dieci giorni. Poi andiamo in Sicilia."
     },
     {
@@ -72,7 +72,7 @@
       "voz": "target_it_m",
       "audioKey": "it-i05-r02",
       "es": "È la prima volta in Italia?",
-      "pt": "Is this your first time in Italy?",
+      "pt": "Sind Sie zum ersten Mal in Italien?",
       "tts": "È la prima volta in Italia?"
     },
     {
@@ -83,18 +83,18 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-i05-p03",
-      "promptPt": "Answer question three and give them something to react to. Speak now.",
+      "promptPt": "Beantworten Sie Frage drei und geben Sie etwas zum Anknüpfen mit. Sprechen Sie jetzt.",
       "audioKey": "it-i05-t03",
       "es": "No, la seconda. La prima volta ero a Roma.",
       "pinyin": "no, la se-KON-da. la PREE-ma VOL-ta EH-ro a RO-ma",
-      "pt": "No, the second. The first time I was in Rome.",
+      "pt": "Nein, zum zweiten Mal. Beim ersten Mal war ich in Rom.",
       "tts": "No, la seconda. La prima volta ero a Roma."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_f",
       "audioKey": "it-i05-n03",
-      "pt": "Question four is what you do. Two words is a complete answer — nobody is asking for your career."
+      "pt": "Frage vier: Was machen Sie beruflich? Zwei Wörter sind eine vollständige Antwort — niemand fragt nach Ihrer Laufbahn."
     },
     {
       "consulta": [
@@ -104,11 +104,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-i05-p04",
-      "promptPt": "Say what you do, briefly. Speak now.",
+      "promptPt": "Sagen Sie kurz, was Sie beruflich machen. Sprechen Sie jetzt.",
       "audioKey": "it-i05-t04",
       "es": "Faccio l'insegnante.",
       "pinyin": "FAT-cho leen-se-NYAN-te",
-      "pt": "I'm a teacher.",
+      "pt": "Ich bin Lehrer.",
       "tts": "Faccio l'insegnante."
     },
     {
@@ -116,7 +116,7 @@
       "voz": "guide_de_m",
       "audioKey": "it-i05-n04",
       "bloco": "capsula",
-      "pt": "Question five is the one that matters: do you like it here. The frame is mi piace plus the thing, and a specific answer opens the conversation."
+      "pt": "Frage fünf zählt am meisten: Gefällt es Ihnen hier? Der Baustein ist mi piace plus die Sache, und eine konkrete Antwort öffnet das Gespräch."
     },
     {
       "consulta": [
@@ -126,11 +126,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-i05-p05",
-      "promptPt": "Say what you like, naming one concrete thing. Speak now.",
+      "promptPt": "Sagen Sie, was Ihnen gefällt, und nennen Sie eine konkrete Sache. Sprechen Sie jetzt.",
       "audioKey": "it-i05-t05",
       "es": "Mi piace tantissimo, soprattutto i mercati.",
       "pinyin": "mee PYA-che tan-TEES-see-mo, so-prat-TOOT-to ee mer-KA-tee",
-      "pt": "I like it enormously, the markets above all.",
+      "pt": "Es gefällt mir enorm, vor allem die Märkte.",
       "tts": "Mi piace tantissimo, soprattutto i mercati.",
       "molde": "MI-PIACE",
       "encaixe": "i mercati"
@@ -140,9 +140,9 @@
       "voz": "target_it_m",
       "audioKey": "it-i05-r03",
       "receptivo": true,
-      "acao": "This is the payoff. Say yes and write down what they name.",
+      "acao": "Das ist der Ertrag. Sagen Sie ja und notieren Sie den Namen.",
       "es": "Allora domani deve andare a quello di Sant'Ambrogio. Meno turisti.",
-      "pt": "Then tomorrow you have to go to the Sant'Ambrogio one. Fewer tourists.",
+      "pt": "Dann müssen Sie morgen zu dem in Sant'Ambrogio. Weniger Touristen.",
       "tts": "Allora domani deve andare a quello di Sant'Ambrogio. Meno turisti."
     },
     {
@@ -153,11 +153,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-i05-p06",
-      "promptPt": "Turn it around — ask them the question they asked you. Speak now.",
+      "promptPt": "Drehen Sie es um — stellen Sie die Frage, die man Ihnen gestellt hat. Sprechen Sie jetzt.",
       "audioKey": "it-i05-t06",
       "es": "E lei è di qui?",
       "pinyin": "eh lay eh dee kwee",
-      "pt": "And are you from here?",
+      "pt": "Und Sie, sind Sie von hier?",
       "tts": "E lei è di qui?"
     },
     {
@@ -168,11 +168,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-i05-p07",
-      "promptPt": "You lost the question entirely. Stay in the conversation instead of leaving it. Speak now.",
+      "promptPt": "Sie haben die Frage komplett verloren. Bleiben Sie trotzdem im Gespräch. Sprechen Sie jetzt.",
       "audioKey": "it-i05-t07",
       "es": "Scusi, mi sono perso. Può ripetere?",
       "pinyin": "SKOO-zee, mee SO-no PER-so. pwoh ree-PE-te-re",
-      "pt": "Sorry, I lost you. Can you repeat that?",
+      "pt": "Entschuldigung, ich bin rausgekommen. Können Sie das wiederholen?",
       "tts": "Scusi, mi sono perso. Può ripetere?",
       "molde": "MI-PUO",
       "encaixe": "ripetere"
@@ -185,11 +185,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-i05-p08",
-      "promptPt": "You have to go, and you want the door left open. Speak now.",
+      "promptPt": "Sie müssen los, aber die Tür soll offen bleiben. Sprechen Sie jetzt.",
       "audioKey": "it-i05-t08",
       "es": "È stato un piacere. Magari ci vediamo domani.",
       "pinyin": "eh STA-to oon pya-CHE-re. ma-GA-ree chee ve-DYA-mo do-MA-nee",
-      "pt": "It's been a pleasure. Maybe we'll see each other tomorrow.",
+      "pt": "Es war mir ein Vergnügen. Vielleicht sehen wir uns morgen.",
       "tts": "È stato un piacere. Magari ci vediamo domani."
     },
     {
@@ -198,7 +198,7 @@
       "audioKey": "it-i05-s01",
       "es": "Siamo di Boston. Dieci giorni. Mi piace tantissimo, soprattutto i mercati. E lei è di qui?",
       "pinyin": "SYA-mo dee BOS-ton. dee-EH-chee JOR-nee. mee PYA-che tan-TEES-see-mo so-prat-TOOT-to ee mer-KA-tee. eh lay eh dee kwee",
-      "pt": "Shadow the four answers and the question that hands it back.",
+      "pt": "Sprechen Sie die vier Antworten nach und die Frage, die zurückgibt.",
       "tts": "Siamo di Boston. Dieci giorni. Mi piace tantissimo, soprattutto i mercati. E lei è di qui?",
       "molde": "MI-PUO"
     },
@@ -207,52 +207,52 @@
       "voz": "guide_de_f",
       "audioKey": "it-i05-n05",
       "bloco": "recap",
-      "pt": "I05 done. Where from, how long, first time, what you do, do you like it — and then one question back."
+      "pt": "I05 geschafft. Woher, wie lange, zum ersten Mal, was Sie machen, ob es gefällt — und eine Frage zurück."
     }
   ],
   "aprofundar": {
-    "titulo": "A script you can prepare",
+    "titulo": "Ein Skript, das Sie vorbereiten können",
     "secoes": [
       {
-        "titulo": "Prepare them once",
-        "corpo": "Write your five answers before the trip and say them out loud twice. The gain is not the sentences — it is that you spend the actual conversation listening instead of assembling.",
+        "titulo": "Einmal vorbereiten",
+        "corpo": "Schreiben Sie Ihre fünf Antworten vor der Reise auf und sagen Sie sie zweimal laut. Der Gewinn sind nicht die Sätze — der Gewinn ist, dass Sie das eigentliche Gespräch mit Zuhören verbringen statt mit Zusammenbauen.",
         "exemplos": [
           {
             "es": "Siamo di Boston, negli Stati Uniti.",
-            "pt": "We're from Boston, in the United States."
+            "pt": "Wir sind aus Boston, in den USA."
           },
           {
             "es": "Faccio l'insegnante.",
-            "pt": "I'm a teacher."
+            "pt": "Ich bin Lehrer."
           }
         ]
       },
       {
-        "titulo": "Specific answers earn recommendations",
-        "corpo": "Mi piace tutto ends the exchange. Naming one thing you liked gives the other person something to improve on, and what comes back is usually the version locals actually use."
+        "titulo": "Konkrete Antworten bringen Empfehlungen",
+        "corpo": "Mi piace tutto beendet den Austausch. Wenn Sie eine Sache nennen, hat Ihr Gegenüber etwas, das es zu überbieten gilt — und zurück kommt meist die Version, die man vor Ort tatsächlich nutzt."
       },
       {
-        "titulo": "The question back is the whole trick",
-        "corpo": "E lei è di qui? converts an interview into a conversation. Italians ask a lot of questions and expect them returned; not returning one reads as not being interested."
+        "titulo": "Die Gegenfrage ist der ganze Trick",
+        "corpo": "E lei è di qui? macht aus einem Interview ein Gespräch. Fragen werden hier viele gestellt und man erwartet sie zurück; keine zurückzugeben wirkt wie Desinteresse."
       },
       {
-        "titulo": "Lei and tu",
-        "corpo": "Lei is the polite form and is safe with anyone older, anyone working, and anyone you have just met. If they switch to tu, follow them. You are never wrong for having started with lei."
+        "titulo": "Lei und tu",
+        "corpo": "Lei ist die höfliche Form und sicher bei allen, die älter sind, die gerade arbeiten, und die Sie eben erst kennengelernt haben. Wechselt Ihr Gegenüber zu tu, folgen Sie. Mit lei begonnen zu haben ist nie falsch."
       }
     ]
   },
   "slot": "I05",
-  "permissao": "You are allowed to stay in a conversation you are only half following. Saying mi sono perso and asking for a repeat is what people who speak the language do — leaving with a polite smile because catching up felt like too much work is the only version of this that costs you something.",
+  "permissao": "Sie dürfen in einem Gespräch bleiben, dem Sie nur halb folgen. Mi sono perso zu sagen und um eine Wiederholung zu bitten, ist genau das, was Leute tun, die die Sprache sprechen — mit einem höflichen Lächeln zu gehen, weil das Aufholen zu mühsam schien, ist die einzige Variante, die Sie etwas kostet.",
   "permissaoAudioKey": "it-i05-n01",
-  "espelho": "Anyone who has nodded through the end of a phone call they stopped following knows this exact exit. The instinct to escape rather than admit you lost the thread is not about foreign languages — it just gets more expensive in one.",
+  "espelho": "Wer schon einmal am Telefon weitergenickt hat, obwohl er den Faden längst nicht mehr hatte, kennt genau diesen Ausstieg. Der Reflex, lieber zu fliehen als zuzugeben, dass man rausgekommen ist, hat nichts mit Fremdsprachen zu tun — er wird in einer nur teurer.",
   "fichasCulturais": [
     {
-      "sinal": "A stranger asks you several personal-sounding questions in a row — where you're from, what you do, whether you're married — within two minutes of meeting.",
-      "suaLeitura": "This is intrusive, and I am being interrogated.",
-      "oQueEAli": "These questions are the standard opening moves of Italian small talk, closer to establishing who you both are than to gathering information. Not asking them can read as coldness rather than as respect for privacy.",
-      "oQueVoceFaz": "Answer short and true, then return one of the same questions. That is the expected shape of the exchange.",
-      "oQueMelhora": "You get past the opening in thirty seconds and into the part where they tell you which market to go to, which is where the value of the conversation actually is.",
-      "ondeNaoVale": "Not a licence for the same volley from you towards someone visibly working through a queue, and not an obligation to answer anything you would rather not — deflecting one question warmly does not break the exchange.",
+      "sinal": "Jemand stellt Ihnen zwei Minuten nach dem Kennenlernen mehrere persönlich wirkende Fragen hintereinander — woher Sie kommen, was Sie machen, ob Sie verheiratet sind.",
+      "suaLeitura": "Das ist übergriffig, ich werde ausgefragt.",
+      "oQueEAli": "Diese Fragen sind die üblichen Eröffnungszüge des italienischen Smalltalks; sie klären eher, wer man füreinander ist, als dass sie Informationen sammeln. Sie nicht zu stellen, kann kühl wirken statt rücksichtsvoll.",
+      "oQueVoceFaz": "Kurz und ehrlich antworten, dann eine der gleichen Fragen zurückgeben. Das ist die erwartete Form des Austauschs.",
+      "oQueMelhora": "Sie sind in dreißig Sekunden durch die Eröffnung und in dem Teil, in dem man Ihnen sagt, auf welchen Markt Sie gehen sollen — dort liegt der Wert des Gesprächs.",
+      "ondeNaoVale": "Kein Freibrief für dieselbe Salve von Ihnen gegenüber jemandem, der sichtbar eine Schlange abarbeitet, und keine Pflicht, etwas zu beantworten, das Sie lieber für sich behalten — einer Frage warm auszuweichen bricht den Austausch nicht.",
       "evidencia": "CONSENSO",
       "audioKeys": [
         "it-i05-n01"

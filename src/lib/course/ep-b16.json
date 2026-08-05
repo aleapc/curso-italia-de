@@ -3,11 +3,11 @@
   "nivel": "basico",
   "numero": 16,
   "parte": "6A",
-  "titulo": "Check-in: ask for what improves the room while it is still free to ask",
-  "subtitulo": "A higher floor, a quieter room, a later checkout — asked at the desk, when the answer is still cheap",
-  "cena": "You are at the desk with the key in your hand and thirty seconds before the conversation is over for the rest of the week.",
+  "titulo": "Check-in: um das bitten, was das Zimmer besser macht, solange es noch nichts kostet",
+  "subtitulo": "Eine höhere Etage, ein ruhigeres Zimmer, ein späterer Check-out — am Empfang gefragt, wenn die Antwort noch leicht fällt",
+  "cena": "Sie stehen mit dem Schlüssel in der Hand am Empfang und haben dreißig Sekunden, bevor das Gespräch für den Rest der Woche vorbei ist.",
   "moldura": "ganha",
-  "frasePiso": "The best moment to improve the room is before you have seen it. After that, you are complaining instead of asking.",
+  "frasePiso": "Der beste Moment, das Zimmer zu verbessern, ist bevor Sie es gesehen haben. Danach bitten Sie nicht mehr, sondern beanstanden.",
   "moldes": [],
   "steps": [
     {
@@ -16,14 +16,14 @@
       "audioKey": "it-b16-n01",
       "gesto": 1,
       "bloco": "aquecimento",
-      "pt": "Check-in is thirty seconds where everything is still adjustable. Spend it asking, not confirming what you already booked."
+      "pt": "Der Check-in sind dreißig Sekunden, in denen noch alles verstellbar ist. Nutzen Sie sie zum Fragen, nicht zum Bestätigen."
     },
     {
       "tipo": "ouvir",
       "voz": "target_it_m",
       "audioKey": "it-b16-r01",
       "es": "Buonasera, ha una prenotazione?",
-      "pt": "Good evening, do you have a booking?",
+      "pt": "Guten Abend, haben Sie eine Reservierung?",
       "tts": "Buonasera, ha una prenotazione?"
     },
     {
@@ -35,11 +35,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-b16-p01",
-      "promptPt": "Confirm the booking, briefly, with the name. Speak now.",
+      "promptPt": "Der Empfang wartet auf Ihren Namen. Antworten Sie kurz. Sprechen Sie jetzt.",
       "audioKey": "it-b16-t01",
       "es": "Sì, ho una prenotazione a nome Rossi.",
       "pinyin": "see, oh OO-na pre-no-ta-tsee-O-ne a NO-me ROS-see",
-      "pt": "Yes, I have a booking under Rossi.",
+      "pt": "Ja, ich habe eine Reservierung auf den Namen Rossi.",
       "tts": "Sì, ho una prenotazione a nome Rossi."
     },
     {
@@ -47,7 +47,7 @@
       "voz": "guide_de_m",
       "audioKey": "it-b16-n02",
       "bloco": "corpo",
-      "pt": "Now ask. A quieter room costs the hotel nothing if one is free, and costs you a week of sleep if you do not ask."
+      "pt": "Jetzt fragen. Ein ruhigeres Zimmer kostet das Haus nichts, wenn eines frei ist — und Sie eine Woche Schlaf."
     },
     {
       "consulta": [
@@ -59,11 +59,11 @@
       "encaixe": "una camera più tranquilla",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-b16-p02",
-      "promptPt": "The street outside is loud. Ask, using the frame from B08. Speak now.",
+      "promptPt": "Die Straße draußen ist laut. Nutzen Sie den Baustein aus B08. Sprechen Sie jetzt.",
       "audioKey": "it-b16-t02",
       "es": "C'è una camera più tranquilla?",
       "pinyin": "cheh OO-na KA-me-ra pyoo tran-KWEEL-la",
-      "pt": "Is there a quieter room?",
+      "pt": "Gibt es ein ruhigeres Zimmer?",
       "tts": "C'è una camera più tranquilla?"
     },
     {
@@ -71,16 +71,16 @@
       "voz": "target_it_m",
       "audioKey": "it-b16-r02",
       "es": "Le do una all'ultimo piano, sul cortile.",
-      "pt": "I'll give you one on the top floor, facing the courtyard.",
+      "pt": "Ich gebe Ihnen eines im obersten Stock, zum Innenhof.",
       "tts": "Le do una all'ultimo piano, sul cortile.",
       "receptivo": true,
-      "acao": "Say yes to the courtyard side without hesitating."
+      "acao": "Sagen Sie ohne Zögern Ja zur Innenhofseite."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_f",
       "audioKey": "it-b16-n03",
-      "pt": "Camera is the room, not the device. Sul cortile means courtyard-facing, which is the quiet side of almost any Italian building."
+      "pt": "Camera ist das Zimmer, nicht der Fotoapparat. Sul cortile heißt zum Innenhof, die ruhige Seite fast jedes Hauses."
     },
     {
       "consulta": [
@@ -92,11 +92,11 @@
       "encaixe": "fare il check-out più tardi",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-b16-p03",
-      "promptPt": "Your flight is at night. Ask about a later checkout now, not on the last morning. Speak now.",
+      "promptPt": "Ihr Flug geht erst abends, das Zimmer wird mittags frei. Nutzen Sie den Baustein aus B06. Sprechen Sie jetzt.",
       "audioKey": "it-b16-t03",
       "es": "Posso fare il check-out più tardi?",
       "pinyin": "POS-so FA-re eel chek-AUT pyoo TAR-dee",
-      "pt": "Can I check out later?",
+      "pt": "Kann ich später auschecken?",
       "tts": "Posso fare il check-out più tardi?"
     },
     {
@@ -107,11 +107,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-b16-p04",
-      "promptPt": "Ask what time breakfast is, so you do not miss it on day one. Speak now.",
+      "promptPt": "Am ersten Morgen wollen Sie den Speisesaal nicht verpassen. Fragen Sie nach der Uhrzeit. Sprechen Sie jetzt.",
       "audioKey": "it-b16-t04",
       "es": "A che ora è la colazione?",
       "pinyin": "a keh O-ra eh la ko-la-tsee-O-ne",
-      "pt": "What time is breakfast?",
+      "pt": "Um wie viel Uhr gibt es Frühstück?",
       "tts": "A che ora è la colazione?",
       "molde": "A-CHE-ORA",
       "encaixe": "è la colazione"
@@ -121,7 +121,7 @@
       "voz": "guide_de_m",
       "audioKey": "it-b16-n04",
       "bloco": "capsula",
-      "pt": "Only now the complaints. Name the thing that does not work and stop — no adjectives, no apology, no story."
+      "pt": "Erst jetzt die Beanstandungen. Nennen Sie die Sache und hören Sie auf — kein Adjektiv, keine Entschuldigung, keine Geschichte."
     },
     {
       "consulta": [
@@ -131,18 +131,18 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-b16-p05",
-      "promptPt": "The air conditioning is dead. Say it plainly. Speak now.",
+      "promptPt": "Im Zimmer bleibt es heiß, das Gerät an der Wand bleibt stumm. Sagen Sie es schlicht. Sprechen Sie jetzt.",
       "audioKey": "it-b16-t05",
       "es": "L'aria condizionata non funziona.",
       "pinyin": "LA-rya kon-dee-tsyo-NA-ta non foon-tsee-O-na",
-      "pt": "The air conditioning doesn't work.",
+      "pt": "Die Klimaanlage geht nicht.",
       "tts": "L'aria condizionata non funziona."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_f",
       "audioKey": "it-b16-n05",
-      "pt": "Non funziona is the whole complaint. Swap the noun in front and it covers the shower, the wifi, the lift, the key."
+      "pt": "Non funziona ist die ganze Beanstandung. Tauschen Sie das Substantiv davor: Dusche, WLAN, Aufzug, Schlüssel."
     },
     {
       "consulta": [
@@ -153,11 +153,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-b16-p06",
-      "promptPt": "Same sentence, different noun: the wifi. Speak now.",
+      "promptPt": "Das Netz im Zimmer geht auch nicht. Melden Sie es. Sprechen Sie jetzt.",
       "audioKey": "it-b16-t06",
       "es": "Il wifi non funziona.",
       "pinyin": "eel WEE-fee non foon-tsee-O-na",
-      "pt": "The wifi doesn't work.",
+      "pt": "Das WLAN geht nicht.",
       "tts": "Il wifi non funziona."
     },
     {
@@ -170,11 +170,11 @@
       "encaixe": "un'altra coperta",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-b16-p07",
-      "promptPt": "The room is cold. Ask for another blanket, using the frame from B14. Speak now.",
+      "promptPt": "Nachts wird es kühl im Zimmer. Nutzen Sie den Baustein aus B14. Sprechen Sie jetzt.",
       "audioKey": "it-b16-t07",
       "es": "Mi porta un'altra coperta, per favore?",
       "pinyin": "mee POR-ta oo-NAL-tra ko-PER-ta per fa-VO-re",
-      "pt": "Could you bring me another blanket, please?",
+      "pt": "Bringen Sie mir bitte noch eine Decke?",
       "tts": "Mi porta un'altra coperta, per favore?"
     },
     {
@@ -188,11 +188,11 @@
       "encaixe": "lasciare le valigie",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-b16-p08",
-      "promptPt": "You arrived before the room is ready. Ask about the bags. Speak now.",
+      "promptPt": "Sie kommen Stunden zu früh an, mit Gepäck. Nutzen Sie den Baustein aus B06. Sprechen Sie jetzt.",
       "audioKey": "it-b16-t08",
       "es": "Posso lasciare le valigie qui?",
       "pinyin": "POS-so la-SHA-re le va-LEE-je kwee",
-      "pt": "Can I leave the bags here?",
+      "pt": "Kann ich die Koffer hier lassen?",
       "tts": "Posso lasciare le valigie qui?"
     },
     {
@@ -201,7 +201,7 @@
       "audioKey": "it-b16-s01",
       "es": "C'è una camera più tranquilla? Posso fare il check-out più tardi? L'aria condizionata non funziona.",
       "pinyin": "cheh OO-na KA-me-ra pyoo tran-KWEEL-la. POS-so FA-re eel chek-AUT pyoo TAR-dee. LA-rya kon-dee-tsyo-NA-ta non foon-tsee-O-na",
-      "pt": "Shadow the order: ask, ask, then report.",
+      "pt": "Sprechen Sie die Reihenfolge mit: fragen, fragen, dann melden.",
       "tts": "C'è una camera più tranquilla? Posso fare il check-out più tardi? L'aria condizionata non funziona.",
       "molde": "POSSO"
     },
@@ -210,52 +210,52 @@
       "voz": "guide_de_f",
       "audioKey": "it-b16-n06",
       "bloco": "recap",
-      "pt": "B16 done. Ask for the quieter room and the later checkout first. Non funziona handles everything that breaks after."
+      "pt": "B16 fertig. Zuerst das ruhigere Zimmer und den späteren Check-out. Non funziona deckt alles ab, was danach kommt."
     }
   ],
   "aprofundar": {
-    "titulo": "Ask early, report plainly",
+    "titulo": "Früh fragen, schlicht melden",
     "secoes": [
       {
-        "titulo": "Why the desk is the moment",
-        "corpo": "At check-in the staff are allocating rooms and have options. An hour later the same request means undoing a decision they already made, which is a different conversation with a worse answer rate."
+        "titulo": "Warum der Empfang der Moment ist",
+        "corpo": "Beim Check-in verteilt das Personal gerade die Zimmer und hat Optionen. Eine Stunde später heißt dieselbe Bitte, eine bereits getroffene Entscheidung rückgängig zu machen — ein anderes Gespräch mit deutlich schlechterer Trefferquote."
       },
       {
-        "titulo": "Non funziona plus the noun",
-        "corpo": "The shower, the lift, the key, the television. One structure covers every broken thing in the building and none of it requires you to know the verb for what is wrong.",
+        "titulo": "Non funziona plus das Substantiv",
+        "corpo": "Die Dusche, der Aufzug, der Schlüssel, der Fernseher. Ein Baustein deckt alles Stillstehende im Haus ab, und Sie brauchen dafür kein Verb für das, was genau fehlt.",
         "exemplos": [
           {
             "es": "La doccia non funziona.",
-            "pt": "The shower doesn't work."
+            "pt": "Die Dusche geht nicht."
           },
           {
             "es": "L'ascensore non funziona.",
-            "pt": "The lift doesn't work."
+            "pt": "Der Aufzug geht nicht."
           }
         ]
       },
       {
-        "titulo": "Sul cortile is the quiet side",
-        "corpo": "Italian city buildings are usually built around an internal courtyard, and rooms facing it are dramatically quieter than the street. Asking for the courtyard side is more precise than asking for quiet."
+        "titulo": "Sul cortile ist die ruhige Seite",
+        "corpo": "Italienische Stadthäuser sind meist um einen Innenhof gebaut, und Zimmer zum Hof sind deutlich ruhiger als zur Straße. Nach der Hofseite zu fragen ist präziser, als um Ruhe zu bitten."
       },
       {
-        "titulo": "The tourist tax is separate",
-        "corpo": "Most Italian cities charge a per-person, per-night tassa di soggiorno collected at the property, often in cash and usually not included in what you paid online. It is not an error on the bill — rates and exemptions are set by each comune."
+        "titulo": "Die Kurtaxe läuft getrennt",
+        "corpo": "Die meisten italienischen Städte erheben eine tassa di soggiorno pro Person und Nacht, eingezogen vom Haus, oft in bar und meist nicht in dem enthalten, was Sie online gezahlt haben. Sie steht zu Recht auf der Abrechnung — Sätze und Ausnahmen legt jede comune selbst fest."
       }
     ]
   },
   "slot": "B16",
-  "permissao": "You are allowed to ask for a better room at check-in. Asking whether there is a quieter one, a higher one, or a later checkout is a normal front-desk conversation — and it is far less awkward than moving rooms on day three.",
+  "permissao": "Sie dürfen beim Check-in nach einem besseren Zimmer fragen. Ob es ein ruhigeres, ein höheres oder einen späteren Check-out gibt, ist ein normales Gespräch am Empfang — und deutlich angenehmer, als am dritten Tag umzuziehen.",
   "permissaoAudioKey": "it-b16-n01",
-  "espelho": "Anyone who has spent a week in a room facing a delivery bay, thinking every morning that they should have said something on the first night, already knows this lesson. The window for asking is short everywhere, not just in Italy.",
+  "espelho": "Wer eine Woche in einem Zimmer zur Anlieferzone verbracht hat und jeden Morgen dachte, er hätte am ersten Abend etwas sagen sollen, kennt diese Lektion schon. Das Zeitfenster zum Fragen ist überall kurz, nicht nur in Italien.",
   "fichasCulturais": [
     {
-      "sinal": "At check-out you are asked for a few euros per person per night, in cash, on top of everything you already paid online.",
-      "suaLeitura": "They are adding a charge at the last minute, when I cannot easily argue.",
-      "oQueEAli": "Most Italian cities levy a tassa di soggiorno, a municipal tourist tax collected by the property on behalf of the comune. Booking platforms frequently exclude it from the prepaid total, so it genuinely was not in what you paid.",
-      "oQueVoceFaz": "Keep some cash for it and ask at check-in quanto è la tassa di soggiorno? so the number is known on day one rather than day seven.",
-      "oQueMelhora": "The final morning has no surprise in it, and you are not hunting for a cash machine with a taxi waiting.",
-      "ondeNaoVale": "Not universal — some comuni do not levy it, rates vary by city and by hotel category, and children below an age set locally are usually exempt. Ask rather than assume the amount.",
+      "sinal": "Beim Check-out werden ein paar Euro pro Person und Nacht in bar verlangt, zusätzlich zu allem, was Sie online schon gezahlt haben.",
+      "suaLeitura": "Da wird im letzten Moment noch etwas draufgeschlagen, wenn ich schlecht widersprechen kann.",
+      "oQueEAli": "Die meisten italienischen Städte erheben eine tassa di soggiorno, eine kommunale Übernachtungsabgabe, die das Haus für die comune einzieht. Buchungsplattformen lassen sie häufig aus dem vorausgezahlten Betrag heraus, sie steckte also wirklich nicht darin.",
+      "oQueVoceFaz": "Halten Sie etwas Bargeld bereit und fragen Sie beim Check-in quanto è la tassa di soggiorno? — dann kennen Sie die Zahl am ersten Tag statt am siebten.",
+      "oQueMelhora": "Der letzte Morgen enthält keine Überraschung, und Sie suchen keinen Geldautomaten, während das Taxi wartet.",
+      "ondeNaoVale": "Nicht überall — manche comuni erheben sie nicht, die Sätze hängen von Stadt und Hotelkategorie ab, und Kinder unter einem örtlich festgelegten Alter sind meist befreit. Fragen Sie nach dem Betrag, statt ihn zu schätzen.",
       "evidencia": "FATO",
       "audioKeys": [
         "it-b16-n01"
@@ -265,7 +265,7 @@
   "fatosDatados": [
     {
       "id": "it-tassa-soggiorno",
-      "afirmacao": "Most Italian municipalities levy a tassa di soggiorno, a per-person per-night tourist tax collected by the accommodation on behalf of the comune. It is set locally, varies by city and by accommodation category, is frequently excluded from prepaid booking-platform totals, and is often collected in cash at the property. Local exemptions commonly apply to children below an age fixed by the comune.",
+      "afirmacao": "Die meisten italienischen Kommunen erheben eine tassa di soggiorno, eine Übernachtungsabgabe pro Person und Nacht, die das Beherbergungshaus für die comune einzieht. Sie wird örtlich festgesetzt, variiert nach Stadt und Unterkunftskategorie, ist häufig nicht in den vorausgezahlten Beträgen der Buchungsplattformen enthalten und wird oft in bar im Haus kassiert. Örtliche Befreiungen gelten üblicherweise für Kinder unter einem von der comune festgelegten Alter.",
       "fonte": "Ministero dell'Economia e delle Finanze — imposta di soggiorno, quadro normativo; regolamenti comunali (Roma, Firenze, Venezia)",
       "ano": 2026,
       "revisarAte": "2027-08-04",

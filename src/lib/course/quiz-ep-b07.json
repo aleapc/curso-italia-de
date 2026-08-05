@@ -1,40 +1,40 @@
 {
   "id": "q-b07",
   "nivel": "basico",
-  "titulo": "Quiz — Dov’è — the question that moves your feet",
-  "subtitulo": "Rank, address, and where to stop",
+  "titulo": "Quiz — Dov’è — die Frage, die Ihre Füße bewegt",
+  "subtitulo": "Standplatz, Adresse und wo Sie halten",
   "introAudioKey": "it-b07-q-i",
-  "introPt": "A traveller finds the official taxi rank and closes the ride properly.",
-  "cenario": "From arrivals to the hotel door.",
+  "introPt": "Eine Reisende findet den offiziellen Taxistand und schließt die Fahrt sauber ab.",
+  "cenario": "Von der Ankunft bis zur Hoteltür.",
   "dialogo": [
     {
       "audioKey": "it-b07-q01",
       "voz": "target_it_f",
       "es": "Scusi, dov’è la fermata dei taxi?",
-      "pt": "Excuse me, where is the taxi rank?"
+      "pt": "Entschuldigung, wo ist der Taxistand?"
     },
     {
       "audioKey": "it-b07-q02",
       "voz": "target_it_m",
       "es": "Uscita cinque, appena fuori.",
-      "pt": "Exit five, just outside."
+      "pt": "Ausgang fünf, gleich draußen."
     },
     {
       "audioKey": "it-b07-q03",
       "voz": "target_it_f",
       "es": "A questo indirizzo, per favore.",
-      "pt": "To this address, please."
+      "pt": "Zu dieser Adresse, bitte."
     },
     {
       "audioKey": "it-b07-q04",
       "voz": "target_it_f",
       "es": "Qui va bene, grazie.",
-      "pt": "Here is fine, thank you."
+      "pt": "Hier ist gut, danke."
     }
   ],
   "perguntas": [
     {
-      "pergunta": "What is dov’è a contraction of?",
+      "pergunta": "Wofür steht dov’è?",
       "opcoes": [
         "Dove è",
         "Dove sono",
@@ -42,51 +42,51 @@
         "Dov’era"
       ],
       "correta": 0,
-      "explica": "The accent tells you the stress lands on the end."
+      "explica": "Der Akzent sagt Ihnen, dass die Betonung am Ende liegt."
     },
     {
-      "pergunta": "Why walk past someone offering a ride inside the terminal?",
+      "pergunta": "Warum gehen Sie an einem Fahrtangebot im Terminal vorbei?",
       "opcoes": [
-        "They are always dishonest",
-        "Licensed taxis work from marked ranks with a meter and receipt",
-        "It is illegal to accept",
-        "They only take cash"
+        "Diese Leute sind immer unehrlich",
+        "Konzessionierte Taxis stehen am markierten Stand, mit Taxameter und Quittung",
+        "Annehmen ist verboten",
+        "Sie nehmen nur Bargeld"
       ],
       "correta": 1,
-      "explica": "Inside the building is outside that system."
+      "explica": "Drinnen angesprochen heißt: außerhalb dieses Systems."
     },
     {
-      "pergunta": "How should you give the address?",
+      "pergunta": "Wie geben Sie die Adresse an?",
       "opcoes": [
-        "Recite it from memory",
-        "Show the saved screen while saying it",
-        "Spell it letter by letter",
-        "Write it on paper"
+        "Aus dem Gedächtnis aufsagen",
+        "Den gespeicherten Bildschirm zeigen und dazu sprechen",
+        "Buchstabe für Buchstabe buchstabieren",
+        "Auf Papier schreiben"
       ],
       "correta": 1,
-      "explica": "Italian numbers come after the street and names repeat across cities."
+      "explica": "Die Hausnummer steht hinter der Straße, und Namen wiederholen sich in jeder Stadt."
     },
     {
-      "pergunta": "When do you ask for la ricevuta?",
+      "pergunta": "Wann bitten Sie um la ricevuta?",
       "opcoes": [
-        "Before you get out",
-        "The next day",
-        "At the hotel",
-        "Never"
+        "Bevor Sie aussteigen",
+        "Am nächsten Tag",
+        "Im Hotel",
+        "Gar nicht"
       ],
       "correta": 0,
-      "explica": "It is the only artifact that survives the door closing."
+      "explica": "Sie ist das Einzige, was das Zuschlagen der Tür überlebt."
     },
     {
-      "pergunta": "What does qui va bene do?",
+      "pergunta": "Was bewirkt qui va bene?",
       "opcoes": [
-        "Asks the price",
-        "Stops the car where you can actually get out",
-        "Thanks the driver",
-        "Confirms the address"
+        "Es fragt nach dem Preis",
+        "Es hält den Wagen dort, wo Sie wirklich aussteigen können",
+        "Es dankt dem Fahrer",
+        "Es bestätigt die Adresse"
       ],
       "correta": 1,
-      "explica": "You close the ride before you open the hotel."
+      "explica": "Sie schließen die Fahrt ab, bevor Sie das Hotel aufmachen."
     }
   ]
 }

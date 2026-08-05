@@ -1,92 +1,92 @@
 {
   "id": "q-b09",
   "nivel": "basico",
-  "titulo": "Quiz — The ticket that validates itself, and the one that does not",
-  "subtitulo": "Buy, check the rule, find the platform",
+  "titulo": "Quiz — Das Ticket, das sich selbst entwertet, und das andere",
+  "subtitulo": "Kaufen, Regel klären, Gleis finden",
   "introAudioKey": "it-b09-q-i",
-  "introPt": "A traveller buys a regional ticket and works out which validation rule applies.",
-  "cenario": "At the station, six minutes before departure.",
+  "introPt": "Eine Reisende kauft ein Regionalticket und klärt, welche Entwertungsregel gilt.",
+  "cenario": "Im Bahnhof, sechs Minuten vor der Abfahrt.",
   "dialogo": [
     {
       "audioKey": "it-b09-q01",
       "voz": "target_it_f",
       "es": "Un biglietto per Firenze, per favore.",
-      "pt": "One ticket to Florence, please."
+      "pt": "Eine Fahrkarte nach Florenz, bitte."
     },
     {
       "audioKey": "it-b09-q02",
       "voz": "target_it_f",
       "es": "Devo convalidare il biglietto?",
-      "pt": "Do I have to validate the ticket?"
+      "pt": "Muss ich die Fahrkarte entwerten?"
     },
     {
       "audioKey": "it-b09-q03",
       "voz": "target_it_m",
       "es": "Sì, quello di carta sì. Alla macchinetta verde.",
-      "pt": "Yes, the paper one yes. At the little green machine."
+      "pt": "Ja, die aus Papier schon. Am kleinen grünen Automaten."
     },
     {
       "audioKey": "it-b09-q04",
       "voz": "target_it_f",
       "es": "Dov'è il binario sette?",
-      "pt": "Where is platform seven?"
+      "pt": "Wo ist Gleis sieben?"
     }
   ],
   "perguntas": [
     {
-      "pergunta": "When does a Biglietto Digitale Regionale validate?",
+      "pergunta": "Wann wird ein Biglietto Digitale Regionale gültig?",
       "opcoes": [
-        "When you scan it at the machine",
-        "Automatically, at the scheduled departure time you chose",
-        "When the inspector checks it",
-        "It never needs validating"
+        "Wenn Sie es am Automaten scannen",
+        "Automatisch, zur gewählten planmäßigen Abfahrtszeit",
+        "Wenn die Kontrolle es prüft",
+        "Es muss nie entwertet werden"
       ],
       "correta": 1,
-      "explica": "No manual check-in — and after it auto-activates it can no longer be moved."
+      "explica": "Kein manueller Check-in — und nach der Aktivierung ist es nicht mehr umbuchbar."
     },
     {
-      "pergunta": "What happens with an unstamped paper regional ticket?",
+      "pergunta": "Was passiert mit einem nicht gestempelten Papierticket?",
       "opcoes": [
-        "Nothing, the rule was abolished",
-        "A warning only",
-        "A fine from €50 plus the price of the ticket",
-        "You buy a new one on board at no extra cost"
+        "Nichts, die Regel wurde abgeschafft",
+        "Nur eine Ermahnung",
+        "Ab 50 Euro plus dem Ticketpreis",
+        "Sie kaufen im Zug ohne Aufschlag neu"
       ],
       "correta": 2,
-      "explica": "Reducible if paid within five days at a Trenitalia office."
+      "explica": "Weniger, wenn innerhalb von fünf Tagen in einem Trenitalia-Büro gezahlt wird."
     },
     {
-      "pergunta": "What is il binario?",
+      "pergunta": "Was ist il binario?",
       "opcoes": [
-        "The platform",
-        "The ticket",
-        "The carriage",
-        "The timetable"
+        "Das Gleis",
+        "Die Fahrkarte",
+        "Der Wagen",
+        "Der Fahrplan"
       ],
       "correta": 0,
-      "explica": "The number is on the screen — you do not produce it from memory."
+      "explica": "Die Nummer steht auf der Anzeige — Sie müssen sie nicht auswendig wissen."
     },
     {
-      "pergunta": "Your phone battery dies before inspection. What is your position?",
+      "pergunta": "Ihr Akku ist vor der Kontrolle leer. Wie stehen Sie da?",
       "opcoes": [
-        "Fine, the ticket is registered in the system",
-        "You may be treated as travelling without a valid ticket",
-        "The inspector will look you up by name",
-        "You get a free replacement"
+        "Kein Problem, das Ticket ist im System hinterlegt",
+        "Sie gelten unter Umständen als ohne gültigen Fahrschein reisend",
+        "Die Kontrolle sucht Sie über den Namen",
+        "Sie bekommen kostenlos Ersatz"
       ],
       "correta": 1,
-      "explica": "The QR is the ticket — it has to be displayable."
+      "explica": "Der QR-Code ist die Fahrkarte — er muss zu zeigen sein."
     },
     {
-      "pergunta": "Why does this part carry a short review date?",
+      "pergunta": "Warum hat dieser Teil ein kurzes Prüfdatum?",
       "opcoes": [
-        "The audio expires",
-        "Italian regional ticketing is mid-transition and the rule moved recently",
-        "Prices change",
-        "The course is unfinished"
+        "Das Audio läuft ab",
+        "Das italienische Regionalticket ist im Übergang, die Regel hat sich zuletzt bewegt",
+        "Die Preise ändern sich",
+        "Der Kurs ist unfertig"
       ],
       "correta": 1,
-      "explica": "Check the operator's own page before a trip rather than trusting old advice."
+      "explica": "Vor der Reise auf der Seite des Betreibers nachsehen, statt altem Rat zu folgen."
     }
   ]
 }

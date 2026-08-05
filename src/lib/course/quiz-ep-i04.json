@@ -1,92 +1,92 @@
 {
   "id": "q-i04",
   "nivel": "intermediario",
-  "titulo": "Quiz — The evening",
-  "subtitulo": "The step before dinner",
+  "titulo": "Quiz — Der Abend",
+  "subtitulo": "Der Schritt vor dem Abendessen",
   "introAudioKey": "it-i04-q-i",
-  "introPt": "A traveller works out whether the aperitivo is dinner.",
-  "cenario": "A bar at seven in the evening.",
+  "introPt": "Eine Reisende findet heraus, ob der Aperitivo das Abendessen ist.",
+  "cenario": "Eine Bar um sieben Uhr abends.",
   "dialogo": [
     {
       "audioKey": "it-i04-q01",
       "voz": "target_it_m",
       "es": "Facciamo l'aperitivo? Qui viene con il buffet.",
-      "pt": "Shall we do aperitivo? Here it comes with the buffet."
+      "pt": "Machen wir einen Aperitivo? Hier ist das Buffet dabei."
     },
     {
       "audioKey": "it-i04-q02",
       "voz": "target_it_f",
       "es": "Volentieri. Cosa c'è compreso?",
-      "pt": "Gladly. What's included?"
+      "pt": "Sehr gern. Was ist inbegriffen?"
     },
     {
       "audioKey": "it-i04-q03",
       "voz": "target_it_f",
       "es": "Questo giro lo offro io.",
-      "pt": "This round's on me."
+      "pt": "Diese Runde geht auf mich."
     },
     {
       "audioKey": "it-i04-q04",
       "voz": "target_it_m",
       "es": "Ma no, ci mancherebbe. Offro io, siete ospiti.",
-      "pt": "Absolutely not. It's on me, you're guests."
+      "pt": "Auf keinen Fall. Ich lade ein, ihr seid Gäste."
     }
   ],
   "perguntas": [
     {
-      "pergunta": "What does cosa c'è compreso? decide?",
+      "pergunta": "Was entscheidet cosa c'è compreso?",
       "opcoes": [
-        "The price",
-        "Whether this is dinner or a snack before it",
-        "Where to sit",
-        "Who pays"
+        "Den Preis",
+        "Ob das das Abendessen ist oder ein Snack davor",
+        "Wo man sitzt",
+        "Wer zahlt"
       ],
       "correta": 1,
-      "explica": "If a buffet is included, this is dinner."
+      "explica": "Kommt ein Buffet dazu, ist das das Abendessen."
     },
     {
-      "pergunta": "The big buffet version of aperitivo is:",
+      "pergunta": "Die große Buffet-Variante des Aperitivo ist:",
       "opcoes": [
-        "National",
-        "Strongest in Milan and the north",
-        "A southern habit",
-        "A tourist invention"
+        "Landesweit gleich",
+        "Am stärksten in Mailand und im Norden",
+        "Eine süditalienische Gewohnheit",
+        "Eine Erfindung für Touristen"
       ],
       "correta": 1,
-      "explica": "Further south, aperitivo stays small and dinner follows."
+      "explica": "Weiter südlich bleibt der Aperitivo klein, und das Essen folgt."
     },
     {
-      "pergunta": "Your offer to pay is refused. What do you do?",
+      "pergunta": "Ihr Angebot zu zahlen wird abgelehnt. Was tun Sie?",
       "opcoes": [
-        "Insist until they accept",
-        "Insist once, then claim the next round",
-        "Say nothing",
-        "Split the tab item by item"
+        "So lange bestehen, bis sie annehmen",
+        "Einmal bestehen, dann die nächste Runde sichern",
+        "Nichts sagen",
+        "Die Rechnung Posten für Posten teilen"
       ],
       "correta": 1,
-      "explica": "Twice is generous, three times is a fight."
+      "explica": "Zweimal ist großzügig, dreimal ist ein Ringen."
     },
     {
-      "pergunta": "Why is the food arriving unordered?",
+      "pergunta": "Warum kommt Essen, das Sie nicht bestellt haben?",
       "opcoes": [
-        "It is a mistake",
-        "It is included in the drink's price",
-        "It will be charged separately",
-        "It is a promotion"
+        "Es ist ein Versehen",
+        "Es ist im Preis des Getränks enthalten",
+        "Es wird separat berechnet",
+        "Es ist eine Aktion"
       ],
       "correta": 1,
-      "explica": "That is why the drink costs more than at noon."
+      "explica": "Deshalb kostet das Getränk mehr als mittags."
     },
     {
-      "pergunta": "How do you leave an Italian table?",
+      "pergunta": "Wie verlässt man einen italienischen Tisch?",
       "opcoes": [
-        "Drift away",
-        "With a sentence — noi andiamo, grazie della compagnia",
-        "Pay and go",
-        "Wait for everyone"
+        "Sich davonstehlen",
+        "Mit einem Satz — noi andiamo, grazie della compagnia",
+        "Zahlen und gehen",
+        "Warten, bis alle gehen"
       ],
       "correta": 1,
-      "explica": "Drifting away reads as something having gone wrong."
+      "explica": "Sich wegzutreiben wirkt, als sei etwas schiefgegangen."
     }
   ]
 }

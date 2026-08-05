@@ -1,92 +1,92 @@
 {
   "id": "q-b06",
   "nivel": "basico",
-  "titulo": "Quiz — Posso, and then whatever you want to do",
-  "subtitulo": "One frame for the whole first hour",
+  "titulo": "Quiz — Posso, und dann was immer Sie tun wollen",
+  "subtitulo": "Ein Baustein für die ganze erste Stunde",
   "introAudioKey": "it-b06-q-i",
-  "introPt": "A traveller handles five small permissions with one opening.",
-  "cenario": "Arrivals hall, first hour.",
+  "introPt": "Eine Reisende erledigt fünf kleine Erlaubnisse mit einem Anfang.",
+  "cenario": "Ankunftshalle, erste Stunde.",
   "dialogo": [
     {
       "audioKey": "it-b06-q01",
       "voz": "target_it_f",
       "es": "Posso pagare con la carta?",
-      "pt": "Can I pay by card?"
+      "pt": "Darf ich mit Karte zahlen?"
     },
     {
       "audioKey": "it-b06-q02",
       "voz": "target_it_m",
       "es": "Certo, anche per un caffè.",
-      "pt": "Of course, even for a coffee."
+      "pt": "Klar, auch für einen Kaffee."
     },
     {
       "audioKey": "it-b06-q03",
       "voz": "target_it_f",
       "es": "Posso aspettare qui?",
-      "pt": "Can I wait here?"
+      "pt": "Darf ich hier warten?"
     },
     {
       "audioKey": "it-b06-q04",
       "voz": "target_it_m",
       "es": "Sì, si accomodi pure.",
-      "pt": "Yes, go right ahead."
+      "pt": "Ja, nur zu."
     }
   ],
   "perguntas": [
     {
-      "pergunta": "What follows posso?",
+      "pergunta": "Was folgt auf posso?",
       "opcoes": [
-        "A noun",
-        "The infinitive of the action",
-        "A name",
-        "A number"
+        "Ein Hauptwort",
+        "Der Infinitiv der Handlung",
+        "Ein Name",
+        "Eine Zahl"
       ],
       "correta": 1,
-      "explica": "Posso pagare, posso usare, posso aspettare — the verb never changes shape."
+      "explica": "Posso pagare, posso usare, posso aspettare — das Verb ändert seine Form nie."
     },
     {
-      "pergunta": "What does si accomodi mean?",
+      "pergunta": "Was heißt si accomodi?",
       "opcoes": [
-        "Please wait outside",
-        "Go ahead, sit, help yourself",
-        "It is closed",
-        "Pay first"
+        "Bitte draußen warten",
+        "Nur zu, setzen Sie sich, bedienen Sie sich",
+        "Es ist geschlossen",
+        "Erst zahlen"
       ],
       "correta": 1,
-      "explica": "A yes with a welcome attached."
+      "explica": "Ein Ja mit Willkommen."
     },
     {
-      "pergunta": "An Italian counter says qui no, ma… — what should you do?",
+      "pergunta": "Am Schalter kommt qui no, ma… — was tun Sie?",
       "opcoes": [
-        "Thank them and leave",
-        "Stay one beat: the alternative usually follows",
-        "Ask again",
-        "Try another counter"
+        "Danken und gehen",
+        "Einen Takt bleiben: die Alternative folgt meist",
+        "Noch einmal fragen",
+        "Zum nächsten Schalter gehen"
       ],
       "correta": 1,
-      "explica": "The no is often only the first half of the answer."
+      "explica": "Das Nein ist oft nur die erste Hälfte der Antwort."
     },
     {
-      "pergunta": "Why ask instead of memorising the rule?",
+      "pergunta": "Warum fragen statt die Regel lernen?",
       "opcoes": [
-        "Rules vary by building, city and hour",
-        "It is more polite",
-        "Rules are secret",
-        "To practise speaking"
+        "Die Regeln wechseln je nach Gebäude, Stadt und Uhrzeit",
+        "Es ist höflicher",
+        "Die Regeln sind geheim",
+        "Um das Sprechen zu üben"
       ],
       "correta": 0,
-      "explica": "The frame answers everywhere, including where no guide exists."
+      "explica": "Der Baustein antwortet überall, auch wo kein Reiseführer hinreicht."
     },
     {
-      "pergunta": "Which of these is NOT built with posso?",
+      "pergunta": "Was davon wird NICHT mit posso gebaut?",
       "opcoes": [
-        "Can I charge my phone",
-        "Can I leave the suitcase",
-        "Where is the exit",
-        "Can I use the toilet"
+        "Darf ich mein Handy laden",
+        "Darf ich den Koffer hier lassen",
+        "Wo ist der Ausgang",
+        "Darf ich die Toilette benutzen"
       ],
       "correta": 2,
-      "explica": "That one needs dov’è, which is the next part."
+      "explica": "Dafür braucht man dov’è, und das ist der nächste Teil."
     }
   ]
 }

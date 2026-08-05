@@ -3,12 +3,12 @@
   "nivel": "intermediario",
   "numero": 24,
   "parte": "I06",
-  "titulo": "Telling them about yesterday",
-  "subtitulo": "Three past verbs carry a whole trip — sono andato, ho mangiato, mi è piaciuto",
-  "cena": "Someone has asked what you did yesterday and every sentence you own is stuck in the present.",
+  "titulo": "Von gestern erzählen",
+  "subtitulo": "Drei Verben in der Vergangenheit tragen eine ganze Reise — sono andato, ho mangiato, mi è piaciuto",
+  "cena": "Jemand hat gefragt, was Sie gestern gemacht haben, und jeder Satz, den Sie haben, steckt in der Gegenwart fest.",
   "moldura": "ganha",
-  "frasePiso": "You do not need the past tense of the language. You need three verbs, and one of them is just a feeling.",
-  "decisao": "contar o dia de ontem com três verbos no passado em vez de descrever tudo no presente e virar a pessoa que só responde sim",
+  "frasePiso": "Sie brauchen nicht die Vergangenheit der ganzen Sprache. Sie brauchen drei Verben, und eines davon ist nur ein Gefühl.",
+  "decisao": "den gestrigen Tag mit drei Verben in der Vergangenheit erzählen, statt alles im Präsens zu beschreiben und die Person zu werden, die nur mit ja antwortet",
   "moldes": [],
   "steps": [
     {
@@ -17,16 +17,16 @@
       "audioKey": "it-i06-n01",
       "gesto": 1,
       "bloco": "aquecimento",
-      "pt": "The moment you can say what you did yesterday, you stop being a person who orders things and start being someone with a trip."
+      "pt": "Sobald Sie sagen können, was Sie gestern gemacht haben, bestellen Sie nicht mehr nur — Sie haben eine Reise."
     },
     {
       "tipo": "ouvir",
       "voz": "target_it_m",
       "audioKey": "it-i06-r01",
       "receptivo": true,
-      "acao": "This is the opening. Answer with where you went, not with a yes.",
+      "acao": "Das ist die Eröffnung. Antworten Sie mit dem Ort, nicht mit einem Ja.",
       "es": "Allora, cosa avete fatto ieri?",
-      "pt": "So, what did you do yesterday?",
+      "pt": "Also, was haben Sie gestern gemacht?",
       "tts": "Allora, cosa avete fatto ieri?"
     },
     {
@@ -34,7 +34,7 @@
       "voz": "guide_de_m",
       "audioKey": "it-i06-n02",
       "bloco": "molde",
-      "pt": "The frame is ho or sono, plus the verb. Sono andato — I went. Sono andata if you are a woman."
+      "pt": "Der Baustein ist ho oder sono, plus das Verb. Sono andato — ich bin gefahren. Sono andata, wenn Sie eine Frau sind."
     },
     {
       "consulta": [
@@ -45,11 +45,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-i06-p01",
-      "promptPt": "Say where you went yesterday. One place, one sentence. Speak now.",
+      "promptPt": "Sagen Sie, wohin Sie gestern gefahren sind. Ein Ort, ein Satz. Sprechen Sie jetzt.",
       "audioKey": "it-i06-t01",
       "es": "Ieri sono andato a Firenze.",
       "pinyin": "ee-EH-ri SO-no an-DA-to a fee-REN-tse",
-      "pt": "Yesterday I went to Florence.",
+      "pt": "Gestern bin ich nach Florenz gefahren.",
       "tts": "Ieri sono andato a Firenze.",
       "molde": "HO-FATTO",
       "encaixe": "sono andato a Firenze"
@@ -58,7 +58,7 @@
       "tipo": "intro",
       "voz": "guide_de_f",
       "audioKey": "it-i06-n03",
-      "pt": "Verb two: ho mangiato. I ate. This one takes ho, not sono, and that difference is the whole grammar you need here."
+      "pt": "Verb zwei: ho mangiato. Ich habe gegessen. Dieses nimmt ho, nicht sono — das ist die ganze Grammatik hier."
     },
     {
       "consulta": [
@@ -69,11 +69,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-i06-p02",
-      "promptPt": "Say what you ate. Name the dish, not the restaurant. Speak now.",
+      "promptPt": "Sagen Sie, was Sie gegessen haben. Nennen Sie das Gericht, nicht das Lokal. Sprechen Sie jetzt.",
       "audioKey": "it-i06-t02",
       "es": "Ho mangiato la bistecca alla fiorentina.",
       "pinyin": "oh man-JA-to la bis-TEK-ka AL-la fyo-ren-TEE-na",
-      "pt": "I ate the Florentine steak.",
+      "pt": "Ich habe das Florentiner Steak gegessen.",
       "tts": "Ho mangiato la bistecca alla fiorentina.",
       "molde": "HO-FATTO",
       "encaixe": "ho mangiato la bistecca"
@@ -83,7 +83,7 @@
       "voz": "target_it_m",
       "audioKey": "it-i06-r02",
       "es": "Ah, quella vera! E dove, scusa?",
-      "pt": "Ah, the real one! And where, may I ask?",
+      "pt": "Ah, das echte! Und wo, wenn ich fragen darf?",
       "tts": "Ah, quella vera! E dove, scusa?"
     },
     {
@@ -91,7 +91,7 @@
       "voz": "guide_de_m",
       "audioKey": "it-i06-n04",
       "bloco": "capsula",
-      "pt": "Verb three is the one that keeps the conversation alive: mi è piaciuto. I liked it. Literally, it pleased me."
+      "pt": "Verb drei hält das Gespräch am Leben: mi è piaciuto. Wörtlich: es hat mir gefallen."
     },
     {
       "consulta": [
@@ -101,11 +101,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-i06-p03",
-      "promptPt": "Say you liked it very much. Speak now.",
+      "promptPt": "Ihr Gegenüber wartet auf Ihr Urteil. Geben Sie es, mit Nachdruck. Sprechen Sie jetzt.",
       "audioKey": "it-i06-t03",
       "es": "Mi è piaciuto moltissimo.",
       "pinyin": "mee eh pya-CHOO-to mol-TEES-see-mo",
-      "pt": "I liked it very much.",
+      "pt": "Es hat mir sehr gefallen.",
       "tts": "Mi è piaciuto moltissimo.",
       "molde": "MI-PIACE",
       "encaixe": "moltissimo"
@@ -118,11 +118,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-i06-p04",
-      "promptPt": "String two of them together — where and what. Speak now.",
+      "promptPt": "Hängen Sie zwei davon aneinander — wohin und was. Sprechen Sie jetzt.",
       "audioKey": "it-i06-t04",
       "es": "Sono andato al mercato e ho comprato del formaggio.",
       "pinyin": "SO-no an-DA-to al mer-KA-to eh oh kom-PRA-to del for-MAJ-jo",
-      "pt": "I went to the market and bought some cheese.",
+      "pt": "Ich war auf dem Markt und habe Käse gekauft.",
       "tts": "Sono andato al mercato e ho comprato del formaggio.",
       "molde": "HO-FATTO",
       "encaixe": "sono andato al mercato"
@@ -131,7 +131,7 @@
       "tipo": "intro",
       "voz": "guide_de_f",
       "audioKey": "it-i06-n05",
-      "pt": "Notice the shape of the frame: movement takes sono, doing-something-to-a-thing takes ho. That covers most of what you will say."
+      "pt": "Der Baustein hat eine Form: Bewegung nimmt sono, etwas mit einer Sache tun nimmt ho. Damit ist das meiste abgedeckt."
     },
     {
       "consulta": [
@@ -141,11 +141,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-i06-p05",
-      "promptPt": "Say you walked a lot. Speak now.",
+      "promptPt": "Am Abend taten Ihnen die Füße weh. Erklären Sie kurz, warum. Sprechen Sie jetzt.",
       "audioKey": "it-i06-t05",
       "es": "Abbiamo camminato tantissimo.",
       "pinyin": "ab-BYA-mo kam-mee-NA-to tan-TEES-see-mo",
-      "pt": "We walked an awful lot.",
+      "pt": "Wir sind unglaublich viel gelaufen.",
       "tts": "Abbiamo camminato tantissimo.",
       "molde": "HO-FATTO",
       "encaixe": "abbiamo camminato"
@@ -158,11 +158,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-i06-p06",
-      "promptPt": "Say what surprised you, so the story has a point. Speak now.",
+      "promptPt": "Etwas hat Sie überrascht. Sagen Sie es, damit die Geschichte eine Pointe hat. Sprechen Sie jetzt.",
       "audioKey": "it-i06-t06",
       "es": "Non me l'aspettavo così bello.",
       "pinyin": "non meh las-pet-TA-vo ko-ZEE BEL-lo",
-      "pt": "I wasn't expecting it to be so beautiful.",
+      "pt": "Ich hatte nicht erwartet, dass es so schön ist.",
       "tts": "Non me l'aspettavo così bello."
     },
     {
@@ -170,9 +170,9 @@
       "voz": "target_it_m",
       "audioKey": "it-i06-r03",
       "receptivo": true,
-      "acao": "Do not just say yes. Name the one thing you would go back for.",
+      "acao": "Sagen Sie nicht nur ja. Nennen Sie die eine Sache, für die Sie zurückkämen.",
       "es": "Eh, tutti dicono così. E domani dove andate?",
-      "pt": "Eh, everyone says that. And tomorrow, where are you going?",
+      "pt": "Ach, das sagen alle. Und wohin geht es morgen?",
       "tts": "Eh, tutti dicono così. E domani dove andate?"
     },
     {
@@ -183,11 +183,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-i06-p07",
-      "promptPt": "Answer the tomorrow question and hand it back to them. Speak now.",
+      "promptPt": "Beantworten Sie die Frage nach morgen und geben Sie sie zurück. Sprechen Sie jetzt.",
       "audioKey": "it-i06-t07",
       "es": "Domani andiamo a Siena. Lei c'è stato?",
       "pinyin": "do-MA-nee an-DYA-mo a see-EH-na. lay cheh STA-to",
-      "pt": "Tomorrow we're going to Siena. Have you been?",
+      "pt": "Morgen fahren wir nach Siena. Waren Sie schon dort?",
       "tts": "Domani andiamo a Siena. Lei c'è stato?",
       "molde": "C-E",
       "encaixe": "stato"
@@ -201,11 +201,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-i06-p08",
-      "promptPt": "Say the one thing you did not like, lightly. A trip with no low point sounds invented. Speak now.",
+      "promptPt": "Nennen Sie leichthin die eine Sache, die nicht überzeugt hat. Eine Reise ohne Tiefpunkt klingt erfunden. Sprechen Sie jetzt.",
       "audioKey": "it-i06-t08",
       "es": "Il museo, invece, non mi è piaciuto tanto.",
       "pinyin": "eel moo-ZEH-o, een-VE-che, non mee eh pya-CHOO-to TAN-to",
-      "pt": "The museum, though, I didn't like much.",
+      "pt": "Das Museum dagegen hat mir nicht so gefallen.",
       "tts": "Il museo, invece, non mi è piaciuto tanto.",
       "molde": "MI-PIACE",
       "encaixe": "il museo"
@@ -216,7 +216,7 @@
       "audioKey": "it-i06-s01",
       "es": "Ieri sono andato a Firenze. Ho mangiato la bistecca alla fiorentina. Mi è piaciuto moltissimo.",
       "pinyin": "ee-EH-ri SO-no an-DA-to a fee-REN-tse. oh man-JA-to la bis-TEK-ka AL-la fyo-ren-TEE-na. mee eh pya-CHOO-to mol-TEES-see-mo",
-      "pt": "Shadow the three verbs in the order a story wants them.",
+      "pt": "Sprechen Sie die drei Verben nach, in der Reihenfolge einer Geschichte.",
       "tts": "Ieri sono andato a Firenze. Ho mangiato la bistecca alla fiorentina. Mi è piaciuto moltissimo.",
       "molde": "HO-FATTO"
     },
@@ -225,52 +225,52 @@
       "voz": "guide_de_f",
       "audioKey": "it-i06-n06",
       "bloco": "recap",
-      "pt": "I06 done. Sono andato, ho mangiato, mi è piaciuto — where, what, and how it landed. That is a story."
+      "pt": "I06 geschafft. Sono andato, ho mangiato, mi è piaciuto — wohin, was, wie es ankam. Das ist eine Geschichte."
     }
   ],
   "aprofundar": {
-    "titulo": "Three verbs make a story",
+    "titulo": "Drei Verben ergeben eine Geschichte",
     "secoes": [
       {
-        "titulo": "Sono or ho",
-        "corpo": "Verbs of movement and change take sono and their ending agrees with you: sono andato, sono andata, siamo andati. Verbs that do something to a thing take ho and never change: ho mangiato, ho visto, ho comprato. Getting this wrong is the most forgiven mistake in Italian.",
+        "titulo": "Sono oder ho",
+        "corpo": "Verben der Bewegung und der Veränderung nehmen sono, und die Endung richtet sich nach Ihnen: sono andato, sono andata, siamo andati. Verben, die etwas mit einer Sache tun, nehmen ho und ändern sich nie: ho mangiato, ho visto, ho comprato. Das zu verwechseln ist der am leichtesten verziehene Fehler im Italienischen.",
         "exemplos": [
           {
             "es": "Sono andato al mercato.",
-            "pt": "I went to the market."
+            "pt": "Ich war auf dem Markt."
           },
           {
             "es": "Ho comprato del formaggio.",
-            "pt": "I bought some cheese."
+            "pt": "Ich habe Käse gekauft."
           }
         ]
       },
       {
-        "titulo": "Mi è piaciuto is backwards on purpose",
-        "corpo": "It means it pleased me, so the thing is the subject. This is why it is è and not ho, and why it changes with the thing rather than with you: mi è piaciuta la città, mi sono piaciuti i musei."
+        "titulo": "Mi è piaciuto steht absichtlich verkehrt herum",
+        "corpo": "Es heißt: es hat mir gefallen — die Sache ist das Subjekt. Deshalb è und nicht ho, und deshalb richtet es sich nach der Sache statt nach Ihnen: mi è piaciuta la città, mi sono piaciuti i musei."
       },
       {
-        "titulo": "A low point makes it true",
-        "corpo": "Saying you liked everything reads as politeness rather than experience. Naming one thing that did not land — non mi è piaciuto tanto — is what turns a report into a conversation someone wants to continue."
+        "titulo": "Ein Tiefpunkt macht es glaubhaft",
+        "corpo": "Wer sagt, alles habe gefallen, klingt höflich statt erlebt. Eine Sache zu nennen, die nicht überzeugt hat — non mi è piaciuto tanto — macht aus einem Bericht ein Gespräch, das jemand fortsetzen will."
       },
       {
-        "titulo": "Hand it back",
-        "corpo": "Every account of your day should end with a question. Lei c'è stato? costs three words and moves the conversation from an interview to an exchange."
+        "titulo": "Geben Sie zurück",
+        "corpo": "Jeder Bericht über Ihren Tag sollte mit einer Frage enden. Lei c'è stato? kostet drei Wörter und macht aus dem Interview einen Austausch."
       }
     ]
   },
   "slot": "I06",
-  "permissao": "You are allowed to get sono and ho the wrong way round. Italians mix them up too in fast speech, nobody misunderstands you because of it, and the version of this part where you wait until you have the rule solid is the version where you never tell anyone about your day.",
+  "permissao": "Sie dürfen sono und ho vertauschen. Auch im schnellen Sprechen werden sie vertauscht, niemand missversteht Sie deswegen, und die Variante, in der Sie warten, bis die Regel sitzt, ist die Variante, in der Sie nie von Ihrem Tag erzählen.",
   "permissaoAudioKey": "it-i06-n02",
-  "espelho": "Anyone who has answered a friendly 'how was your day' with a flat 'good' because assembling the real answer felt like work knows the reflex this part is aimed at. It is not a grammar problem — it is the cost of assembling a sentence being higher than the reward, until it suddenly is not.",
+  "espelho": "Wer je auf ein freundliches „Wie war dein Tag?“ ein flaches „gut“ geantwortet hat, weil die echte Antwort zusammenzubauen nach Arbeit aussah, kennt den Reflex, auf den dieser Teil zielt. Es ist kein Grammatikproblem — der Satz kostet mehr, als er einbringt, bis er es plötzlich nicht mehr tut.",
   "fichasCulturais": [
     {
-      "sinal": "You tell someone you loved a famous town and they answer eh, tutti dicono così — everyone says that.",
-      "suaLeitura": "They are dismissing what I said, or mocking the tourist for liking the obvious thing.",
-      "oQueEAli": "It is a conversational move that asks for the next level of detail rather than closing the topic. Italian small talk tends to prod for specifics; agreeing blandly is what ends a conversation, not what continues it.",
-      "oQueVoceFaz": "Answer with the specific: the dish, the street, the hour of the day. Then hand the question back.",
-      "oQueMelhora": "You get the real recommendation — the version they give people who said something concrete — instead of the one they give everybody.",
-      "ondeNaoVale": "Not when the person is genuinely busy and the exchange is transactional; at a counter with a queue, the short warm answer is the correct one.",
+      "sinal": "Sie sagen, eine berühmte Stadt habe Ihnen sehr gefallen, und die Antwort lautet eh, tutti dicono così — das sagen alle.",
+      "suaLeitura": "Man wischt weg, was ich gesagt habe, oder spottet über den Touristen.",
+      "oQueEAli": "Das ist ein Gesprächszug, der die nächste Detailstufe verlangt, statt das Thema zu schließen. Im Smalltalk wird hier nach Konkretem gebohrt; blande Zustimmung beendet ein Gespräch, sie führt es nicht weiter.",
+      "oQueVoceFaz": "Antworten Sie mit dem Konkreten: das Gericht, die Straße, die Tageszeit. Dann geben Sie die Frage zurück.",
+      "oQueMelhora": "Sie bekommen die echte Empfehlung — die Version für Leute, die etwas Konkretes gesagt haben — statt der Version für alle.",
+      "ondeNaoVale": "Nicht, wenn die Person wirklich beschäftigt und der Austausch rein zweckmäßig ist; am Tresen mit Schlange ist die kurze warme Antwort die richtige.",
       "evidencia": "CONSENSO",
       "audioKeys": [
         "it-i06-n05"

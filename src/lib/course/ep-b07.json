@@ -3,22 +3,22 @@
   "nivel": "basico",
   "numero": 7,
   "parte": "2C",
-  "titulo": "Dov'è — the question that moves your feet",
-  "subtitulo": "Find the official taxi rank, name the address, stop the car where you actually want to get out",
-  "cena": "Someone just offered you a ride before you reached the exit, and the official rank is somewhere you have not found yet.",
+  "titulo": "Dov'è — die Frage, die Ihre Füße bewegt",
+  "subtitulo": "Den offiziellen Taxistand finden, die Adresse nennen, das Auto dort anhalten, wo Sie wirklich aussteigen wollen",
+  "cena": "Jemand hat Ihnen eine Fahrt angeboten, bevor Sie den Ausgang erreicht haben, und der offizielle Standplatz liegt irgendwo, wo Sie noch nicht waren.",
   "moldura": "resolve",
-  "frasePiso": "Ask for the place by name, go to it, and let the meter and the address do the rest.",
+  "frasePiso": "Fragen Sie nach dem Ort beim Namen, gehen Sie hin, und lassen Sie Taxameter und Adresse den Rest machen.",
   "moldes": [
     "DOV-E"
   ],
   "clique": {
     "contagem": [
-      "the taxi rank",
-      "the exit",
-      "the station"
+      "der Taxistand",
+      "der Ausgang",
+      "der Bahnhof"
     ],
-    "desconto": "Nobody gave you a different question for each place you needed. One frame found the rank, the platform and the way out.",
-    "piso": "Next time you land somewhere new, you will not wander looking for a sign you cannot read. You will ask the nearest person, in three words."
+    "desconto": "Niemand hat Ihnen für jeden Ort eine eigene Frage gegeben. Ein Baustein fand den Standplatz, den Bahnsteig und den Weg nach draußen.",
+    "piso": "Wenn Sie das nächste Mal irgendwo neu landen, irren Sie nicht mehr auf der Suche nach einem Schild umher. Sie fragen die nächste Person, in drei Wörtern."
   },
   "steps": [
     {
@@ -27,14 +27,14 @@
       "audioKey": "it-b07-n01",
       "gesto": 1,
       "bloco": "aquecimento",
-      "pt": "Getting from the airport to the bed is one decision repeated: find the official thing, then name where you are going."
+      "pt": "Vom Flughafen ins Bett ist eine Entscheidung, zweimal: das Offizielle finden, dann das Ziel nennen."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_m",
       "audioKey": "it-b07-n02",
       "bloco": "molde",
-      "pt": "The frame is dov'è, plus the place. Where is — and then the thing you need to reach."
+      "pt": "Der Baustein ist dov'è, plus der Ort. Wo ist — und dann das, was Sie erreichen wollen."
     },
     {
       "tipo": "ouvir",
@@ -42,7 +42,7 @@
       "audioKey": "it-b07-t01",
       "es": "Scusi, dov'è la fermata dei taxi?",
       "pinyin": "SKOO-zee, do-VEH la fer-MA-ta day TAK-see",
-      "pt": "Excuse me, where is the taxi rank?",
+      "pt": "Entschuldigung, wo ist der Taxistand?",
       "tts": "Scusi, dov'è la fermata dei taxi?"
     },
     {
@@ -56,28 +56,28 @@
       "encaixe": "la fermata dei taxi",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-b07-p01",
-      "promptPt": "Walk past the person offering you a ride and ask staff for the official rank. Speak now.",
+      "promptPt": "Gehen Sie an der Person vorbei, die Ihnen eine Fahrt anbietet, und wenden Sie sich ans Personal. Sprechen Sie jetzt.",
       "audioKey": "it-b07-t01",
       "es": "Scusi, dov'è la fermata dei taxi?",
       "pinyin": "SKOO-zee, do-VEH la fer-MA-ta day TAK-see",
-      "pt": "Excuse me, where is the taxi rank?"
+      "pt": "Entschuldigung, wo ist der Taxistand?"
     },
     {
       "tipo": "ouvir",
       "voz": "target_it_m",
       "audioKey": "it-b07-r01",
       "es": "Uscita cinque, appena fuori.",
-      "pt": "Exit five, just outside.",
+      "pt": "Ausgang fünf, gleich draußen.",
       "tts": "Uscita cinque, appena fuori.",
       "receptivo": true,
-      "acao": "Walk to exit five before looking for anything else."
+      "acao": "Gehen Sie zu Ausgang fünf, bevor Sie nach etwas anderem suchen."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_f",
       "audioKey": "it-b07-n03",
       "bloco": "corpo",
-      "pt": "Same frame, different place. This is the one that gets you out of any building you are turned around in."
+      "pt": "Gleicher Baustein, anderer Ort. Der hier holt Sie aus jedem Gebäude heraus, in dem Sie sich verlaufen haben."
     },
     {
       "consulta": [
@@ -89,18 +89,18 @@
       "encaixe": "l'uscita",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-b07-p02",
-      "promptPt": "You have lost the exit entirely. Ask. Speak now.",
+      "promptPt": "Sie haben den Weg nach draußen völlig verloren. Fragen Sie. Sprechen Sie jetzt.",
       "audioKey": "it-b07-t02",
       "es": "Dov'è l'uscita?",
       "pinyin": "do-VEH loo-SHEE-ta",
-      "pt": "Where is the exit?",
+      "pt": "Wo ist der Ausgang?",
       "tts": "Dov'è l'uscita?"
     },
     {
       "tipo": "intro",
       "voz": "guide_de_m",
       "audioKey": "it-b07-n04",
-      "pt": "In the car, give the address the way you saved it in B04 — street, number, city. Show the screen while you say it."
+      "pt": "Im Auto geben Sie die Adresse wie in B04 gespeichert: Straße, Nummer, Stadt. Zeigen Sie dabei den Bildschirm."
     },
     {
       "consulta": [
@@ -111,11 +111,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-b07-p03",
-      "promptPt": "You are in the taxi. Give the destination, showing the saved address. Speak now.",
+      "promptPt": "Sie sitzen im Taxi. Zeigen Sie den gespeicherten Bildschirm und nennen Sie das Ziel. Sprechen Sie jetzt.",
       "audioKey": "it-b07-t03",
       "es": "A questo indirizzo, per favore.",
       "pinyin": "a KWES-to een-dee-REET-tso per fa-VO-re",
-      "pt": "To this address, please.",
+      "pt": "Zu dieser Adresse, bitte.",
       "tts": "A questo indirizzo, per favore."
     },
     {
@@ -123,7 +123,7 @@
       "voz": "target_it_m",
       "audioKey": "it-b07-r02",
       "es": "Va bene, sono venti minuti.",
-      "pt": "All right, it's twenty minutes.",
+      "pt": "In Ordnung, das sind zwanzig Minuten.",
       "tts": "Va bene, sono venti minuti."
     },
     {
@@ -131,7 +131,7 @@
       "voz": "guide_de_f",
       "audioKey": "it-b07-n05",
       "bloco": "capsula",
-      "pt": "Now close the ride before you open the hotel. Stop the car where you can actually get out with the bag."
+      "pt": "Schließen Sie die Fahrt, bevor Sie das Hotel aufmachen. Halten Sie dort, wo Sie mit Koffer aussteigen können."
     },
     {
       "consulta": [
@@ -141,11 +141,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-b07-p04",
-      "promptPt": "The hotel door is right there. Tell the driver this spot is fine. Speak now.",
+      "promptPt": "Die Hoteltür ist direkt vor Ihnen. Geben Sie dem Fahrer das Zeichen zum Anhalten. Sprechen Sie jetzt.",
       "audioKey": "it-b07-t04",
       "es": "Qui va bene, grazie.",
       "pinyin": "kwee va BEH-ne, GRA-tsee-eh",
-      "pt": "Here is fine, thank you.",
+      "pt": "Hier ist gut, danke.",
       "tts": "Qui va bene, grazie."
     },
     {
@@ -157,11 +157,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-b07-p05",
-      "promptPt": "Ask for the receipt before you get out. Speak now.",
+      "promptPt": "Bitten Sie um den Beleg, bevor Sie aussteigen. Sprechen Sie jetzt.",
       "audioKey": "it-b07-t05",
       "es": "Mi può fare la ricevuta?",
       "pinyin": "mee pwoh FA-re la ree-che-VOO-ta",
-      "pt": "Can you give me a receipt?",
+      "pt": "Können Sie mir eine Quittung geben?",
       "tts": "Mi può fare la ricevuta?",
       "molde": "MI-PUO",
       "encaixe": "fare la ricevuta"
@@ -175,11 +175,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-b07-p06",
-      "promptPt": "Before setting off, ask roughly what it will cost. Speak now.",
+      "promptPt": "Vor der Abfahrt wollen Sie eine grobe Größenordnung wissen. Fragen Sie. Sprechen Sie jetzt.",
       "audioKey": "it-b07-t06",
       "es": "Quanto costa più o meno?",
       "pinyin": "KWAN-to KOS-ta pyoo o MEH-no",
-      "pt": "Roughly how much does it cost?",
+      "pt": "Wie viel kostet es ungefähr?",
       "tts": "Quanto costa più o meno?"
     },
     {
@@ -192,11 +192,11 @@
       "encaixe": "la stazione",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-b07-p07",
-      "promptPt": "You have decided on the train instead. Ask for the station. Speak now.",
+      "promptPt": "Sie haben sich doch für den Zug entschieden. Fragen Sie nach dem Weg dorthin. Sprechen Sie jetzt.",
       "audioKey": "it-b07-t07",
       "es": "Dov'è la stazione?",
       "pinyin": "do-VEH la sta-tsee-O-ne",
-      "pt": "Where is the station?",
+      "pt": "Wo ist der Bahnhof?",
       "tts": "Dov'è la stazione?"
     },
     {
@@ -209,11 +209,11 @@
       "encaixe": "il bagno",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-b07-p08",
-      "promptPt": "Same frame, and the smallest need there is. Ask where the toilet is. Speak now.",
+      "promptPt": "Gleicher Baustein, kleinstes Bedürfnis. Fragen Sie nach den Waschräumen. Sprechen Sie jetzt.",
       "audioKey": "it-b07-t08",
       "es": "Dov'è il bagno?",
       "pinyin": "do-VEH eel BA-nyo",
-      "pt": "Where is the toilet?",
+      "pt": "Wo ist die Toilette?",
       "tts": "Dov'è il bagno?"
     },
     {
@@ -222,7 +222,7 @@
       "audioKey": "it-b07-s01",
       "es": "Dov'è la fermata dei taxi? A questo indirizzo, per favore. Qui va bene, grazie.",
       "pinyin": "do-VEH la fer-MA-ta day TAK-see. a KWES-to een-dee-REET-tso per fa-VO-re. kwee va BEH-ne GRA-tsee-eh",
-      "pt": "Shadow the ride from rank to address to stop.",
+      "pt": "Sprechen Sie die Fahrt nach: Standplatz, Adresse, Halt.",
       "tts": "Dov'è la fermata dei taxi? A questo indirizzo, per favore. Qui va bene, grazie.",
       "molde": "DOV-E"
     },
@@ -231,52 +231,52 @@
       "voz": "guide_de_f",
       "audioKey": "it-b07-n06",
       "bloco": "recap",
-      "pt": "B07 done. Dov'è finds the rank, the exit, the station and the toilet. The address goes on the screen, and qui va bene ends the ride."
+      "pt": "B07 geschafft. Dov'è findet Standplatz, Ausgang, Bahnhof und Toilette. Qui va bene beendet die Fahrt."
     }
   ],
   "aprofundar": {
-    "titulo": "The place, then the address",
+    "titulo": "Erst der Ort, dann die Adresse",
     "secoes": [
       {
-        "titulo": "Dov'è is è, contracted",
-        "corpo": "Dove è becomes dov'è, and the accent tells you the stress lands on the end. It is one of the few contractions you need, and it is worth saying out loud until it is automatic.",
+        "titulo": "Dov'è ist dove è, zusammengezogen",
+        "corpo": "Aus dove è wird dov'è, und der Akzent sagt Ihnen, dass die Betonung am Ende liegt. Es ist eine der wenigen Zusammenziehungen, die Sie brauchen, und sie lohnt lautes Üben, bis sie automatisch sitzt.",
         "exemplos": [
           {
             "es": "Dov'è il bagno?",
-            "pt": "Where is the toilet?"
+            "pt": "Wo ist die Toilette?"
           },
           {
             "es": "Dov'è l'uscita?",
-            "pt": "Where is the exit?"
+            "pt": "Wo ist der Ausgang?"
           }
         ]
       },
       {
-        "titulo": "The official rank is worth the extra minute",
-        "corpo": "Walking past an unsolicited offer to find the marked rank is not paranoia; it is how you end up in a metered car with a receipt. The one first-hour decision worth being slow about."
+        "titulo": "Der offizielle Standplatz ist die Extraminute wert",
+        "corpo": "An einem ungefragten Angebot vorbeizugehen und den markierten Stand zu suchen, ist keine Übervorsicht; so landen Sie in einem Wagen mit Taxameter und Quittung. Die eine Ankunftsentscheidung, bei der Langsamkeit sich lohnt."
       },
       {
-        "titulo": "Show the address, do not recite it",
-        "corpo": "Italian street numbers come after the street name and cities repeat street names constantly. Handing over the screen removes the whole class of error that saying it aloud creates."
+        "titulo": "Adresse zeigen, nicht aufsagen",
+        "corpo": "Italienische Hausnummern stehen hinter dem Straßennamen, und Straßennamen wiederholen sich von Stadt zu Stadt. Wer den Bildschirm hinhält, umgeht die ganze Fehlerklasse, die das Aufsagen erzeugt."
       },
       {
-        "titulo": "La ricevuta closes the ride",
-        "corpo": "Ask for it before you get out, not after. It records the ride, the time and the amount, and it is the only artifact that survives the door closing."
+        "titulo": "La ricevuta schließt die Fahrt ab",
+        "corpo": "Bitten Sie darum, bevor Sie aussteigen, nicht danach. Sie hält Fahrt, Uhrzeit und Betrag fest und ist das Einzige, was das Zuschlagen der Tür überlebt."
       }
     ]
   },
   "slot": "B07",
-  "permissao": "You are allowed to take the extra minute to find the official rank, even with someone calling after you. Walking past an unsolicited offer to ask staff instead is not rudeness — it is the one arrival decision worth being slow about.",
+  "permissao": "Sie dürfen sich die Extraminute nehmen, um den offiziellen Standplatz zu finden, auch wenn jemand hinter Ihnen herruft. An einem ungefragten Angebot vorbeizugehen und stattdessen das Personal zu fragen, ist keine Unhöflichkeit — es ist die eine Ankunftsentscheidung, bei der Langsamkeit sich lohnt.",
   "permissaoAudioKey": "it-b07-n01",
-  "espelho": "The same instinct that makes you wary of an unmarked cab outside your own home airport is the one to trust here. Channel-first is not extra caution reserved for Italy — it is the ordinary rule you already apply at airports you actually know.",
+  "espelho": "Dasselbe Gefühl, das Sie an Ihrem Heimatflughafen vor einem unmarkierten Wagen zurückhält, gilt auch hier. Erst den offiziellen Weg nehmen ist keine Extravorsicht für Italien — es ist die Regel, die Sie an vertrauten Flughäfen ohnehin anwenden.",
   "fichasCulturais": [
     {
-      "sinal": "Someone approaches inside the terminal, before the exit, and offers you a ride to the city.",
-      "suaLeitura": "Convenient — and refusing feels rude when someone is being helpful.",
-      "oQueEAli": "Licensed taxis in Italy work from marked ranks outside the terminal with a meter and an obligation to issue a receipt. An approach inside the building is outside that system, and the price is agreed by negotiation rather than by meter.",
-      "oQueVoceFaz": "Say no grazie without breaking stride and ask staff dov'è la fermata dei taxi — then take the car at the front of the marked rank.",
-      "oQueMelhora": "You start the ride with a meter and a receipt instead of a negotiation you did not choose to be in, at the moment you are most tired.",
-      "ondeNaoVale": "Not a reason to distrust every driver for the rest of the trip, and not applicable to a car you booked yourself in advance, where the driver meeting you inside is exactly the arrangement.",
+      "sinal": "Jemand spricht Sie im Terminal an, noch vor dem Ausgang, und bietet eine Fahrt in die Stadt an.",
+      "suaLeitura": "Praktisch — und Ablehnen fühlt sich unhöflich an, wenn jemand hilfsbereit ist.",
+      "oQueEAli": "Konzessionierte Taxis arbeiten in Italien von markierten Ständen vor dem Terminal, mit Taxameter und Pflicht zur Quittung. Eine Ansprache im Gebäude liegt außerhalb dieses Systems, und der Preis wird dann verhandelt statt gemessen.",
+      "oQueVoceFaz": "Sagen Sie no grazie, ohne stehen zu bleiben, und fragen Sie das Personal dov'è la fermata dei taxi — dann nehmen Sie den ersten Wagen am markierten Stand.",
+      "oQueMelhora": "Sie beginnen die Fahrt mit Taxameter und Quittung statt mit einer Verhandlung, in die Sie nicht wollten, und das im müdesten Moment des Tages.",
+      "ondeNaoVale": "Kein Grund, für den Rest der Reise jedem Fahrer zu misstrauen, und nicht anwendbar auf einen selbst vorbestellten Wagen, bei dem genau das die Abmachung ist: der Fahrer wartet drinnen.",
       "evidencia": "CONSENSO",
       "audioKeys": [
         "it-b07-n01"

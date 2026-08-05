@@ -3,12 +3,12 @@
   "nivel": "intermediario",
   "numero": 22,
   "parte": "I04",
-  "titulo": "The evening: aperitivo, the round, and how to leave a table",
-  "subtitulo": "Aperitivo is not dinner and not a happy hour — knowing which it is decides whether you eat at nine",
-  "cena": "A glass has arrived with a plate of things next to it and you cannot tell whether this is a snack or the meal.",
+  "titulo": "Der Abend: aperitivo, die Runde und wie man einen Tisch verlässt",
+  "subtitulo": "Aperitivo ist weder Abendessen noch Happy Hour — was davon es ist, entscheidet, ob Sie um neun noch essen",
+  "cena": "Ein Glas steht da, daneben ein Teller mit Kleinigkeiten, und Sie können nicht sagen, ob das ein Snack ist oder die Mahlzeit.",
   "moldura": "ganha",
-  "frasePiso": "Ask what comes with it, decide whether it replaces dinner, and leave the table with a sentence instead of a wave.",
-  "decisao": "decidir se o aperitivo é o jantar ou a entrada dele antes de pedir a segunda rodada, porque isso muda o resto da noite",
+  "frasePiso": "Fragen Sie, was dazugehört, entscheiden Sie, ob es das Abendessen ersetzt, und verlassen Sie den Tisch mit einem Satz statt mit einem Winken.",
+  "decisao": "vor der zweiten Runde entscheiden, ob der Aperitivo das Abendessen ist oder sein Vorspiel, denn das verändert den ganzen restlichen Abend",
   "moldes": [],
   "steps": [
     {
@@ -17,16 +17,16 @@
       "audioKey": "it-i04-n01",
       "gesto": 1,
       "bloco": "aquecimento",
-      "pt": "The Italian evening has a step before dinner. A drink, something to eat with it, and a decision about whether that is the whole meal."
+      "pt": "Der italienische Abend hat einen Schritt vor dem Essen. Ein Getränk, etwas dazu, und eine Entscheidung."
     },
     {
       "tipo": "ouvir",
       "voz": "target_it_m",
       "audioKey": "it-i04-r01",
       "receptivo": true,
-      "acao": "Ask what comes with it before ordering the second one.",
+      "acao": "Fragen Sie, was dazugehört, bevor Sie das zweite Glas bestellen.",
       "es": "Facciamo l'aperitivo? Qui viene con il buffet.",
-      "pt": "Shall we do aperitivo? Here it comes with the buffet.",
+      "pt": "Machen wir einen Aperitivo? Hier ist das Buffet dabei.",
       "tts": "Facciamo l'aperitivo? Qui viene con il buffet."
     },
     {
@@ -38,11 +38,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-i04-p01",
-      "promptPt": "Say yes and ask what comes with the drink. Speak now.",
+      "promptPt": "Sagen Sie zu und fragen Sie, was zum Getränk dazugehört. Sprechen Sie jetzt.",
       "audioKey": "it-i04-t01",
       "es": "Volentieri. Cosa c'è compreso?",
       "pinyin": "vo-len-TYE-ri. KO-za cheh kom-PRE-zo",
-      "pt": "Gladly. What's included?",
+      "pt": "Sehr gern. Was ist inbegriffen?",
       "tts": "Volentieri. Cosa c'è compreso?"
     },
     {
@@ -50,7 +50,7 @@
       "voz": "guide_de_m",
       "audioKey": "it-i04-n02",
       "bloco": "corpo",
-      "pt": "That question decides the night. If a buffet is included, this is dinner. If it is olives and crisps, dinner is still coming at nine."
+      "pt": "Diese Frage entscheidet den Abend. Kommt ein Buffet dazu, ist das das Abendessen. Sind es Oliven, essen Sie um neun."
     },
     {
       "consulta": [
@@ -63,11 +63,11 @@
       "encaixe": "l'aperitivo",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-i04-p02",
-      "promptPt": "Ask the price of the aperitivo, using the frame from B11. Speak now.",
+      "promptPt": "Fragen Sie nach dem Preis des Aperitivo, mit dem Baustein aus B11. Sprechen Sie jetzt.",
       "audioKey": "it-i04-t02",
       "es": "Quanto costa l'aperitivo?",
       "pinyin": "KWAN-to KOS-ta la-pe-ree-TEE-vo",
-      "pt": "How much is the aperitivo?",
+      "pt": "Was kostet der Aperitivo?",
       "tts": "Quanto costa l'aperitivo?"
     },
     {
@@ -78,18 +78,18 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-i04-p03",
-      "promptPt": "Order the classic one and let them choose which. Speak now.",
+      "promptPt": "Bestellen Sie den Klassiker der Stunde, orange im Glas. Sprechen Sie jetzt.",
       "audioKey": "it-i04-t03",
       "es": "Un Aperol spritz, per favore.",
       "pinyin": "oon A-pe-rol spreets per fa-VO-re",
-      "pt": "An Aperol spritz, please.",
+      "pt": "Einen Aperol Spritz, bitte.",
       "tts": "Un Aperol spritz, per favore."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_f",
       "audioKey": "it-i04-n03",
-      "pt": "Something without alcohol is completely ordinary at this hour. Analcolico is the word, and nobody blinks."
+      "pt": "Etwas ohne Alkohol ist zu dieser Stunde völlig normal. Analcolico heißt das Wort, und niemand zuckt."
     },
     {
       "consulta": [
@@ -101,11 +101,11 @@
       "encaixe": "qualcosa di analcolico",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-i04-p04",
-      "promptPt": "Ask whether there is something non-alcoholic, using the frame from B08. Speak now.",
+      "promptPt": "Heute bleiben Sie nüchtern. Fragen Sie nach der Alternative, mit dem Baustein aus B08. Sprechen Sie jetzt.",
       "audioKey": "it-i04-t04",
       "es": "C'è qualcosa di analcolico?",
       "pinyin": "cheh kwal-KO-za dee a-nal-KO-lee-ko",
-      "pt": "Is there something non-alcoholic?",
+      "pt": "Gibt es etwas ohne Alkohol?",
       "tts": "C'è qualcosa di analcolico?"
     },
     {
@@ -113,7 +113,7 @@
       "voz": "guide_de_m",
       "audioKey": "it-i04-n04",
       "bloco": "capsula",
-      "pt": "Now the round. Offering to pay for everyone is normal, and so is being firmly refused the first time."
+      "pt": "Jetzt die Runde. Für alle zu zahlen ist normal — und beim ersten Mal abgelehnt zu werden ebenso."
     },
     {
       "consulta": [
@@ -123,11 +123,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-i04-p05",
-      "promptPt": "Offer to get this round. Speak now.",
+      "promptPt": "Bieten Sie an, diese Runde zu übernehmen. Sprechen Sie jetzt.",
       "audioKey": "it-i04-t05",
       "es": "Questo giro lo offro io.",
       "pinyin": "KWES-to JEE-ro lo OF-fro EE-o",
-      "pt": "This round's on me.",
+      "pt": "Diese Runde geht auf mich.",
       "tts": "Questo giro lo offro io."
     },
     {
@@ -135,9 +135,9 @@
       "voz": "target_it_m",
       "audioKey": "it-i04-r02",
       "receptivo": true,
-      "acao": "Insist once, then let it go. Twice is generous, three times is a fight.",
+      "acao": "Einmal darauf bestehen, dann loslassen. Zweimal ist großzügig, dreimal ist ein Ringen.",
       "es": "Ma no, ci mancherebbe. Offro io, siete ospiti.",
-      "pt": "Absolutely not. It's on me, you're guests.",
+      "pt": "Auf keinen Fall. Ich lade ein, ihr seid Gäste.",
       "tts": "Ma no, ci mancherebbe. Offro io, siete ospiti."
     },
     {
@@ -148,11 +148,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-i04-p06",
-      "promptPt": "Concede gracefully and claim the next one. Speak now.",
+      "promptPt": "Geben Sie elegant nach und sichern Sie sich die nächste. Sprechen Sie jetzt.",
       "audioKey": "it-i04-t06",
       "es": "Va bene, ma il prossimo lo offro io.",
       "pinyin": "va BEH-ne, ma eel PROS-see-mo lo OF-fro EE-o",
-      "pt": "All right, but the next one is on me.",
+      "pt": "In Ordnung, aber die nächste geht auf mich.",
       "tts": "Va bene, ma il prossimo lo offro io."
     },
     {
@@ -164,11 +164,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-i04-p07",
-      "promptPt": "Ask where they eat afterwards — the recommendation you actually want. Speak now.",
+      "promptPt": "Fragen Sie nach dem Lokal für danach — die Empfehlung, die Sie wirklich wollen. Sprechen Sie jetzt.",
       "audioKey": "it-i04-t07",
       "es": "Dopo, dove si va a mangiare?",
       "pinyin": "DO-po, DO-ve see va a man-JA-re",
-      "pt": "Afterwards, where does one go to eat?",
+      "pt": "Und danach, wo geht man essen?",
       "tts": "Dopo, dove si va a mangiare?"
     },
     {
@@ -179,11 +179,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-i04-p08",
-      "promptPt": "It is time to go. Leave the table properly instead of drifting off. Speak now.",
+      "promptPt": "Es ist Zeit zu gehen. Verabschieden Sie sich richtig, statt sich davonzustehlen. Sprechen Sie jetzt.",
       "audioKey": "it-i04-t08",
       "es": "Noi andiamo, grazie della compagnia.",
       "pinyin": "noy an-DYA-mo, GRA-tsee-eh DEL-la kom-pa-NYEE-a",
-      "pt": "We're heading off, thank you for the company.",
+      "pt": "Wir gehen los, danke für die Gesellschaft.",
       "tts": "Noi andiamo, grazie della compagnia."
     },
     {
@@ -192,7 +192,7 @@
       "audioKey": "it-i04-s01",
       "es": "Volentieri. Cosa c'è compreso? Questo giro lo offro io. Noi andiamo, grazie della compagnia.",
       "pinyin": "vo-len-TYE-ri. KO-za cheh kom-PRE-zo. KWES-to JEE-ro lo OF-fro EE-o. noy an-DYA-mo GRA-tsee-eh DEL-la kom-pa-NYEE-a",
-      "pt": "Shadow the evening: accept, check, offer, leave.",
+      "pt": "Sprechen Sie den Abend mit: zusagen, klären, anbieten, gehen.",
       "tts": "Volentieri. Cosa c'è compreso? Questo giro lo offro io. Noi andiamo, grazie della compagnia.",
       "molde": "QUANTO-COSTA"
     },
@@ -201,52 +201,52 @@
       "voz": "guide_de_f",
       "audioKey": "it-i04-n05",
       "bloco": "recap",
-      "pt": "I04 done. Cosa c'è compreso decides whether you eat again, and grazie della compagnia is how a table is left."
+      "pt": "I04 geschafft. Cosa c'è compreso entscheidet, ob Sie noch essen; grazie della compagnia schließt den Tisch."
     }
   ],
   "aprofundar": {
-    "titulo": "The step before dinner",
+    "titulo": "Der Schritt vor dem Abendessen",
     "secoes": [
       {
-        "titulo": "Aperitivo is a time, not a menu",
-        "corpo": "Roughly from six or seven until dinner. The drink has a fixed price and what comes with it varies enormously by city and by bar — from a bowl of crisps to a buffet you can build a meal from.",
+        "titulo": "Aperitivo ist eine Uhrzeit, keine Karte",
+        "corpo": "Ungefähr von sechs oder sieben bis zum Abendessen. Das Getränk hat einen festen Preis, und was dazukommt, schwankt enorm nach Stadt und Lokal — von einer Schale Chips bis zu einem Buffet, aus dem sich eine ganze Mahlzeit bauen lässt.",
         "exemplos": [
           {
             "es": "Cosa c'è compreso?",
-            "pt": "What's included?"
+            "pt": "Was ist inbegriffen?"
           },
           {
             "es": "Quanto costa l'aperitivo?",
-            "pt": "How much is the aperitivo?"
+            "pt": "Was kostet der Aperitivo?"
           }
         ]
       },
       {
-        "titulo": "The buffet version is a Milanese habit",
-        "corpo": "The generous spread is properly called apericena — a word Treccani defines as an aperitivo with enough food to replace dinner. It is a northern coinage from the late nineties and it is strongest in Milan. That it stays smaller in the south is what everyone says and what no survey measures, so treat it as a tendency rather than a border."
+        "titulo": "Die Buffet-Variante ist eine Mailänder Gewohnheit",
+        "corpo": "Das großzügige Angebot heißt eigentlich apericena — ein Wort, das Treccani als Aperitivo mit so viel Essen definiert, dass er das Abendessen ersetzen kann. Es ist eine norditalienische Wortschöpfung aus den späten Neunzigern und in Mailand am stärksten. Dass es im Süden kleiner bleibt, sagen alle und misst keine Erhebung — behandeln Sie es als Tendenz, nicht als Grenze."
       },
       {
-        "titulo": "Rounds and the refusal",
-        "corpo": "Offering is expected; being refused the first time is also expected. Insist once, and if it is refused again, take the next round instead. Splitting a bar tab item by item is unusual and slightly cold."
+        "titulo": "Runden und das Ablehnen",
+        "corpo": "Anzubieten wird erwartet; beim ersten Mal abgelehnt zu werden ebenso. Bestehen Sie einmal darauf, und wenn wieder abgelehnt wird, nehmen Sie stattdessen die nächste Runde. Eine Barrechnung Posten für Posten zu teilen ist unüblich und wirkt etwas kühl."
       },
       {
-        "titulo": "Leave with a sentence",
-        "corpo": "Drifting away from an Italian table reads as something having gone wrong. Noi andiamo, grazie della compagnia takes two seconds and closes the evening cleanly for everyone still sitting."
+        "titulo": "Mit einem Satz gehen",
+        "corpo": "Sich von einem italienischen Tisch wegzutreiben wird so gelesen, als sei etwas schiefgegangen. Noi andiamo, grazie della compagnia dauert zwei Sekunden und schließt den Abend sauber für alle, die sitzen bleiben."
       }
     ]
   },
   "slot": "I04",
-  "permissao": "You are allowed to order something without alcohol at aperitivo hour and to sit at the table for two hours over one drink. Neither of those is a failure to participate — the point of the hour is the sitting, and the bar is not counting your glasses.",
+  "permissao": "Sie dürfen zur Aperitivo-Stunde etwas ohne Alkohol bestellen und zwei Stunden bei einem Glas am Tisch sitzen. Beides ist kein mangelndes Mitmachen — der Sinn dieser Stunde ist das Sitzen, und niemand zählt Ihre Gläser.",
   "permissaoAudioKey": "it-i04-n03",
-  "espelho": "Anyone who has stayed for a second drink they did not want because leaving felt abrupt knows the second half of this part. The exit sentence exists precisely so that going home early stops requiring an excuse.",
+  "espelho": "Wer schon einmal ein zweites Glas genommen hat, das er gar nicht wollte, weil Gehen zu abrupt gewirkt hätte, kennt die zweite Hälfte dieses Teils. Der Abschiedssatz existiert genau dafür: damit früh nach Hause zu gehen keine Ausrede mehr braucht.",
   "fichasCulturais": [
     {
-      "sinal": "You order an aperitivo and food starts arriving that you did not order and were not told about.",
-      "suaLeitura": "I am being served things I will be charged for.",
-      "oQueEAli": "At aperitivo hour the food that comes with the drink is included in its price. The drink costs more than the same drink at noon precisely because of what arrives beside it.",
-      "oQueVoceFaz": "Ask cosa c'è compreso? when you order, so you know whether this is a snack or the meal, and plan dinner accordingly.",
-      "oQueMelhora": "You either stop looking for a restaurant at nine or you stop filling up on a buffet an hour before dinner — both of which are decided by one question.",
-      "ondeNaoVale": "Not a rule that everything on the counter is free — in some places the buffet is a separate paid item, and the size of what is included varies sharply between north and south.",
+      "sinal": "Sie bestellen einen Aperitivo, und es kommt Essen, das Sie nicht bestellt haben und von dem niemand etwas gesagt hat.",
+      "suaLeitura": "Hier wird mir etwas hingestellt, das nachher auf der Rechnung steht.",
+      "oQueEAli": "Zur Aperitivo-Stunde ist das Essen, das zum Getränk kommt, im Preis enthalten. Das Getränk kostet mehr als dasselbe Getränk mittags, genau wegen dessen, was daneben steht.",
+      "oQueVoceFaz": "Fragen Sie beim Bestellen cosa c'è compreso? So wissen Sie, ob das ein Snack oder die Mahlzeit ist, und planen das Abendessen danach.",
+      "oQueMelhora": "Entweder Sie suchen um neun kein Lokal mehr, oder Sie essen sich eine Stunde vor dem Abendessen nicht am Buffet satt — beides entscheidet eine einzige Frage.",
+      "ondeNaoVale": "Keine Regel, dass alles auf der Theke gratis ist — mancherorts ist das Buffet ein eigener, bezahlter Posten, und der Umfang des Inbegriffenen schwankt stark zwischen Nord und Süd.",
       "evidencia": "CONSENSO",
       "audioKeys": [
         "it-i04-n02"
@@ -256,7 +256,7 @@
   "fatosDatados": [
     {
       "id": "it-aperitivo-mercato",
-      "afirmacao": "Aperitivo is a large, measured market: FIPE-Confcommercio, on TradeLab data, counts 14 million Italians, 507 million evening aperitivi a year and about EUR 4 billion of spending, down 3.2% from 2024 to 2025; aperitivo accounts for 14% of all bar visits. Price varies enormously by city — a 2025 survey of Aperol Spritz found Milan EUR 10.33 against Naples EUR 2.00, with Rome EUR 7.00 and Venice EUR 4.50.",
+      "afirmacao": "Der Aperitivo ist ein großer, gemessener Markt: FIPE-Confcommercio zählt auf Basis von TradeLab-Daten 14 Millionen Italienerinnen und Italiener, 507 Millionen Abend-Aperitivi pro Jahr und rund 4 Milliarden Euro Umsatz, minus 3,2 % von 2024 auf 2025; der Aperitivo macht 14 % aller Barbesuche aus. Der Preis schwankt enorm nach Stadt — eine Erhebung von 2025 zum Aperol Spritz fand Mailand bei 10,33 Euro gegenüber Neapel bei 2,00 Euro, Rom bei 7,00 Euro und Venedig bei 4,50 Euro.",
       "fonte": "FIPE-Confcommercio / TradeLab — «Come sta cambiando l'aperitivo», 12 maggio 2026; idealo — rilevazione prezzi Aperol Spritz 2025",
       "ano": 2026,
       "revisarAte": "2027-08-05",
@@ -268,7 +268,7 @@
     },
     {
       "id": "it-apericena",
-      "afirmacao": "Apericena is a distinct format, not a synonym for aperitivo: the Treccani dictionary defines it as an aperitivo served with a rich series of snacks and tastings of savoury and sweet dishes «which can be consumed in place of dinner». It is a northern, Milanese coinage from the late 1990s and the word itself is treated as a neologism. The claim that the format stays smaller in the south is widely asserted but not quantified in any survey found.",
+      "afirmacao": "Apericena ist ein eigenes Format und kein Synonym für Aperitivo: Das Wörterbuch Treccani definiert es als Aperitivo mit einer reichen Folge von Häppchen und Kostproben herzhafter und süßer Speisen, «die anstelle des Abendessens verzehrt werden können». Es ist eine norditalienische, Mailänder Wortschöpfung aus den späten 1990er-Jahren, und das Wort selbst gilt als Neologismus. Die Behauptung, das Format bleibe im Süden kleiner, wird breit vertreten, ist aber in keiner gefundenen Erhebung quantifiziert.",
       "fonte": "Vocabolario Treccani — «apericena»; Libreriamo — «origine della parola macedonia»",
       "ano": 2026,
       "revisarAte": "2028-08-05",

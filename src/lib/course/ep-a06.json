@@ -3,16 +3,16 @@
   "nivel": "avancado",
   "numero": 34,
   "parte": "A06",
-  "titulo": "Their calendar",
-  "subtitulo": "Ferragosto empties the cities, the patron saint's day closes one town and not the next, and the sagra is the best meal of your trip",
-  "cena": "It is the middle of August, the street you liked is entirely shuttered, and a handwritten sign says something about the twenty-second.",
+  "titulo": "Der Kalender vor Ort",
+  "subtitulo": "Ferragosto leert die Städte, der Stadtpatron macht einen Ort zu und den nächsten nicht, und die Sagra wird das beste Essen Ihrer Reise",
+  "cena": "Es ist Mitte August, die Straße, die Ihnen gefiel, ist komplett verrammelt, und ein handgeschriebener Zettel sagt etwas über den Zweiundzwanzigsten.",
   "moldura": "ganha",
-  "frasePiso": "Ask what is on this week before you plan it. The closures are findable and so are the festivals, and one of them is why you came.",
+  "frasePiso": "Fragen Sie, was diese Woche läuft, bevor Sie sie planen. Schließzeiten sind auffindbar, Feste auch — und eines davon ist der Grund Ihrer Reise.",
   "moldes": [],
   "fatosDatados": [
     {
       "id": "it-ferragosto-patrono",
-      "afirmacao": "Ferragosto, 15 August, is a national public holiday and the peak of the Italian summer break, when many small businesses in cities close for a period around it. In addition, each comune observes its own patron saint's day as a local public holiday — Rome on 29 June, Milan on 7 December, Naples on 19 September, Venice on 25 April — so a town can be closed while the one next to it is fully open.",
+      "afirmacao": "Ferragosto, der 15. August, ist gesetzlicher Feiertag und Höhepunkt der italienischen Sommerpause; viele kleine Betriebe in den Städten schließen für einen Zeitraum darum herum. Zusätzlich begeht jede Gemeinde den Tag ihres Stadtpatrons als örtlichen Feiertag — Rom am 29. Juni, Mailand am 7. Dezember, Neapel am 19. September, Venedig am 25. April — sodass ein Ort geschlossen sein kann, während der Nachbarort voll geöffnet hat.",
       "fonte": "Governo Italiano — calendario delle festività nazionali; regolamenti comunali sui santi patroni",
       "ano": 2026,
       "revisarAte": "2027-08-04",
@@ -31,30 +31,30 @@
       "audioKey": "it-a06-n01",
       "gesto": 1,
       "bloco": "aquecimento",
-      "pt": "Italy has two calendars. The national one you can look up, and the local one that closes a town without warning."
+      "pt": "Italien hat zwei Kalender. Den nationalen kann man nachschlagen, der örtliche macht einen Ort ohne Vorwarnung zu."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_m",
       "audioKey": "it-a06-n02",
       "bloco": "corpo",
-      "pt": "The big one is Ferragosto, the fifteenth of August. Cities empty, shops shut, and the coast fills up."
+      "pt": "Der große ist Ferragosto, der fünfzehnte August. Städte leeren sich, Läden schließen, die Küste füllt sich."
     },
     {
       "tipo": "ouvir",
       "voz": "target_it_m",
       "audioKey": "it-a06-r01",
       "receptivo": true,
-      "acao": "Read the reopening date on the sign. Plan the week around it instead of returning tomorrow.",
+      "acao": "Lesen Sie das Wiedereröffnungsdatum auf dem Zettel. Planen Sie die Woche danach, statt morgen wiederzukommen.",
       "es": "Chiuso per ferie dal dieci al venticinque agosto.",
-      "pt": "Closed for holidays from the tenth to the twenty-fifth of August.",
+      "pt": "Betriebsferien vom zehnten bis fünfundzwanzigsten August.",
       "tts": "Chiuso per ferie dal dieci al venticinque agosto."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_f",
       "audioKey": "it-a06-n03",
-      "pt": "August in a city is not a failed trip. It is a different one: emptier, hotter, with the coast doing the living."
+      "pt": "August in der Stadt ist keine verpatzte Reise. Sie ist nur anders: leerer, heißer, das Leben spielt am Meer."
     },
     {
       "consulta": [
@@ -65,11 +65,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-a06-p01",
-      "promptPt": "Ask what is closed this week before you build a plan. Speak now.",
+      "promptPt": "Sie wollen die Woche planen, aber die Straße wirkt wie ausgestorben. Erkundigen Sie sich zuerst. Sprechen Sie jetzt.",
       "audioKey": "it-a06-t01",
       "es": "Questa settimana è tutto chiuso?",
       "pinyin": "KWES-ta set-tee-MA-na eh TOOT-to kee-OO-zo",
-      "pt": "Is everything closed this week?",
+      "pt": "Hat diese Woche alles zu?",
       "tts": "Questa settimana è tutto chiuso?"
     },
     {
@@ -77,16 +77,16 @@
       "voz": "guide_de_m",
       "audioKey": "it-a06-n04",
       "bloco": "capsula",
-      "pt": "The second calendar is the patron saint. Every town has its own day off, and the next town has another."
+      "pt": "Der zweite Kalender ist der Stadtpatron. Jeder Ort hat seinen freien Tag, der Nachbarort einen anderen."
     },
     {
       "tipo": "ouvir",
       "voz": "target_it_f",
       "audioKey": "it-a06-r02",
       "receptivo": true,
-      "acao": "That is a local holiday, not a national one. The next town over will be working normally.",
+      "acao": "Das ist ein örtlicher Feiertag, kein nationaler. Im Nachbarort wird ganz normal gearbeitet.",
       "es": "Domani è il santo patrono, è festa solo qui.",
-      "pt": "Tomorrow is the patron saint's day, it's a holiday only here.",
+      "pt": "Morgen ist der Stadtpatron, Feiertag nur hier.",
       "tts": "Domani è il santo patrono, è festa solo qui."
     },
     {
@@ -97,27 +97,27 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-a06-p02",
-      "promptPt": "Ask when the patron saint's day is here. Speak now.",
+      "promptPt": "Jeder Ort hat sein eigenes Datum. Sie wollen wissen, wie es hier liegt. Sprechen Sie jetzt.",
       "audioKey": "it-a06-t02",
       "es": "Quand'è il santo patrono qui?",
       "pinyin": "kwan-DEH eel SAN-to pa-TRO-no kwee",
-      "pt": "When is the patron saint's day here?",
+      "pt": "Wann ist hier der Stadtpatron?",
       "tts": "Quand'è il santo patrono qui?"
     },
     {
       "tipo": "intro",
       "voz": "guide_de_m",
       "audioKey": "it-a06-n05",
-      "pt": "And the third thing, worth moving a trip for: the sagra. A village festival built around one ingredient."
+      "pt": "Und das Dritte, für das man umplant: die Sagra. Ein Dorffest rund um eine einzige Zutat."
     },
     {
       "tipo": "ouvir",
       "voz": "target_it_m",
       "audioKey": "it-a06-r03",
       "receptivo": true,
-      "acao": "Go. Long tables, one dish, cash only, and better than any restaurant that week.",
+      "acao": "Hingehen. Lange Tische, ein Gericht, nur Bargeld — und besser als jedes Restaurant in dieser Woche.",
       "es": "Sabato c'è la sagra del cinghiale, al campo sportivo.",
-      "pt": "Saturday there's the wild boar festival, at the sports ground.",
+      "pt": "Samstag ist das Wildschweinfest, auf dem Sportplatz.",
       "tts": "Sabato c'è la sagra del cinghiale, al campo sportivo."
     },
     {
@@ -129,11 +129,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-a06-p03",
-      "promptPt": "Ask whether there is a sagra nearby this weekend. Speak now.",
+      "promptPt": "Sie haben das Wochenende frei und wollen zu so einem Dorffest. Erkundigen Sie sich in der Umgebung. Sprechen Sie jetzt.",
       "audioKey": "it-a06-t03",
       "es": "C'è qualche sagra qui vicino nel weekend?",
       "pinyin": "cheh KWAL-keh SA-gra kwee vee-CHEE-no nel week-END",
-      "pt": "Is there a sagra nearby at the weekend?",
+      "pt": "Gibt es am Wochenende hier in der Nähe eine Sagra?",
       "tts": "C'è qualche sagra qui vicino nel weekend?"
     },
     {
@@ -145,11 +145,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-a06-p04",
-      "promptPt": "Ask the practical question — whether you need cash. Speak now.",
+      "promptPt": "Sie haben nur die Karte dabei. Klären Sie das vorher, nicht an der Kasse. Sprechen Sie jetzt.",
       "audioKey": "it-a06-t04",
       "es": "Si paga in contanti alla sagra?",
       "pinyin": "see PA-ga een kon-TAN-tee AL-la SA-gra",
-      "pt": "Do you pay in cash at the sagra?",
+      "pt": "Zahlt man bei der Sagra bar?",
       "tts": "Si paga in contanti alla sagra?"
     },
     {
@@ -157,9 +157,9 @@
       "voz": "target_it_f",
       "audioKey": "it-a06-r04",
       "receptivo": true,
-      "acao": "Bring cash. This is the one place where the card rule genuinely does not help you.",
+      "acao": "Bargeld mitnehmen. Hier ist der eine Ort, an dem die Kartenregel wirklich nicht hilft.",
       "es": "Sì, contanti. Prendi i buoni alla cassa all'ingresso.",
-      "pt": "Yes, cash. You get the tickets at the till by the entrance.",
+      "pt": "Ja, bar. Die Bons gibt es an der Kasse am Eingang.",
       "tts": "Sì, contanti. Prendi i buoni alla cassa all'ingresso."
     },
     {
@@ -170,11 +170,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-a06-p05",
-      "promptPt": "Ask what time the festival starts. Speak now.",
+      "promptPt": "Sie wollen nicht ins Leere laufen. Klären Sie die Uhrzeit. Sprechen Sie jetzt.",
       "audioKey": "it-a06-x01",
       "es": "A che ora comincia la sagra?",
       "pinyin": "a keh O-ra ko-MEEN-cha la SA-gra",
-      "pt": "What time does the sagra start?",
+      "pt": "Um wie viel Uhr fängt die Sagra an?",
       "tts": "A che ora comincia la sagra?",
       "molde": "A-CHE-ORA",
       "encaixe": "comincia la sagra"
@@ -187,11 +187,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-a06-p06",
-      "promptPt": "Ask whether the shops reopen before you leave. Speak now.",
+      "promptPt": "Sie reisen Freitag ab und der Laden hat Betriebsferien. Klären Sie das. Sprechen Sie jetzt.",
       "audioKey": "it-a06-x02",
       "es": "Riaprono prima di venerdì?",
       "pinyin": "ree-A-pro-no PREE-ma dee ve-ner-DEE",
-      "pt": "Do they reopen before Friday?",
+      "pt": "Machen sie vor Freitag wieder auf?",
       "tts": "Riaprono prima di venerdì?"
     },
     {
@@ -199,52 +199,52 @@
       "voz": "guide_de_m",
       "audioKey": "it-a06-n06",
       "bloco": "recap",
-      "pt": "A06 done. Ferragosto empties the cities, the saint closes one town only, and the sagra is worth rearranging for."
+      "pt": "A06 geschafft. Ferragosto leert die Städte, der Patron betrifft nur einen Ort, die Sagra lohnt das Umplanen."
     }
   ],
   "aprofundar": {
-    "titulo": "Two calendars and a festival",
+    "titulo": "Zwei Kalender und ein Fest",
     "secoes": [
       {
         "titulo": "Ferragosto",
-        "corpo": "The fifteenth of August, a national holiday and the centre of the summer break. Many small businesses close for a stretch around it, cities thin out and the coast fills. It is entirely visible in advance and catches visitors anyway.",
+        "corpo": "Der fünfzehnte August, gesetzlicher Feiertag und Mitte der Sommerpause. Viele kleine Betriebe schließen für eine Weile darum herum, die Städte dünnen aus, die Küste füllt sich. Alles ist lange vorher sichtbar und erwischt Reisende trotzdem.",
         "exemplos": [
           {
             "es": "Questa settimana è tutto chiuso?",
-            "pt": "Is everything closed this week?"
+            "pt": "Hat diese Woche alles zu?"
           },
           {
             "es": "Quand'è il santo patrono qui?",
-            "pt": "When is the patron saint's day here?"
+            "pt": "Wann ist hier der Stadtpatron?"
           }
         ]
       },
       {
-        "titulo": "The patron saint is local",
-        "corpo": "Each comune has its own saint's day as a public holiday, so closures can be town-specific. Rome, Milan, Naples and Venice all have different dates, and a day trip can land on one of them without warning."
+        "titulo": "Der Stadtpatron gilt nur örtlich",
+        "corpo": "Jede Gemeinde hat ihren eigenen Patronstag als Feiertag, Schließungen sind also ortsgebunden. Rom, Mailand, Neapel und Venedig haben verschiedene Daten, und ein Tagesausflug kann ohne Vorwarnung genau darauf fallen."
       },
       {
-        "titulo": "The sagra is the best meal you will not have planned",
-        "corpo": "A village festival built around one ingredient — porcini, wild boar, chestnut, a particular pasta — cooked in volume by people from the village, served at long tables. It is usually cash, usually a ticket system, and usually the food you will remember."
+        "titulo": "Die Sagra ist das beste ungeplante Essen",
+        "corpo": "Ein Dorffest rund um eine Zutat — Steinpilze, Wildschwein, Kastanien, eine bestimmte Pasta — in Menge gekocht von Leuten aus dem Ort, serviert an langen Tischen. Meist bar, meist mit Bonsystem, und meist das Essen, an das Sie sich erinnern werden."
       },
       {
-        "titulo": "How to find them",
-        "corpo": "Sagre are advertised on paper: posters on walls, banners over roads, a sign at the roundabout. They are frequently invisible online and completely visible from the street, which is why the question in this part is asked of a person rather than a phone."
+        "titulo": "Wie man sie findet",
+        "corpo": "Sagre werden auf Papier angekündigt: Plakate an Mauern, Banner über der Straße, ein Schild am Kreisverkehr. Online sind sie oft unsichtbar, von der Straße aus dagegen völlig offensichtlich — deshalb richtet sich die Frage in diesem Teil an einen Menschen und nicht an ein Handy."
       }
     ]
   },
   "slot": "A06",
-  "permissao": "You are allowed to rearrange a trip around a village festival you found out about from a poster. Skipping a booked museum for a sagra is not a wasted day — it is the choice that separates the trip you planned from the one you will actually talk about.",
+  "permissao": "Sie dürfen eine Reise um ein Dorffest herum umbauen, von dem Sie nur durch ein Plakat wissen. Ein gebuchtes Museum für eine Sagra sausen zu lassen ist kein vergeudeter Tag — das ist die Entscheidung, die die geplante Reise von der trennt, von der Sie später erzählen.",
   "permissaoAudioKey": "it-a06-n05",
-  "espelho": "Anyone who has arrived somewhere on a public holiday they did not know existed knows the flat feeling of a closed street. The fix is the same everywhere — ask a local before you plan the week, not after.",
+  "espelho": "Wer schon einmal an einem Feiertag ankam, von dem er nichts wusste, kennt das leere Gefühl vor einer verrammelten Straße. Das Mittel dagegen ist überall dasselbe: vor der Wochenplanung jemanden vor Ort fragen, nicht danach.",
   "fichasCulturais": [
     {
-      "sinal": "You take a day trip to a nearby town and find everything shut, though your own town was open and busy that morning.",
-      "suaLeitura": "I got the opening hours wrong, or something has happened.",
-      "oQueEAli": "Each comune keeps its patron saint's day as a local public holiday, and the dates differ from town to town. A closure twenty minutes down the road can be a full holiday there and an ordinary Tuesday where you slept.",
-      "oQueVoceFaz": "Ask quand'è il santo patrono qui? about anywhere you plan to visit, and check it the day before rather than on arrival.",
-      "oQueMelhora": "You either avoid the closed day or, better, arrive on it deliberately — the saint's day usually comes with a procession, a market and the town at its most itself.",
-      "ondeNaoVale": "Not for large chains, supermarkets and transport, which mostly run normally, and not in the biggest tourist centres where the local holiday barely dents commercial hours.",
+      "sinal": "Sie machen einen Tagesausflug in den Nachbarort und finden alles zu, obwohl Ihr eigener Ort morgens voll in Betrieb war.",
+      "suaLeitura": "Ich habe die Öffnungszeiten verwechselt, oder es ist etwas vorgefallen.",
+      "oQueEAli": "Jede Gemeinde hält den Tag ihres Stadtpatrons als örtlichen Feiertag, und die Daten unterscheiden sich von Ort zu Ort. Zwanzig Minuten weiter kann ganztags Feiertag sein, während dort, wo Sie übernachtet haben, ein gewöhnlicher Dienstag läuft.",
+      "oQueVoceFaz": "Fragen Sie quand'è il santo patrono qui? für jeden Ort, den Sie besuchen wollen, und klären Sie es am Vortag statt bei der Ankunft.",
+      "oQueMelhora": "Sie umgehen den geschlossenen Tag — oder kommen, besser noch, absichtlich genau dann: zum Patronstag gehören meist Prozession, Markt und der Ort in seiner besten Form.",
+      "ondeNaoVale": "Nicht bei großen Ketten, Supermärkten und Verkehrsmitteln, die meist normal laufen, und nicht in den größten Touristenzentren, wo der örtliche Feiertag die Ladenöffnung kaum berührt.",
       "evidencia": "FATO",
       "audioKeys": [
         "it-a06-n04"

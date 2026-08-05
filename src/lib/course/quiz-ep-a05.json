@@ -1,96 +1,96 @@
 {
   "id": "q-a05",
   "nivel": "avancado",
-  "titulo": "Quiz — The other language",
-  "subtitulo": "Not dialects of Italian",
+  "titulo": "Quiz — Die andere Sprache",
+  "subtitulo": "Keine Dialekte des Italienischen",
   "introAudioKey": "it-a05-q-i",
-  "introPt": "A traveller finds out why Italian stopped working.",
-  "cenario": "Two people switching languages mid-conversation.",
+  "introPt": "Ein Reisender findet heraus, warum sein Italienisch nicht mehr trug.",
+  "cenario": "Zwei Leute wechseln mitten im Gespräch die Sprache.",
   "dialogo": [
     {
       "audioKey": "it-a05-q01",
       "voz": "target_it_m",
       "es": "Uè, ma che vuo'? Vien' ccà nu poco.",
-      "pt": "Hey, what do you want? Come here a moment.",
+      "pt": "He, was gibt's? Komm mal kurz her.",
       "tts": "Uè, ma che vuo'? Vien' ccà nu poco."
     },
     {
       "audioKey": "it-a05-q02",
       "voz": "target_it_f",
       "es": "Ciao, come xe? Tuto ben, va?",
-      "pt": "Hi, how is it? All good, yeah?",
+      "pt": "Hallo, wie läuft's? Alles gut, ja?",
       "tts": "Ciao, come xe? Tuto ben, va?"
     },
     {
       "audioKey": "it-a05-q03",
       "voz": "target_it_f",
       "es": "Come si dice in dialetto?",
-      "pt": "How do you say it in dialect?",
+      "pt": "Wie sagt man das im Dialekt?",
       "tts": "Come si dice in dialetto?"
     },
     {
       "audioKey": "it-a05-q04",
       "voz": "target_it_f",
       "es": "Non è un dialetto, è una lingua. Mia nonna non parlava italiano.",
-      "pt": "It's not a dialect, it's a language. My grandmother didn't speak Italian.",
+      "pt": "Das ist kein Dialekt, das ist eine Sprache. Meine Oma sprach kein Italienisch.",
       "tts": "Non è un dialetto, è una lingua. Mia nonna non parlava italiano."
     }
   ],
   "perguntas": [
     {
-      "pergunta": "Neapolitan and Sicilian are:",
+      "pergunta": "Neapolitanisch und Sizilianisch sind:",
       "opcoes": [
-        "Corrupted Italian",
-        "Romance varieties descended alongside Tuscan, not from it",
-        "Recent slang",
-        "Foreign imports"
+        "Verdorbenes Italienisch",
+        "Romanische Varietäten, neben dem Toskanischen entstanden, nicht daraus",
+        "Neuer Slang",
+        "Importe aus dem Ausland"
       ],
       "correta": 1,
-      "explica": "Tuscan won a literary and political argument."
+      "explica": "Das Toskanische gewann eine literarische und politische Auseinandersetzung."
     },
     {
-      "pergunta": "How many historical linguistic minorities does Italian law protect?",
+      "pergunta": "Wie viele historische Sprachminderheiten schützt das italienische Recht?",
       "opcoes": [
-        "Two",
-        "Six",
-        "Twelve",
-        "None"
+        "Zwei",
+        "Sechs",
+        "Zwölf",
+        "Keine"
       ],
       "correta": 2,
-      "explica": "Including Sardinian, Friulian, Ladin, Slovene, German and more."
+      "explica": "Darunter Sardisch, Friaulisch, Ladinisch, Slowenisch, Deutsch und weitere."
     },
     {
-      "pergunta": "They switched to something incomprehensible. What happened?",
+      "pergunta": "Sie wechseln zu etwas Unverständlichem. Was ist passiert?",
       "opcoes": [
-        "Your Italian failed",
-        "They switched languages",
-        "They are excluding you",
-        "They are joking"
+        "Ihr Italienisch hat versagt",
+        "Sie haben die Sprache gewechselt",
+        "Sie schließen Sie aus",
+        "Sie machen Witze"
       ],
       "correta": 1,
-      "explica": "Speaking Italian to you was the accommodation."
+      "explica": "Das Italienisch für Sie war die Rücksichtnahme."
     },
     {
-      "pergunta": "Should you try to pronounce the local phrase?",
+      "pergunta": "Sollten Sie die lokale Wendung nachsprechen?",
       "opcoes": [
-        "No, it's mockery",
-        "Yes, badly - the attempt is the compliment",
-        "Only if you get it right",
-        "Only in writing"
+        "Nein, das ist Spott",
+        "Ja, ruhig schlecht — der Versuch ist das Kompliment",
+        "Nur wenn es perfekt sitzt",
+        "Nur schriftlich"
       ],
       "correta": 1,
-      "explica": "Fluency would be odd; trying registers as interest."
+      "explica": "Flüssigkeit wäre merkwürdig; der Versuch zeigt Interesse."
     },
     {
-      "pergunta": "Someone corrects dialetto to lingua. That is:",
+      "pergunta": "Jemand korrigiert dialetto zu lingua. Das ist:",
       "opcoes": [
-        "A rebuke",
-        "Information about what it means to them",
-        "A joke",
-        "A regional insult"
+        "Eine Rüge",
+        "Information darüber, was es für sie bedeutet",
+        "Ein Witz",
+        "Eine regionale Spitze"
       ],
       "correta": 1,
-      "explica": "Both reactions are normal."
+      "explica": "Beide Reaktionen sind normal."
     }
   ]
 }

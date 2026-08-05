@@ -1,92 +1,92 @@
 {
   "id": "q-i09",
   "nivel": "intermediario",
-  "titulo": "Quiz — Spending the afternoon the way they spend it",
-  "subtitulo": "The rhythm nobody writes down",
+  "titulo": "Quiz — Den Nachmittag so verbringen, wie man ihn hier verbringt",
+  "subtitulo": "Der Rhythmus, den niemand aufschreibt",
   "introAudioKey": "it-i09-q-i",
-  "introPt": "A traveller finds the market, the walk and the match.",
-  "cenario": "A morning market and an evening street.",
+  "introPt": "Ein Reisender findet den Markt, den Bummel und das Spiel.",
+  "cenario": "Ein Markt am Vormittag und eine Straße am Abend.",
   "dialogo": [
     {
       "audioKey": "it-i09-q01",
       "voz": "target_it_m",
       "es": "Dica signora, cosa le do? Guardi che pomodori.",
-      "pt": "Tell me, what can I give you? Look at these tomatoes."
+      "pt": "Sagen Sie, was darf ich Ihnen geben? Sehen Sie sich diese Tomaten an."
     },
     {
       "audioKey": "it-i09-q02",
       "voz": "target_it_f",
       "es": "Cosa c'è di buono adesso? Me ne dia due etti.",
-      "pt": "What's good right now? Give me two hundred grams."
+      "pt": "Was ist gerade gut? Geben Sie mir zweihundert Gramm davon."
     },
     {
       "audioKey": "it-i09-q03",
       "voz": "target_it_f",
       "es": "Dove si fa la passeggiata la sera?",
-      "pt": "Where do people take the evening walk?"
+      "pt": "Wo geht man abends spazieren?"
     },
     {
       "audioKey": "it-i09-q04",
       "voz": "target_it_m",
       "es": "Sul corso, verso le sette. Prima non c'è nessuno.",
-      "pt": "On the main street, around seven. Before that there's nobody."
+      "pt": "Auf dem Corso, gegen sieben. Vorher ist niemand da."
     }
   ],
   "perguntas": [
     {
-      "pergunta": "Un etto is:",
+      "pergunta": "Un etto ist:",
       "opcoes": [
-        "One kilogram",
-        "One hundred grams",
-        "One portion",
-        "One euro's worth"
+        "Ein Kilogramm",
+        "Hundert Gramm",
+        "Eine Portion",
+        "Ware für einen Euro"
       ],
       "correta": 1,
-      "explica": "Due etti of cheese is a normal, unembarrassing amount."
+      "explica": "Due etti Käse ist eine ganz normale Menge."
     },
     {
-      "pergunta": "At a market stall, who picks the produce?",
+      "pergunta": "Wer wählt am Marktstand die Ware aus?",
       "opcoes": [
-        "You do",
-        "The vendor — point and let them pick",
-        "Either",
-        "Depends on the region"
+        "Sie selbst",
+        "Der Verkäufer — zeigen und auswählen lassen",
+        "Beide",
+        "Je nach Region"
       ],
       "correta": 1,
-      "explica": "Handling the fruit yourself is a small breach with a large signal."
+      "explica": "Das Obst selbst anzufassen ist ein kleiner Regelbruch mit großem Signal."
     },
     {
-      "pergunta": "The passeggiata starts around:",
+      "pergunta": "Die Passeggiata beginnt gegen:",
       "opcoes": [
-        "Four",
-        "Six or seven",
-        "Nine",
-        "After dinner"
+        "Vier",
+        "Sechs oder sieben",
+        "Neun",
+        "Nach dem Abendessen"
       ],
       "correta": 1,
-      "explica": "Going at the wrong hour is why some visitors think it stopped happening."
+      "explica": "Die falsche Uhrzeit ist der Grund, warum manche glauben, es gebe das nicht mehr."
     },
     {
-      "pergunta": "Why is asking about the local team a good opener?",
+      "pergunta": "Warum ist die Frage nach der Mannschaft der Stadt ein guter Einstieg?",
       "opcoes": [
-        "It shows knowledge",
-        "The answer is never neutral and is always given at length",
-        "Italians expect it",
-        "It gets discounts"
+        "Sie zeigt Kenntnis",
+        "Die Antwort ist nie neutral und fällt immer ausführlich aus",
+        "Man erwartet sie",
+        "Sie bringt Rabatt"
       ],
       "correta": 1,
-      "explica": "Ask before saying anything about football yourself."
+      "explica": "Fragen Sie, bevor Sie selbst etwas über Fußball sagen."
     },
     {
-      "pergunta": "The town is shuttered at four. What is happening?",
+      "pergunta": "Um vier ist die Stadt verrammelt. Was passiert gerade?",
       "opcoes": [
-        "It is closed for the day",
-        "It is between its two busy periods",
-        "A holiday",
-        "A strike"
+        "Sie hat für heute geschlossen",
+        "Sie ist zwischen ihren beiden Stoßzeiten",
+        "Ein Feiertag",
+        "Ein Streik"
       ],
       "correta": 1,
-      "explica": "The peak is the early evening."
+      "explica": "Das Hoch ist der frühe Abend."
     }
   ]
 }

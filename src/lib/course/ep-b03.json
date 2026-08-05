@@ -3,22 +3,22 @@
   "nivel": "basico",
   "numero": 3,
   "parte": "1C",
-  "titulo": "Change the channel, not the language",
-  "subtitulo": "Mi può — plus whatever you need done. One frame, four repairs, and the smile-and-nod that costs you the afternoon",
-  "cena": "The answer came back fast and friendly and you caught one word of it, and the queue behind you is not getting shorter.",
+  "titulo": "Wechseln Sie den Kanal, nicht die Sprache",
+  "subtitulo": "Mi può — plus das, was erledigt werden soll. Ein Baustein, vier Reparaturen, und das Nicken, das Sie den Nachmittag kostet",
+  "cena": "Die Antwort kam schnell und freundlich zurück, Sie haben ein Wort davon erwischt, und die Schlange hinter Ihnen wird nicht kürzer.",
   "moldura": "resolve",
-  "frasePiso": "When listening fails, change the channel before you change the language. Slower, written, or on the map — pick one and ask for that.",
+  "frasePiso": "Wenn das Hören scheitert, wechseln Sie den Kanal, nicht die Sprache. Langsamer, aufgeschrieben oder auf der Karte — wählen Sie eins und bitten Sie darum.",
   "moldes": [
     "MI-PUO"
   ],
   "clique": {
     "contagem": [
-      "the map",
-      "the number",
-      "the whole thing"
+      "die Karte",
+      "die Nummer",
+      "das Ganze"
     ],
-    "desconto": "Nobody gave you four different sentences for four different breakdowns. You kept one frame — mi può — and changed only the thing you needed done.",
-    "piso": "Next time an answer goes past you, you will not nod and hope. You will pick the repair you need and ask for that one."
+    "desconto": "Niemand hat Ihnen vier verschiedene Sätze für vier verschiedene Pannen gegeben. Sie haben einen Baustein behalten — mi può — und nur getauscht, was erledigt werden soll.",
+    "piso": "Wenn Ihnen das nächste Mal eine Antwort entgeht, nicken und hoffen Sie nicht. Sie wählen die Reparatur, die Sie brauchen, und bitten um genau die."
   },
   "steps": [
     {
@@ -27,14 +27,14 @@
       "audioKey": "it-b03-n01",
       "gesto": 1,
       "bloco": "aquecimento",
-      "pt": "The dangerous move is the polite nod at an answer you did not catch. It buys one second and costs you the afternoon."
+      "pt": "Gefährlich ist das höfliche Nicken bei einer nicht verstandenen Antwort. Eine Sekunde gewonnen, der Nachmittag verloren."
     },
     {
       "tipo": "ouvir",
       "voz": "target_it_m",
       "audioKey": "it-b03-r01",
       "es": "Allora, deve andare fino al semaforo e poi girare subito dopo il ponte.",
-      "pt": "So, you go up to the traffic light and then turn just after the bridge.",
+      "pt": "Also, Sie gehen bis zur Ampel und biegen gleich nach der Brücke ab.",
       "tts": "Allora, deve andare fino al semaforo e poi girare subito dopo il ponte."
     },
     {
@@ -42,7 +42,7 @@
       "voz": "guide_de_m",
       "audioKey": "it-b03-n02",
       "bloco": "molde",
-      "pt": "Here is the frame: mi può, then the thing you need done. One opening, and you swap only the action."
+      "pt": "Hier ist der Baustein: mi può, dann das, was erledigt werden soll. Eine Öffnung, nur die Handlung wechselt."
     },
     {
       "consulta": [
@@ -54,11 +54,11 @@
       "encaixe": "ripetere più lentamente",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-b03-p01",
-      "promptPt": "Ask for the whole thing again, slower. Not louder — slower. Speak now.",
+      "promptPt": "Die Antwort kam zu schnell. Sie brauchen sie noch einmal, in anderem Tempo. Sprechen Sie jetzt.",
       "audioKey": "it-b03-t01",
       "es": "Mi può ripetere più lentamente?",
       "pinyin": "mee pwoh ree-PEH-teh-re pyoo len-ta-MEN-te",
-      "pt": "Can you repeat that more slowly?",
+      "pt": "Können Sie das langsamer wiederholen?",
       "tts": "Mi può ripetere più lentamente?"
     },
     {
@@ -66,7 +66,7 @@
       "voz": "target_it_m",
       "audioKey": "it-b03-r02",
       "es": "Certo. Fino al semaforo, poi a destra.",
-      "pt": "Of course. Up to the traffic light, then right.",
+      "pt": "Natürlich. Bis zur Ampel, dann rechts.",
       "tts": "Certo. Fino al semaforo, poi a destra."
     },
     {
@@ -74,7 +74,7 @@
       "voz": "guide_de_f",
       "audioKey": "it-b03-n03",
       "bloco": "corpo",
-      "pt": "Slower still fails when the payload is a number, a name or an address. Stop spending listening attempts on it."
+      "pt": "Langsamer hilft nicht bei Zahlen, Namen und Adressen. Verschwenden Sie darauf keine weiteren Hörversuche."
     },
     {
       "consulta": [
@@ -86,18 +86,18 @@
       "encaixe": "scrivere",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-b03-p02",
-      "promptPt": "Same frame, new action: ask them to write it down. Speak now.",
+      "promptPt": "Zahlen bleiben im Ohr nicht hängen. Zettel und Stift liegen bereit. Sprechen Sie jetzt.",
       "audioKey": "it-b03-t02",
       "es": "Me lo può scrivere, per favore?",
       "pinyin": "meh lo pwoh SKREE-veh-re per fa-VO-re",
-      "pt": "Can you write it down for me, please?",
+      "pt": "Können Sie es mir bitte aufschreiben?",
       "tts": "Me lo può scrivere, per favore?"
     },
     {
       "tipo": "intro",
       "voz": "guide_de_m",
       "audioKey": "it-b03-n04",
-      "pt": "Third channel: the map. A written street name can still leave three turnings unclear — hand over the phone."
+      "pt": "Dritter Kanal: die Karte. Ein Straßenname lässt drei Abzweigungen offen — reichen Sie das Handy hin."
     },
     {
       "consulta": [
@@ -110,11 +110,11 @@
       "encaixe": "mostrare sulla mappa",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-b03-p03",
-      "promptPt": "Open the map and ask them to show you the point. Speak now.",
+      "promptPt": "Sie öffnen die Karte auf dem Handy und halten sie hin. Sprechen Sie jetzt.",
       "audioKey": "it-b03-t03",
       "es": "Mi può mostrare sulla mappa?",
       "pinyin": "mee pwoh mos-TRA-re SUL-la MAP-pa",
-      "pt": "Can you show me on the map?",
+      "pt": "Können Sie es mir auf der Karte zeigen?",
       "tts": "Mi può mostrare sulla mappa?"
     },
     {
@@ -122,7 +122,7 @@
       "voz": "target_it_m",
       "audioKey": "it-b03-r03",
       "es": "Sì, guardi: è qui, dopo la piazza.",
-      "pt": "Yes, look: it's here, after the square.",
+      "pt": "Ja, schauen Sie: hier ist es, nach dem Platz.",
       "tts": "Sì, guardi: è qui, dopo la piazza."
     },
     {
@@ -130,7 +130,7 @@
       "voz": "guide_de_f",
       "audioKey": "it-b03-n05",
       "bloco": "capsula",
-      "pt": "Fourth: cut the answer down before it grows. Asking if it is far turns a paragraph into a decision."
+      "pt": "Vierter Kanal: die Antwort kleiner machen, bevor sie wächst. Eine Ja-Nein-Frage macht aus einem Absatz eine Entscheidung."
     },
     {
       "consulta": [
@@ -140,11 +140,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-b03-p04",
-      "promptPt": "You only need to know whether to walk. Ask if it is far. Speak now.",
+      "promptPt": "Sie wollen nur wissen, ob sich zu Fuß lohnt. Sprechen Sie jetzt.",
       "audioKey": "it-b03-t04",
       "es": "È lontano?",
       "pinyin": "eh lon-TA-no",
-      "pt": "Is it far?",
+      "pt": "Ist es weit?",
       "tts": "È lontano?"
     },
     {
@@ -152,14 +152,14 @@
       "voz": "target_it_m",
       "audioKey": "it-b03-r04",
       "es": "No, cinque minuti a piedi.",
-      "pt": "No, five minutes on foot.",
+      "pt": "Nein, fünf Minuten zu Fuß.",
       "tts": "No, cinque minuti a piedi."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_m",
       "audioKey": "it-b03-n06",
-      "pt": "And the honest sentence that starts the whole ladder — say it plainly, with no apology attached."
+      "pt": "Und der ehrliche Satz, der die ganze Leiter startet — schlicht gesagt, ohne Entschuldigung dahinter."
     },
     {
       "consulta": [
@@ -169,11 +169,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-b03-p05",
-      "promptPt": "You lost the thread. Say so, without apologising for existing. Speak now.",
+      "promptPt": "Sie haben den Faden verloren. Sagen Sie es, ohne sich klein zu machen. Sprechen Sie jetzt.",
       "audioKey": "it-b03-t05",
       "es": "Scusi, non ho capito.",
       "pinyin": "SKOO-zee, non oh ka-PEE-to",
-      "pt": "Sorry, I didn't understand.",
+      "pt": "Entschuldigung, ich habe nicht verstanden.",
       "tts": "Scusi, non ho capito."
     },
     {
@@ -186,11 +186,11 @@
       "encaixe": "parlare più piano",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-b03-p06",
-      "promptPt": "Set the pace for the whole conversation, not just one sentence. Speak now.",
+      "promptPt": "Setzen Sie das Tempo für das ganze Gespräch, nicht nur für einen Satz. Sprechen Sie jetzt.",
       "audioKey": "it-b03-t06",
       "es": "Mi può parlare più piano?",
       "pinyin": "mee pwoh par-LA-re pyoo PYA-no",
-      "pt": "Can you speak more slowly?",
+      "pt": "Können Sie langsamer sprechen?",
       "tts": "Mi può parlare più piano?"
     },
     {
@@ -203,11 +203,11 @@
       "encaixe": "ripetere il numero",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-b03-p07",
-      "promptPt": "Only the number was lost, not the whole answer. Ask for just that. Speak now.",
+      "promptPt": "Nur die Ziffernfolge ist Ihnen entgangen, der Rest saß. Bitten Sie um genau die. Sprechen Sie jetzt.",
       "audioKey": "it-b03-t07",
       "es": "Mi può ripetere il numero?",
       "pinyin": "mee pwoh ree-PEH-teh-re eel NOO-meh-ro",
-      "pt": "Can you repeat the number?",
+      "pt": "Können Sie die Nummer wiederholen?",
       "tts": "Mi può ripetere il numero?"
     },
     {
@@ -218,11 +218,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-b03-p08",
-      "promptPt": "They were patient with you. Say so. Speak now.",
+      "promptPt": "Man war geduldig mit Ihnen. Sagen Sie es. Sprechen Sie jetzt.",
       "audioKey": "it-b03-t08",
       "es": "Grazie, molto gentile.",
       "pinyin": "GRA-tsee-eh, MOL-to jen-TEE-le",
-      "pt": "Thank you, very kind.",
+      "pt": "Danke, sehr freundlich.",
       "tts": "Grazie, molto gentile."
     },
     {
@@ -231,7 +231,7 @@
       "audioKey": "it-b03-s01",
       "es": "Scusi, non ho capito. Mi può ripetere più lentamente? Me lo può scrivere, per favore?",
       "pinyin": "SKOO-zee non oh ka-PEE-to. mee pwoh ree-PEH-teh-re pyoo len-ta-MEN-te. meh lo pwoh SKREE-veh-re per fa-VO-re",
-      "pt": "Shadow the first three rungs, with no apology stacked on top.",
+      "pt": "Sprechen Sie die ersten drei Stufen nach, ohne Entschuldigung obendrauf.",
       "tts": "Scusi, non ho capito. Mi può ripetere più lentamente? Me lo può scrivere, per favore?"
     },
     {
@@ -239,52 +239,52 @@
       "voz": "guide_de_f",
       "audioKey": "it-b03-n07",
       "bloco": "recap",
-      "pt": "B03 done. Mi può plus the action: slower, written, on the map. È lontano? shrinks the answer. The frame stays, the action changes."
+      "pt": "B03 sitzt. Mi può plus Handlung: langsamer, aufschreiben, auf der Karte. È lontano? kürzt die Antwort. Der Baustein bleibt."
     }
   ],
   "aprofundar": {
-    "titulo": "Repair is a change of channel",
+    "titulo": "Reparatur ist ein Kanalwechsel",
     "secoes": [
       {
-        "titulo": "Do not stack the rungs",
-        "corpo": "Start with the smallest repair that could work. If slower succeeds, stop there. Move to writing only for payloads that stay fragile: numbers, names, addresses, times and medicine.",
+        "titulo": "Stufen nicht stapeln",
+        "corpo": "Beginnen Sie mit der kleinsten Reparatur, die reichen könnte. Wenn langsamer genügt, hören Sie dort auf. Zum Aufschreiben gehen Sie erst bei dem über, was zerbrechlich bleibt: Zahlen, Namen, Adressen, Uhrzeiten, Medikamente.",
         "exemplos": [
           {
             "es": "Mi può ripetere più lentamente?",
-            "pt": "asks for speed, not volume"
+            "pt": "fragt nach Tempo, nicht nach Lautstärke"
           },
           {
             "es": "Me lo può scrivere?",
-            "pt": "moves it out of your ears entirely"
+            "pt": "holt es ganz aus Ihren Ohren heraus"
           }
         ]
       },
       {
-        "titulo": "Più lentamente, not più forte",
-        "corpo": "Asking someone to repeat usually gets you the same sentence louder, which does not help. Naming the change you want — slower — is what makes the second attempt different from the first."
+        "titulo": "Più lentamente, nicht più forte",
+        "corpo": "Wer nur um Wiederholung bittet, bekommt meist denselben Satz lauter, und das hilft nicht. Erst wenn Sie die gewünschte Änderung benennen — langsamer —, wird der zweite Versuch anders als der erste."
       },
       {
-        "titulo": "Writing beats a third listen",
-        "corpo": "A third identical attempt rarely changes the result. Writing externalises the detail and gives both people the same object to check, which is why it is the rung that ends most of these exchanges."
+        "titulo": "Aufschreiben schlägt das dritte Zuhören",
+        "corpo": "Ein drittes identisches Zuhören ändert das Ergebnis selten. Geschrieben liegt das Detail außerhalb Ihres Kopfes, und beide Seiten prüfen dasselbe Objekt. Deshalb beendet diese Stufe die meisten dieser Situationen."
       },
       {
-        "titulo": "Non ho capito is not a confession",
-        "corpo": "It is a status report, and it is normal. Every person in that queue has said it at some point. Delivered plainly, without a stacked apology, it reads as clarity rather than as weakness."
+        "titulo": "Non ho capito ist kein Geständnis",
+        "corpo": "Es ist eine Statusmeldung, und es ist normal. Jede Person in dieser Schlange hat es schon gesagt. Schlicht gesagt, ohne gestapelte Entschuldigung, klingt es nach Klarheit statt nach Schwäche."
       }
     ]
   },
   "slot": "B03",
-  "permissao": "You are allowed to say non ho capito and mean it plainly, with nothing apologetic attached. Losing an answer in a noisy place is a normal part of a real conversation — the ladder exists precisely so you never have to fake understanding to keep things moving.",
+  "permissao": "Sie dürfen non ho capito sagen und es schlicht so meinen, ohne alles Entschuldigende drumherum. Eine Antwort an einem lauten Ort zu verlieren gehört zu einem echten Gespräch — die Leiter gibt es genau dafür, damit Sie Verstehen nie vortäuschen müssen, um weiterzukommen.",
   "permissaoAudioKey": "it-b03-n06",
-  "espelho": "A tourist speaking English abroad does the exact same polite nod at a fast reply, and it produces exactly the same mess — the wrong platform, the wrong price, the wrong turn. It is not a weakness in your Italian; it is what anyone does under the small social pressure of not wanting to seem slow.",
+  "espelho": "Dasselbe höfliche Nicken passiert am Bahnschalter zu Hause, wenn die Auskunft schnell kommt und die Schlange drückt — und es endet genauso: falsches Gleis, falscher Preis, falsche Abzweigung. Es ist keine Lücke in Ihrem Italienisch, sondern das, was jeder unter dem kleinen Druck macht, nicht langsam wirken zu wollen. Ein paar Brocken Italienisch verschärfen das sogar: Sie klingen gut genug, dass man Ihnen im vollen Tempo antwortet.",
   "fichasCulturais": [
     {
-      "sinal": "You nod and say grazie at an answer you did not actually catch, and ten minutes later you are on the wrong side of the river.",
-      "suaLeitura": "I did not want to hold up the queue, or make my Italian look worse than it is.",
-      "oQueEAli": "The nod protects the conversation for one more second and then hands you a real problem later, at a moment when the person who had the answer is gone and cannot help you fix it.",
-      "oQueVoceFaz": "Say non ho capito immediately — in the same breath as the nod you were about to give — and then pick a rung: slower, written, or on the map.",
-      "oQueMelhora": "The correction happens while the person holding the answer is still in front of you, which is the only moment it is free.",
-      "ondeNaoVale": "Not as a substitute for trying at all — saying non ho capito to every sentence without attempting the exchange reads as giving up rather than as repair.",
+      "sinal": "Sie nicken und sagen grazie zu einer Antwort, die Sie nicht wirklich erwischt haben, und stehen zehn Minuten später auf der falschen Flussseite.",
+      "suaLeitura": "Ich wollte die Schlange nicht aufhalten und mein Italienisch nicht schlechter aussehen lassen, als es ist.",
+      "oQueEAli": "Das Nicken schützt das Gespräch für eine Sekunde und übergibt Ihnen später ein echtes Problem — in einem Moment, in dem die Person mit der Antwort längst weg ist und nicht mehr helfen kann.",
+      "oQueVoceFaz": "Sagen Sie sofort non ho capito, im selben Atemzug wie das Nicken, das Sie gerade machen wollten. Dann wählen Sie eine Stufe: langsamer, aufgeschrieben oder auf der Karte.",
+      "oQueMelhora": "Die Korrektur passiert, solange die Person mit der Antwort noch vor Ihnen steht — der einzige Moment, in dem sie nichts kostet.",
+      "ondeNaoVale": "Kein Ersatz dafür, es überhaupt zu versuchen: non ho capito nach jedem Satz, ohne den Austausch zu wagen, wirkt wie Aufgeben statt wie Reparatur.",
       "evidencia": "CONSENSO",
       "audioKeys": [
         "it-b03-n01"

@@ -3,11 +3,11 @@
   "nivel": "avancado",
   "numero": 36,
   "parte": "A08",
-  "titulo": "The goodbye that gets you invited back",
-  "subtitulo": "The last sentence of the course is the same shape as the first one — said to someone before you need anything from them",
-  "cena": "It is the last morning, the same four faces are where they have been all week, and you have about a minute with each of them.",
+  "titulo": "Der Abschied, der Sie wieder einlädt",
+  "subtitulo": "Der letzte Satz des Kurses hat dieselbe Form wie der erste — gesagt zu jemandem, bevor man etwas von ihm braucht",
+  "cena": "Es ist der letzte Morgen, dieselben vier Gesichter stehen dort, wo sie die ganze Woche standen, und Sie haben etwa eine Minute pro Person.",
   "moldura": "ganha",
-  "frasePiso": "Name the person, name the thing they did, say you are coming back. Three clauses, and the door stays open.",
+  "frasePiso": "Nennen Sie die Person, nennen Sie die Sache, die sie getan hat, sagen Sie, dass Sie wiederkommen. Drei Teile, und die Tür bleibt offen.",
   "moldes": [],
   "steps": [
     {
@@ -16,14 +16,14 @@
       "audioKey": "it-a08-n01",
       "gesto": 1,
       "bloco": "aquecimento",
-      "pt": "This course opened with a greeting given before you needed anything. It closes with one given when you no longer need anything."
+      "pt": "Dieser Kurs begann mit einem Gruß, bevor Sie etwas brauchten. Er endet mit einem, wenn Sie nichts mehr brauchen."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_m",
       "audioKey": "it-a08-n02",
       "bloco": "corpo",
-      "pt": "The formula has three parts: the person, the specific thing, and the return. Miss the middle one and it is just politeness."
+      "pt": "Die Formel hat drei Teile: die Person, die konkrete Sache, die Rückkehr. Ohne die Mitte ist es bloß Höflichkeit."
     },
     {
       "consulta": [
@@ -34,11 +34,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-a08-p01",
-      "promptPt": "Say goodbye to the person at the bar who served you every morning. Speak now.",
+      "promptPt": "Verabschieden Sie sich von der Person an der Bar, die Sie jeden Morgen bedient hat. Sprechen Sie jetzt.",
       "audioKey": "it-a08-t01",
       "es": "Grazie di tutto, davvero. Il caffè migliore della città.",
       "pinyin": "GRA-tsee-eh dee TOOT-to, dav-VE-ro. eel kaf-FEH mee-LYO-re DEL-la cheet-TA",
-      "pt": "Thanks for everything, really. The best coffee in the city.",
+      "pt": "Danke für alles, wirklich. Der beste Kaffee der Stadt.",
       "tts": "Grazie di tutto, davvero. Il caffè migliore della città."
     },
     {
@@ -46,9 +46,9 @@
       "voz": "target_it_m",
       "audioKey": "it-a08-r01",
       "receptivo": true,
-      "acao": "Answer the invitation rather than just smiling at it. That is the whole part.",
+      "acao": "Antworten Sie auf die Einladung, statt nur zu lächeln. Genau darum geht es.",
       "es": "Ma quando torni? Che ti aspetto, eh!",
-      "pt": "So when are you coming back? I'll be expecting you!",
+      "pt": "Und wann kommst du wieder? Ich warte auf dich!",
       "tts": "Ma quando torni? Che ti aspetto, eh!"
     },
     {
@@ -59,18 +59,18 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-a08-p02",
-      "promptPt": "Answer with something specific, not with maybe. Speak now.",
+      "promptPt": "Antworten Sie mit etwas Konkretem, nicht mit vielleicht. Sprechen Sie jetzt.",
       "audioKey": "it-a08-t02",
       "es": "L'anno prossimo, in primavera. Te lo prometto.",
       "pinyin": "LAN-no PROS-see-mo, een pree-ma-VE-ra. teh lo pro-MET-to",
-      "pt": "Next year, in spring. I promise you.",
+      "pt": "Nächstes Jahr, im Frühling. Ich verspreche es dir.",
       "tts": "L'anno prossimo, in primavera. Te lo prometto."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_f",
       "audioKey": "it-a08-n03",
-      "pt": "A vague maybe closes the door politely. A season and a promise keeps it open, and people do remember."
+      "pt": "Ein vages Vielleicht schließt die Tür höflich. Eine Jahreszeit und ein Versprechen halten sie offen. Man erinnert sich daran."
     },
     {
       "consulta": [
@@ -80,11 +80,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-a08-p03",
-      "promptPt": "Say goodbye to the family who had you to lunch. Speak now.",
+      "promptPt": "Verabschieden Sie sich von der Familie, die Sie eingeladen hatte. Sprechen Sie jetzt.",
       "audioKey": "it-a08-t03",
       "es": "Non dimenticheremo quel pranzo. Siete stati gentilissimi.",
       "pinyin": "non dee-men-tee-ke-RE-mo kwel PRAN-tso. see-EH-te STA-tee jen-tee-LEES-see-mee",
-      "pt": "We won't forget that lunch. You were extremely kind.",
+      "pt": "Dieses Mittagessen vergessen wir nicht. Sie waren überaus freundlich.",
       "tts": "Non dimenticheremo quel pranzo. Siete stati gentilissimi."
     },
     {
@@ -92,16 +92,16 @@
       "voz": "guide_de_m",
       "audioKey": "it-a08-n04",
       "bloco": "capsula",
-      "pt": "Then the pocket card. Six sentences that carried the whole trip, and they are all from the first module."
+      "pt": "Jetzt die Taschenkarte. Sechs Sätze haben die ganze Reise getragen, und alle stammen aus dem ersten Modul."
     },
     {
       "tipo": "ouvir",
       "voz": "target_it_f",
       "audioKey": "it-a08-r02",
       "receptivo": true,
-      "acao": "Every one of these you can now produce without thinking. That is what the course was.",
+      "acao": "Jeden davon können Sie jetzt ohne Nachdenken sagen. Das war der Kurs.",
       "es": "Buongiorno. Posso? Dov'è? C'è? Quanto costa? Grazie mille.",
-      "pt": "Good morning. May I? Where is? Is there? How much? Thank you very much.",
+      "pt": "Guten Tag. Darf ich? Wo ist? Gibt es? Was kostet das? Vielen Dank.",
       "tts": "Buongiorno. Posso? Dov'è? C'è? Quanto costa? Grazie mille."
     },
     {
@@ -113,18 +113,18 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-a08-p04",
-      "promptPt": "The one that rescues everything else. Speak now.",
+      "promptPt": "Der eine Satz, der alle anderen rettet. Sprechen Sie jetzt.",
       "audioKey": "it-a08-t04",
       "es": "Scusi, non ho capito. Me lo può ripetere?",
       "pinyin": "SKOO-zee, non oh ka-PEE-to. meh lo pwoh ree-PE-te-re",
-      "pt": "Sorry, I didn't understand. Could you repeat it?",
+      "pt": "Entschuldigung, ich habe nicht verstanden. Können Sie es wiederholen?",
       "tts": "Scusi, non ho capito. Me lo può ripetere?"
     },
     {
       "tipo": "intro",
       "voz": "guide_de_f",
       "audioKey": "it-a08-n05",
-      "pt": "That sentence is the real product. Everything else is easier to look up; that one has to be automatic."
+      "pt": "Dieser Satz ist das eigentliche Produkt. Alles andere kann man nachschlagen; dieser muss automatisch kommen."
     },
     {
       "consulta": [
@@ -134,11 +134,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-a08-p05",
-      "promptPt": "Close the trip the way Italians close things — not with goodbye but with next time. Speak now.",
+      "promptPt": "Schließen Sie die Reise so, wie man hier schließt: nicht mit einem Ende, sondern mit einem Verweis nach vorn. Sprechen Sie jetzt.",
       "audioKey": "it-a08-t05",
       "es": "Alla prossima, allora. Arrivederci!",
       "pinyin": "AL-la PROS-see-ma, al-LO-ra. ar-ree-ve-DER-chee",
-      "pt": "Until next time, then. Goodbye!",
+      "pt": "Bis zum nächsten Mal, dann. Auf Wiedersehen!",
       "tts": "Alla prossima, allora. Arrivederci!"
     },
     {
@@ -146,9 +146,9 @@
       "voz": "target_it_m",
       "audioKey": "it-a08-r03",
       "receptivo": true,
-      "acao": "In bocca al lupo is good luck. The answer is crepi, or crepi il lupo.",
+      "acao": "In bocca al lupo heißt viel Glück. Die Antwort ist crepi, oder crepi il lupo.",
       "es": "In bocca al lupo per il viaggio! Buon rientro.",
-      "pt": "Good luck for the journey! Safe trip home.",
+      "pt": "Viel Glück für die Reise! Gute Heimreise.",
       "tts": "In bocca al lupo per il viaggio! Buon rientro."
     },
     {
@@ -159,11 +159,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-a08-p06",
-      "promptPt": "Give the answer that only someone who has been paying attention knows. Speak now.",
+      "promptPt": "Geben Sie die Antwort, die nur kennt, wer die ganze Woche aufgepasst hat. Sprechen Sie jetzt.",
       "audioKey": "it-a08-t06",
       "es": "Crepi il lupo! Grazie di cuore.",
       "pinyin": "KRE-pee eel LOO-po! GRA-tsee-eh dee KWO-re",
-      "pt": "May the wolf die! Thank you from the heart.",
+      "pt": "Der Wolf soll krepieren! Danke von Herzen.",
       "tts": "Crepi il lupo! Grazie di cuore."
     },
     {
@@ -171,52 +171,52 @@
       "voz": "guide_de_m",
       "audioKey": "it-a08-n06",
       "bloco": "recap",
-      "pt": "That is the course. Six sentences, seven frames, and the one that rescues the rest. Buon viaggio — and alla prossima."
+      "pt": "Das war der Kurs. Sechs Sätze, sieben Bausteine und der eine, der den Rest rettet. Buon viaggio — und alla prossima."
     }
   ],
   "aprofundar": {
-    "titulo": "The pocket card",
+    "titulo": "Die Taschenkarte",
     "secoes": [
       {
-        "titulo": "The six",
-        "corpo": "Buongiorno. Posso…? Dov'è…? C'è…? Quanto costa…? Grazie mille. Between them they open a conversation, ask permission, find a place, check that a thing exists, protect your money and close warmly. Everything else in the course hangs off these.",
+        "titulo": "Die sechs",
+        "corpo": "Buongiorno. Posso…? Dov'è…? C'è…? Quanto costa…? Grazie mille. Zusammen eröffnen sie ein Gespräch, bitten um Erlaubnis, finden einen Ort, prüfen, ob es etwas gibt, schützen Ihr Geld und schließen warm. Alles andere im Kurs hängt an diesen sechs.",
         "exemplos": [
           {
             "es": "Scusi, non ho capito. Me lo può ripetere?",
-            "pt": "Sorry, I didn't understand. Could you repeat it?"
+            "pt": "Entschuldigung, ich habe nicht verstanden. Können Sie es wiederholen?"
           },
           {
             "es": "Alla prossima, allora.",
-            "pt": "Until next time, then."
+            "pt": "Bis zum nächsten Mal, dann."
           }
         ]
       },
       {
-        "titulo": "The repair sentence is the product",
-        "corpo": "Non ho capito, me lo può ripetere is the one that has to be automatic, because it is what keeps every other sentence usable when the answer comes back faster than you expected."
+        "titulo": "Der Reparatursatz ist das Produkt",
+        "corpo": "Non ho capito, me lo può ripetere ist der Satz, der automatisch kommen muss, denn er hält jeden anderen Satz brauchbar, wenn die Antwort schneller zurückkommt als erwartet."
       },
       {
         "titulo": "In bocca al lupo, crepi",
-        "corpo": "Into the wolf's mouth, and may the wolf die. A superstitious good-luck exchange where saying grazie is considered bad form. Knowing the reply is a small marker that you were paying attention all week."
+        "corpo": "In den Rachen des Wolfs, und der Wolf soll krepieren. Ein abergläubischer Glückswunsch, bei dem grazie als schlechte Form gilt. Die Antwort zu kennen ist ein kleines Zeichen dafür, dass Sie die ganze Woche aufgepasst haben."
       },
       {
-        "titulo": "Alla prossima, not addio",
-        "corpo": "Italian closes with next time rather than with finality. Arrivederci itself means until we see each other again. That is not a coincidence — it is the same instinct that this whole module has been about."
+        "titulo": "Alla prossima, nicht addio",
+        "corpo": "Italienisch schließt mit dem nächsten Mal statt mit Endgültigkeit. Arrivederci selbst heißt: bis wir uns wiedersehen. Das ist kein Zufall — es ist derselbe Instinkt, um den es in diesem ganzen Modul ging."
       }
     ]
   },
   "slot": "A08",
-  "permissao": "You are allowed to promise to come back and mean it loosely. Naming a season rather than saying maybe is not a commitment anyone will hold you to — it is the form the goodbye takes here, and it is why the person behind the counter remembers you next year.",
+  "permissao": "Sie dürfen versprechen wiederzukommen und es locker meinen. Eine Jahreszeit zu nennen statt vielleicht zu sagen, ist keine Zusage, an der Sie jemand misst — es ist die Form, die der Abschied hier hat, und der Grund, warum man Sie hinter der Theke im nächsten Jahr wiedererkennt.",
   "permissaoAudioKey": "it-a08-n03",
-  "espelho": "Anyone who has left a place they loved with a wave and thought afterwards about the sentence they did not say knows what this last part is for. It costs one minute per person, and it is the only part of a trip you can still improve on the way out.",
+  "espelho": "Wer einmal einen Ort verlassen hat, den er mochte, und erst hinterher an den Satz dachte, den er nicht gesagt hat, weiß, wofür dieser letzte Teil da ist. Er kostet eine Minute pro Person und ist der einzige Teil einer Reise, den man noch beim Hinausgehen verbessern kann.",
   "fichasCulturais": [
     {
-      "sinal": "Someone wishes you in bocca al lupo before a journey or an exam, and you start to say grazie.",
-      "suaLeitura": "Someone wished me luck, so thanks is the obvious reply.",
-      "oQueEAli": "It is a superstitious formula with a fixed answer, and thanking someone for it is held to break the charm. The expected reply is crepi, or crepi il lupo.",
-      "oQueVoceFaz": "Answer crepi il lupo. It takes two words and it is the sort of thing visitors almost never know.",
-      "oQueMelhora": "The exchange completes the way it is meant to, and you get the small delighted reaction that comes from a foreigner producing exactly the right formula.",
-      "ondeNaoVale": "Not with every good-luck wish — buona fortuna takes a normal grazie, and only the wolf formula carries the superstition.",
+      "sinal": "Jemand wünscht Ihnen vor einer Reise oder einer Prüfung in bocca al lupo, und Sie setzen zu einem grazie an.",
+      "suaLeitura": "Jemand hat mir Glück gewünscht, also ist danke die naheliegende Antwort.",
+      "oQueEAli": "Es ist eine abergläubische Formel mit einer festen Antwort, und sich dafür zu bedanken gilt als Bruch des Zaubers. Erwartet wird crepi, oder crepi il lupo.",
+      "oQueVoceFaz": "Antworten Sie crepi il lupo. Es sind zwei Wörter, und Besucher kennen sie fast nie.",
+      "oQueMelhora": "Der Austausch geht so aus, wie er gemeint ist, und Sie bekommen die kleine erfreute Reaktion darauf, dass ein Gast genau die richtige Formel bringt.",
+      "ondeNaoVale": "Nicht bei jedem Glückwunsch — buona fortuna bekommt ein normales grazie, nur die Wolfsformel trägt den Aberglauben.",
       "evidencia": "CONSENSO",
       "audioKeys": [
         "it-a08-n04"

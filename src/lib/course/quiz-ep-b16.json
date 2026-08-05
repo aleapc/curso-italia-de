@@ -1,92 +1,92 @@
 {
   "id": "q-b16",
   "nivel": "basico",
-  "titulo": "Quiz — Check-in: ask while it is still free to ask",
-  "subtitulo": "Ask first, report plainly",
+  "titulo": "Quiz — Check-in: fragen, solange es noch leicht ist",
+  "subtitulo": "Früh fragen, schlicht melden",
   "introAudioKey": "it-b16-q-i",
-  "introPt": "A traveller spends the thirty seconds at the desk on the things that are still adjustable.",
-  "cenario": "Hotel front desk, on arrival.",
+  "introPt": "Eine Reisende nutzt die dreißig Sekunden am Empfang für das, was noch verstellbar ist.",
+  "cenario": "Hotelempfang, bei der Ankunft.",
   "dialogo": [
     {
       "audioKey": "it-b16-q01",
       "voz": "target_it_f",
       "es": "C'è una camera più tranquilla?",
-      "pt": "Is there a quieter room?"
+      "pt": "Gibt es ein ruhigeres Zimmer?"
     },
     {
       "audioKey": "it-b16-q02",
       "voz": "target_it_m",
       "es": "Le do una all'ultimo piano, sul cortile.",
-      "pt": "I'll give you one on the top floor, facing the courtyard."
+      "pt": "Ich gebe Ihnen eines im obersten Stock, zum Innenhof."
     },
     {
       "audioKey": "it-b16-q03",
       "voz": "target_it_f",
       "es": "Posso fare il check-out più tardi?",
-      "pt": "Can I check out later?"
+      "pt": "Kann ich später auschecken?"
     },
     {
       "audioKey": "it-b16-q04",
       "voz": "target_it_f",
       "es": "L'aria condizionata non funziona.",
-      "pt": "The air conditioning doesn't work."
+      "pt": "Die Klimaanlage geht nicht."
     }
   ],
   "perguntas": [
     {
-      "pergunta": "Why ask for the better room at check-in rather than later?",
+      "pergunta": "Warum das bessere Zimmer beim Check-in erbitten statt später?",
       "opcoes": [
-        "It is cheaper then",
-        "Staff are allocating rooms and have options; later means undoing a decision",
-        "It is the only time they speak English",
-        "Hotels forbid it later"
+        "Dann ist es billiger",
+        "Das Personal verteilt gerade Zimmer; später hieße, eine Entscheidung rückgängig zu machen",
+        "Nur dann spricht man Englisch",
+        "Später ist es untersagt"
       ],
       "correta": 1,
-      "explica": "The window for asking is short."
+      "explica": "Das Zeitfenster zum Fragen ist kurz."
     },
     {
-      "pergunta": "Sul cortile means:",
+      "pergunta": "Sul cortile bedeutet:",
       "opcoes": [
-        "On the street",
-        "Facing the internal courtyard — the quiet side",
-        "On the ground floor",
-        "With a balcony"
+        "Zur Straße",
+        "Zum Innenhof — die ruhige Seite",
+        "Im Erdgeschoss",
+        "Mit Balkon"
       ],
       "correta": 1,
-      "explica": "More precise than asking for quiet."
+      "explica": "Präziser, als um Ruhe zu bitten."
     },
     {
-      "pergunta": "How do you report anything broken?",
+      "pergunta": "Wie melden Sie etwas, das stillsteht?",
       "opcoes": [
-        "A long apology first",
-        "The noun plus non funziona",
-        "By calling the manager",
-        "In English"
+        "Erst eine lange Entschuldigung",
+        "Das Substantiv plus non funziona",
+        "Indem Sie die Leitung rufen",
+        "Auf Englisch"
       ],
       "correta": 1,
-      "explica": "The shower, the lift, the key, the wifi — one structure."
+      "explica": "Die Dusche, der Aufzug, der Schlüssel, das WLAN — ein Baustein."
     },
     {
-      "pergunta": "The tassa di soggiorno is:",
+      "pergunta": "Die tassa di soggiorno ist:",
       "opcoes": [
-        "An error on the bill",
-        "A municipal tourist tax, usually not included in prepaid totals",
-        "A tip",
-        "A cleaning fee"
+        "Ein Versehen auf der Abrechnung",
+        "Eine kommunale Übernachtungsabgabe, meist nicht im Vorauszahlbetrag enthalten",
+        "Ein Trinkgeld",
+        "Eine Reinigungspauschale"
       ],
       "correta": 1,
-      "explica": "Set locally, collected by the property."
+      "explica": "Örtlich festgesetzt, vom Haus eingezogen."
     },
     {
-      "pergunta": "Camera in a hotel means:",
+      "pergunta": "Camera bedeutet im Hotel:",
       "opcoes": [
-        "A camera",
-        "A room",
-        "A safe",
-        "A key"
+        "Eine Kamera",
+        "Ein Zimmer",
+        "Ein Safe",
+        "Ein Schlüssel"
       ],
       "correta": 1,
-      "explica": "One of the false friends from B10."
+      "explica": "Einer der falschen Freunde aus B10."
     }
   ]
 }

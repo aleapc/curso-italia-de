@@ -1,96 +1,96 @@
 {
   "id": "q-a02",
   "nivel": "avancado",
-  "titulo": "Quiz — What they laugh at",
-  "subtitulo": "Receptive humour",
+  "titulo": "Quiz — Worüber sie lachen",
+  "subtitulo": "Humor zum Zuhören",
   "introAudioKey": "it-a02-q-i",
-  "introPt": "A traveller gets teased and handles it right.",
-  "cenario": "At a table with new acquaintances.",
+  "introPt": "Ein Reisender wird geneckt und reagiert richtig.",
+  "cenario": "An einem Tisch mit neuen Bekannten.",
   "dialogo": [
     {
       "audioKey": "it-a02-q01",
       "voz": "target_it_m",
       "es": "Ma tu sei scemo, eh! Guarda che roba.",
-      "pt": "You're an idiot, you know! Look at that.",
+      "pt": "Du bist ja bescheuert! Schau dir das an.",
       "tts": "Ma tu sei scemo, eh! Guarda che roba."
     },
     {
       "audioKey": "it-a02-q02",
       "voz": "target_it_f",
       "es": "Il mio italiano è un disastro, lo so.",
-      "pt": "My Italian is a disaster, I know.",
+      "pt": "Mein Italienisch ist eine Katastrophe, ich weiß.",
       "tts": "Il mio italiano è un disastro, lo so."
     },
     {
       "audioKey": "it-a02-q03",
       "voz": "target_it_m",
       "es": "Ma no, ma va! Parli benissimo, complimenti.",
-      "pt": "Not at all, come on! You speak really well, well done.",
+      "pt": "Ach was, komm schon! Du sprichst sehr gut, Kompliment.",
       "tts": "Ma no, ma va! Parli benissimo, complimenti."
     },
     {
       "audioKey": "it-a02-q04",
       "voz": "target_it_m",
       "es": "Certo, come no. E io sono il Papa.",
-      "pt": "Sure, of course. And I'm the Pope.",
+      "pt": "Klar, na sicher. Und ich bin der Papst.",
       "tts": "Certo, come no. E io sono il Papa."
     }
   ],
   "perguntas": [
     {
-      "pergunta": "Sfottò is:",
+      "pergunta": "Sfottò ist:",
       "opcoes": [
-        "An insult",
-        "Affectionate mockery between people with a relationship",
-        "A regional dish",
-        "A card game"
+        "Eine Beleidigung",
+        "Liebevoller Spott zwischen Menschen mit einer Beziehung",
+        "Ein regionales Gericht",
+        "Ein Kartenspiel"
       ],
       "correta": 1,
-      "explica": "The licence is earned, not shared with the room."
+      "explica": "Die Erlaubnis wird erworben, nicht mit dem Raum geteilt."
     },
     {
-      "pergunta": "Can you repeat a regional joke as a foreigner?",
+      "pergunta": "Dürfen Sie als Gast einen regionalen Witz wiederholen?",
       "opcoes": [
-        "Yes, it shows you fit in",
-        "No - it reads as a foreigner judging a family argument",
-        "Only in the north",
-        "Only about your own town"
+        "Ja, das zeigt, dass Sie dazugehören",
+        "Nein — es klingt nach einem Urteil von außen über einen Familienstreit",
+        "Nur im Norden",
+        "Nur über die eigene Stadt"
       ],
       "correta": 1,
-      "explica": "North and south have been teasing each other for 150 years."
+      "explica": "Nord und Süd necken einander seit 150 Jahren."
     },
     {
-      "pergunta": "Which joke always works?",
+      "pergunta": "Welcher Witz funktioniert immer?",
       "opcoes": [
-        "About their politics",
-        "About their driving",
-        "About yourself",
-        "About the food"
+        "Über ihre Politik",
+        "Über ihren Fahrstil",
+        "Über Sie selbst",
+        "Über das Essen"
       ],
       "correta": 2,
-      "explica": "Your Italian, your appetite, your cappuccino at four."
+      "explica": "Ihr Italienisch, Ihr Appetit, Ihr Cappuccino um vier."
     },
     {
-      "pergunta": "Come no said deadpan means:",
+      "pergunta": "Come no, trocken gesagt, bedeutet:",
       "opcoes": [
-        "Of course",
-        "Absolutely not",
-        "Maybe",
-        "How come"
+        "Natürlich",
+        "Auf keinen Fall",
+        "Vielleicht",
+        "Wieso"
       ],
       "correta": 1,
-      "explica": "The marker is tone, not words."
+      "explica": "Der Marker ist der Ton, nicht das Wort."
     },
     {
-      "pergunta": "You missed the joke. Best move?",
+      "pergunta": "Sie haben den Scherz verpasst. Bester Zug?",
       "opcoes": [
-        "Laugh anyway",
-        "Say ah, mi prendi in giro, or ask",
-        "Change the subject",
-        "Leave"
+        "Trotzdem lachen",
+        "Ah, mi prendi in giro sagen oder nachfragen",
+        "Das Thema wechseln",
+        "Gehen"
       ],
       "correta": 1,
-      "explica": "The polite laugh gives you away anyway."
+      "explica": "Das höfliche Lachen verrät Sie ohnehin."
     }
   ]
 }

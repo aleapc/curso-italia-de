@@ -3,11 +3,11 @@
   "nivel": "basico",
   "numero": 5,
   "parte": "2A",
-  "titulo": "Three answers, then stop",
-  "subtitulo": "Purpose, length and where you sleep — short, true, and backed by the booking you saved last night",
-  "cena": "The officer's eyes are already moving to the next person in the queue, and the only thing between you and the stamp is three short sentences.",
+  "titulo": "Drei Antworten, dann Schluss",
+  "subtitulo": "Grund, Dauer und Schlafplatz — kurz, wahr und gedeckt von der Buchung, die Sie gestern Abend gespeichert haben",
+  "cena": "Der Blick des Beamten wandert schon zur nächsten Person in der Schlange, und zwischen Ihnen und dem Stempel stehen nur drei kurze Sätze.",
   "moldura": "protege",
-  "frasePiso": "Answer the question that was asked. The booking carries everything else.",
+  "frasePiso": "Beantworten Sie die Frage, die gestellt wurde. Alles andere trägt die Buchung.",
   "moldes": [],
   "steps": [
     {
@@ -16,17 +16,17 @@
       "audioKey": "it-b05-n01",
       "gesto": 1,
       "bloco": "aquecimento",
-      "pt": "Passport control is not an Italian exam. Three jobs only: why you came, how long, where you sleep. True answer, then stop."
+      "pt": "Die Passkontrolle ist keine Sprachprüfung. Drei Dinge: Grund, Dauer, Unterkunft. Wahr antworten, dann Schluss."
     },
     {
       "tipo": "ouvir",
       "voz": "target_it_m",
       "audioKey": "it-b05-r01",
       "es": "Buongiorno. Qual è il motivo del viaggio?",
-      "pt": "Good morning. What is the purpose of your trip?",
+      "pt": "Guten Tag. Was ist der Grund Ihrer Reise?",
       "tts": "Buongiorno. Qual è il motivo del viaggio?",
       "receptivo": true,
-      "acao": "Answer only the purpose. Do not add the itinerary."
+      "acao": "Nennen Sie nur den Grund. Kein Reiseprogramm."
     },
     {
       "consulta": [
@@ -37,11 +37,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-b05-p01",
-      "promptPt": "You are travelling for a holiday. One sentence. Speak now.",
+      "promptPt": "Sie sind zum Vergnügen hier, nicht für Arbeit. Ein Satz. Sprechen Sie jetzt.",
       "audioKey": "it-b05-t01",
       "es": "Sono in vacanza.",
       "pinyin": "SO-no een va-KAN-tsa",
-      "pt": "I'm on holiday.",
+      "pt": "Ich bin im Urlaub.",
       "tts": "Sono in vacanza."
     },
     {
@@ -49,7 +49,7 @@
       "voz": "target_it_m",
       "audioKey": "it-b05-r02",
       "es": "Quanto tempo si ferma?",
-      "pt": "How long are you staying?",
+      "pt": "Wie lange bleiben Sie?",
       "tts": "Quanto tempo si ferma?"
     },
     {
@@ -57,7 +57,7 @@
       "voz": "guide_de_m",
       "audioKey": "it-b05-n02",
       "bloco": "corpo",
-      "pt": "Use your real number. Ten days is the rehearsal value, not a line to memorise for every trip."
+      "pt": "Nehmen Sie Ihre echte Zahl. Zehn Tage ist nur der Übungswert, nichts zum Auswendiglernen."
     },
     {
       "consulta": [
@@ -67,11 +67,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-b05-p02",
-      "promptPt": "Give only the duration, nothing else. Speak now.",
+      "promptPt": "Nur die Dauer, sonst nichts. Sprechen Sie jetzt.",
       "audioKey": "it-b05-t02",
       "es": "Dieci giorni.",
       "pinyin": "dee-EH-chee JOR-nee",
-      "pt": "Ten days.",
+      "pt": "Zehn Tage.",
       "tts": "Dieci giorni."
     },
     {
@@ -79,16 +79,16 @@
       "voz": "target_it_m",
       "audioKey": "it-b05-r03",
       "es": "Dove alloggia?",
-      "pt": "Where are you staying?",
+      "pt": "Wo wohnen Sie?",
       "tts": "Dove alloggia?",
       "receptivo": true,
-      "acao": "Name the city and the accommodation type. Nothing else."
+      "acao": "Nennen Sie Stadt und Art der Unterkunft. Sonst nichts."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_f",
       "audioKey": "it-b05-n03",
-      "pt": "Not the story of how you found the hotel. Name it, and let the booking you saved hold the address."
+      "pt": "Nicht die Geschichte der Hotelsuche. Nennen Sie es kurz; die Adresse steht in der Buchung."
     },
     {
       "consulta": [
@@ -99,11 +99,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-b05-p03",
-      "promptPt": "Say where you are staying, briefly. Speak now.",
+      "promptPt": "Sagen Sie kurz, wo Sie untergebracht sind. Sprechen Sie jetzt.",
       "audioKey": "it-b05-t03",
       "es": "In un hotel a Roma.",
       "pinyin": "een oon o-TEL a RO-ma",
-      "pt": "In a hotel in Rome.",
+      "pt": "In einem Hotel in Rom.",
       "tts": "In un hotel a Roma."
     },
     {
@@ -111,7 +111,7 @@
       "voz": "target_it_m",
       "audioKey": "it-b05-r04",
       "es": "Ha la prenotazione?",
-      "pt": "Do you have the booking?",
+      "pt": "Haben Sie die Buchung?",
       "tts": "Ha la prenotazione?"
     },
     {
@@ -123,11 +123,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-b05-p04",
-      "promptPt": "Hand over the offline confirmation without adding a speech. Speak now.",
+      "promptPt": "Reichen Sie die gespeicherte Bestätigung hinüber, ohne Ansprache. Sprechen Sie jetzt.",
       "audioKey": "it-b05-t04",
       "es": "Sì, eccola.",
       "pinyin": "see, EK-ko-la",
-      "pt": "Yes, here it is.",
+      "pt": "Ja, hier ist sie.",
       "tts": "Sì, eccola."
     },
     {
@@ -135,7 +135,7 @@
       "voz": "guide_de_m",
       "audioKey": "it-b05-n04",
       "bloco": "capsula",
-      "pt": "Eccola is the whole sentence. Two syllables and an outstretched hand beat a paragraph every time."
+      "pt": "Eccola ist der ganze Satz. Zwei Silben und die ausgestreckte Hand schlagen jeden Absatz."
     },
     {
       "consulta": [
@@ -145,11 +145,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-b05-p05",
-      "promptPt": "You did not catch the question. Ask cleanly, without apologising twice. Speak now.",
+      "promptPt": "Die Frage ging an Ihnen vorbei. Bitten Sie sauber um Klärung, ohne sich doppelt zu entschuldigen. Sprechen Sie jetzt.",
       "audioKey": "it-b05-t05",
       "es": "Scusi, non ho capito la domanda.",
       "pinyin": "SKOO-zee, non oh ka-PEE-to la do-MAN-da",
-      "pt": "Sorry, I didn't understand the question.",
+      "pt": "Entschuldigung, ich habe die Frage nicht verstanden.",
       "tts": "Scusi, non ho capito la domanda."
     },
     {
@@ -160,11 +160,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-b05-p06",
-      "promptPt": "Say you are travelling alone. Speak now.",
+      "promptPt": "Sie sind ohne Begleitung unterwegs. Sagen Sie es. Sprechen Sie jetzt.",
       "audioKey": "it-b05-t06",
       "es": "Viaggio da solo.",
       "pinyin": "vee-AJ-jo da SO-lo",
-      "pt": "I'm travelling alone.",
+      "pt": "Ich reise allein.",
       "tts": "Viaggio da solo."
     },
     {
@@ -176,11 +176,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-b05-p07",
-      "promptPt": "They ask if you are visiting other cities. Answer briefly and truthfully. Speak now.",
+      "promptPt": "Man fragt, ob Sie weitere Städte besuchen. Antworten Sie kurz und wahr. Sprechen Sie jetzt.",
       "audioKey": "it-b05-t07",
       "es": "Poi vado a Firenze.",
       "pinyin": "poy VA-do a fee-REN-tse",
-      "pt": "Then I'm going to Florence.",
+      "pt": "Danach fahre ich nach Florenz.",
       "tts": "Poi vado a Firenze."
     },
     {
@@ -188,7 +188,7 @@
       "voz": "target_it_m",
       "audioKey": "it-b05-r05",
       "es": "Va bene. Buon viaggio.",
-      "pt": "All right. Have a good trip.",
+      "pt": "In Ordnung. Gute Reise.",
       "tts": "Va bene. Buon viaggio."
     },
     {
@@ -199,11 +199,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-b05-p08",
-      "promptPt": "Close it in two words and move on. Speak now.",
+      "promptPt": "Schließen Sie mit zwei Wörtern ab und gehen Sie weiter. Sprechen Sie jetzt.",
       "audioKey": "it-b05-t08",
       "es": "Grazie, buongiorno.",
       "pinyin": "GRA-tsee-eh, bwon-JOR-no",
-      "pt": "Thank you, good day.",
+      "pt": "Danke, guten Tag.",
       "tts": "Grazie, buongiorno."
     },
     {
@@ -212,7 +212,7 @@
       "audioKey": "it-b05-s01",
       "es": "Sono in vacanza. Dieci giorni. In un hotel a Roma. Sì, eccola.",
       "pinyin": "SO-no een va-KAN-tsa. dee-EH-chee JOR-nee. een oon o-TEL a RO-ma. see, EK-ko-la",
-      "pt": "Shadow the three answers with a clean stop after each.",
+      "pt": "Sprechen Sie die drei Antworten nach, mit klarem Stopp nach jeder.",
       "tts": "Sono in vacanza. Dieci giorni. In un hotel a Roma. Sì, eccola."
     },
     {
@@ -220,52 +220,52 @@
       "voz": "guide_de_f",
       "audioKey": "it-b05-n05",
       "bloco": "recap",
-      "pt": "B05 done. Purpose, duration, where you sleep. Short is not evasive — short means the answer matched the question."
+      "pt": "B05 geschafft. Grund, Dauer, Unterkunft. Kurz ist nicht ausweichend — kurz heißt, die Antwort passte zur Frage."
     }
   ],
   "aprofundar": {
-    "titulo": "The border is a matching task",
+    "titulo": "Die Grenze ist eine Zuordnungsaufgabe",
     "secoes": [
       {
-        "titulo": "True beats fluent",
-        "corpo": "Never repeat the lesson's ten days when your itinerary says something else. Replace the number with the truth; the structure stays exactly as short."
+        "titulo": "Wahr schlägt flüssig",
+        "corpo": "Wiederholen Sie nie die zehn Tage aus der Lektion, wenn Ihr Plan etwas anderes sagt. Tauschen Sie die Zahl gegen die Wahrheit; der Aufbau bleibt genauso kurz."
       },
       {
-        "titulo": "One question, one payload",
-        "corpo": "Purpose, duration and accommodation are three separate answers. Do not stack all three unless you were asked for them together — the officer is working through a queue of matched pairs."
+        "titulo": "Eine Frage, eine Ladung",
+        "corpo": "Grund, Dauer und Unterkunft sind drei getrennte Antworten. Stapeln Sie sie nicht, wenn nur nach einem gefragt wurde — am Schalter läuft eine Schlange aus passenden Paaren."
       },
       {
-        "titulo": "Let the document speak",
-        "corpo": "Eccola moves the exchange from your memory to your evidence. It is the shortest useful sentence in the whole course and it does more work than any explanation.",
+        "titulo": "Lassen Sie das Dokument sprechen",
+        "corpo": "Eccola verschiebt den Austausch von Ihrem Gedächtnis zu Ihrem Beleg. Es ist der kürzeste nützliche Satz im ganzen Kurs und leistet mehr als jede Erklärung.",
         "exemplos": [
           {
             "es": "Ha la prenotazione?",
-            "pt": "Do you have the booking?"
+            "pt": "Haben Sie die Buchung?"
           },
           {
             "es": "Sì, eccola.",
-            "pt": "Yes, here it is."
+            "pt": "Ja, hier ist sie."
           }
         ]
       },
       {
-        "titulo": "Rules move, so check before you fly",
-        "corpo": "Entry requirements for non-EU travellers to the Schengen area have been changing, including new electronic entry systems phased in across borders. This part teaches the conversation, not the paperwork — verify the current requirement with an official source close to departure."
+        "titulo": "Regeln ändern sich, prüfen Sie vor dem Abflug",
+        "corpo": "Die Einreiseregeln an den Schengen-Außengrenzen sind in Bewegung, samt neuer elektronischer Erfassung, die schrittweise eingeführt wird. Dieser Teil übt das Gespräch, nicht die Formalitäten — prüfen Sie den aktuellen Stand kurz vor der Reise bei einer amtlichen Quelle."
       }
     ]
   },
   "slot": "B05",
-  "permissao": "You are allowed to answer in three words and stop. A short true answer is not suspicious — over-explaining, filling silence with unasked detail or trying to sound friendlier than the question calls for is what actually slows a border desk down.",
+  "permissao": "Sie dürfen in drei Wörtern antworten und dann aufhören. Eine kurze wahre Antwort ist nicht verdächtig — was einen Grenzschalter wirklich aufhält, sind Erklärungen, nach denen niemand gefragt hat, und der Versuch, freundlicher zu klingen, als die Frage es verlangt.",
   "permissaoAudioKey": "it-b05-n01",
-  "espelho": "Anyone who has over-answered a customs officer at home by volunteering details nobody wanted knows the instinct this part corrects. It is not an Italian problem — it is the nervous habit of filling silence with more words than the question needs, and it reads the same on either side of any border.",
+  "espelho": "Wer schon einmal am Zoll mehr gesagt hat, als gefragt war, kennt den Reflex, den dieser Teil abstellt. Das hat nichts mit Italien zu tun — es ist die nervöse Gewohnheit, Stille mit Wörtern zu füllen, und sie wirkt an jeder Grenze gleich.",
   "fichasCulturais": [
     {
-      "sinal": "The officer asks one short question and you find yourself adding an explanation nobody requested — why this trip, what you did last time, how excited you are.",
-      "suaLeitura": "More detail sounds friendlier, and proves I have nothing to hide.",
-      "oQueEAli": "The desk is processing a queue of short matched answers. A reply that runs past the question it answered reads as something to double-check, not as warmth.",
-      "oQueVoceFaz": "Answer only the payload of the question you were just asked, then stop and wait for the next one.",
-      "oQueMelhora": "The exchange moves at the pace the officer is already set up for, and you are through faster rather than slower.",
-      "ondeNaoVale": "Not when the officer asks a compound question or explicitly invites more detail — then answering everything they actually asked is the match, and a clipped reply would be the mismatch.",
+      "sinal": "Der Beamte stellt eine kurze Frage, und Sie hängen eine Erklärung an, um die niemand gebeten hat — warum diese Reise, was Sie letztes Mal gemacht haben, wie sehr Sie sich freuen.",
+      "suaLeitura": "Mehr Details klingen freundlicher und zeigen, dass ich nichts zu verbergen habe.",
+      "oQueEAli": "Am Schalter läuft eine Schlange aus kurzen, passenden Antworten. Eine Antwort, die über die Frage hinausläuft, wirkt wie etwas zum Nachprüfen, nicht wie Wärme.",
+      "oQueVoceFaz": "Beantworten Sie nur den Kern der gerade gestellten Frage, dann halten Sie an und warten auf die nächste.",
+      "oQueMelhora": "Der Austausch läuft in dem Takt, auf den der Beamte ohnehin eingestellt ist, und Sie sind schneller durch statt langsamer.",
+      "ondeNaoVale": "Nicht, wenn mehrere Dinge auf einmal gefragt werden oder ausdrücklich um Details gebeten wird — dann ist die vollständige Antwort die passende, und ein abgehackter Satz wäre der Fehlgriff.",
       "evidencia": "CONSENSO",
       "audioKeys": [
         "it-b05-n01"

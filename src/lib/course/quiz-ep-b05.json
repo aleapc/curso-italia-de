@@ -1,92 +1,92 @@
 {
   "id": "q-b05",
   "nivel": "basico",
-  "titulo": "Quiz — Three answers, then stop",
-  "subtitulo": "Purpose, length, where you sleep",
+  "titulo": "Quiz — Drei Antworten, dann Schluss",
+  "subtitulo": "Grund, Dauer, Schlafplatz",
   "introAudioKey": "it-b05-q-i",
-  "introPt": "A traveller answers passport control in three short sentences.",
-  "cenario": "Passport control on arrival.",
+  "introPt": "Eine Reisende beantwortet die Passkontrolle in drei kurzen Sätzen.",
+  "cenario": "Passkontrolle bei der Ankunft.",
   "dialogo": [
     {
       "audioKey": "it-b05-q01",
       "voz": "target_it_m",
       "es": "Qual è il motivo del viaggio?",
-      "pt": "What is the purpose of your trip?"
+      "pt": "Was ist der Grund Ihrer Reise?"
     },
     {
       "audioKey": "it-b05-q02",
       "voz": "target_it_f",
       "es": "Sono in vacanza.",
-      "pt": "I am on holiday."
+      "pt": "Ich bin im Urlaub."
     },
     {
       "audioKey": "it-b05-q03",
       "voz": "target_it_m",
       "es": "Quanto tempo si ferma?",
-      "pt": "How long are you staying?"
+      "pt": "Wie lange bleiben Sie?"
     },
     {
       "audioKey": "it-b05-q04",
       "voz": "target_it_f",
       "es": "Dieci giorni.",
-      "pt": "Ten days."
+      "pt": "Zehn Tage."
     }
   ],
   "perguntas": [
     {
-      "pergunta": "What are the three jobs at the desk?",
+      "pergunta": "Welche drei Dinge sind am Schalter zu klären?",
       "opcoes": [
-        "Purpose, duration, accommodation",
-        "Name, age, job",
-        "Money, luggage, tickets",
-        "Flight, seat, gate"
+        "Grund, Dauer, Unterkunft",
+        "Name, Alter, Beruf",
+        "Geld, Gepäck, Tickets",
+        "Flug, Sitz, Gate"
       ],
       "correta": 0,
-      "explica": "Answer each, then stop."
+      "explica": "Jedes beantworten, dann aufhören."
     },
     {
-      "pergunta": "What does eccola mean and do?",
+      "pergunta": "Was heißt eccola und was leistet es?",
       "opcoes": [
-        "Here it is — hands over the evidence",
-        "I do not know",
-        "Please repeat",
-        "Thank you"
+        "Hier ist sie — der Beleg wird übergeben",
+        "Ich weiß nicht",
+        "Bitte wiederholen",
+        "Danke"
       ],
       "correta": 0,
-      "explica": "It moves the exchange from memory to evidence."
+      "explica": "Es verschiebt den Austausch vom Gedächtnis zum Beleg."
     },
     {
-      "pergunta": "Should you use the ten days from the lesson?",
+      "pergunta": "Sollen Sie die zehn Tage aus der Lektion nennen?",
       "opcoes": [
-        "Yes, always",
-        "No, use your real number",
-        "Only if under two weeks",
-        "Only for holidays"
+        "Ja, immer",
+        "Nein, nehmen Sie Ihre echte Zahl",
+        "Nur unter zwei Wochen",
+        "Nur im Urlaub"
       ],
       "correta": 1,
-      "explica": "True beats fluent; the structure stays short either way."
+      "explica": "Wahr schlägt flüssig; der Aufbau bleibt so oder so kurz."
     },
     {
-      "pergunta": "Is a short answer suspicious?",
+      "pergunta": "Ist eine kurze Antwort verdächtig?",
       "opcoes": [
-        "Yes, explain more",
-        "No, short means it matched the question",
-        "Only if you pause",
-        "Only for tourists"
+        "Ja, erklären Sie mehr",
+        "Nein, kurz heißt: sie passte zur Frage",
+        "Nur wenn Sie zögern",
+        "Nur bei Touristen"
       ],
       "correta": 1,
-      "explica": "Over-explaining is what actually slows the desk down."
+      "explica": "Was den Schalter wirklich aufhält, sind Erklärungen zu viel."
     },
     {
-      "pergunta": "What if you did not catch the question?",
+      "pergunta": "Was tun, wenn Sie die Frage nicht erfasst haben?",
       "opcoes": [
-        "Guess and nod",
-        "Say scusi, non ho capito la domanda",
-        "Answer in English",
-        "Show the passport again"
+        "Raten und nicken",
+        "Scusi, non ho capito la domanda sagen",
+        "Auf Englisch antworten",
+        "Den Pass noch einmal zeigen"
       ],
       "correta": 1,
-      "explica": "Asking is faster than recovering from a wrong answer."
+      "explica": "Nachfragen geht schneller, als eine falsche Antwort zu reparieren."
     }
   ]
 }

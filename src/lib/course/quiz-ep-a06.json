@@ -1,96 +1,96 @@
 {
   "id": "q-a06",
   "nivel": "avancado",
-  "titulo": "Quiz — Their calendar",
-  "subtitulo": "Two calendars and a festival",
+  "titulo": "Quiz — Der Kalender vor Ort",
+  "subtitulo": "Zwei Kalender und ein Fest",
   "introAudioKey": "it-a06-q-i",
-  "introPt": "A traveller plans around the closures and finds the sagra.",
-  "cenario": "August, and a shuttered street.",
+  "introPt": "Eine Reisende plant um die Schließzeiten herum und findet die Sagra.",
+  "cenario": "August, und eine verrammelte Straße.",
   "dialogo": [
     {
       "audioKey": "it-a06-q01",
       "voz": "target_it_m",
       "es": "Chiuso per ferie dal dieci al venticinque agosto.",
-      "pt": "Closed for holidays from the tenth to the twenty-fifth of August.",
+      "pt": "Betriebsferien vom zehnten bis fünfundzwanzigsten August.",
       "tts": "Chiuso per ferie dal dieci al venticinque agosto."
     },
     {
       "audioKey": "it-a06-q02",
       "voz": "target_it_f",
       "es": "Domani è il santo patrono, è festa solo qui.",
-      "pt": "Tomorrow is the patron saint's day, it's a holiday only here.",
+      "pt": "Morgen ist der Stadtpatron, Feiertag nur hier.",
       "tts": "Domani è il santo patrono, è festa solo qui."
     },
     {
       "audioKey": "it-a06-q03",
       "voz": "target_it_m",
       "es": "Sabato c'è la sagra del cinghiale, al campo sportivo.",
-      "pt": "Saturday there's the wild boar festival, at the sports ground.",
+      "pt": "Samstag ist das Wildschweinfest, auf dem Sportplatz.",
       "tts": "Sabato c'è la sagra del cinghiale, al campo sportivo."
     },
     {
       "audioKey": "it-a06-q04",
       "voz": "target_it_f",
       "es": "Sì, contanti. Prendi i buoni alla cassa all'ingresso.",
-      "pt": "Yes, cash. You get the tickets at the till by the entrance.",
+      "pt": "Ja, bar. Die Bons gibt es an der Kasse am Eingang.",
       "tts": "Sì, contanti. Prendi i buoni alla cassa all'ingresso."
     }
   ],
   "perguntas": [
     {
-      "pergunta": "Ferragosto is:",
+      "pergunta": "Ferragosto ist:",
       "opcoes": [
-        "A saint's day in each town",
-        "15 August, national holiday and peak of the summer break",
-        "A food festival",
-        "A regional holiday"
+        "Der Patronstag jeder Stadt",
+        "Der 15. August, Feiertag und Höhepunkt der Sommerpause",
+        "Ein Essensfest",
+        "Ein regionaler Feiertag"
       ],
       "correta": 1,
-      "explica": "Cities empty and the coast fills."
+      "explica": "Die Städte leeren sich, die Küste füllt sich."
     },
     {
-      "pergunta": "Why can one town be closed and the next open?",
+      "pergunta": "Warum kann ein Ort zu sein und der nächste offen?",
       "opcoes": [
-        "Random",
-        "Each comune has its own patron saint's day",
-        "Weather",
-        "Union rules"
+        "Zufall",
+        "Jede Gemeinde hat ihren eigenen Patronstag",
+        "Das Wetter",
+        "Tarifregeln"
       ],
       "correta": 1,
-      "explica": "Rome 29 June, Milan 7 December, Naples 19 September, Venice 25 April."
+      "explica": "Rom 29. Juni, Mailand 7. Dezember, Neapel 19. September, Venedig 25. April."
     },
     {
-      "pergunta": "A sagra is:",
+      "pergunta": "Eine Sagra ist:",
       "opcoes": [
-        "A market",
-        "A village festival built around one ingredient",
-        "A church service",
-        "A parade"
+        "Ein Markt",
+        "Ein Dorffest rund um eine einzige Zutat",
+        "Ein Gottesdienst",
+        "Ein Umzug"
       ],
       "correta": 1,
-      "explica": "Long tables, one dish, usually the food you will remember."
+      "explica": "Lange Tische, ein Gericht, meist das Essen, an das Sie sich erinnern."
     },
     {
-      "pergunta": "How do you pay at a sagra?",
+      "pergunta": "Wie zahlt man bei einer Sagra?",
       "opcoes": [
-        "Card",
-        "Usually cash, often via a ticket system",
+        "Karte",
+        "Meist bar, oft über ein Bonsystem",
         "App",
-        "Free"
+        "Kostenlos"
       ],
       "correta": 1,
-      "explica": "The one place where the card rule does not help you."
+      "explica": "Der eine Ort, an dem die Kartenregel nicht hilft."
     },
     {
-      "pergunta": "How are sagre usually advertised?",
+      "pergunta": "Wie werden Sagre üblicherweise angekündigt?",
       "opcoes": [
         "Online",
-        "On paper - posters, banners, a sign at the roundabout",
-        "On TV",
-        "They are secret"
+        "Auf Papier — Plakate, Banner, ein Schild am Kreisverkehr",
+        "Im Fernsehen",
+        "Gar nicht, sie sind geheim"
       ],
       "correta": 1,
-      "explica": "Which is why you ask a person, not a phone."
+      "explica": "Deshalb fragt man einen Menschen und kein Handy."
     }
   ]
 }

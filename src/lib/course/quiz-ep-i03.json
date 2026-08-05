@@ -1,92 +1,92 @@
 {
   "id": "q-i03",
   "nivel": "intermediario",
-  "titulo": "Quiz — The dish you were never going to order",
-  "subtitulo": "Handing over the decision",
+  "titulo": "Quiz — Das Gericht, das Sie nie bestellt hätten",
+  "subtitulo": "Die Entscheidung übergeben",
   "introAudioKey": "it-i03-q-i",
-  "introPt": "A traveller stops ordering the one item they recognise.",
-  "cenario": "A trattoria, menu still unopened.",
+  "introPt": "Eine Reisende bestellt nicht mehr das eine Gericht, das sie kennt.",
+  "cenario": "Eine Trattoria, die Karte noch zu.",
   "dialogo": [
     {
       "audioKey": "it-i03-q01",
       "voz": "target_it_f",
       "es": "Cosa mi consiglia?",
-      "pt": "What do you recommend?"
+      "pt": "Was empfehlen Sie?"
     },
     {
       "audioKey": "it-i03-q02",
       "voz": "target_it_m",
       "es": "Oggi abbiamo i carciofi. Li facciamo alla giudia.",
-      "pt": "Today we have artichokes. We do them Jewish-style."
+      "pt": "Heute haben wir Artischocken. Wir machen sie nach jüdischer Art."
     },
     {
       "audioKey": "it-i03-q03",
       "voz": "target_it_f",
       "es": "Allora prendo quello, mi fido.",
-      "pt": "Then I'll have that, I trust you."
+      "pt": "Dann nehme ich das, ich vertraue Ihnen."
     },
     {
       "audioKey": "it-i03-q04",
       "voz": "target_it_f",
       "es": "Un quarto di vino della casa, rosso.",
-      "pt": "A quarter litre of house wine, red."
+      "pt": "Einen Viertelliter Hauswein, rot."
     }
   ],
   "perguntas": [
     {
-      "pergunta": "What do the two words mi fido do?",
+      "pergunta": "Was bewirken die zwei Wörter mi fido?",
       "opcoes": [
-        "Ask the price",
-        "Signal you will not be a difficult table — and the quality reflects it",
-        "Order dessert",
-        "Ask for the bill"
+        "Sie fragen nach dem Preis",
+        "Sie signalisieren: kein schwieriger Tisch — und die Qualität spiegelt das",
+        "Sie bestellen Nachtisch",
+        "Sie bitten um die Rechnung"
       ],
       "correta": 1,
-      "explica": "The first sentence gets a recommendation; the second gets the good one."
+      "explica": "Der erste Satz bringt eine Empfehlung, der zweite die gute."
     },
     {
-      "pergunta": "Must you order all five courses?",
+      "pergunta": "Müssen Sie alle fünf Gänge bestellen?",
       "opcoes": [
-        "Yes",
-        "No — a primo and a contorno is a normal meal",
-        "Only at dinner",
-        "Only on Sundays"
+        "Ja",
+        "Nein — ein primo und ein contorno sind eine normale Mahlzeit",
+        "Nur abends",
+        "Nur sonntags"
       ],
       "correta": 1,
-      "explica": "Say which courses you want so the rest does not arrive."
+      "explica": "Sagen Sie, welche Gänge Sie wollen, dann kommt der Rest nicht."
     },
     {
-      "pergunta": "A fixed multilingual menu with photographs signals:",
+      "pergunta": "Ein festes mehrsprachiges Menü mit Fotos zeigt:",
       "opcoes": [
-        "Good value",
-        "Food designed around never seeing you again",
-        "Fresh ingredients",
-        "A local favourite"
+        "Gutes Preis-Leistungs-Verhältnis",
+        "Ein Haus, das darauf gebaut ist, Sie nie wiederzusehen",
+        "Frische Zutaten",
+        "Einen Liebling der Nachbarschaft"
       ],
       "correta": 1,
-      "explica": "That is the opposite of the incentive you want."
+      "explica": "Das ist das Gegenteil des Anreizes, den Sie wollen."
     },
     {
-      "pergunta": "Vino della casa is:",
+      "pergunta": "Vino della casa ist:",
       "opcoes": [
-        "A downgrade",
-        "Usually the local wine the place actually drinks",
-        "Always sweet",
-        "Only for groups"
+        "Eine Sparversion",
+        "Meist der Wein der Gegend, den das Haus selbst trinkt",
+        "Immer süß",
+        "Nur für Gruppen"
       ],
       "correta": 1,
-      "explica": "Often the better call than the cheapest bottle."
+      "explica": "Oft die bessere Wahl als die billigste Flasche."
     },
     {
-      "pergunta": "The waiter names one dish with no alternatives. That means:",
+      "pergunta": "Der Kellner nennt ein Gericht ohne Alternativen. Das heißt:",
       "opcoes": [
-        "They are offloading stock",
-        "There is a right answer today",
-        "They are rushed",
-        "They did not understand"
+        "Er will Ware loswerden",
+        "Heute gibt es eine richtige Antwort",
+        "Er hat es eilig",
+        "Er hat nicht verstanden"
       ],
       "correta": 1,
-      "explica": "A long list of options is the more commercial response."
+      "explica": "Die lange Liste ist die kommerziellere Reaktion."
     }
   ]
 }

@@ -1,92 +1,92 @@
 {
   "id": "q-b14",
   "nivel": "basico",
-  "titulo": "Quiz — Mi porta, and the bill",
+  "titulo": "Quiz — Mi porta und die Rechnung",
   "subtitulo": "Coperto, servizio, scontrino",
   "introAudioKey": "it-b14-q-i",
-  "introPt": "A traveller asks for the bill, reads the two extra lines, and takes the receipt.",
-  "cenario": "The end of a meal at a trattoria.",
+  "introPt": "Eine Reisende fragt nach der Rechnung, liest die zwei Zusatzzeilen und nimmt den Beleg mit.",
+  "cenario": "Das Ende einer Mahlzeit in einer Trattoria.",
   "dialogo": [
     {
       "audioKey": "it-b14-q01",
       "voz": "target_it_f",
       "es": "Mi porta il conto, per favore?",
-      "pt": "Could you bring me the bill, please?"
+      "pt": "Bringen Sie mir bitte die Rechnung?"
     },
     {
       "audioKey": "it-b14-q02",
       "voz": "target_it_m",
       "es": "Coperto due euro a persona, servizio dieci per cento.",
-      "pt": "Cover charge two euros per person, service ten percent."
+      "pt": "Gedeck zwei Euro pro Person, Bedienung zehn Prozent."
     },
     {
       "audioKey": "it-b14-q03",
       "voz": "target_it_f",
       "es": "Scusi, cos'è questa voce?",
-      "pt": "Sorry, what is this item?"
+      "pt": "Entschuldigung, was ist dieser Posten?"
     },
     {
       "audioKey": "it-b14-q04",
       "voz": "target_it_f",
       "es": "Mi porta lo scontrino, per favore?",
-      "pt": "Could you bring me the receipt, please?"
+      "pt": "Bringen Sie mir bitte den Beleg?"
     }
   ],
   "perguntas": [
     {
-      "pergunta": "Why does the bill not arrive on its own?",
+      "pergunta": "Warum kommt die Rechnung nicht von allein?",
       "opcoes": [
-        "The waiter forgot",
-        "Bringing it unrequested would be hurrying you out",
-        "It is a slow kitchen",
-        "You have to pay at the till"
+        "Der Kellner hat es vergessen",
+        "Ungefragt gebracht hieße: Bitte gehen Sie",
+        "Die Küche ist langsam",
+        "Man zahlt an der Kasse"
       ],
       "correta": 1,
-      "explica": "The table is yours until you signal otherwise."
+      "explica": "Der Tisch gehört Ihnen, bis Sie etwas anderes signalisieren."
     },
     {
-      "pergunta": "Is the coperto required by law?",
+      "pergunta": "Ist der coperto gesetzlich vorgeschrieben?",
       "opcoes": [
-        "Yes, always",
-        "No — but it is lawful when clearly indicated on the menu",
-        "No, and it is always illegal",
-        "Only in tourist areas"
+        "Ja, immer",
+        "Nein — aber zulässig, wenn er auf der Karte klar ausgewiesen ist",
+        "Nein, und er ist immer unzulässig",
+        "Nur in Touristenvierteln"
       ],
       "correta": 1,
-      "explica": "A coperto that appears nowhere on the menu is the version worth questioning."
+      "explica": "Ein coperto, der nirgends auf der Karte steht, ist die Variante, nach der man fragt."
     },
     {
-      "pergunta": "Servizio is on the bill. Should you also tip?",
+      "pergunta": "Servizio steht auf der Rechnung. Zusätzlich Trinkgeld?",
       "opcoes": [
-        "Yes, fifteen percent",
-        "Yes, ten percent",
-        "No — tipping on top is not expected; rounding up is plenty",
-        "Only for good service"
+        "Ja, fünfzehn Prozent",
+        "Ja, zehn Prozent",
+        "Nein — Trinkgeld obendrauf wird nicht erwartet; aufrunden genügt",
+        "Nur bei guter Bedienung"
       ],
       "correta": 2,
-      "explica": "Italy does not run on tipping."
+      "explica": "Italien lebt nicht vom Trinkgeld."
     },
     {
-      "pergunta": "The scontrino fiscale is:",
+      "pergunta": "Der scontrino fiscale ist:",
       "opcoes": [
-        "A courtesy",
-        "A legal obligation for the business",
-        "Optional paperwork",
-        "Only for companies"
+        "Eine Gefälligkeit",
+        "Eine gesetzliche Pflicht des Betriebs",
+        "Freiwilliger Papierkram",
+        "Nur für Firmen"
       ],
       "correta": 1,
-      "explica": "It is also the only document that lets you dispute anything afterwards."
+      "explica": "Er ist außerdem das einzige Dokument, mit dem sich hinterher etwas klären lässt."
     },
     {
-      "pergunta": "What does mi porta cover?",
+      "pergunta": "Wofür ist mi porta da?",
       "opcoes": [
-        "Only the bill",
-        "Anything that has to physically arrive at your table",
-        "Directions",
-        "Prices"
+        "Nur für die Rechnung",
+        "Für alles, was physisch an Ihren Tisch kommen soll",
+        "Für Wegbeschreibungen",
+        "Für Preise"
       ],
       "correta": 1,
-      "explica": "The bill, water, bread, the receipt."
+      "explica": "Die Rechnung, Wasser, Brot, der Beleg."
     }
   ]
 }

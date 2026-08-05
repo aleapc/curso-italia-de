@@ -3,11 +3,11 @@
   "nivel": "avancado",
   "numero": 29,
   "parte": "A01",
-  "titulo": "How they talk when it isn't to you",
-  "subtitulo": "Italians slow down for you and speed up for each other — this part is about the second one",
-  "cena": "Two people beside you are having an entire conversation and you cannot find a single word boundary in it.",
+  "titulo": "Wie sie reden, wenn nicht mit Ihnen",
+  "subtitulo": "Für Sie wird langsamer gesprochen, untereinander schneller — hier geht es um das Zweite",
+  "cena": "Zwei Leute neben Ihnen führen ein ganzes Gespräch, und Sie finden darin keine einzige Wortgrenze.",
   "moldura": "ganha",
-  "frasePiso": "If you take only one thing from this part — that non lo so collapses into nnollosò — you will already follow more real speech than most visitors ever do.",
+  "frasePiso": "Wenn Sie nur eines aus diesem Teil mitnehmen — dass non lo so zu nnollosò zusammenfällt — folgen Sie schon mehr echter Rede als die meisten Besucher je.",
   "moldes": [],
   "steps": [
     {
@@ -16,39 +16,39 @@
       "audioKey": "it-a01-n01",
       "gesto": 1,
       "bloco": "aquecimento",
-      "pt": "Everything so far was Italian spoken to you. This module is Italian spoken near you, which is a different thing."
+      "pt": "Bisher hörten Sie Italienisch, das zu Ihnen gesprochen wurde. Jetzt: Italienisch neben Ihnen."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_m",
       "audioKey": "it-a01-n02",
       "bloco": "corpo",
-      "pt": "Rule one: the words run together. The last vowel of one and the first of the next become a single sound."
+      "pt": "Regel eins: Die Wörter fließen ineinander. Endvokal und Anfangsvokal werden ein einziger Laut."
     },
     {
       "tipo": "ouvir",
       "voz": "target_it_f",
       "audioKey": "it-a01-r01",
       "receptivo": true,
-      "acao": "Do not try to catch the words. Catch that it was a refusal, and move on.",
+      "acao": "Versuchen Sie nicht, die Wörter zu fassen. Fassen Sie nur, dass es eine Absage war, und gehen Sie weiter.",
       "es": "Ma non lo so, te l'ho già detto!",
-      "pt": "But I don't know, I already told you!",
+      "pt": "Aber ich weiß es nicht, ich habe es dir doch schon gesagt!",
       "tts": "Ma non lo so, te l'ho già detto!"
     },
     {
       "tipo": "intro",
       "voz": "guide_de_f",
       "audioKey": "it-a01-n03",
-      "pt": "Non lo so becomes one word. Te l'ho già detto loses its edges. Both are common and neither is sloppy."
+      "pt": "Non lo so wird ein Wort. Te l'ho già detto verliert die Ränder. Beides ist normal, nicht nachlässig."
     },
     {
       "tipo": "ouvir",
       "voz": "target_it_m",
       "audioKey": "it-a01-r02",
       "receptivo": true,
-      "acao": "Listen for the shape, not the parts. Rising at the end means it was a question aimed at you.",
+      "acao": "Hören Sie auf die Form, nicht auf die Teile. Steigt es am Ende, galt die Frage Ihnen.",
       "es": "Ci vediamo dopo, no? Alle sette, dai.",
-      "pt": "See you later, no? At seven, come on.",
+      "pt": "Wir sehen uns später, oder? Um sieben, komm schon.",
       "tts": "Ci vediamo dopo, no? Alle sette, dai."
     },
     {
@@ -56,80 +56,80 @@
       "voz": "guide_de_m",
       "audioKey": "it-a01-n04",
       "bloco": "capsula",
-      "pt": "Rule two: the filler words carry the meaning. Allora, dai, boh, magari, mah. Learn these five and the rest becomes navigable."
+      "pt": "Regel zwei: Die Füllwörter tragen den Sinn. Allora, dai, boh, magari, mah. Diese fünf, und der Rest wird begehbar."
     },
     {
       "tipo": "ouvir",
       "voz": "target_it_f",
       "audioKey": "it-a01-r03",
       "receptivo": true,
-      "acao": "Boh means I have no idea and it is a complete answer. Do not wait for more.",
+      "acao": "Boh heißt keine Ahnung und ist eine vollständige Antwort. Warten Sie nicht auf mehr.",
       "es": "Boh, mah, vedremo. Magari domani.",
-      "pt": "Dunno, well, we'll see. Maybe tomorrow.",
+      "pt": "Keine Ahnung, tja, mal sehen. Vielleicht morgen.",
       "tts": "Boh, mah, vedremo. Magari domani."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_f",
       "audioKey": "it-a01-n05",
-      "pt": "Allora opens. Dai pushes. Boh is no idea. Magari is maybe, or if only. Mah is doubt with a shrug."
+      "pt": "Allora öffnet. Dai drängt. Boh heißt keine Ahnung. Magari heißt vielleicht oder wenn doch nur. Mah ist Zweifel."
     },
     {
       "tipo": "ouvir",
       "voz": "target_it_m",
       "audioKey": "it-a01-r04",
       "receptivo": true,
-      "acao": "Allora at the start is a signal that a decision is coming. Pay attention to what follows it.",
+      "acao": "Allora am Anfang kündigt eine Entscheidung an. Achten Sie darauf, was danach kommt.",
       "es": "Allora, facciamo così: io vado, tu resti.",
-      "pt": "Right then, let's do this: I go, you stay.",
+      "pt": "Also gut, machen wir es so: ich gehe, du bleibst.",
       "tts": "Allora, facciamo così: io vado, tu resti."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_m",
       "audioKey": "it-a01-n06",
-      "pt": "Rule three: volume and overlap are not conflict. Two Italians talking over each other at speed are usually agreeing."
+      "pt": "Regel drei: Lautstärke und Durcheinanderreden sind kein Streit. Schnell und laut heißt meist Zustimmung."
     },
     {
       "tipo": "ouvir",
       "voz": "target_it_f",
       "audioKey": "it-a01-r05",
       "receptivo": true,
-      "acao": "This is agreement, not an argument. Nothing is going wrong.",
+      "acao": "Das ist Zustimmung, kein Streit. Hier läuft nichts schief.",
       "es": "Eh sì, esatto, appunto, dicevo io la stessa cosa!",
-      "pt": "Yes exactly, precisely, I was saying the same thing!",
+      "pt": "Ja genau, eben, ich habe dasselbe gesagt!",
       "tts": "Eh sì, esatto, appunto, dicevo io la stessa cosa!"
     },
     {
       "tipo": "intro",
       "voz": "guide_de_f",
       "audioKey": "it-a01-n07",
-      "pt": "Esatto, appunto, infatti, esattamente — a stack of agreement words. Hearing them means the room is warm, not heated."
+      "pt": "Esatto, appunto, infatti — ein Stapel Zustimmungswörter. Wer sie hört, weiß: der Raum ist warm, nicht hitzig."
     },
     {
       "tipo": "ouvir",
       "voz": "target_it_m",
       "audioKey": "it-a01-r06",
       "receptivo": true,
-      "acao": "Southern speech: final vowels soften. Same words, different edges. Do not hear it as a different language.",
+      "acao": "Süden: Endvokale werden weich. Gleiche Wörter, andere Ränder. Keine andere Sprache.",
       "es": "Uè, guagliò, che fai? Vieni o no?",
-      "pt": "Hey, kid, what are you doing? Are you coming or not?",
+      "pt": "He, Junge, was machst du? Kommst du oder nicht?",
       "tts": "Uè, guagliò, che fai? Vieni o no?"
     },
     {
       "tipo": "intro",
       "voz": "guide_de_m",
       "audioKey": "it-a01-n08",
-      "pt": "Regional speech is not a problem to solve. Recognise it as regional and the worry about your own ear goes."
+      "pt": "Regionale Aussprache ist keine Aufgabe, die Sie lösen müssen. Erkennen Sie sie als regional, und die Sorge geht."
     },
     {
       "tipo": "ouvir",
       "voz": "target_it_f",
       "audioKey": "it-a01-r07",
       "receptivo": true,
-      "acao": "That was fast and it still had allora and dai in it. You caught the frame — that is the skill.",
+      "acao": "Das war schnell und enthielt trotzdem allora und dai. Sie haben den Baustein erkannt — das ist das Können.",
       "es": "Allora dai, andiamo, che se no facciamo tardi.",
-      "pt": "Right, come on, let's go, or we'll be late.",
+      "pt": "Also komm, gehen wir, sonst kommen wir zu spät.",
       "tts": "Allora dai, andiamo, che se no facciamo tardi."
     },
     {
@@ -137,7 +137,7 @@
       "voz": "guide_de_f",
       "audioKey": "it-a01-n09",
       "bloco": "recap",
-      "pt": "A01 done. Words run together, five fillers carry the meaning, overlapping voices are agreement."
+      "pt": "A01 geschafft. Wörter fließen zusammen, fünf Füllwörter tragen den Sinn, überlappende Stimmen sind Zustimmung."
     },
     {
       "consulta": [
@@ -147,11 +147,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-a01-p01",
-      "promptPt": "You caught nothing. Ask for it slower, without apologising twice. Speak now.",
+      "promptPt": "Sie haben nichts mitbekommen. Bitten Sie um ein ruhigeres Tempo, ohne sich zweimal zu entschuldigen. Sprechen Sie jetzt.",
       "audioKey": "it-a01-x01",
       "es": "Più lentamente, per favore.",
       "pinyin": "pyoo len-ta-MEN-te per fa-VO-re",
-      "pt": "More slowly, please.",
+      "pt": "Langsamer, bitte.",
       "tts": "Più lentamente, per favore."
     },
     {
@@ -162,11 +162,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-a01-p02",
-      "promptPt": "Use the filler that buys you a second while you think. Speak now.",
+      "promptPt": "Nutzen Sie das Füllwort, das Ihnen eine Sekunde zum Denken kauft. Sprechen Sie jetzt.",
       "audioKey": "it-a01-x02",
       "es": "Allora... aspetti un attimo.",
       "pinyin": "al-LO-ra... as-PET-tee oon AT-tee-mo",
-      "pt": "So... hold on a second.",
+      "pt": "Also... einen Moment bitte.",
       "tts": "Allora... aspetti un attimo."
     },
     {
@@ -177,11 +177,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-a01-p03",
-      "promptPt": "Say you got the gist but not the detail. Speak now.",
+      "promptPt": "Sie haben grob mitbekommen, worum es geht, das Detail fehlt. Sagen Sie das. Sprechen Sie jetzt.",
       "audioKey": "it-a01-x03",
       "es": "Ho capito il senso, ma non tutto.",
       "pinyin": "oh ka-PEE-to eel SEN-so, ma non TOOT-to",
-      "pt": "I got the gist, but not all of it.",
+      "pt": "Ich habe den Sinn verstanden, aber nicht alles.",
       "tts": "Ho capito il senso, ma non tutto."
     },
     {
@@ -192,11 +192,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-a01-p04",
-      "promptPt": "Ask which word it was that you missed. Speak now.",
+      "promptPt": "Ein einziges Wort ist Ihnen entgangen. Erkundigen Sie sich danach. Sprechen Sie jetzt.",
       "audioKey": "it-a01-x04",
       "es": "Che parola era, scusi?",
       "pinyin": "keh pa-RO-la EH-ra, SKOO-zee",
-      "pt": "What word was that, sorry?",
+      "pt": "Welches Wort war das, Entschuldigung?",
       "tts": "Che parola era, scusi?"
     },
     {
@@ -207,11 +207,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-a01-p05",
-      "promptPt": "Say you follow better when they speak to you than when they speak to each other. Speak now.",
+      "promptPt": "Untereinander klingt es ganz anders als im Gespräch mit Ihnen. Sagen Sie es mit einem Lächeln. Sprechen Sie jetzt.",
       "audioKey": "it-a01-x05",
       "es": "Fra di voi parlate molto più veloce!",
       "pinyin": "fra dee voy par-LA-te MOL-to pyoo ve-LO-che",
-      "pt": "Between yourselves you speak much faster!",
+      "pt": "Untereinander sprechen Sie viel schneller!",
       "tts": "Fra di voi parlate molto più veloce!"
     },
     {
@@ -222,11 +222,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-a01-p06",
-      "promptPt": "Ask them to write the word down so you keep it. Speak now.",
+      "promptPt": "Sie wollen das Wort behalten. Bitten Sie um die geschriebene Form. Sprechen Sie jetzt.",
       "audioKey": "it-a01-x06",
       "es": "Me lo scrive? Così me lo ricordo.",
       "pinyin": "meh lo SKREE-ve? ko-ZEE meh lo ree-KOR-do",
-      "pt": "Write it for me? That way I'll remember it.",
+      "pt": "Schreiben Sie es mir auf? So merke ich es mir.",
       "tts": "Me lo scrive? Così me lo ricordo.",
       "molde": "MI-PUO",
       "encaixe": "scrivere"
@@ -235,52 +235,52 @@
       "tipo": "recap",
       "voz": "guide_de_m",
       "audioKey": "it-a01-n10",
-      "pt": "The goal is not to understand everything. It is to know what is happening in a room you are not the centre of."
+      "pt": "Das Ziel ist nicht, alles zu verstehen. Es ist zu wissen, was in einem Raum passiert, dessen Mitte Sie nicht sind."
     }
   ],
   "aprofundar": {
-    "titulo": "The five words that carry a conversation",
+    "titulo": "Die fünf Wörter, die ein Gespräch tragen",
     "secoes": [
       {
         "titulo": "Allora, dai, boh, magari, mah",
-        "corpo": "Allora opens or resolves. Dai pushes, encourages or expresses disbelief. Boh is a complete I-have-no-idea. Magari is maybe, and on its own it means if only. Mah is doubt. None of them translate cleanly, and all five appear constantly.",
+        "corpo": "Allora eröffnet oder schließt ab. Dai drängt, ermutigt oder drückt Unglauben aus. Boh ist ein vollständiges Ich-habe-keine-Ahnung. Magari heißt vielleicht und allein stehend wenn doch nur. Mah ist Zweifel. Keines lässt sich sauber übersetzen, und alle fünf tauchen ständig auf.",
         "exemplos": [
           {
             "es": "Boh, vedremo.",
-            "pt": "Dunno, we'll see."
+            "pt": "Keine Ahnung, mal sehen."
           },
           {
             "es": "Allora, facciamo così.",
-            "pt": "Right then, let's do this."
+            "pt": "Also gut, machen wir es so."
           }
         ]
       },
       {
-        "titulo": "Where the edges go",
-        "corpo": "Non lo so runs into one word. Te l'ho detto loses its boundaries. Final vowels weaken in the south and consonants double in the centre. None of this is careless speech — it is what the language sounds like when it is not being performed for a learner."
+        "titulo": "Wohin die Ränder verschwinden",
+        "corpo": "Non lo so fällt zu einem Wort zusammen. Te l'ho detto verliert seine Grenzen. Im Süden werden Endvokale schwächer, in der Mitte werden Konsonanten verdoppelt. Nichts davon ist nachlässige Rede — so klingt die Sprache, wenn sie nicht für einen Lernenden vorgeführt wird."
       },
       {
-        "titulo": "Overlap is not conflict",
-        "corpo": "Simultaneous speech, rising volume and repeated agreement words are a normal register of enthusiastic conversation. Reading it as an argument is one of the most reliable misreadings visitors make, and it changes how the whole room feels to be in."
+        "titulo": "Durcheinanderreden ist kein Konflikt",
+        "corpo": "Gleichzeitiges Sprechen, steigende Lautstärke und wiederholte Zustimmungswörter sind ein normales Register begeisterter Unterhaltung. Es als Streit zu lesen, ist einer der häufigsten Irrtümer von Besuchern, und er verändert, wie sich ein ganzer Raum anfühlt."
       },
       {
-        "titulo": "This module is receptive on purpose",
-        "corpo": "You are not being asked to produce any of this. Trying to use dai or guagliò yourself as a visitor lands somewhere between odd and performative. Recognise it; do not deploy it."
+        "titulo": "Dieser Teil ist mit Absicht rein rezeptiv",
+        "corpo": "Sie sollen nichts davon selbst produzieren. Dai oder guagliò als Besucher zu verwenden, wirkt irgendwo zwischen seltsam und aufgesetzt. Erkennen, ja; einsetzen, nein."
       }
     ]
   },
   "slot": "A01",
-  "permissao": "You are allowed to understand about a third of what you overhear and count that as success. Nobody follows a fast conversation in a second language at full resolution — knowing whether a room is warm or tense is the actual skill, and it takes far less than every word.",
+  "permissao": "Sie dürfen ein Drittel von dem verstehen, was Sie mithören, und das als Erfolg zählen. Niemand folgt einem schnellen Gespräch in einer zweiten Sprache in voller Auflösung. Zu erkennen, ob ein Raum warm oder angespannt ist, ist das eigentliche Können — und dafür braucht es weit weniger als jedes Wort.",
   "permissaoAudioKey": "it-a01-n01",
-  "espelho": "Anyone who has listened to two people from another part of their own country and lost half of it knows this is not a foreign-language problem. Speed and shared context do most of the work; the language is only part of it.",
+  "espelho": "Wer schon zwei Menschen aus einer anderen Gegend zugehört und die Hälfte verloren hat, weiß: Das ist kein Fremdsprachenproblem. Tempo und gemeinsames Vorwissen machen den größten Teil der Arbeit, die Sprache nur einen Teil.",
   "fichasCulturais": [
     {
-      "sinal": "Two people near you raise their voices, talk over each other, and gesture sharply. The exchange gets faster and louder.",
-      "suaLeitura": "An argument is starting and I should move away.",
-      "oQueEAli": "Overlapping speech and rising volume are a normal register for engaged conversation, and the words you are hearing repeated — esatto, appunto, infatti — are agreement words. Intensity here signals involvement rather than conflict.",
-      "oQueVoceFaz": "Listen for those agreement words before deciding what the room is doing. If they are present, nothing is going wrong.",
-      "oQueMelhora": "You stop misreading enthusiasm as hostility, which is what makes a lively bar feel hostile to some visitors and welcoming to others.",
-      "ondeNaoVale": "Not a rule that no Italian argument is ever an argument — real conflict exists and looks different, with less overlap and more silence between turns.",
+      "sinal": "Zwei Leute neben Ihnen werden lauter, reden gleichzeitig und gestikulieren scharf. Der Austausch wird schneller und lauter.",
+      "suaLeitura": "Hier beginnt ein Streit, ich sollte mich entfernen.",
+      "oQueEAli": "Überlappendes Sprechen und steigende Lautstärke sind ein normales Register engagierter Unterhaltung, und die Wörter, die Sie wiederholt hören — esatto, appunto, infatti — sind Zustimmungswörter. Intensität zeigt hier Beteiligung an, nicht Konflikt.",
+      "oQueVoceFaz": "Hören Sie auf diese Zustimmungswörter, bevor Sie entscheiden, was im Raum passiert. Sind sie da, läuft nichts schief.",
+      "oQueMelhora": "Sie lesen Begeisterung nicht mehr als Feindseligkeit — genau das macht für manche Besucher eine lebhafte Bar unangenehm und für andere einladend.",
+      "ondeNaoVale": "Keine Regel, dass es nie einen echten Streit gäbe — der existiert und sieht anders aus: weniger Überlappung, mehr Stille zwischen den Beiträgen.",
       "evidencia": "CONSENSO",
       "audioKeys": [
         "it-a01-n06",

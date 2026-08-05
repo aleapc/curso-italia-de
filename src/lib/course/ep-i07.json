@@ -3,12 +3,12 @@
   "nivel": "intermediario",
   "numero": 25,
   "parte": "I07",
-  "titulo": "Praise that reaches the kitchen, and the sentence that gets it fixed",
-  "subtitulo": "The specific compliment brings the cook out; the calm, factual sentence gets the dish changed",
-  "cena": "The dish was genuinely wonderful, the one before it was cold, and you have about ten seconds to do something useful with either fact.",
+  "titulo": "Lob, das die Küche erreicht — und der Satz, der das Gericht tauscht",
+  "subtitulo": "Das konkrete Lob holt den Koch an den Tisch; der ruhige, sachliche Satz bringt einen neuen Teller",
+  "cena": "Das Gericht war wirklich großartig, das davor war kalt, und Sie haben etwa zehn Sekunden, um mit einer der beiden Tatsachen etwas Nützliches zu tun.",
   "moldura": "ganha",
-  "frasePiso": "Name the thing. A compliment with a noun in it travels to the kitchen; a complaint with a fact in it gets acted on.",
-  "decisao": "elogiar nomeando o prato e reclamar nomeando o fato, em vez de dizer 'tudo ótimo' e depois escrever uma avaliação ruim de casa",
+  "frasePiso": "Nennen Sie die Sache. Ein Lob mit einem Substantiv darin reist in die Küche; eine Reklamation mit einer Tatsache darin wird bearbeitet.",
+  "decisao": "loben, indem man das Gericht nennt, und reklamieren, indem man die Tatsache nennt, statt 'alles super' zu sagen und später von zu Hause aus eine schlechte Bewertung zu schreiben",
   "moldes": [],
   "steps": [
     {
@@ -17,14 +17,14 @@
       "audioKey": "it-i07-n01",
       "gesto": 1,
       "bloco": "aquecimento",
-      "pt": "Two sentences, opposite jobs, same rule: name the thing. Vague praise dies at the table and vague complaints get an apology instead of a fix."
+      "pt": "Zwei Sätze, gegensätzliche Aufgaben, dieselbe Regel: Nennen Sie die Sache. Vages Lob stirbt am Tisch, vage Kritik bringt eine Entschuldigung statt einer Lösung."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_m",
       "audioKey": "it-i07-n02",
       "bloco": "corpo",
-      "pt": "Praise first. Tutto buono is polite noise. Name the dish and it becomes a message someone will actually repeat."
+      "pt": "Erst das Lob. Tutto buono ist höfliches Rauschen. Nennen Sie das Gericht, und es wird zu einer Nachricht."
     },
     {
       "tipo": "ouvir",
@@ -32,7 +32,7 @@
       "audioKey": "it-i07-t01",
       "es": "La pasta era buonissima, complimenti al cuoco.",
       "pinyin": "la PAS-ta EH-ra bwo-NEES-see-ma, kom-plee-MEN-tee al KWO-ko",
-      "pt": "The pasta was outstanding, compliments to the cook.",
+      "pt": "Die Pasta war hervorragend, ein Kompliment an den Koch.",
       "tts": "La pasta era buonissima, complimenti al cuoco."
     },
     {
@@ -44,27 +44,27 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-i07-p01",
-      "promptPt": "Praise one dish by name and send it to the kitchen. Speak now.",
+      "promptPt": "Loben Sie ein Gericht beim Namen und schicken Sie das Lob in die Küche. Sprechen Sie jetzt.",
       "audioKey": "it-i07-t01",
       "es": "La pasta era buonissima, complimenti al cuoco.",
       "pinyin": "la PAS-ta EH-ra bwo-NEES-see-ma, kom-plee-MEN-tee al KWO-ko",
-      "pt": "The pasta was outstanding, compliments to the cook."
+      "pt": "Die Pasta war hervorragend, ein Kompliment an den Koch."
     },
     {
       "tipo": "ouvir",
       "voz": "target_it_m",
       "audioKey": "it-i07-r01",
       "receptivo": true,
-      "acao": "Stay at the table. The cook may actually come out, and leaving mid-compliment is the one rude move here.",
+      "acao": "Bleiben Sie am Tisch. Der Koch kommt vielleicht heraus, und mitten im Lob zu gehen ist hier der einzige Fauxpas.",
       "es": "Glielo dico subito. È mia madre che cucina.",
-      "pt": "I'll tell her right away. It's my mother who cooks.",
+      "pt": "Ich sage es ihr sofort. Meine Mutter kocht.",
       "tts": "Glielo dico subito. È mia madre che cucina."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_f",
       "audioKey": "it-i07-n03",
-      "pt": "Buonissimo, ottimo, squisito. Any of the three is stronger than very good, and all three are ordinary words here."
+      "pt": "Buonissimo, ottimo, squisito. Jedes davon ist stärker als sehr gut, und alle drei sind hier Alltagswörter."
     },
     {
       "consulta": [
@@ -74,11 +74,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-i07-p02",
-      "promptPt": "Praise the place rather than the plate. Speak now.",
+      "promptPt": "Loben Sie das Lokal statt des Tellers. Sprechen Sie jetzt.",
       "audioKey": "it-i07-t02",
       "es": "Si mangia benissimo qui.",
       "pinyin": "see MAN-ja be-NEES-see-mo kwee",
-      "pt": "One eats really well here.",
+      "pt": "Hier isst man wirklich gut.",
       "tts": "Si mangia benissimo qui."
     },
     {
@@ -86,7 +86,7 @@
       "voz": "guide_de_m",
       "audioKey": "it-i07-n04",
       "bloco": "capsula",
-      "pt": "Now the complaint. State the fact, no adjectives, no apology. Scusi, plus what is wrong, and then stop talking."
+      "pt": "Jetzt die Reklamation. Nur die Tatsache, ohne Adjektiv und ohne Entschuldigung: Scusi, plus was nicht stimmt — dann aufhören zu reden."
     },
     {
       "consulta": [
@@ -97,11 +97,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-i07-p03",
-      "promptPt": "The dish arrived cold. Say only that. Speak now.",
+      "promptPt": "Der Teller kam kalt an. Sagen Sie nur das. Sprechen Sie jetzt.",
       "audioKey": "it-i07-t03",
       "es": "Scusi, questo è freddo.",
       "pinyin": "SKOO-zee, KWES-to eh FRED-do",
-      "pt": "Sorry, this is cold.",
+      "pt": "Entschuldigung, das ist kalt.",
       "tts": "Scusi, questo è freddo."
     },
     {
@@ -109,14 +109,14 @@
       "voz": "target_it_m",
       "audioKey": "it-i07-r02",
       "es": "Mi dispiace tantissimo, glielo cambio subito.",
-      "pt": "I'm terribly sorry, I'll change it right away.",
+      "pt": "Das tut mir sehr leid, ich tausche es sofort.",
       "tts": "Mi dispiace tantissimo, glielo cambio subito."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_f",
       "audioKey": "it-i07-n05",
-      "pt": "That worked because there was a fact in it. Adding it is a shame or I am so sorry to bother you gives them nothing to act on."
+      "pt": "Das hat gewirkt, weil eine Tatsache darin war. Wie schade gibt niemandem etwas zum Handeln."
     },
     {
       "consulta": [
@@ -126,11 +126,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-i07-p04",
-      "promptPt": "Wrong dish entirely. Say what you ordered instead. Speak now.",
+      "promptPt": "Es kam ein ganz anderes Gericht. Sagen Sie, was Sie bestellt hatten. Sprechen Sie jetzt.",
       "audioKey": "it-i07-t04",
       "es": "Scusi, io avevo ordinato il pesce.",
       "pinyin": "SKOO-zee, EE-o a-VE-vo or-dee-NA-to eel PE-she",
-      "pt": "Sorry, I had ordered the fish.",
+      "pt": "Entschuldigung, ich hatte den Fisch bestellt.",
       "tts": "Scusi, io avevo ordinato il pesce."
     },
     {
@@ -144,11 +144,11 @@
       "encaixe": "un altro bicchiere",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-i07-p05",
-      "promptPt": "The glass is chipped. Ask for another, using the frame from B14. Speak now.",
+      "promptPt": "Das Glas hat einen Sprung. Bitten Sie um ein anderes, mit dem Baustein aus B14. Sprechen Sie jetzt.",
       "audioKey": "it-i07-t05",
       "es": "Mi porta un altro bicchiere, per favore?",
       "pinyin": "mee POR-ta oon AL-tro beek-kee-EH-re per fa-VO-re",
-      "pt": "Could you bring me another glass, please?",
+      "pt": "Bringen Sie mir bitte ein anderes Glas?",
       "tts": "Mi porta un altro bicchiere, per favore?"
     },
     {
@@ -159,11 +159,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-i07-p06",
-      "promptPt": "It has been forty minutes. Ask about it without accusing anyone. Speak now.",
+      "promptPt": "Es sind vierzig Minuten vergangen. Fragen Sie nach, ohne jemanden zu beschuldigen. Sprechen Sie jetzt.",
       "audioKey": "it-i07-t06",
       "es": "Scusi, manca ancora molto?",
       "pinyin": "SKOO-zee, MAN-ka an-KO-ra MOL-to",
-      "pt": "Sorry, is it still a long wait?",
+      "pt": "Entschuldigung, dauert es noch lange?",
       "tts": "Scusi, manca ancora molto?"
     },
     {
@@ -174,11 +174,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-i07-p07",
-      "promptPt": "They fixed it immediately. Close the loop so it does not stay awkward. Speak now.",
+      "promptPt": "Man hat es sofort behoben. Schließen Sie den Kreis, damit nichts unangenehm bleibt. Sprechen Sie jetzt.",
       "audioKey": "it-i07-t07",
       "es": "Grazie, gentilissimo. Nessun problema.",
       "pinyin": "GRA-tsee-eh jen-tee-LEES-see-mo. nes-SOON pro-BLE-ma",
-      "pt": "Thank you, very kind. No problem at all.",
+      "pt": "Danke, sehr freundlich. Alles gut.",
       "tts": "Grazie, gentilissimo. Nessun problema."
     },
     {
@@ -189,11 +189,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-i07-p08",
-      "promptPt": "Say you will come back — the strongest compliment there is. Speak now.",
+      "promptPt": "Sagen Sie, dass Sie wiederkommen — das stärkste Lob, das es gibt. Sprechen Sie jetzt.",
       "audioKey": "it-i07-t08",
       "es": "Torniamo di sicuro domani.",
       "pinyin": "tor-NYA-mo dee see-KOO-ro do-MA-nee",
-      "pt": "We'll definitely come back tomorrow.",
+      "pt": "Wir kommen morgen bestimmt wieder.",
       "tts": "Torniamo di sicuro domani."
     },
     {
@@ -202,7 +202,7 @@
       "audioKey": "it-i07-s01",
       "es": "La pasta era buonissima, complimenti al cuoco. Scusi, questo è freddo. Grazie, gentilissimo.",
       "pinyin": "la PAS-ta EH-ra bwo-NEES-see-ma kom-plee-MEN-tee al KWO-ko. SKOO-zee KWES-to eh FRED-do. GRA-tsee-eh jen-tee-LEES-see-mo",
-      "pt": "Shadow praise, complaint, and the close that keeps the room warm.",
+      "pt": "Sprechen Sie Lob, Reklamation und den Abschluss nach, der den Raum warm hält.",
       "tts": "La pasta era buonissima, complimenti al cuoco. Scusi, questo è freddo. Grazie, gentilissimo.",
       "molde": "MI-PORTA"
     },
@@ -211,52 +211,52 @@
       "voz": "guide_de_f",
       "audioKey": "it-i07-n06",
       "bloco": "recap",
-      "pt": "I07 done. Name the dish to praise it, name the fact to fix it, and close warmly either way."
+      "pt": "I07 geschafft. Das Gericht nennen, um zu loben, die Tatsache nennen, damit getauscht wird, und warm schließen."
     }
   ],
   "aprofundar": {
-    "titulo": "Both sentences need a noun",
+    "titulo": "Beide Sätze brauchen ein Substantiv",
     "secoes": [
       {
-        "titulo": "Complimenti al cuoco travels",
-        "corpo": "It is a fixed phrase and it does exactly what it says: the waiter relays it. In a family-run place the cook may come out, which is why the compliment is worth making before you ask for the bill rather than on the way out.",
+        "titulo": "Complimenti al cuoco kommt an",
+        "corpo": "Es ist eine feste Wendung und tut genau das, was sie sagt: Die Bedienung gibt es weiter. In einem Familienbetrieb kommt der Koch vielleicht heraus — deshalb lohnt sich das Lob vor der Rechnung und nicht erst im Hinausgehen.",
         "exemplos": [
           {
             "es": "Complimenti al cuoco!",
-            "pt": "Compliments to the cook!"
+            "pt": "Ein Kompliment an den Koch!"
           },
           {
             "es": "Si mangia benissimo qui.",
-            "pt": "One eats really well here."
+            "pt": "Hier isst man wirklich gut."
           }
         ]
       },
       {
-        "titulo": "Scusi plus the fact",
-        "corpo": "Questo è freddo. Avevo ordinato il pesce. Manca ancora molto. Three complaints, no adjectives, no story about how long you have been travelling. The shorter the sentence, the faster the fix."
+        "titulo": "Scusi plus die Tatsache",
+        "corpo": "Questo è freddo. Avevo ordinato il pesce. Manca ancora molto. Drei Reklamationen, keine Adjektive, keine Geschichte darüber, wie lange Sie schon unterwegs sind. Je kürzer der Satz, desto schneller die Lösung."
       },
       {
-        "titulo": "Why the over-apology backfires",
-        "corpo": "Padding a complaint with apology buries the fact the other person needs. It also signals that you expect resistance, which invites it. A flat, warm, factual sentence is read as normal rather than as confrontation."
+        "titulo": "Warum zu viel Entschuldigung nach hinten losgeht",
+        "corpo": "Wer eine Reklamation mit Entschuldigungen polstert, begräbt die Tatsache, die das Gegenüber braucht. Es signalisiert außerdem, dass Sie Widerstand erwarten — und lädt ihn damit ein. Ein ruhiger, warmer, sachlicher Satz wird als normal gelesen, nicht als Konfrontation."
       },
       {
-        "titulo": "The strongest compliment is returning",
-        "corpo": "Torniamo domani outranks any adjective. Places that feed the same people every week measure their work in return visits, not in reviews."
+        "titulo": "Das stärkste Lob ist die Wiederkehr",
+        "corpo": "Torniamo domani schlägt jedes Adjektiv. Häuser, die jede Woche dieselben Leute satt machen, messen ihre Arbeit in Wiederbesuchen, nicht in Bewertungen."
       }
     ]
   },
   "slot": "I07",
-  "permissao": "You are allowed to send a dish back. Scusi, questo è freddo is a normal sentence in an Italian restaurant, it is heard as information rather than as an attack, and the version where you eat it cold and write a bad review from the hotel helps nobody, including you.",
+  "permissao": "Sie dürfen ein Gericht zurückgehen lassen. Scusi, questo è freddo ist ein ganz normaler Satz in einem italienischen Restaurant, er wird als Information gehört und nicht als Angriff, und die Variante, in der Sie kalt essen und vom Hotel aus eine schlechte Bewertung schreiben, hilft niemandem, Ihnen am wenigsten.",
   "permissaoAudioKey": "it-i07-n04",
-  "espelho": "Anyone who has eaten a wrong order at home rather than flag it, then complained about it in the car, already knows the reflex. It is not about Italian — it is the belief that saying something makes you difficult, which is exactly backwards.",
+  "espelho": "Wer schon einmal eine vertauschte Bestellung zu Hause gegessen und sich erst im Auto darüber beschwert hat, kennt den Reflex bereits. Es geht nicht um Italienisch — es ist der Glaube, dass Etwas-Sagen einen schwierig macht, und der stimmt genau andersherum.",
   "fichasCulturais": [
     {
-      "sinal": "You praise a dish and the waiter disappears, then returns with the person who cooked it, who stands at your table waiting.",
-      "suaLeitura": "I have caused a scene and now I have to perform enthusiasm.",
-      "oQueEAli": "In family-run places the compliment is passed on literally and the cook coming out is the reply. It is a small ceremony of acknowledgement, not an audit of how much you meant it.",
-      "oQueVoceFaz": "Repeat the specific thing — the dish, the one element you noticed — and say grazie. Twenty seconds is a complete exchange.",
-      "oQueMelhora": "You end up in a real conversation with the person whose work you just enjoyed, which is most of what the module is for.",
-      "ondeNaoVale": "Not in a large or busy restaurant with a professional brigade, where the compliment stays with the waiter and nobody is going to leave the pass for it.",
+      "sinal": "Sie loben ein Gericht, die Bedienung verschwindet und kommt mit der Person zurück, die gekocht hat — die dann wartend an Ihrem Tisch steht.",
+      "suaLeitura": "Ich habe eine Szene verursacht und muss jetzt Begeisterung vorführen.",
+      "oQueEAli": "In Familienbetrieben wird das Lob wörtlich weitergegeben, und dass der Koch herauskommt, ist die Antwort darauf. Eine kleine Zeremonie der Anerkennung, keine Prüfung, wie ernst Sie es gemeint haben.",
+      "oQueVoceFaz": "Wiederholen Sie das Konkrete — das Gericht, das eine Element, das Ihnen aufgefallen ist — und sagen Sie grazie. Zwanzig Sekunden sind ein vollständiger Austausch.",
+      "oQueMelhora": "Sie landen in einem echten Gespräch mit der Person, deren Arbeit Sie gerade genossen haben, und dafür ist dieses Modul da.",
+      "ondeNaoVale": "Nicht in einem großen, vollen Restaurant mit professioneller Brigade, wo das Lob bei der Bedienung bleibt und niemand dafür den Pass verlässt.",
       "evidencia": "CONSENSO",
       "audioKeys": [
         "it-i07-n02"

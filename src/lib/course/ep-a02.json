@@ -3,11 +3,11 @@
   "nivel": "avancado",
   "numero": 30,
   "parte": "A02",
-  "titulo": "What they laugh at, and the one joke you can safely make",
-  "subtitulo": "Italian humour runs on affectionate insult between people who have earned it, which is why the joke you can make is always about yourself",
-  "cena": "Everyone at the table is laughing at something one of them said about another one, and you cannot tell whether it was cruel.",
+  "titulo": "Worüber sie lachen — und der eine Witz, den Sie machen können",
+  "subtitulo": "Italienischer Humor lebt vom liebevollen Spott unter Vertrauten — deshalb geht Ihr Witz immer über Sie selbst",
+  "cena": "Alle am Tisch lachen über etwas, das einer von ihnen über einen anderen gesagt hat, und Sie können nicht einschätzen, wie es gemeint war.",
   "moldura": "ganha",
-  "frasePiso": "Laugh at yourself, never at them. The self-deprecating joke works everywhere; the affectionate insult only works between people with history.",
+  "frasePiso": "Lachen Sie über sich, nie über die anderen. Der Witz über einen selbst funktioniert überall; der liebevolle Spott nur unter Menschen mit gemeinsamer Geschichte.",
   "moldes": [],
   "steps": [
     {
@@ -16,39 +16,39 @@
       "audioKey": "it-a02-n01",
       "gesto": 1,
       "bloco": "aquecimento",
-      "pt": "Humour is the last thing a language gives you and the first thing that goes wrong. This part is mostly about listening."
+      "pt": "Humor ist das Letzte, was eine Sprache Ihnen schenkt. Dieser Teil ist vor allem Zuhören."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_m",
       "audioKey": "it-a02-n02",
       "bloco": "corpo",
-      "pt": "The dominant form is the sfottò — teasing someone you are close to. It sounds harsh and it means the opposite."
+      "pt": "Die Hauptform ist der sfottò: Necken unter Vertrauten. Es klingt hart und meint das Gegenteil."
     },
     {
       "tipo": "ouvir",
       "voz": "target_it_m",
       "audioKey": "it-a02-r01",
       "receptivo": true,
-      "acao": "That is affection, not an attack. Laugh with the table, do not defend anyone.",
+      "acao": "Das ist Zuneigung, kein Angriff. Lachen Sie mit dem Tisch, verteidigen Sie niemanden.",
       "es": "Ma tu sei scemo, eh! Guarda che roba.",
-      "pt": "You're an idiot, you know! Look at that.",
+      "pt": "Du bist ja bescheuert! Schau dir das an.",
       "tts": "Ma tu sei scemo, eh! Guarda che roba."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_f",
       "audioKey": "it-a02-n03",
-      "pt": "Scemo, cretino, pazzo — thrown between friends constantly. The same words from a stranger are exactly what they sound like."
+      "pt": "Scemo, cretino, pazzo — unter Freunden ständig. Von einem Fremden heißen sie genau das, wonach sie klingen."
     },
     {
       "tipo": "ouvir",
       "voz": "target_it_f",
       "audioKey": "it-a02-r02",
       "receptivo": true,
-      "acao": "Regional teasing between Italians. You are audience here, never a participant.",
+      "acao": "Regionales Necken unter Einheimischen. Hier sind Sie Publikum, nie Mitspieler.",
       "es": "Eh, si vede che sei di Milano. Sempre di corsa.",
-      "pt": "You can tell you're from Milan. Always in a rush.",
+      "pt": "Man merkt, dass du aus Mailand bist. Immer in Eile.",
       "tts": "Eh, si vede che sei di Milano. Sempre di corsa."
     },
     {
@@ -56,13 +56,13 @@
       "voz": "guide_de_m",
       "audioKey": "it-a02-n04",
       "bloco": "capsula",
-      "pt": "Regional jokes are a national sport played only by Italians. A foreigner repeating one is not joining in — it lands as judgement."
+      "pt": "Regionale Witze sind ein Spiel unter Einheimischen. Von einem Gast wiederholt, klingen sie nach Urteil."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_f",
       "audioKey": "it-a02-n05",
-      "pt": "So what can you do? Make yourself the subject. Your accent, your appetite, your inability to eat dinner at nine."
+      "pt": "Was bleibt Ihnen? Machen Sie sich selbst zum Thema: Ihr Akzent, Ihr Appetit, Ihre Essenszeiten."
     },
     {
       "consulta": [
@@ -72,11 +72,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-a02-p01",
-      "promptPt": "Joke about your own Italian. Speak now.",
+      "promptPt": "Machen Sie einen Scherz über Ihr eigenes Italienisch. Sprechen Sie jetzt.",
       "audioKey": "it-a02-t01",
       "es": "Il mio italiano è un disastro, lo so.",
       "pinyin": "eel MEE-o ee-ta-LYA-no eh oon dee-ZAS-tro, lo so",
-      "pt": "My Italian is a disaster, I know.",
+      "pt": "Mein Italienisch ist eine Katastrophe, ich weiß.",
       "tts": "Il mio italiano è un disastro, lo so."
     },
     {
@@ -84,9 +84,9 @@
       "voz": "target_it_m",
       "audioKey": "it-a02-r03",
       "receptivo": true,
-      "acao": "The reassurance is automatic and warm. Accept it, do not argue with the compliment.",
+      "acao": "Der Zuspruch kommt automatisch und herzlich. Nehmen Sie ihn an, widersprechen Sie nicht.",
       "es": "Ma no, ma va! Parli benissimo, complimenti.",
-      "pt": "Not at all, come on! You speak really well, well done.",
+      "pt": "Ach was, komm schon! Du sprichst sehr gut, Kompliment.",
       "tts": "Ma no, ma va! Parli benissimo, complimenti."
     },
     {
@@ -98,11 +98,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-a02-p02",
-      "promptPt": "Joke about how much you have eaten this week. Speak now.",
+      "promptPt": "Machen Sie einen Scherz darüber, wie viel Sie diese Woche gegessen haben. Sprechen Sie jetzt.",
       "audioKey": "it-a02-t02",
       "es": "Ho mangiato pasta tutti i giorni. Non mi vergogno.",
       "pinyin": "oh man-JA-to PAS-ta TOOT-tee ee JOR-nee. non mee ver-GO-nyo",
-      "pt": "I've eaten pasta every day. I'm not ashamed.",
+      "pt": "Ich habe jeden Tag Pasta gegessen. Ich schäme mich nicht.",
       "tts": "Ho mangiato pasta tutti i giorni. Non mi vergogno."
     },
     {
@@ -110,9 +110,9 @@
       "voz": "target_it_f",
       "audioKey": "it-a02-r04",
       "receptivo": true,
-      "acao": "A cooking joke aimed at you. The right answer is agreement, not defence.",
+      "acao": "Ein Küchenscherz, der Ihnen gilt. Die richtige Antwort ist Zustimmung, keine Verteidigung.",
       "es": "E il cappuccino dopo pranzo? Confessa!",
-      "pt": "And the cappuccino after lunch? Confess!",
+      "pt": "Und der Cappuccino nach dem Mittagessen? Gib es zu!",
       "tts": "E il cappuccino dopo pranzo? Confessa!"
     },
     {
@@ -123,34 +123,34 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-a02-p03",
-      "promptPt": "Own it rather than defending yourself. Speak now.",
+      "promptPt": "Stehen Sie dazu, statt sich zu verteidigen. Sprechen Sie jetzt.",
       "audioKey": "it-a02-t03",
       "es": "Colpevole! Ne ho presi due.",
       "pinyin": "kol-PE-vo-le! neh oh PRE-zee DOO-eh",
-      "pt": "Guilty! I had two.",
+      "pt": "Schuldig! Ich hatte zwei.",
       "tts": "Colpevole! Ne ho presi due."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_m",
       "audioKey": "it-a02-n06",
-      "pt": "That is the whole move. Being teased and agreeing cheerfully is how a foreigner gets folded into an Italian table."
+      "pt": "Das ist der ganze Zug: geneckt werden und fröhlich zustimmen. So wird ein Gast an den Tisch aufgenommen."
     },
     {
       "tipo": "ouvir",
       "voz": "target_it_m",
       "audioKey": "it-a02-r05",
       "receptivo": true,
-      "acao": "Irony delivered flat. The tone, not the words, tells you it is a joke.",
+      "acao": "Ironie, trocken vorgetragen. Der Ton, nicht die Wörter, verrät den Scherz.",
       "es": "Certo, come no. E io sono il Papa.",
-      "pt": "Sure, of course. And I'm the Pope.",
+      "pt": "Klar, na sicher. Und ich bin der Papst.",
       "tts": "Certo, come no. E io sono il Papa."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_f",
       "audioKey": "it-a02-n07",
-      "pt": "Come no delivered flat means the opposite of yes. It is the most common sarcasm marker you will hear."
+      "pt": "Come no, trocken gesagt, meint das Gegenteil von ja. Der häufigste Ironie-Marker, den Sie hören werden."
     },
     {
       "consulta": [
@@ -160,11 +160,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-a02-p04",
-      "promptPt": "Signal you got the joke without explaining it. Speak now.",
+      "promptPt": "Zeigen Sie, dass der Scherz angekommen ist, ohne ihn zu erklären. Sprechen Sie jetzt.",
       "audioKey": "it-a02-t04",
       "es": "Ah, ho capito. Mi prendi in giro.",
       "pinyin": "ah, oh ka-PEE-to. mee PREN-dee een JEE-ro",
-      "pt": "Ah, I get it. You're teasing me.",
+      "pt": "Ah, verstanden. Du nimmst mich auf den Arm.",
       "tts": "Ah, ho capito. Mi prendi in giro."
     },
     {
@@ -175,11 +175,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-a02-p05",
-      "promptPt": "Joke about your own dinner clock. Speak now.",
+      "promptPt": "Machen Sie einen Scherz über Ihre eigene innere Essensuhr. Sprechen Sie jetzt.",
       "audioKey": "it-a02-x01",
       "es": "Alle nove ho già fame da due ore.",
       "pinyin": "AL-le NO-ve oh jah FA-me da DOO-eh O-re",
-      "pt": "By nine I've already been hungry for two hours.",
+      "pt": "Um neun habe ich schon seit zwei Stunden Hunger.",
       "tts": "Alle nove ho già fame da due ore."
     },
     {
@@ -190,11 +190,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-a02-p06",
-      "promptPt": "Someone teased you and you liked it. Say so. Speak now.",
+      "promptPt": "Jemand hat Sie geneckt und es hat Ihnen gefallen. Sagen Sie es. Sprechen Sie jetzt.",
       "audioKey": "it-a02-x02",
       "es": "Mi fai ridere, dai. Hai ragione.",
       "pinyin": "mee fai REE-de-re, dai. eye ra-JO-ne",
-      "pt": "You make me laugh, come on. You're right.",
+      "pt": "Du bringst mich zum Lachen. Du hast recht.",
       "tts": "Mi fai ridere, dai. Hai ragione."
     },
     {
@@ -202,52 +202,52 @@
       "voz": "guide_de_m",
       "audioKey": "it-a02-n08",
       "bloco": "recap",
-      "pt": "A02 done. Sfottò is affection, regional jokes are for Italians, and the joke you can make is always about you."
+      "pt": "A02 geschafft. Sfottò ist Zuneigung, regionale Witze bleiben unter Einheimischen, Ihr Witz geht über Sie."
     }
   ],
   "aprofundar": {
-    "titulo": "Receptive humour",
+    "titulo": "Humor zum Zuhören",
     "secoes": [
       {
         "titulo": "Sfottò",
-        "corpo": "Affectionate mockery between people with a relationship. The insult vocabulary is real — scemo, cretino, pazzo — and the meaning is closeness. It is not available to you on day three, and using it early reads as a misjudgement of the relationship rather than as humour.",
+        "corpo": "Liebevoller Spott zwischen Menschen mit einer Beziehung. Der Wortschatz ist echt — scemo, cretino, pazzo — und die Bedeutung ist Nähe. Am dritten Tag steht er Ihnen nicht zur Verfügung, und wer ihn zu früh benutzt, wirkt eher wie jemand, der die Beziehung falsch einschätzt, als wie jemand, der Humor hat.",
         "exemplos": [
           {
             "es": "Ma tu sei scemo, eh!",
-            "pt": "You're an idiot, you know!"
+            "pt": "Du bist ja bescheuert!"
           },
           {
             "es": "Mi prendi in giro.",
-            "pt": "You're teasing me."
+            "pt": "Du nimmst mich auf den Arm."
           }
         ]
       },
       {
-        "titulo": "The regional joke is not yours",
-        "corpo": "North and south tease each other constantly and have done for a century and a half. A visitor repeating any of it is not participating in a shared game — it reads as a foreigner passing judgement on a family argument."
+        "titulo": "Der regionale Witz gehört nicht Ihnen",
+        "corpo": "Nord und Süd necken einander seit anderthalb Jahrhunderten. Wer als Gast etwas davon wiederholt, spielt nicht mit — es klingt, als fälle jemand von außen ein Urteil über einen Familienstreit."
       },
       {
-        "titulo": "Self-deprecation always works",
-        "corpo": "Your Italian, your appetite, your inability to eat at nine, your cappuccino at four. Every one of these produces warmth, and the reassurance that follows is genuine even when it is automatic."
+        "titulo": "Über sich selbst zu lachen, geht immer",
+        "corpo": "Ihr Italienisch, Ihr Appetit, Ihr Hunger um sieben, Ihr Cappuccino um vier. Jedes davon erzeugt Wärme, und der Zuspruch danach ist echt gemeint, auch wenn er automatisch kommt."
       },
       {
-        "titulo": "Come no, said flat",
-        "corpo": "Literally 'how not', meaning of course — and delivered deadpan it means absolutely not. The marker is tone rather than words, which is why it is here in the ear module rather than earlier."
+        "titulo": "Come no, trocken gesagt",
+        "corpo": "Wörtlich 'wie nicht', also natürlich — und trocken vorgetragen heißt es auf keinen Fall. Der Marker ist der Ton, nicht das Wort, und deshalb steht er hier im Ohr-Teil und nicht früher."
       }
     ]
   },
   "slot": "A02",
-  "permissao": "You are allowed to miss the joke and say so. Ah, mi prendi in giro is a perfectly good response half a beat late, and asking what was funny is far better received than the polite laugh that gives you away anyway.",
+  "permissao": "Sie dürfen den Scherz verpassen und das sagen. Ah, mi prendi in giro ist auch einen halben Takt zu spät eine gute Antwort, und nachzufragen, was lustig war, kommt weit besser an als das höfliche Lachen, das Sie ohnehin verrät.",
   "permissaoAudioKey": "it-a02-n01",
-  "espelho": "Anyone who has laughed a half-second behind a group in their own language knows the small panic here. Humour is where fluency is really measured, in every language, which is exactly why nobody expects you to be quick at it in your third week.",
+  "espelho": "Wer schon einmal eine halbe Sekunde nach allen anderen gelacht hat, in der eigenen Sprache, kennt die kleine Panik. Humor ist in jeder Sprache der Ort, an dem Sprachgefühl wirklich gemessen wird — genau deshalb erwartet niemand, dass Sie in Woche drei schnell darin sind.",
   "fichasCulturais": [
     {
-      "sinal": "Someone at the table insults a friend of theirs in front of you — calls them an idiot, mocks their town, imitates their accent — and everyone laughs.",
-      "suaLeitura": "That was harsh, and joining in would show I am comfortable here.",
-      "oQueEAli": "Affectionate mockery is a marker of established closeness, and the licence to use it is earned rather than shared with the room. The people laughing all have standing to say it; you are being included in the laughter, not in the licence.",
-      "oQueVoceFaz": "Laugh with the table and make your own joke about yourself instead. That is the version of participation that is open to you.",
-      "oQueMelhora": "You get the warmth of being in on it without the misfire of teasing someone you have known for two hours.",
-      "ondeNaoVale": "Not permanent — after enough time and real friendship the licence does extend to foreigners, and being teased back is the signal that it has.",
+      "sinal": "Jemand am Tisch beschimpft vor Ihren Augen einen Freund — nennt ihn einen Idioten, spottet über dessen Stadt, ahmt dessen Akzent nach — und alle lachen.",
+      "suaLeitura": "Das war hart, und mitzumachen würde zeigen, dass ich hier dazugehöre.",
+      "oQueEAli": "Liebevoller Spott ist ein Zeichen gewachsener Nähe, und die Erlaubnis dazu wird erworben, nicht mit dem Raum geteilt. Alle, die lachen, haben das Standing dafür; Sie sind ins Lachen eingeladen, nicht in die Erlaubnis.",
+      "oQueVoceFaz": "Lachen Sie mit und machen Sie stattdessen Ihren eigenen Witz über sich selbst. Das ist die Form der Teilnahme, die Ihnen offensteht.",
+      "oQueMelhora": "Sie bekommen die Wärme des Dabeiseins, ohne jemanden zu necken, den Sie seit zwei Stunden kennen.",
+      "ondeNaoVale": "Nicht für immer — nach genug Zeit und echter Freundschaft gilt die Erlaubnis auch für Gäste, und selbst geneckt zu werden ist das Zeichen dafür.",
       "evidencia": "CONSENSO",
       "audioKeys": [
         "it-a02-n02",

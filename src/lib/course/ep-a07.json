@@ -3,11 +3,11 @@
   "nivel": "avancado",
   "numero": 35,
   "parte": "A07",
-  "titulo": "Signals: welcome, mild irritation, and time to go",
-  "subtitulo": "The Italian no is rarely the word no — it arrives as vediamo, magari, and a hand that says the conversation has finished",
-  "cena": "They said yes to everything and nothing has happened, and you cannot work out whether you were refused three days ago.",
+  "titulo": "Signale: Willkommen, leichte Gereiztheit und Zeit zu gehen",
+  "subtitulo": "Das italienische Nein benutzt selten das Wort nein — es kommt als vediamo, als magari und als eine Hand, die sagt: Das Gespräch ist zu Ende",
+  "cena": "Alle haben zu allem Ja gesagt, passiert ist nichts, und Sie wissen nicht, ob die Sache schon vor drei Tagen entschieden war.",
   "moldura": "ganha",
-  "frasePiso": "Vediamo means no more often than it means we'll see. Reading that saves you three days of waiting for something that was already decided.",
+  "frasePiso": "Vediamo heißt öfter nein als mal sehen. Wer das liest, spart sich drei Tage Warten auf etwas, das längst entschieden war.",
   "moldes": [],
   "steps": [
     {
@@ -16,16 +16,16 @@
       "audioKey": "it-a07-n01",
       "gesto": 1,
       "bloco": "aquecimento",
-      "pt": "The last thing to learn in any language is the refusal that never uses the word no. Italian has several."
+      "pt": "Das Letzte, was man in einer Sprache lernt, ist die Absage ohne das Wort nein. Italienisch hat davon mehrere."
     },
     {
       "tipo": "ouvir",
       "voz": "target_it_m",
       "audioKey": "it-a07-r01",
       "receptivo": true,
-      "acao": "That was a no. Stop waiting for it and make another plan.",
+      "acao": "Das war ein Nein. Warten Sie nicht länger, machen Sie einen anderen Plan.",
       "es": "Eh, vediamo... magari più avanti, dai.",
-      "pt": "Well, we'll see... maybe further along, come on.",
+      "pt": "Tja, mal sehen... vielleicht später mal, komm.",
       "tts": "Eh, vediamo... magari più avanti, dai."
     },
     {
@@ -33,23 +33,23 @@
       "voz": "guide_de_m",
       "audioKey": "it-a07-n02",
       "bloco": "corpo",
-      "pt": "Vediamo, magari, si vede, more or less all soften a refusal. The hesitation before them is the actual message."
+      "pt": "Vediamo, magari, si vede — alle mildern eine Absage. Das Zögern davor ist die eigentliche Botschaft."
     },
     {
       "tipo": "ouvir",
       "voz": "target_it_f",
       "audioKey": "it-a07-r02",
       "receptivo": true,
-      "acao": "A real yes is fast and specific. Compare the speed of this one with the last one.",
+      "acao": "Ein echtes Ja kommt schnell und konkret. Vergleichen Sie das Tempo mit dem vorigen.",
       "es": "Sì sì, certo, alle otto, ci sono. Tranquillo.",
-      "pt": "Yes yes, of course, at eight, I'll be there. Don't worry.",
+      "pt": "Ja ja, klar, um acht, ich bin da. Keine Sorge.",
       "tts": "Sì sì, certo, alle otto, ci sono. Tranquillo."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_f",
       "audioKey": "it-a07-n03",
-      "pt": "That is what a yes sounds like: quick, repeated, and with a time in it. Speed and detail are the tell, not the word."
+      "pt": "So klingt ein Ja: schnell, doppelt, mit einer Uhrzeit darin. Tempo und Detail verraten es, nicht das Wort."
     },
     {
       "consulta": [
@@ -59,11 +59,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-a07-p01",
-      "promptPt": "You are not sure which one you got. Ask for a straight answer, warmly. Speak now.",
+      "promptPt": "Sie wissen nicht, was Sie gerade bekommen haben. Bitten Sie freundlich um Klarheit. Sprechen Sie jetzt.",
       "audioKey": "it-a07-t01",
       "es": "Mi dica pure di no, non c'è problema.",
       "pinyin": "mee DEE-ka POO-re dee no, non cheh pro-BLE-ma",
-      "pt": "Feel free to tell me no, it's no problem.",
+      "pt": "Sagen Sie ruhig nein, das ist kein Problem.",
       "tts": "Mi dica pure di no, non c'è problema."
     },
     {
@@ -71,23 +71,23 @@
       "voz": "guide_de_m",
       "audioKey": "it-a07-n04",
       "bloco": "capsula",
-      "pt": "Now irritation. It is not volume — volume is normal. It is the switch to formality, and the shortening of sentences."
+      "pt": "Jetzt die Gereiztheit. Nicht die Lautstärke — die ist normal. Sondern der Wechsel zur Förmlichkeit und kurze Sätze."
     },
     {
       "tipo": "ouvir",
       "voz": "target_it_f",
       "audioKey": "it-a07-r03",
       "receptivo": true,
-      "acao": "Signore instead of warmth is the signal. Wrap up rather than pressing.",
+      "acao": "Signore statt Wärme ist das Signal. Runden Sie ab, statt nachzuhaken.",
       "es": "Guardi, signore, le ho già detto di no.",
-      "pt": "Look, sir, I've already told you no.",
+      "pt": "Hören Sie, mein Herr, ich habe Ihnen schon nein gesagt.",
       "tts": "Guardi, signore, le ho già detto di no."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_f",
       "audioKey": "it-a07-n05",
-      "pt": "Guardi at the start of a sentence, plus a switch to signore or signora, is the polite version of enough. Take it."
+      "pt": "Guardi am Satzanfang plus signore oder signora ist das höfliche Genug. Nehmen Sie es an."
     },
     {
       "consulta": [
@@ -97,27 +97,27 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-a07-p02",
-      "promptPt": "Back off cleanly, without a long apology. Speak now.",
+      "promptPt": "Machen Sie einen Schritt zurück, kurz und würdevoll. Sprechen Sie jetzt.",
       "audioKey": "it-a07-t02",
       "es": "Certo, ho capito. Scusi il disturbo.",
       "pinyin": "CHER-to, oh ka-PEE-to. SKOO-zee eel dees-TOOR-bo",
-      "pt": "Of course, I understand. Sorry to have bothered you.",
+      "pt": "Klar, ich habe verstanden. Entschuldigen Sie die Störung.",
       "tts": "Certo, ho capito. Scusi il disturbo."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_m",
       "audioKey": "it-a07-n06",
-      "pt": "The opposite signal is worth knowing too. When someone starts using tu with you, you have been let in."
+      "pt": "Auch das Gegensignal lohnt sich. Wenn jemand anfängt, Sie zu duzen, sind Sie hereingelassen worden."
     },
     {
       "tipo": "ouvir",
       "voz": "target_it_m",
       "audioKey": "it-a07-r04",
       "receptivo": true,
-      "acao": "They switched to tu. Follow them — staying on lei now would push them back out.",
+      "acao": "Man duzt Sie. Ziehen Sie mit — beim Sie zu bleiben würde jetzt Abstand schaffen.",
       "es": "Ma dammi del tu, per favore! Come ti chiami?",
-      "pt": "Oh, use tu with me, please! What's your name?",
+      "pt": "Ach, sag doch du zu mir, bitte! Wie heißt du?",
       "tts": "Ma dammi del tu, per favore! Come ti chiami?"
     },
     {
@@ -128,18 +128,18 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-a07-p03",
-      "promptPt": "Accept the switch and return the question. Speak now.",
+      "promptPt": "Nehmen Sie das Angebot an und geben Sie die Frage zurück. Sprechen Sie jetzt.",
       "audioKey": "it-a07-t03",
       "es": "Volentieri. Io sono Anna, e tu?",
       "pinyin": "vo-len-TYE-ri. EE-o SO-no AN-na, eh too",
-      "pt": "Gladly. I'm Anna, and you?",
+      "pt": "Gern. Ich bin Anna, und du?",
       "tts": "Volentieri. Io sono Anna, e tu?"
     },
     {
       "tipo": "intro",
       "voz": "guide_de_f",
       "audioKey": "it-a07-n07",
-      "pt": "And time to go: coffee arrives, then the room slows. In a home it is the coffee; at a table it is everyone leaning back."
+      "pt": "Und der Aufbruch: Der Kaffee kommt, dann wird der Raum langsamer. Zu Hause der Kaffee, am Tisch das Zurücklehnen."
     },
     {
       "consulta": [
@@ -149,11 +149,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-a07-p04",
-      "promptPt": "Read the room and leave before you are the last one. Speak now.",
+      "promptPt": "Lesen Sie den Raum und gehen Sie, bevor Sie die Letzten sind. Sprechen Sie jetzt.",
       "audioKey": "it-a07-t04",
       "es": "Beh, noi ci avviamo. Grazie ancora!",
       "pinyin": "beh, noy chee av-VYA-mo. GRA-tsee-eh an-KO-ra",
-      "pt": "Well, we'll get going. Thanks again!",
+      "pt": "Also, wir machen uns auf den Weg. Nochmals danke!",
       "tts": "Beh, noi ci avviamo. Grazie ancora!"
     },
     {
@@ -164,11 +164,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-a07-p05",
-      "promptPt": "Confirm the time so the yes becomes concrete. Speak now.",
+      "promptPt": "Machen Sie das Ja konkret: Legen Sie die Uhrzeit fest. Sprechen Sie jetzt.",
       "audioKey": "it-a07-x01",
       "es": "Allora alle otto, confermiamo?",
       "pinyin": "al-LO-ra AL-le OT-to, kon-fer-MYA-mo",
-      "pt": "Eight o'clock then, shall we confirm?",
+      "pt": "Also um acht, bestätigen wir das?",
       "tts": "Allora alle otto, confermiamo?"
     },
     {
@@ -179,11 +179,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-a07-p06",
-      "promptPt": "You were told no. Leave the door open anyway. Speak now.",
+      "promptPt": "Sie haben eine Absage bekommen. Lassen Sie die Tür trotzdem offen. Sprechen Sie jetzt.",
       "audioKey": "it-a07-x02",
       "es": "Nessun problema, magari un'altra volta.",
       "pinyin": "nes-SOON pro-BLE-ma, ma-GA-ree oo-NAL-tra VOL-ta",
-      "pt": "No problem, maybe another time.",
+      "pt": "Kein Problem, vielleicht ein andermal.",
       "tts": "Nessun problema, magari un'altra volta."
     },
     {
@@ -191,52 +191,52 @@
       "voz": "guide_de_m",
       "audioKey": "it-a07-n08",
       "bloco": "recap",
-      "pt": "A07 done. Vediamo is usually no, guardi plus signore is enough, and tu means you are in."
+      "pt": "A07 geschafft. Vediamo heißt meist nein, guardi plus signore heißt genug, und tu heißt: Sie sind drin."
     }
   ],
   "aprofundar": {
-    "titulo": "The no that never says no",
+    "titulo": "Das Nein, das nie nein sagt",
     "secoes": [
       {
-        "titulo": "Speed is the tell",
-        "corpo": "A genuine yes comes back fast, repeats itself and contains a detail — a time, a place, a name. A refusal arrives slowly, hedged, and without specifics. The words are almost irrelevant next to the tempo.",
+        "titulo": "Das Tempo verrät es",
+        "corpo": "Ein echtes Ja kommt schnell zurück, wiederholt sich und enthält ein Detail — eine Uhrzeit, einen Ort, einen Namen. Eine Absage kommt langsam, abgefedert und ohne Konkretes. Neben dem Tempo sind die Wörter fast egal.",
         "exemplos": [
           {
             "es": "Sì sì, certo, alle otto.",
-            "pt": "Yes yes, of course, at eight."
+            "pt": "Ja ja, klar, um acht."
           },
           {
             "es": "Eh, vediamo… magari più avanti.",
-            "pt": "Well, we'll see… maybe further along."
+            "pt": "Tja, mal sehen… vielleicht später mal."
           }
         ]
       },
       {
         "titulo": "Guardi, signore",
-        "corpo": "The switch from warmth to formality is the irritation signal, and it is much more reliable than volume. Guardi opening a sentence, plus signore or signora where there was none before, means the conversation is finished."
+        "corpo": "Der Wechsel von Wärme zu Förmlichkeit ist das Signal für Gereiztheit, und er ist viel verlässlicher als Lautstärke. Guardi am Satzanfang, dazu signore oder signora, wo vorher keines war: Das Gespräch ist zu Ende."
       },
       {
-        "titulo": "Tu is an invitation",
-        "corpo": "Being asked to use tu is a small ceremony of inclusion, and refusing it by staying formal reads as keeping distance. Follow the switch immediately; do not initiate it yourself."
+        "titulo": "Tu ist eine Einladung",
+        "corpo": "Zum Du aufgefordert zu werden ist eine kleine Zeremonie der Aufnahme; beim Sie zu bleiben liest sich als Abstandhalten. Ziehen Sie sofort mit, schlagen Sie den Wechsel aber nicht selbst vor."
       },
       {
-        "titulo": "The exit signal",
-        "corpo": "In a home, coffee marks the last movement. At a table, people leaning back and the conversation slowing does the same. Leaving on that signal is graceful; leaving before it reads as the evening having failed."
+        "titulo": "Das Signal zum Aufbruch",
+        "corpo": "Zu Hause markiert der Kaffee die letzte Bewegung. Am Tisch tun das die zurückgelehnten Leute und das langsamer werdende Gespräch. Bei diesem Signal zu gehen wirkt elegant; früher zu gehen liest sich, als wäre der Abend misslungen."
       }
     ]
   },
   "slot": "A07",
-  "permissao": "You are allowed to invite a no. Mi dica pure di no is a normal, well-received sentence here, and it is far better than three days of waiting for a yes that was never coming — nobody is offended by being given an easy way out.",
+  "permissao": "Sie dürfen ein Nein ausdrücklich anbieten. Mi dica pure di no ist hier ein normaler, gut aufgenommener Satz, und er ist weit besser als drei Tage Warten auf ein Ja, das nie kommen sollte — niemand nimmt es übel, wenn man ihm einen leichten Ausweg lässt.",
   "permissaoAudioKey": "it-a07-n01",
-  "espelho": "Anyone who has said we should get lunch sometime and meant no knows this system perfectly — they are just used to running it in their own language. The signals differ; the reason they exist does not.",
+  "espelho": "Wer schon einmal gesagt hat, man müsse unbedingt mal zusammen essen, und dabei nein meinte, kennt dieses System bereits — nur betreibt er es sonst in der eigenen Sprache. Die Signale sind andere; der Grund, warum es sie gibt, ist derselbe.",
   "fichasCulturais": [
     {
-      "sinal": "You ask someone for a favour and they say vediamo, or magari, and then nothing happens for several days.",
-      "suaLeitura": "It is still under consideration and I should follow up.",
-      "oQueEAli": "A hedged, slow, unspecific answer is very often a refusal delivered in a way that lets both people keep their footing. A yes here tends to arrive quickly and with a concrete detail attached.",
-      "oQueVoceFaz": "Read the tempo rather than the word, and if you genuinely need to know, say mi dica pure di no — which gives them an easy exit and gets you a real answer.",
-      "oQueMelhora": "You stop spending days waiting on something that was settled at the moment you asked, and the relationship is not damaged by having pressed.",
-      "ondeNaoVale": "Not universal — vediamo sometimes really does mean we'll see, particularly about something genuinely not yet decided. The signal to weigh is the speed and specificity, not the word by itself.",
+      "sinal": "Sie bitten jemanden um einen Gefallen, er sagt vediamo oder magari, und dann passiert mehrere Tage lang nichts.",
+      "suaLeitura": "Es wird noch geprüft, ich sollte nachfassen.",
+      "oQueEAli": "Eine abgefederte, langsame, unkonkrete Antwort ist sehr oft eine Absage in einer Form, die beiden Seiten den Halt lässt. Ein Ja kommt hier meist schnell und mit einem konkreten Detail.",
+      "oQueVoceFaz": "Lesen Sie das Tempo statt des Wortes, und wenn Sie es wirklich wissen müssen, sagen Sie mi dica pure di no — das gibt dem anderen einen leichten Ausweg und Ihnen eine echte Antwort.",
+      "oQueMelhora": "Sie warten nicht mehr tagelang auf etwas, das schon im Moment Ihrer Frage entschieden war, und die Beziehung leidet nicht darunter, dass Sie gedrängt haben.",
+      "ondeNaoVale": "Nicht überall — vediamo heißt manchmal wirklich mal sehen, vor allem bei etwas, das tatsächlich noch offen ist. Zu gewichten sind Tempo und Konkretheit, nicht das Wort für sich.",
       "evidencia": "CONSENSO",
       "audioKeys": [
         "it-a07-n02",

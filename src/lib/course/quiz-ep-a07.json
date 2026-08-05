@@ -1,96 +1,96 @@
 {
   "id": "q-a07",
   "nivel": "avancado",
-  "titulo": "Quiz — Signals",
-  "subtitulo": "The no that never says no",
+  "titulo": "Quiz — Signale",
+  "subtitulo": "Das Nein, das nie nein sagt",
   "introAudioKey": "it-a07-q-i",
-  "introPt": "A traveller reads a refusal correctly and saves three days.",
-  "cenario": "Asking someone for a favour.",
+  "introPt": "Eine Reisende liest eine Absage richtig und spart sich drei Tage.",
+  "cenario": "Jemanden um einen Gefallen bitten.",
   "dialogo": [
     {
       "audioKey": "it-a07-q01",
       "voz": "target_it_m",
       "es": "Eh, vediamo... magari più avanti, dai.",
-      "pt": "Well, we'll see... maybe further along, come on.",
+      "pt": "Tja, mal sehen... vielleicht später mal, komm.",
       "tts": "Eh, vediamo... magari più avanti, dai."
     },
     {
       "audioKey": "it-a07-q02",
       "voz": "target_it_f",
       "es": "Sì sì, certo, alle otto, ci sono. Tranquillo.",
-      "pt": "Yes yes, of course, at eight, I'll be there. Don't worry.",
+      "pt": "Ja ja, klar, um acht, ich bin da. Keine Sorge.",
       "tts": "Sì sì, certo, alle otto, ci sono. Tranquillo."
     },
     {
       "audioKey": "it-a07-q03",
       "voz": "target_it_f",
       "es": "Guardi, signore, le ho già detto di no.",
-      "pt": "Look, sir, I've already told you no.",
+      "pt": "Hören Sie, mein Herr, ich habe Ihnen schon nein gesagt.",
       "tts": "Guardi, signore, le ho già detto di no."
     },
     {
       "audioKey": "it-a07-q04",
       "voz": "target_it_m",
       "es": "Ma dammi del tu, per favore! Come ti chiami?",
-      "pt": "Oh, use tu with me, please! What's your name?",
+      "pt": "Ach, sag doch du zu mir, bitte! Wie heißt du?",
       "tts": "Ma dammi del tu, per favore! Come ti chiami?"
     }
   ],
   "perguntas": [
     {
-      "pergunta": "What tells you it is a real yes?",
+      "pergunta": "Woran erkennen Sie ein echtes Ja?",
       "opcoes": [
-        "The word sì",
-        "Speed, repetition and a concrete detail",
-        "Volume",
-        "A handshake"
+        "Am Wort sì",
+        "An Tempo, Wiederholung und einem konkreten Detail",
+        "An der Lautstärke",
+        "Am Händedruck"
       ],
       "correta": 1,
-      "explica": "A refusal arrives slowly, hedged, without specifics."
+      "explica": "Eine Absage kommt langsam, abgefedert und ohne Konkretes."
     },
     {
-      "pergunta": "Guardi plus a switch to signore means:",
+      "pergunta": "Guardi plus Wechsel zu signore bedeutet:",
       "opcoes": [
-        "Politeness",
-        "The conversation is finished",
-        "A question",
-        "Formality by default"
+        "Höflichkeit",
+        "Das Gespräch ist zu Ende",
+        "Eine Frage",
+        "Grundsätzliche Förmlichkeit"
       ],
       "correta": 1,
-      "explica": "More reliable than volume."
+      "explica": "Verlässlicher als die Lautstärke."
     },
     {
-      "pergunta": "Someone asks you to use tu. You should:",
+      "pergunta": "Jemand bittet Sie ums Du. Sie sollten:",
       "opcoes": [
-        "Stay on lei to be safe",
-        "Follow the switch immediately",
-        "Ask permission",
-        "Use both"
+        "Sicherheitshalber beim Sie bleiben",
+        "Sofort mitziehen",
+        "Um Erlaubnis fragen",
+        "Beides benutzen"
       ],
       "correta": 1,
-      "explica": "Refusing it reads as keeping distance."
+      "explica": "Es abzulehnen liest sich als Abstandhalten."
     },
     {
-      "pergunta": "Mi dica pure di no is:",
+      "pergunta": "Mi dica pure di no ist:",
       "opcoes": [
-        "Rude",
-        "A normal, well-received sentence that gets you a real answer",
-        "Sarcastic",
-        "Too formal"
+        "Unhöflich",
+        "Ein normaler, gut aufgenommener Satz, der Ihnen eine echte Antwort bringt",
+        "Sarkastisch",
+        "Zu förmlich"
       ],
       "correta": 1,
-      "explica": "Nobody is offended by an easy way out."
+      "explica": "Niemand nimmt einen leichten Ausweg übel."
     },
     {
-      "pergunta": "In a home, the signal that it is time to go is:",
+      "pergunta": "Zu Hause ist das Signal zum Aufbruch:",
       "opcoes": [
-        "The clock",
-        "Coffee having been served and drunk",
-        "Someone yawning",
-        "The door"
+        "Die Uhr",
+        "Der servierte und getrunkene Kaffee",
+        "Jemand gähnt",
+        "Die Tür"
       ],
       "correta": 1,
-      "explica": "Leaving before it reads as the evening having failed."
+      "explica": "Früher zu gehen liest sich, als wäre der Abend misslungen."
     }
   ]
 }

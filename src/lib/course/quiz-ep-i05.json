@@ -1,92 +1,92 @@
 {
   "id": "q-i05",
   "nivel": "intermediario",
-  "titulo": "Quiz — The five questions everyone asks you",
-  "subtitulo": "A script you can prepare",
+  "titulo": "Quiz — Die fünf Fragen, die Ihnen alle stellen",
+  "subtitulo": "Ein Skript, das Sie vorbereiten können",
   "introAudioKey": "it-i05-q-i",
-  "introPt": "A traveller stays in the conversation and walks away with a recommendation.",
-  "cenario": "A stranger strikes up a conversation.",
+  "introPt": "Eine Reisende bleibt im Gespräch und geht mit einer Empfehlung heraus.",
+  "cenario": "Jemand fängt ein Gespräch an.",
   "dialogo": [
     {
       "audioKey": "it-i05-q01",
       "voz": "target_it_m",
       "es": "Di dove siete? È la prima volta in Italia?",
-      "pt": "Where are you from? Is this your first time in Italy?"
+      "pt": "Woher kommen Sie? Sind Sie zum ersten Mal in Italien?"
     },
     {
       "audioKey": "it-i05-q02",
       "voz": "target_it_f",
       "es": "Siamo di Boston. No, la seconda.",
-      "pt": "We're from Boston. No, the second."
+      "pt": "Wir sind aus Boston. Nein, zum zweiten Mal."
     },
     {
       "audioKey": "it-i05-q03",
       "voz": "target_it_f",
       "es": "Mi piace tantissimo, soprattutto i mercati.",
-      "pt": "I like it enormously, the markets above all."
+      "pt": "Es gefällt mir enorm, vor allem die Märkte."
     },
     {
       "audioKey": "it-i05-q04",
       "voz": "target_it_m",
       "es": "Allora domani deve andare a quello di Sant'Ambrogio. Meno turisti.",
-      "pt": "Then tomorrow you have to go to the Sant'Ambrogio one. Fewer tourists."
+      "pt": "Dann müssen Sie morgen zu dem in Sant'Ambrogio. Weniger Touristen."
     }
   ],
   "perguntas": [
     {
-      "pergunta": "Why prepare the five answers in advance?",
+      "pergunta": "Warum die fünf Antworten vorher vorbereiten?",
       "opcoes": [
-        "To sound fluent",
-        "So you spend the conversation listening instead of assembling",
-        "To avoid mistakes",
-        "Because they are tested"
+        "Um fließend zu klingen",
+        "Damit Sie das Gespräch mit Zuhören statt mit Zusammenbauen verbringen",
+        "Um Fehler zu vermeiden",
+        "Weil sie abgefragt werden"
       ],
       "correta": 1,
-      "explica": "The gain is attention, not the sentences."
+      "explica": "Der Gewinn ist Aufmerksamkeit, nicht die Sätze."
     },
     {
-      "pergunta": "What does mi piace tutto do to a conversation?",
+      "pergunta": "Was macht mi piace tutto mit einem Gespräch?",
       "opcoes": [
-        "Opens it",
-        "Ends it — there is nothing to improve on",
-        "Sounds rude",
-        "Invites a discount"
+        "Es öffnet es",
+        "Es beendet es — es gibt nichts zu überbieten",
+        "Es klingt unhöflich",
+        "Es lädt zu einem Rabatt ein"
       ],
       "correta": 1,
-      "explica": "Naming one thing gets you the local version."
+      "explica": "Eine Sache zu nennen bringt Ihnen die Version von vor Ort."
     },
     {
-      "pergunta": "What is the whole trick after answering?",
+      "pergunta": "Was ist nach dem Antworten der eigentliche Trick?",
       "opcoes": [
-        "Thank them",
-        "Ask one of the same questions back",
-        "Leave",
-        "Switch to English"
+        "Sich bedanken",
+        "Eine der gleichen Fragen zurückstellen",
+        "Gehen",
+        "Auf Englisch wechseln"
       ],
       "correta": 1,
-      "explica": "Italians expect questions returned."
+      "explica": "Man erwartet hier, dass Fragen zurückkommen."
     },
     {
-      "pergunta": "Lei versus tu:",
+      "pergunta": "Lei oder tu:",
       "opcoes": [
-        "Tu with everyone",
-        "Lei is safe with anyone older, working, or newly met; follow if they switch",
-        "Lei only in the south",
-        "They are identical"
+        "Tu bei allen",
+        "Lei ist sicher bei Älteren, bei Arbeitenden und bei neu Kennengelernten; wechselt das Gegenüber, folgen Sie",
+        "Lei nur im Süden",
+        "Beide sind identisch"
       ],
       "correta": 1,
-      "explica": "You are never wrong for having started with lei."
+      "explica": "Mit lei begonnen zu haben ist nie falsch."
     },
     {
-      "pergunta": "You lost the thread. What do you do?",
+      "pergunta": "Sie haben den Faden verloren. Was tun Sie?",
       "opcoes": [
-        "Nod and smile",
-        "Say mi sono perso and ask for a repeat",
-        "Leave politely",
-        "Answer anyway"
+        "Nicken und lächeln",
+        "Mi sono perso sagen und um eine Wiederholung bitten",
+        "Höflich gehen",
+        "Trotzdem antworten"
       ],
       "correta": 1,
-      "explica": "Leaving with a polite smile is the only costly version."
+      "explica": "Mit einem höflichen Lächeln zu gehen ist die einzige teure Variante."
     }
   ]
 }

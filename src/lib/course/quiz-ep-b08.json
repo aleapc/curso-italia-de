@@ -1,57 +1,57 @@
 {
   "id": "q-b08",
   "nivel": "basico",
-  "titulo": "Quiz — Ask the question whose answer fits in your head",
-  "subtitulo": "Exists, distance, map",
+  "titulo": "Quiz — Stellen Sie die Frage, deren Antwort in den Kopf passt",
+  "subtitulo": "Gibt es, wie weit, Karte",
   "introAudioKey": "it-b08-q-i",
-  "introPt": "A traveller shrinks a three-street answer into one usable move.",
-  "cenario": "On a street corner, looking for a pharmacy.",
+  "introPt": "Eine Reisende kürzt eine Drei-Straßen-Antwort auf einen brauchbaren Schritt.",
+  "cenario": "An einer Straßenecke, auf der Suche nach einer Apotheke.",
   "dialogo": [
     {
       "audioKey": "it-b08-q01",
       "voz": "target_it_f",
       "es": "C'è una farmacia qui vicino?",
-      "pt": "Is there a pharmacy near here?"
+      "pt": "Gibt es hier in der Nähe eine Apotheke?"
     },
     {
       "audioKey": "it-b08-q02",
       "voz": "target_it_m",
       "es": "Sì, prende la seconda a destra, poi sempre dritto fino alla chiesa.",
-      "pt": "Yes, take the second right, then straight on to the church."
+      "pt": "Ja, die zweite rechts, dann immer geradeaus bis zur Kirche."
     },
     {
       "audioKey": "it-b08-q03",
       "voz": "target_it_f",
       "es": "È lontano?",
-      "pt": "Is it far?"
+      "pt": "Ist es weit?"
     },
     {
       "audioKey": "it-b08-q04",
       "voz": "target_it_m",
       "es": "No, dieci minuti a piedi.",
-      "pt": "No, ten minutes on foot."
+      "pt": "Nein, zehn Minuten zu Fuß."
     },
     {
       "audioKey": "it-b08-q05",
       "voz": "target_it_f",
       "es": "Mi può mostrare sulla mappa?",
-      "pt": "Can you show me on the map?"
+      "pt": "Können Sie es mir auf der Karte zeigen?"
     }
   ],
   "perguntas": [
     {
-      "pergunta": "Why open with c'è instead of dov'è?",
+      "pergunta": "Warum mit c'è anfangen statt mit dov'è?",
       "opcoes": [
-        "It is more polite",
-        "The answer is yes or no, which fits in your head",
-        "Italians prefer it",
-        "Dov'è is grammatically wrong here"
+        "Es ist höflicher",
+        "Die Antwort ist ja oder nein, und das passt in den Kopf",
+        "Man sagt das dort so",
+        "Dov'è wäre hier grammatisch falsch"
       ],
       "correta": 1,
-      "explica": "Ask the question whose answer you can actually carry."
+      "explica": "Stellen Sie die Frage, deren Antwort Sie wirklich mitnehmen können."
     },
     {
-      "pergunta": "What is the cash machine called in Italy?",
+      "pergunta": "Wie heißt der Geldautomat in Italien?",
       "opcoes": [
         "Il bancomat",
         "L'ATM",
@@ -59,40 +59,40 @@
         "Il denaro"
       ],
       "correta": 0,
-      "explica": "The same word also covers the debit card."
+      "explica": "Dasselbe Wort steht auch für die Girokarte."
     },
     {
-      "pergunta": "You lost the middle of a long answer. What do you do?",
+      "pergunta": "Sie haben die Mitte einer langen Antwort verloren. Was tun Sie?",
       "opcoes": [
-        "Ask them to repeat the whole thing",
-        "Nod and walk away",
-        "Shrink it — ask è lontano?",
-        "Ask in English"
+        "Um Wiederholung des Ganzen bitten",
+        "Nicken und weitergehen",
+        "Kürzen — è lontano? fragen",
+        "Auf Englisch fragen"
       ],
       "correta": 2,
-      "explica": "Reduce rather than repeat."
+      "explica": "Kürzen statt wiederholen."
     },
     {
-      "pergunta": "What is ci sono for?",
+      "pergunta": "Wofür ist ci sono da?",
       "opcoes": [
-        "The past tense",
-        "The plural of c'è, which travel rarely needs",
-        "Polite form",
-        "Questions about people"
+        "Für die Vergangenheit",
+        "Der Plural von c'è, den man auf Reisen selten braucht",
+        "Für die Höflichkeitsform",
+        "Für Fragen nach Personen"
       ],
       "correta": 1,
-      "explica": "Almost every travel question is singular — learn c'è properly."
+      "explica": "Fast jede Reisefrage steht im Singular — lernen Sie c'è sauber."
     },
     {
-      "pergunta": "Destra, sinistra, sempre dritto — what is your job with these?",
+      "pergunta": "Destra, sinistra, sempre dritto — was ist Ihre Aufgabe damit?",
       "opcoes": [
-        "Produce them fluently",
-        "Recognise them; your production job is shrinking the answer",
-        "Avoid them",
-        "Translate them aloud"
+        "Sie flüssig selbst bilden",
+        "Sie erkennen; im Sprechen kürzen Sie die Antwort",
+        "Sie meiden",
+        "Sie laut übersetzen"
       ],
       "correta": 1,
-      "explica": "Direction words are receptive vocabulary."
+      "explica": "Richtungswörter sind zum Verstehen da, nicht zum Produzieren."
     }
   ]
 }

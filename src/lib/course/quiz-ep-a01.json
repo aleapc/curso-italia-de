@@ -1,96 +1,96 @@
 {
   "id": "q-a01",
   "nivel": "avancado",
-  "titulo": "Quiz — How they talk when it isn't to you",
-  "subtitulo": "Fast speech and the five fillers",
+  "titulo": "Quiz — Wie sie reden, wenn nicht mit Ihnen",
+  "subtitulo": "Schnelle Rede und die fünf Füllwörter",
   "introAudioKey": "it-a01-q-i",
-  "introPt": "A traveller follows the shape of a conversation without catching every word.",
-  "cenario": "Two people talking at native speed.",
+  "introPt": "Eine Reisende folgt der Form eines Gesprächs, ohne jedes Wort zu fangen.",
+  "cenario": "Zwei Leute sprechen im Tempo von Muttersprachlern.",
   "dialogo": [
     {
       "audioKey": "it-a01-q01",
       "voz": "target_it_f",
       "es": "Ma non lo so, te l'ho già detto!",
-      "pt": "But I don't know, I already told you!",
+      "pt": "Aber ich weiß es nicht, ich habe es dir schon gesagt!",
       "tts": "Ma non lo so, te l'ho già detto!"
     },
     {
       "audioKey": "it-a01-q02",
       "voz": "target_it_f",
       "es": "Boh, mah, vedremo. Magari domani.",
-      "pt": "Dunno, well, we'll see. Maybe tomorrow.",
+      "pt": "Keine Ahnung, tja, mal sehen. Vielleicht morgen.",
       "tts": "Boh, mah, vedremo. Magari domani."
     },
     {
       "audioKey": "it-a01-q03",
       "voz": "target_it_m",
       "es": "Allora, facciamo così: io vado, tu resti.",
-      "pt": "Right then, let's do this: I go, you stay.",
+      "pt": "Also gut, machen wir es so: ich gehe, du bleibst.",
       "tts": "Allora, facciamo così: io vado, tu resti."
     },
     {
       "audioKey": "it-a01-q04",
       "voz": "target_it_f",
       "es": "Eh sì, esatto, appunto, dicevo io la stessa cosa!",
-      "pt": "Yes exactly, precisely, I was saying the same thing!",
+      "pt": "Ja genau, eben, ich habe dasselbe gesagt!",
       "tts": "Eh sì, esatto, appunto, dicevo io la stessa cosa!"
     }
   ],
   "perguntas": [
     {
-      "pergunta": "Boh means:",
+      "pergunta": "Boh bedeutet:",
       "opcoes": [
-        "Maybe",
-        "I have no idea - a complete answer",
-        "Come on",
-        "Exactly"
+        "Vielleicht",
+        "Keine Ahnung — eine vollständige Antwort",
+        "Komm schon",
+        "Genau"
       ],
       "correta": 1,
-      "explica": "Do not wait for more after it."
+      "explica": "Warten Sie danach nicht auf mehr."
     },
     {
-      "pergunta": "Allora at the start of a sentence signals:",
+      "pergunta": "Allora am Satzanfang signalisiert:",
       "opcoes": [
-        "Confusion",
-        "A decision is coming",
-        "Disagreement",
-        "A goodbye"
+        "Verwirrung",
+        "Eine Entscheidung kommt",
+        "Widerspruch",
+        "Einen Abschied"
       ],
       "correta": 1,
-      "explica": "Pay attention to what follows it."
+      "explica": "Achten Sie darauf, was danach kommt."
     },
     {
-      "pergunta": "Two people talking over each other loudly are usually:",
+      "pergunta": "Zwei Leute, die laut durcheinanderreden, sind meist:",
       "opcoes": [
-        "Arguing",
-        "Agreeing",
-        "Bargaining",
-        "Joking"
+        "Im Streit",
+        "Einer Meinung",
+        "Beim Handeln",
+        "Am Scherzen"
       ],
       "correta": 1,
-      "explica": "Esatto, appunto, infatti are agreement words."
+      "explica": "Esatto, appunto, infatti sind Zustimmungswörter."
     },
     {
-      "pergunta": "Non lo so in fast speech:",
+      "pergunta": "Non lo so in schneller Rede:",
       "opcoes": [
-        "Stays separate",
-        "Collapses into one sound",
-        "Gets longer",
-        "Is avoided"
+        "Bleibt getrennt",
+        "Fällt zu einem Laut zusammen",
+        "Wird länger",
+        "Wird vermieden"
       ],
       "correta": 1,
-      "explica": "That is not sloppy - it is what the language sounds like."
+      "explica": "Das ist nicht nachlässig — so klingt die Sprache."
     },
     {
-      "pergunta": "Should you use dai and guagliò yourself?",
+      "pergunta": "Sollten Sie dai und guagliò selbst verwenden?",
       "opcoes": [
-        "Yes, it shows fluency",
-        "No - this module is receptive; it lands as performative",
-        "Only in the south",
-        "Only with friends"
+        "Ja, das zeigt Sprachgefühl",
+        "Nein — dieser Teil ist rezeptiv; es wirkt aufgesetzt",
+        "Nur im Süden",
+        "Nur unter Freunden"
       ],
       "correta": 1,
-      "explica": "Recognise it; do not deploy it."
+      "explica": "Erkennen, ja; einsetzen, nein."
     }
   ]
 }

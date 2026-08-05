@@ -3,22 +3,22 @@
   "nivel": "basico",
   "numero": 8,
   "parte": "3A",
-  "titulo": "Ask the question whose answer fits in your head",
-  "subtitulo": "C'è asks whether the thing exists — and yes or no is an answer you can actually carry",
-  "cena": "A stranger is drawing your route in the air with both hands, three streets deep, and you lost it at the second turn.",
+  "titulo": "Stellen Sie die Frage, deren Antwort in den Kopf passt",
+  "subtitulo": "C'è fragt, ob es die Sache überhaupt gibt — und ja oder nein können Sie wirklich mitnehmen",
+  "cena": "Jemand zeichnet Ihnen den Weg mit beiden Händen in die Luft, drei Straßen weit, und bei der zweiten Abbiegung sind Sie ausgestiegen.",
   "moldura": "ganha",
-  "frasePiso": "The best direction question is the one that gives you a usable next move, not the most complete answer.",
+  "frasePiso": "Die beste Wegfrage ist die, die Ihnen den nächsten Schritt gibt — nicht die vollständigste Antwort.",
   "moldes": [
     "C-E"
   ],
   "clique": {
     "contagem": [
-      "the pharmacy",
-      "the café",
-      "the restaurant"
+      "die Apotheke",
+      "das Café",
+      "das Restaurant"
     ],
-    "desconto": "Nobody handed you four direction questions. You built the ladder yourself out of one opening, by deciding each time how much answer you actually needed.",
-    "piso": "Next time someone starts drawing a route in the air, you will not try to hold the whole paragraph. You will cut it to a decision before it gets away."
+    "desconto": "Niemand hat Ihnen vier Wegfragen gegeben. Sie haben die Leiter selbst gebaut, aus einem einzigen Anfang, indem Sie jedes Mal entschieden haben, wie viel Antwort Sie brauchen.",
+    "piso": "Wenn das nächste Mal jemand einen Weg in die Luft zeichnet, halten Sie nicht den ganzen Absatz fest. Sie kürzen ihn auf eine Entscheidung, bevor er Ihnen entgleitet."
   },
   "steps": [
     {
@@ -27,14 +27,14 @@
       "audioKey": "it-b08-n01",
       "gesto": 1,
       "bloco": "aquecimento",
-      "pt": "Ask where something is and you get three streets and a hand wave. Start smaller — ask whether it exists at all."
+      "pt": "Fragen Sie nach dem Weg, und Sie bekommen drei Straßen und eine Handbewegung. Fangen Sie kleiner an: Gibt es das hier überhaupt?"
     },
     {
       "tipo": "intro",
       "voz": "guide_de_m",
       "audioKey": "it-b08-n02",
       "bloco": "molde",
-      "pt": "The frame is c'è, plus the thing. The answer is yes or no, and yes or no fits in your head."
+      "pt": "Der Baustein ist c'è plus die Sache. Die Antwort ist ja oder nein — und das passt in den Kopf."
     },
     {
       "tipo": "ouvir",
@@ -42,7 +42,7 @@
       "audioKey": "it-b08-t01",
       "es": "C'è una farmacia qui vicino?",
       "pinyin": "cheh OO-na far-ma-CHEE-a kwee vee-CHEE-no",
-      "pt": "Is there a pharmacy near here?",
+      "pt": "Gibt es hier in der Nähe eine Apotheke?",
       "tts": "C'è una farmacia qui vicino?"
     },
     {
@@ -56,18 +56,18 @@
       "encaixe": "una farmacia qui vicino",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-b08-p01",
-      "promptPt": "You need medicine but do not know if this street has a pharmacy. Ask the yes-or-no question first. Speak now.",
+      "promptPt": "Sie brauchen ein Medikament und wissen nicht, ob es in dieser Straße etwas gibt. Stellen Sie zuerst die Ja-oder-Nein-Frage. Sprechen Sie jetzt.",
       "audioKey": "it-b08-t01",
       "es": "C'è una farmacia qui vicino?",
       "pinyin": "cheh OO-na far-ma-CHEE-a kwee vee-CHEE-no",
-      "pt": "Is there a pharmacy near here?"
+      "pt": "Gibt es hier in der Nähe eine Apotheke?"
     },
     {
       "tipo": "ouvir",
       "voz": "target_it_m",
       "audioKey": "it-b08-r01",
       "es": "Sì, in fondo alla strada.",
-      "pt": "Yes, at the end of the street.",
+      "pt": "Ja, am Ende der Straße.",
       "tts": "Sì, in fondo alla strada."
     },
     {
@@ -75,7 +75,7 @@
       "voz": "guide_de_f",
       "audioKey": "it-b08-n03",
       "bloco": "corpo",
-      "pt": "The opening holds; the thing changes. You want any cash machine, not a particular one."
+      "pt": "Der Anfang bleibt, die Sache wechselt. Sie wollen irgendeinen Geldautomaten, nicht einen bestimmten."
     },
     {
       "consulta": [
@@ -87,18 +87,18 @@
       "encaixe": "un bancomat",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-b08-p02",
-      "promptPt": "You need cash. Keep the frame, swap the thing. Speak now.",
+      "promptPt": "Sie brauchen Bargeld. Behalten Sie den Baustein, tauschen Sie die Sache. Sprechen Sie jetzt.",
       "audioKey": "it-b08-t02",
       "es": "C'è un bancomat qui vicino?",
       "pinyin": "cheh oon BAN-ko-mat kwee vee-CHEE-no",
-      "pt": "Is there a cash machine near here?",
+      "pt": "Gibt es hier in der Nähe einen Geldautomaten?",
       "tts": "C'è un bancomat qui vicino?"
     },
     {
       "tipo": "intro",
       "voz": "guide_de_m",
       "audioKey": "it-b08-n04",
-      "pt": "Bancomat is the word — it is what the machine is called, and asking for an ATM will slow you down."
+      "pt": "Bancomat heißt das Gerät. Nach einem ATM zu fragen kostet Sie nur eine Pause."
     },
     {
       "consulta": [
@@ -110,11 +110,11 @@
       "encaixe": "il wifi",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-b08-p03",
-      "promptPt": "Simplest possible existence question, in a café. Speak now.",
+      "promptPt": "Im Café, die einfachste denkbare Existenzfrage. Sprechen Sie jetzt.",
       "audioKey": "it-b08-t03",
       "es": "C'è il wifi?",
       "pinyin": "cheh eel WEE-fee",
-      "pt": "Is there wifi?",
+      "pt": "Gibt es WLAN?",
       "tts": "C'è il wifi?"
     },
     {
@@ -122,7 +122,7 @@
       "voz": "target_it_m",
       "audioKey": "it-b08-r02",
       "es": "Sì, la password è sul tavolo.",
-      "pt": "Yes, the password is on the table.",
+      "pt": "Ja, das Passwort liegt auf dem Tisch.",
       "tts": "Sì, la password è sul tavolo."
     },
     {
@@ -130,17 +130,17 @@
       "voz": "guide_de_f",
       "audioKey": "it-b08-n05",
       "bloco": "capsula",
-      "pt": "Now the answer that is too large. Do not ask for the same paragraph again — collapse it into distance."
+      "pt": "Jetzt die Antwort, die zu groß ist. Fragen Sie nicht denselben Absatz noch einmal ab — kürzen Sie ihn auf die Entfernung."
     },
     {
       "tipo": "ouvir",
       "voz": "target_it_m",
       "audioKey": "it-b08-r03",
       "es": "Allora, prende la seconda a destra, poi sempre dritto fino alla chiesa, e dopo la piazza gira a sinistra.",
-      "pt": "So, take the second right, then straight on to the church, and after the square turn left.",
+      "pt": "Also, die zweite rechts, dann immer geradeaus bis zur Kirche, und nach dem Platz links.",
       "tts": "Allora, prende la seconda a destra, poi sempre dritto fino alla chiesa, e dopo la piazza gira a sinistra.",
       "receptivo": true,
-      "acao": "Do not try to hold it. Ask è lontano? instead."
+      "acao": "Nicht festhalten wollen. Fragen Sie stattdessen è lontano?"
     },
     {
       "consulta": [
@@ -150,11 +150,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-b08-p04",
-      "promptPt": "You lost the middle. Ask only whether it is far. Speak now.",
+      "promptPt": "Die Mitte ist Ihnen entgangen. Fragen Sie nur nach der Entfernung. Sprechen Sie jetzt.",
       "audioKey": "it-b08-t04",
       "es": "È lontano?",
       "pinyin": "eh lon-TA-no",
-      "pt": "Is it far?",
+      "pt": "Ist es weit?",
       "tts": "È lontano?"
     },
     {
@@ -162,7 +162,7 @@
       "voz": "target_it_m",
       "audioKey": "it-b08-r04",
       "es": "No, dieci minuti a piedi.",
-      "pt": "No, ten minutes on foot.",
+      "pt": "Nein, zehn Minuten zu Fuß.",
       "tts": "No, dieci minuti a piedi."
     },
     {
@@ -175,11 +175,11 @@
       "encaixe": "mostrare sulla mappa",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-b08-p05",
-      "promptPt": "Ten minutes still leaves the first turn unclear. Move it to the map. Speak now.",
+      "promptPt": "Zehn Minuten, und die erste Abbiegung ist immer noch unklar. Holen Sie das Handy heraus. Sprechen Sie jetzt.",
       "audioKey": "it-b08-t05",
       "es": "Mi può mostrare sulla mappa?",
       "pinyin": "mee pwoh mos-TRA-re SUL-la MAP-pa",
-      "pt": "Can you show me on the map?",
+      "pt": "Können Sie es mir auf der Karte zeigen?",
       "tts": "Mi può mostrare sulla mappa?"
     },
     {
@@ -192,11 +192,11 @@
       "encaixe": "un tavolo libero",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-b08-p06",
-      "promptPt": "Same frame, completely different scene: a busy restaurant. Speak now.",
+      "promptPt": "Derselbe Baustein, ganz andere Szene: ein volles Restaurant. Sprechen Sie jetzt.",
       "audioKey": "it-b08-t06",
       "es": "C'è un tavolo libero?",
       "pinyin": "cheh oon TA-vo-lo LEE-be-ro",
-      "pt": "Is there a free table?",
+      "pt": "Gibt es einen freien Tisch?",
       "tts": "C'è un tavolo libero?"
     },
     {
@@ -209,11 +209,11 @@
       "encaixe": "un altro treno",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-b08-p07",
-      "promptPt": "You missed the connection. Ask whether another exists. Speak now.",
+      "promptPt": "Sie haben den Anschluss verpasst. Derselbe Baustein, diesmal am Bahnsteig. Sprechen Sie jetzt.",
       "audioKey": "it-b08-t07",
       "es": "C'è un altro treno?",
       "pinyin": "cheh oon AL-tro TREH-no",
-      "pt": "Is there another train?",
+      "pt": "Gibt es noch einen Zug?",
       "tts": "C'è un altro treno?"
     },
     {
@@ -224,11 +224,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-b08-p08",
-      "promptPt": "They walked you through it patiently. Thank them. Speak now.",
+      "promptPt": "Man hat sich geduldig Zeit für Sie genommen. Bedanken Sie sich. Sprechen Sie jetzt.",
       "audioKey": "it-b08-t08",
       "es": "Grazie, gentilissimo.",
       "pinyin": "GRA-tsee-eh, jen-tee-LEES-see-mo",
-      "pt": "Thank you, very kind of you.",
+      "pt": "Danke, sehr freundlich von Ihnen.",
       "tts": "Grazie, gentilissimo."
     },
     {
@@ -237,7 +237,7 @@
       "audioKey": "it-b08-s01",
       "es": "C'è una farmacia qui vicino? È lontano? Mi può mostrare sulla mappa?",
       "pinyin": "cheh OO-na far-ma-CHEE-a kwee vee-CHEE-no. eh lon-TA-no. mee pwoh mos-TRA-re SUL-la MAP-pa",
-      "pt": "Shadow the ladder: exists, distance, map.",
+      "pt": "Sprechen Sie die Leiter mit: gibt es, wie weit, Karte.",
       "tts": "C'è una farmacia qui vicino? È lontano? Mi può mostrare sulla mappa?",
       "molde": "C-E"
     },
@@ -246,52 +246,52 @@
       "voz": "guide_de_f",
       "audioKey": "it-b08-n06",
       "bloco": "recap",
-      "pt": "B08 done. C'è asks whether it exists, è lontano? shrinks a paragraph, and the map takes over when words stop moving your feet."
+      "pt": "B08 sitzt. C'è fragt, ob es etwas gibt, è lontano? kürzt einen Absatz, und die Karte übernimmt, wenn Worte Sie nicht weiterbringen."
     }
   ],
   "aprofundar": {
-    "titulo": "Existence before directions",
+    "titulo": "Existenz vor Wegbeschreibung",
     "secoes": [
       {
-        "titulo": "C'è plus the thing",
-        "corpo": "Use it whenever yes or no is already valuable. Keep the opening and replace the object — the frame never changes shape.",
+        "titulo": "C'è plus die Sache",
+        "corpo": "Nehmen Sie es immer dann, wenn ja oder nein schon etwas wert ist. Der Anfang bleibt, nur das Objekt wechselt — der Baustein ändert nie seine Form.",
         "exemplos": [
           {
             "es": "C'è il wifi?",
-            "pt": "Is there wifi?"
+            "pt": "Gibt es WLAN?"
           },
           {
             "es": "C'è un tavolo libero?",
-            "pt": "Is there a free table?"
+            "pt": "Gibt es einen freien Tisch?"
           }
         ]
       },
       {
-        "titulo": "Ci sono is the plural, and you barely need it",
-        "corpo": "C'è for one thing, ci sono for several. In practice almost every travel question is singular — c'è un bagno, c'è un treno — so learn the singular properly and let the plural arrive by ear."
+        "titulo": "Ci sono ist der Plural, und Sie brauchen ihn kaum",
+        "corpo": "C'è für eine Sache, ci sono für mehrere. Auf Reisen ist fast jede Frage im Singular — c'è un bagno, c'è un treno. Lernen Sie den Singular sauber und lassen Sie den Plural übers Ohr kommen."
       },
       {
-        "titulo": "Bancomat, not ATM",
-        "corpo": "The cash machine is il bancomat, and the same word covers the debit card. Asking for an ATM in Italy usually works, but bancomat gets you an answer without the pause."
+        "titulo": "Bancomat, nicht ATM",
+        "corpo": "Der Geldautomat heißt il bancomat, und dasselbe Wort steht auch für die Girokarte. Mit ATM kommen Sie meist auch durch, aber bancomat bringt die Antwort ohne Zögern."
       },
       {
-        "titulo": "Direction words are receptive",
-        "corpo": "Destra, sinistra, sempre dritto, in fondo, dopo la piazza — you need to recognise them, not produce them. Your production job is to shrink the answer with è lontano? or move it to the map."
+        "titulo": "Richtungswörter sind zum Verstehen da",
+        "corpo": "Destra, sinistra, sempre dritto, in fondo, dopo la piazza — Sie müssen sie erkennen, nicht selbst bilden. Ihre Aufgabe im Sprechen ist, die Antwort zu kürzen: è lontano? oder auf die Karte."
       }
     ]
   },
   "slot": "B08",
-  "permissao": "You are allowed to cut a stranger's answer short. Asking è lontano? or pulling out the map before someone finishes a three-street explanation is not impatience — it is the fastest way to end up somewhere useful instead of nodding through directions you were never going to retain.",
+  "permissao": "Sie dürfen die Antwort eines Fremden abkürzen. È lontano? zu fragen oder die Karte zu zücken, bevor jemand seine Drei-Straßen-Erklärung beendet hat, ist nicht unhöflich — es ist der schnellste Weg, tatsächlich irgendwo anzukommen, statt durch eine Beschreibung zu nicken, die Sie ohnehin nicht behalten hätten.",
   "permissaoAudioKey": "it-b08-n05",
-  "espelho": "Anyone who has asked for directions at home and lost the thread after 'turn left at the second light' has already lived this exact failure. The instinct to keep nodding rather than interrupt a helpful stranger is universal, not a gap in your Italian.",
+  "espelho": "Wer zu Hause nach dem Weg gefragt und nach 'an der zweiten Ampel links' den Faden verloren hat, kennt genau diesen Moment. Weiterzunicken, statt eine hilfsbereite Person zu unterbrechen, ist ein menschlicher Reflex — kein Loch in Ihrem Italienisch.",
   "fichasCulturais": [
     {
-      "sinal": "You ask a simple question and get a long, generous answer with hand gestures, landmarks and a story about the church.",
-      "suaLeitura": "I should have understood all of that, and asking again would be rude.",
-      "oQueEAli": "Italian direction-giving tends to be generous and narrative rather than terse. The length is hospitality, not obstruction — but it produces more than a first-time visitor can hold in one pass.",
-      "oQueVoceFaz": "Reduce rather than repeat: ask è lontano? for a walk-or-not decision, or open the map and ask them to point.",
-      "oQueMelhora": "You leave with one usable fact instead of a paragraph you cannot reconstruct two turns later, and the person still gets to be helpful.",
-      "ondeNaoVale": "Not when someone has already reduced it for you — if the answer was è qui, a due passi, a follow-up question asks for detail that was never missing.",
+      "sinal": "Sie stellen eine kurze Frage und bekommen eine lange, großzügige Antwort mit Gesten, Orientierungspunkten und einer Geschichte über die Kirche.",
+      "suaLeitura": "Das hätte ich verstehen müssen, und noch einmal zu fragen wäre unhöflich.",
+      "oQueEAli": "Wegbeschreibungen laufen in Italien eher erzählend als knapp ab. Die Länge ist Gastfreundschaft, keine Schikane — aber sie liefert mehr, als beim ersten Mal in einen Kopf passt.",
+      "oQueVoceFaz": "Kürzen statt wiederholen: è lontano? fragen, um zu wissen, ob Sie laufen können, oder die Karte öffnen und um einen Fingerzeig bitten.",
+      "oQueMelhora": "Sie gehen mit einer brauchbaren Information los statt mit einem Absatz, den Sie zwei Abbiegungen später nicht mehr zusammenbekommen — und das Gegenüber durfte trotzdem helfen.",
+      "ondeNaoVale": "Nicht, wenn schon gekürzt wurde: Nach è qui, a due passi fragt eine Rückfrage nach Details, die nie gefehlt haben.",
       "evidencia": "CONSENSO",
       "audioKeys": [
         "it-b08-n05"

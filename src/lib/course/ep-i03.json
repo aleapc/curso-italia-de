@@ -3,12 +3,12 @@
   "nivel": "intermediario",
   "numero": 21,
   "parte": "I03",
-  "titulo": "The dish you were never going to order",
-  "subtitulo": "Cosa mi consiglia is the shortest route to the thing the kitchen is actually proud of",
-  "cena": "The menu has forty items, you recognise six, and you are about to order the sixth one for the fourth night running.",
+  "titulo": "Das Gericht, das Sie nie bestellt hätten",
+  "subtitulo": "Cosa mi consiglia ist der kürzeste Weg zu dem, worauf die Küche wirklich stolz ist",
+  "cena": "Die Karte hat vierzig Positionen, sechs davon sagen Ihnen etwas, und Sie sind dabei, die sechste den vierten Abend in Folge zu bestellen.",
   "moldura": "ganha",
-  "frasePiso": "Stop reading the menu. Ask the person who knows what came in this morning.",
-  "decisao": "pedir o que a casa recomenda em vez do prato que você já reconhece, que é a diferença entre comer na Itália e comer o que você comeria em casa",
+  "frasePiso": "Hören Sie auf, die Karte zu lesen. Fragen Sie die Person, die weiß, was heute Morgen geliefert wurde.",
+  "decisao": "das bestellen, was das Haus empfiehlt, statt das Gericht, das Sie schon kennen — das ist der Unterschied zwischen in Italien essen und essen, was Sie zu Hause auch essen würden",
   "moldes": [],
   "steps": [
     {
@@ -17,14 +17,14 @@
       "audioKey": "it-i03-n01",
       "gesto": 1,
       "bloco": "aquecimento",
-      "pt": "Four nights of the dish you already knew is the most common way to eat badly in a country that eats extremely well."
+      "pt": "Vier Abende lang das Gericht, das Sie schon kannten: So isst man schlecht in einem Land, das großartig isst."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_m",
       "audioKey": "it-i03-n02",
       "bloco": "corpo",
-      "pt": "One sentence solves it. Cosa mi consiglia — what do you recommend. Ask it before you have read anything."
+      "pt": "Ein Satz löst das. Cosa mi consiglia — was empfehlen Sie. Fragen Sie, bevor Sie irgendetwas gelesen haben."
     },
     {
       "tipo": "ouvir",
@@ -32,7 +32,7 @@
       "audioKey": "it-i03-t01",
       "es": "Cosa mi consiglia?",
       "pinyin": "KO-za mee kon-SEE-lya",
-      "pt": "What do you recommend?",
+      "pt": "Was empfehlen Sie?",
       "tts": "Cosa mi consiglia?"
     },
     {
@@ -44,20 +44,20 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-i03-p01",
-      "promptPt": "Put the menu down and ask. Speak now.",
+      "promptPt": "Legen Sie die Karte weg und fragen Sie. Sprechen Sie jetzt.",
       "audioKey": "it-i03-t01",
       "es": "Cosa mi consiglia?",
       "pinyin": "KO-za mee kon-SEE-lya",
-      "pt": "What do you recommend?"
+      "pt": "Was empfehlen Sie?"
     },
     {
       "tipo": "ouvir",
       "voz": "target_it_m",
       "audioKey": "it-i03-r01",
       "receptivo": true,
-      "acao": "Take the first thing they name. That is the one the kitchen is proud of today.",
+      "acao": "Nehmen Sie das Erste, was genannt wird. Darauf ist die Küche heute stolz.",
       "es": "Oggi abbiamo i carciofi. Li facciamo alla giudia.",
-      "pt": "Today we have artichokes. We do them Jewish-style.",
+      "pt": "Heute haben wir Artischocken. Wir machen sie nach jüdischer Art.",
       "tts": "Oggi abbiamo i carciofi. Li facciamo alla giudia."
     },
     {
@@ -68,18 +68,18 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-i03-p02",
-      "promptPt": "Take the recommendation without asking three follow-up questions. Speak now.",
+      "promptPt": "Nehmen Sie die Empfehlung an, ohne drei Rückfragen. Sprechen Sie jetzt.",
       "audioKey": "it-i03-t02",
       "es": "Allora prendo quello, mi fido.",
       "pinyin": "al-LO-ra PREN-do KWEL-lo, mee FEE-do",
-      "pt": "Then I'll have that, I trust you.",
+      "pt": "Dann nehme ich das, ich vertraue Ihnen.",
       "tts": "Allora prendo quello, mi fido."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_f",
       "audioKey": "it-i03-n03",
-      "pt": "Mi fido — I trust you — is the two words that change the answer you get for the rest of the meal."
+      "pt": "Mi fido — ich vertraue Ihnen. Zwei Wörter, die die Antwort für den Rest des Essens verändern."
     },
     {
       "consulta": [
@@ -91,11 +91,11 @@
       "encaixe": "un piatto tipico di qui",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-i03-p03",
-      "promptPt": "Ask for the local dish specifically, using the frame from B08. Speak now.",
+      "promptPt": "Fragen Sie gezielt nach dem Gericht dieser Gegend, mit dem Baustein aus B08. Sprechen Sie jetzt.",
       "audioKey": "it-i03-t03",
       "es": "C'è un piatto tipico di qui?",
       "pinyin": "cheh oon pee-AT-to TEE-pee-ko dee kwee",
-      "pt": "Is there a dish typical of here?",
+      "pt": "Gibt es ein Gericht, das typisch für hier ist?",
       "tts": "C'è un piatto tipico di qui?"
     },
     {
@@ -103,7 +103,7 @@
       "voz": "guide_de_m",
       "audioKey": "it-i03-n04",
       "bloco": "capsula",
-      "pt": "The menu is in courses: antipasto, primo, secondo, contorno, dolce. You do not have to order all five, and almost nobody does."
+      "pt": "Die Karte hat Gänge: antipasto, primo, secondo, contorno, dolce. Alle fünf nimmt fast niemand."
     },
     {
       "consulta": [
@@ -113,11 +113,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-i03-p04",
-      "promptPt": "Order two courses and say so, so nothing else arrives. Speak now.",
+      "promptPt": "Bestellen Sie zwei Gänge und sagen Sie es dazu, damit nichts weiter kommt. Sprechen Sie jetzt.",
       "audioKey": "it-i03-t04",
       "es": "Solo un primo e un contorno, grazie.",
       "pinyin": "SO-lo oon PREE-mo eh oon kon-TOR-no, GRA-tsee-eh",
-      "pt": "Just a first course and a side, thank you.",
+      "pt": "Nur einen ersten Gang und eine Beilage, danke.",
       "tts": "Solo un primo e un contorno, grazie."
     },
     {
@@ -129,11 +129,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-i03-p05",
-      "promptPt": "Ask what today's dish is — the one not printed on the menu. Speak now.",
+      "promptPt": "Fragen Sie nach dem, was heute gekocht wird und nicht auf der Karte steht. Sprechen Sie jetzt.",
       "audioKey": "it-i03-t05",
       "es": "Qual è il piatto del giorno?",
       "pinyin": "kwal eh eel pee-AT-to del JOR-no",
-      "pt": "What's today's dish?",
+      "pt": "Was ist das Tagesgericht?",
       "tts": "Qual è il piatto del giorno?"
     },
     {
@@ -144,11 +144,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-i03-p06",
-      "promptPt": "You do not know what a word on the menu is. Ask, without apologising. Speak now.",
+      "promptPt": "Ein Wort auf der Karte sagt Ihnen nichts. Fragen Sie nach, ohne sich zu entschuldigen. Sprechen Sie jetzt.",
       "audioKey": "it-i03-t06",
       "es": "Scusi, cos'è questo?",
       "pinyin": "SKOO-zee, ko-ZEH KWES-to",
-      "pt": "Sorry, what is this?",
+      "pt": "Entschuldigung, was ist das?",
       "tts": "Scusi, cos'è questo?"
     },
     {
@@ -156,9 +156,9 @@
       "voz": "target_it_m",
       "audioKey": "it-i03-r02",
       "receptivo": true,
-      "acao": "If it is offal or something unfamiliar, that is information, not a warning. Decide, do not flinch.",
+      "acao": "Wenn es Innereien sind oder etwas Unbekanntes: Das ist Information, keine Warnung. Entscheiden Sie, ohne zurückzuzucken.",
       "es": "È la trippa. Piatto povero, ma buonissimo.",
-      "pt": "It's tripe. A poor man's dish, but delicious.",
+      "pt": "Das ist Kutteln. Ein armes Gericht, aber sehr gut.",
       "tts": "È la trippa. Piatto povero, ma buonissimo."
     },
     {
@@ -169,11 +169,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-i03-p07",
-      "promptPt": "Let them pick the wine too. Ask for the house one. Speak now.",
+      "promptPt": "Überlassen Sie ihnen auch den Wein. Bestellen Sie den vom Haus. Sprechen Sie jetzt.",
       "audioKey": "it-i03-t07",
       "es": "Un quarto di vino della casa, rosso.",
       "pinyin": "oon KWAR-to dee VEE-no DEL-la KA-za, ROS-so",
-      "pt": "A quarter litre of house wine, red.",
+      "pt": "Einen Viertelliter Hauswein, rot.",
       "tts": "Un quarto di vino della casa, rosso."
     },
     {
@@ -184,11 +184,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-i03-p08",
-      "promptPt": "They ask about dessert. Ask what is made in-house. Speak now.",
+      "promptPt": "Man fragt Sie nach dem Nachtisch. Fragen Sie, was hier selbst entsteht. Sprechen Sie jetzt.",
       "audioKey": "it-i03-t08",
       "es": "Il dolce lo fate voi?",
       "pinyin": "eel DOL-che lo FA-te voy",
-      "pt": "Do you make the dessert yourselves?",
+      "pt": "Machen Sie den Nachtisch selbst?",
       "tts": "Il dolce lo fate voi?"
     },
     {
@@ -197,7 +197,7 @@
       "audioKey": "it-i03-s01",
       "es": "Cosa mi consiglia? Allora prendo quello, mi fido. Un quarto di vino della casa, rosso.",
       "pinyin": "KO-za mee kon-SEE-lya. al-LO-ra PREN-do KWEL-lo mee FEE-do. oon KWAR-to dee VEE-no DEL-la KA-za ROS-so",
-      "pt": "Shadow the handover: ask, accept, and let them choose the wine.",
+      "pt": "Sprechen Sie die Übergabe mit: fragen, annehmen, den Wein wählen lassen.",
       "tts": "Cosa mi consiglia? Allora prendo quello, mi fido. Un quarto di vino della casa, rosso.",
       "molde": "C-E"
     },
@@ -206,52 +206,52 @@
       "voz": "guide_de_f",
       "audioKey": "it-i03-n05",
       "bloco": "recap",
-      "pt": "I03 done. Cosa mi consiglia, mi fido, and the house wine — three moves that hand the meal to someone who knows."
+      "pt": "I03 geschafft. Cosa mi consiglia, mi fido und der Hauswein: drei Züge, die das Essen jemandem übergeben, der es weiß."
     }
   ],
   "aprofundar": {
-    "titulo": "Handing over the decision",
+    "titulo": "Die Entscheidung übergeben",
     "secoes": [
       {
-        "titulo": "Cosa mi consiglia, then mi fido",
-        "corpo": "The first sentence gets a recommendation; the second gets the good one. Accepting without negotiation signals that you are not going to be a difficult table, and the quality of what arrives reflects that.",
+        "titulo": "Cosa mi consiglia, dann mi fido",
+        "corpo": "Der erste Satz bringt eine Empfehlung, der zweite bringt die gute. Ohne Verhandlung anzunehmen signalisiert, dass Sie kein schwieriger Tisch werden, und was dann kommt, spiegelt das.",
         "exemplos": [
           {
             "es": "Cosa mi consiglia?",
-            "pt": "What do you recommend?"
+            "pt": "Was empfehlen Sie?"
           },
           {
             "es": "Allora prendo quello, mi fido.",
-            "pt": "Then I'll have that, I trust you."
+            "pt": "Dann nehme ich das, ich vertraue Ihnen."
           }
         ]
       },
       {
-        "titulo": "You do not order every course",
-        "corpo": "Antipasto, primo, secondo, contorno, dolce is the full structure, not the expected order. A primo and a contorno is a completely normal meal, and saying which courses you want up front stops the rest from arriving."
+        "titulo": "Sie bestellen nicht jeden Gang",
+        "corpo": "Antipasto, primo, secondo, contorno, dolce ist die vollständige Abfolge, nicht die erwartete Bestellung. Ein primo und ein contorno sind eine ganz normale Mahlzeit, und wer gleich sagt, welche Gänge er will, verhindert, dass der Rest doch kommt."
       },
       {
-        "titulo": "What a tourist menu signals",
-        "corpo": "A fixed multilingual menu with photographs, a range spanning pizza, pasta, sushi and burgers, and someone working the pavement to bring you in are the documented markers of a place built around never seeing you again. Note that a menù del giorno is a different thing entirely and is a good sign. The positive counter-signal is a menu written in Italian, sometimes with dialect words, listing regional dishes rather than a national greatest-hits list."
+        "titulo": "Woran man ein Touristenlokal erkennt",
+        "corpo": "Ein festes mehrsprachiges Menü mit Fotos, eine Karte, die von Pizza über Pasta bis Sushi und Burger reicht, und jemand, der Sie von der Straße hereinholt: Das sind die dokumentierten Merkmale eines Hauses, das darauf gebaut ist, Sie nie wiederzusehen. Ein menù del giorno ist etwas völlig anderes und ein gutes Zeichen. Das positive Gegensignal ist eine Karte auf Italienisch, manchmal mit Dialektwörtern, die regionale Gerichte listet statt einer nationalen Bestenliste."
       },
       {
         "titulo": "Vino della casa",
-        "corpo": "House wine sold by the quarter, half or litre is normal and usually the local wine the place actually drinks. Ordering it is not a downgrade — in an ordinary trattoria it is often the better call than the cheapest bottle on the list."
+        "corpo": "Hauswein im Viertel, Halben oder Liter ist normal und meist der Wein der Gegend, den das Haus selbst trinkt. Ihn zu bestellen ist keine Sparversion — in einer gewöhnlichen Trattoria ist er oft die bessere Wahl als die billigste Flasche der Karte."
       }
     ]
   },
   "slot": "I03",
-  "permissao": "You are allowed to admit you do not know what something on the menu is. Scusi, cos'è questo gets an enthusiastic answer roughly every time — the dish nobody explains is the one you go home not having eaten.",
+  "permissao": "Sie dürfen zugeben, dass Sie etwas auf der Karte nicht kennen. Scusi, cos'è questo bringt fast jedes Mal eine begeisterte Antwort — das Gericht, das niemand erklärt, ist genau das, das Sie ungegessen wieder mit nach Hause nehmen.",
   "permissaoAudioKey": "it-i03-n02",
-  "espelho": "Anyone who has ordered the one familiar item on a foreign menu four nights running knows exactly what this part costs to skip. It is not caution about food — it is the small effort of asking being higher than the effort of pointing at what you recognise.",
+  "espelho": "Wer schon einmal vier Abende hintereinander das eine vertraute Gericht auf einer fremden Karte bestellt hat, weiß, was es kostet, diesen Teil zu überspringen. Es ist keine Vorsicht beim Essen — es ist der kleine Aufwand des Fragens, der größer wirkt als der Aufwand, auf das Bekannte zu zeigen.",
   "fichasCulturais": [
     {
-      "sinal": "You ask for a recommendation and the waiter names one dish immediately, with no alternatives offered.",
-      "suaLeitura": "They are pushing whatever they need to sell tonight.",
-      "oQueEAli": "A single confident answer usually means there is a right answer today — something that came in fresh, or the dish the kitchen is known for. A long list of options is the more commercial response, not the shorter one.",
-      "oQueVoceFaz": "Take it, and say mi fido. If you genuinely cannot eat it, name the reason rather than asking for the list.",
-      "oQueMelhora": "You eat the thing that place does best on the night you are there, which is not knowable from the menu at any price.",
-      "ondeNaoVale": "Not in a place where the same recommendation is made to every table in four languages — there the confidence is a script, and the printed menu is the more honest document.",
+      "sinal": "Sie bitten um eine Empfehlung, und der Kellner nennt sofort ein Gericht, ohne Alternativen.",
+      "suaLeitura": "Der will loswerden, was heute Abend wegmuss.",
+      "oQueEAli": "Eine einzige sichere Antwort heißt meist, dass es heute eine richtige Antwort gibt: etwas, das frisch gekommen ist, oder das Gericht, für das die Küche bekannt ist. Die lange Liste von Möglichkeiten ist die kommerziellere Reaktion, nicht die kurze.",
+      "oQueVoceFaz": "Nehmen Sie es und sagen Sie mi fido. Wenn Sie es wirklich nicht essen können, nennen Sie den Grund, statt um die Liste zu bitten.",
+      "oQueMelhora": "Sie essen das, was dieses Haus an diesem Abend am besten kann — und das steht zu keinem Preis auf der Karte.",
+      "ondeNaoVale": "Nicht dort, wo dieselbe Empfehlung jedem Tisch in vier Sprachen gemacht wird — dort ist die Sicherheit ein Skript, und die gedruckte Karte ist das ehrlichere Dokument.",
       "evidencia": "CONSENSO",
       "audioKeys": [
         "it-i03-n03"

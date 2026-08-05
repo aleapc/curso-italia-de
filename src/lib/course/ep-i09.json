@@ -3,12 +3,12 @@
   "nivel": "intermediario",
   "numero": 27,
   "parte": "I09",
-  "titulo": "Spending the afternoon the way they spend it",
-  "subtitulo": "The morning market, the evening walk, the match on in the bar — three things that are free and that no itinerary lists",
-  "cena": "It is four in the afternoon, the museums are full, and the town looks asleep in a way that feels like there is nothing to do.",
+  "titulo": "Den Nachmittag so verbringen, wie man ihn hier verbringt",
+  "subtitulo": "Der Markt am Vormittag, der Bummel am Abend, das Spiel in der Bar — drei Dinge, die nichts kosten und in keinem Programm stehen",
+  "cena": "Es ist vier Uhr nachmittags, die Museen sind voll, und die Stadt wirkt so verschlafen, als gäbe es nichts zu tun.",
   "moldura": "ganha",
-  "frasePiso": "The best hours here are not on any itinerary. The market before noon, the square after six, and whatever is on in the bar.",
-  "decisao": "trocar a terceira igreja da lista pelo mercado de manhã e pela praça às seis, que é onde a cidade realmente está",
+  "frasePiso": "Die besten Stunden stehen in keinem Programm. Der Markt vor Mittag, die Piazza ab sechs, und was gerade in der Bar läuft.",
+  "decisao": "die dritte Kirche der Liste gegen den Markt am Vormittag und die Piazza um sechs tauschen, wo die Stadt wirklich ist",
   "moldes": [],
   "steps": [
     {
@@ -17,23 +17,23 @@
       "audioKey": "it-i09-n01",
       "gesto": 1,
       "bloco": "aquecimento",
-      "pt": "Italian towns have a rhythm, not opening hours. Morning is the market, afternoon is quiet, and from six the street fills up."
+      "pt": "Diese Städte haben einen Rhythmus, keine Öffnungszeiten: vormittags Markt, nachmittags Ruhe, ab sechs volle Straßen."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_m",
       "audioKey": "it-i09-n02",
       "bloco": "corpo",
-      "pt": "Start at the market. Not to buy dinner — to see what the season actually is and to talk to four people in eight minutes."
+      "pt": "Fangen Sie auf dem Markt an. Nicht zum Einkaufen — um die Saison zu sehen und in acht Minuten mit vier Leuten zu reden."
     },
     {
       "tipo": "ouvir",
       "voz": "target_it_m",
       "audioKey": "it-i09-r01",
       "receptivo": true,
-      "acao": "Do not touch the produce. Point and let them pick it.",
+      "acao": "Fassen Sie das Obst nicht an. Zeigen Sie darauf und lassen Sie auswählen.",
       "es": "Dica signora, cosa le do? Guardi che pomodori.",
-      "pt": "Tell me, what can I give you? Look at these tomatoes.",
+      "pt": "Sagen Sie, was darf ich Ihnen geben? Sehen Sie sich diese Tomaten an.",
       "tts": "Dica signora, cosa le do? Guardi che pomodori."
     },
     {
@@ -45,11 +45,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-i09-p01",
-      "promptPt": "Ask what is in season right now. Speak now.",
+      "promptPt": "Sie wollen die Empfehlung des Standes, nicht Ihre eigene Wahl. Fragen Sie danach. Sprechen Sie jetzt.",
       "audioKey": "it-i09-t01",
       "es": "Cosa c'è di buono adesso?",
       "pinyin": "KO-za cheh dee BWO-no a-DES-so",
-      "pt": "What's good right now?",
+      "pt": "Was ist gerade gut?",
       "tts": "Cosa c'è di buono adesso?"
     },
     {
@@ -60,18 +60,18 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-i09-p02",
-      "promptPt": "Order a small amount — enough for two people, today. Speak now.",
+      "promptPt": "Bestellen Sie eine kleine Menge — genug für zwei Personen, für heute. Sprechen Sie jetzt.",
       "audioKey": "it-i09-t02",
       "es": "Me ne dia due etti, per favore.",
       "pinyin": "meh neh DEE-a DOO-eh ET-tee per fa-VO-re",
-      "pt": "Give me two hundred grams, please.",
+      "pt": "Geben Sie mir bitte zweihundert Gramm davon.",
       "tts": "Me ne dia due etti, per favore."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_f",
       "audioKey": "it-i09-n03",
-      "pt": "Un etto is a hundred grams and it is how food is bought here. Due etti of cheese is a normal, unembarrassing amount."
+      "pt": "Un etto sind hundert Gramm, und so kauft man hier ein. Due etti Käse ist eine ganz normale Menge."
     },
     {
       "consulta": [
@@ -84,11 +84,11 @@
       "encaixe": "assaggiare",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-i09-p03",
-      "promptPt": "Ask to taste before committing, using the frame from B06. Speak now.",
+      "promptPt": "Vor dem Kauf wollen Sie sicher sein. Nutzen Sie den Baustein aus B06. Sprechen Sie jetzt.",
       "audioKey": "it-i09-t03",
       "es": "Posso assaggiare?",
       "pinyin": "POS-so as-sa-JA-re",
-      "pt": "Can I taste it?",
+      "pt": "Darf ich probieren?",
       "tts": "Posso assaggiare?"
     },
     {
@@ -96,7 +96,7 @@
       "voz": "guide_de_m",
       "audioKey": "it-i09-n04",
       "bloco": "capsula",
-      "pt": "Then the evening walk. From six the whole town is outside, dressed, walking slowly, and going nowhere in particular."
+      "pt": "Dann der Bummel am Abend. Ab sechs ist die ganze Stadt draußen, gut angezogen, langsam, ohne bestimmtes Ziel."
     },
     {
       "consulta": [
@@ -106,11 +106,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-i09-p04",
-      "promptPt": "Ask where people go for the evening walk. Speak now.",
+      "promptPt": "Sie wollen abends dort sein, wo alle sind. Fragen Sie nach dem Ort. Sprechen Sie jetzt.",
       "audioKey": "it-i09-t04",
       "es": "Dove si fa la passeggiata la sera?",
       "pinyin": "DO-ve see fa la pas-se-JA-ta la SE-ra",
-      "pt": "Where do people take the evening walk?",
+      "pt": "Wo geht man abends spazieren?",
       "tts": "Dove si fa la passeggiata la sera?"
     },
     {
@@ -118,9 +118,9 @@
       "voz": "target_it_m",
       "audioKey": "it-i09-r02",
       "receptivo": true,
-      "acao": "Go at seven, not at five. Earlier and the street is still empty.",
+      "acao": "Gehen Sie um sieben, nicht um fünf. Früher ist die Straße noch leer.",
       "es": "Sul corso, verso le sette. Prima non c'è nessuno.",
-      "pt": "On the main street, around seven. Before that there's nobody.",
+      "pt": "Auf dem Corso, gegen sieben. Vorher ist niemand da.",
       "tts": "Sul corso, verso le sette. Prima non c'è nessuno."
     },
     {
@@ -132,11 +132,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-i09-p05",
-      "promptPt": "Ask whether anything is on this week. Speak now.",
+      "promptPt": "Vielleicht ist diese Woche etwas los in der Stadt. Erkundigen Sie sich. Sprechen Sie jetzt.",
       "audioKey": "it-i09-t05",
       "es": "C'è qualche festa questa settimana?",
       "pinyin": "cheh KWAL-keh FES-ta KWES-ta set-tee-MA-na",
-      "pt": "Is there any festival on this week?",
+      "pt": "Gibt es diese Woche ein Fest?",
       "tts": "C'è qualche festa questa settimana?",
       "molde": "C-E",
       "encaixe": "qualche festa"
@@ -149,11 +149,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-i09-p06",
-      "promptPt": "The bar has the match on. Ask who is playing. Speak now.",
+      "promptPt": "In der Bar läuft ein Spiel, und Sie erkennen die Trikots nicht. Sprechen Sie jetzt.",
       "audioKey": "it-i09-t06",
       "es": "Chi gioca stasera?",
       "pinyin": "kee JO-ka sta-SE-ra",
-      "pt": "Who's playing tonight?",
+      "pt": "Wer spielt heute Abend?",
       "tts": "Chi gioca stasera?"
     },
     {
@@ -167,11 +167,11 @@
       "encaixe": "guardare la partita qui",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-i09-p07",
-      "promptPt": "Ask whether you can watch it there. Speak now.",
+      "promptPt": "Im Hotel gibt es keinen Fernseher, und Sie würden gern hierbleiben. Nutzen Sie den Baustein. Sprechen Sie jetzt.",
       "audioKey": "it-i09-t07",
       "es": "Posso guardare la partita qui?",
       "pinyin": "POS-so gwar-DA-re la par-TEE-ta kwee",
-      "pt": "Can I watch the match here?",
+      "pt": "Darf ich das Spiel hier sehen?",
       "tts": "Posso guardare la partita qui?"
     },
     {
@@ -182,11 +182,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-i09-p08",
-      "promptPt": "Ask which team is the local one, so you know who to sit with. Speak now.",
+      "promptPt": "Sie wollen sich zur richtigen Hälfte der Bar setzen. Fragen Sie nach. Sprechen Sie jetzt.",
       "audioKey": "it-i09-t08",
       "es": "Qual è la squadra di qui?",
       "pinyin": "kwal eh la SKWA-dra dee kwee",
-      "pt": "Which is the local team?",
+      "pt": "Welche ist die Mannschaft von hier?",
       "tts": "Qual è la squadra di qui?"
     },
     {
@@ -195,7 +195,7 @@
       "audioKey": "it-i09-s01",
       "es": "Cosa c'è di buono adesso? Me ne dia due etti, per favore. Dove si fa la passeggiata la sera?",
       "pinyin": "KO-za cheh dee BWO-no a-DES-so. meh neh DEE-a DOO-eh ET-tee per fa-VO-re. DO-ve see fa la pas-se-JA-ta la SE-ra",
-      "pt": "Shadow the day: market, purchase, evening.",
+      "pt": "Sprechen Sie den Tag mit: Markt, Einkauf, Abend.",
       "tts": "Cosa c'è di buono adesso? Me ne dia due etti, per favore. Dove si fa la passeggiata la sera?",
       "molde": "POSSO"
     },
@@ -204,52 +204,52 @@
       "voz": "guide_de_f",
       "audioKey": "it-i09-n05",
       "bloco": "recap",
-      "pt": "I09 done. Market before noon, passeggiata from seven, the match in the bar — and etti is how you buy anything."
+      "pt": "I09 geschafft. Markt vor Mittag, Passeggiata ab sieben, das Spiel in der Bar — und etti ist die Einheit."
     }
   ],
   "aprofundar": {
-    "titulo": "The rhythm nobody writes down",
+    "titulo": "Der Rhythmus, den niemand aufschreibt",
     "secoes": [
       {
-        "titulo": "Etti, not grams",
-        "corpo": "Un etto is one hundred grams. Due etti, tre etti — that is the unit for cheese, cured meat, olives and most things sold by weight. Asking for four hundred grams is understood but marks you instantly.",
+        "titulo": "Etti, nicht Gramm",
+        "corpo": "Un etto ist hundert Gramm. Due etti, tre etti — das ist die Einheit für Käse, Aufschnitt, Oliven und fast alles, was nach Gewicht verkauft wird. Vierhundert Gramm zu verlangen wird verstanden, verrät Sie aber sofort.",
         "exemplos": [
           {
             "es": "Me ne dia due etti.",
-            "pt": "Give me two hundred grams."
+            "pt": "Geben Sie mir zweihundert Gramm davon."
           },
           {
             "es": "Cosa c'è di buono adesso?",
-            "pt": "What's good right now?"
+            "pt": "Was ist gerade gut?"
           }
         ]
       },
       {
-        "titulo": "Do not touch the produce",
-        "corpo": "At a market stall the vendor picks. Handling the fruit yourself is a small breach with a large signal attached, and pointing does exactly the same job."
+        "titulo": "Fassen Sie die Ware nicht an",
+        "corpo": "Am Marktstand wählt der Verkäufer aus. Das Obst selbst in die Hand zu nehmen ist ein kleiner Regelbruch mit großem Signal, und Zeigen erledigt dieselbe Aufgabe."
       },
       {
-        "titulo": "The passeggiata is real and it has a clock",
-        "corpo": "In most towns the evening walk starts around six or seven and runs along one particular street or square that everybody knows. Going at the wrong hour or on the wrong street is why some visitors conclude it does not happen anymore."
+        "titulo": "Die Passeggiata gibt es wirklich, und sie hat eine Uhrzeit",
+        "corpo": "In den meisten Städten beginnt der Abendbummel gegen sechs oder sieben und läuft über eine bestimmte Straße oder Piazza, die alle kennen. Zur falschen Stunde oder in der falschen Straße unterwegs zu sein ist der Grund, warum manche Besucher glauben, es gebe das nicht mehr."
       },
       {
-        "titulo": "The match is a way in",
-        "corpo": "Asking which team is the local one, before saying anything about football, is the single easiest conversation opener available in a bar. The answer is never neutral and is always given at length."
+        "titulo": "Das Spiel ist ein Zugang",
+        "corpo": "Zu fragen, welche die Mannschaft der Stadt ist, bevor man selbst etwas über Fußball sagt, ist der einfachste Gesprächsanfang, den eine Bar hergibt. Die Antwort ist nie neutral und fällt immer ausführlich aus."
       }
     ]
   },
   "slot": "I09",
-  "permissao": "You are allowed to skip the third church. Spending an afternoon at a market and an evening walking a street with everyone else is not a failure to sightsee — it is the part of the trip you will still be able to describe in five years.",
+  "permissao": "Sie dürfen die dritte Kirche auslassen. Einen Nachmittag auf dem Markt und einen Abend auf derselben Straße wie alle anderen zu verbringen ist kein Versäumnis am Programm — es ist der Teil der Reise, den Sie in fünf Jahren noch erzählen können.",
   "permissaoAudioKey": "it-i09-n01",
-  "espelho": "Anyone who has come home from a trip remembering the ordinary afternoon better than the monument they queued ninety minutes for already knows what this part argues. The itinerary is easier to justify; it is just rarely what stays.",
+  "espelho": "Wer nach einer Reise den gewöhnlichen Nachmittag besser erinnert als das Bauwerk, für das er neunzig Minuten angestanden hat, kennt dieses Argument längst. Das Programm lässt sich leichter rechtfertigen; es bleibt nur selten hängen.",
   "fichasCulturais": [
     {
-      "sinal": "At four in the afternoon the town is shuttered and empty, and it looks as though nothing is happening and nothing will.",
-      "suaLeitura": "This place is dead, or everything interesting is closed to visitors.",
-      "oQueEAli": "The Italian day has a trough in the middle of the afternoon and a peak in the early evening. What you are seeing is not the town at rest for the day — it is the town between its two busy periods.",
-      "oQueVoceFaz": "Use the trough the way locals do, then be on the main street or the square from around seven. The same emptiness fills completely.",
-      "oQueMelhora": "You stop scheduling your evenings as though the day ends at six, and you see the hours when the place is most itself.",
-      "ondeNaoVale": "Not in the largest tourist centres, where the rhythm has largely flattened out, and not in August in a town that has emptied for the holidays — there the quiet really is quiet.",
+      "sinal": "Um vier Uhr nachmittags ist die Stadt verrammelt und leer, und es sieht aus, als passiere nichts und werde auch nichts passieren.",
+      "suaLeitura": "Hier ist tote Hose, oder alles Interessante ist für Besucher geschlossen.",
+      "oQueEAli": "Der italienische Tag hat ein Tief am Nachmittag und ein Hoch am frühen Abend. Sie sehen nicht die Stadt im Feierabend — Sie sehen sie zwischen ihren beiden Stoßzeiten.",
+      "oQueVoceFaz": "Nutzen Sie das Tief wie die Leute hier, und seien Sie ab etwa sieben auf der Hauptstraße oder der Piazza. Dieselbe Leere füllt sich vollständig.",
+      "oQueMelhora": "Sie planen Ihre Abende nicht mehr so, als ende der Tag um sechs, und Sie erleben die Stunden, in denen der Ort am meisten er selbst ist.",
+      "ondeNaoVale": "Nicht in den größten Touristenzentren, wo sich der Rhythmus weitgehend eingeebnet hat, und nicht im August in einer Stadt, die in die Ferien gefahren ist — dort ist die Ruhe wirklich Ruhe.",
       "evidencia": "CONSENSO",
       "audioKeys": [
         "it-i09-n04"

@@ -3,16 +3,16 @@
   "nivel": "basico",
   "numero": 17,
   "parte": "6B",
-  "titulo": "Pharmacy, pain, emergency",
-  "subtitulo": "The green cross, the list taped to the closed door, and the number that works from any phone",
-  "cena": "It is Sunday evening, the pharmacy in front of you is shut, and there is a printed sheet taped inside the glass.",
+  "titulo": "Apotheke, Schmerz, Notfall",
+  "subtitulo": "Das grüne Kreuz, der Aushang an der geschlossenen Tür und die Nummer, die von jedem Telefon aus geht",
+  "cena": "Sonntagabend, die Apotheke vor Ihnen ist zu, und innen an der Scheibe klebt ein bedrucktes Blatt.",
   "moldura": "protege",
-  "frasePiso": "Name the symptom, name where it hurts, and let the pharmacist choose. The closed door still tells you where the open one is.",
+  "frasePiso": "Nennen Sie das Symptom, nennen Sie die Stelle, und lassen Sie die Apotheke wählen. Auch die geschlossene Tür sagt Ihnen, wo die offene ist.",
   "moldes": [],
   "fatosDatados": [
     {
       "id": "it-112-farmacia-turno",
-      "afirmacao": "112 is the single European emergency number and works from any phone in Italy, including with no credit and, in most cases, with no SIM. Pharmacies operate a rota system: a closed pharmacy is required to display the farmacie di turno list showing which nearby pharmacy is on duty and when, and the same rotas are published by local health authorities.",
+      "afirmacao": "112 ist die einheitliche europäische Notrufnummer und funktioniert in Italien von jedem Telefon aus, auch ohne Guthaben und in den meisten Fällen ohne SIM. Apotheken arbeiten im Turnusdienst: Eine geschlossene Apotheke muss die Liste farmacie di turno aushängen, die zeigt, welche Apotheke in der Nähe Dienst hat und bis wann; dieselben Turnuspläne veröffentlichen die örtlichen Gesundheitsbehörden.",
       "fonte": "Commissione Europea — «112: il numero unico di emergenza europeo»; Federfarma — servizio di turno e reperibilità",
       "ano": 2026,
       "revisarAte": "2027-08-04",
@@ -30,14 +30,14 @@
       "audioKey": "it-b17-n01",
       "gesto": 1,
       "bloco": "aquecimento",
-      "pt": "This is the one part of the module that is purely defensive. It exists so that a bad night is short instead of long."
+      "pt": "Dieser Teil ist rein defensiv. Er sorgt dafür, dass eine schlechte Nacht kurz bleibt statt lang."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_m",
       "audioKey": "it-b17-n02",
       "bloco": "corpo",
-      "pt": "The green cross is the pharmacy. Inside, name the symptom — you are not expected to name the medicine."
+      "pt": "Das grüne Kreuz ist die Apotheke. Nennen Sie drinnen das Symptom — nicht das Medikament."
     },
     {
       "tipo": "ouvir",
@@ -45,7 +45,7 @@
       "audioKey": "it-b17-t01",
       "es": "Ho mal di testa da ieri.",
       "pinyin": "oh mal dee TES-ta da ee-EH-ri",
-      "pt": "I've had a headache since yesterday.",
+      "pt": "Ich habe seit gestern Kopfschmerzen.",
       "tts": "Ho mal di testa da ieri."
     },
     {
@@ -57,27 +57,27 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-b17-p01",
-      "promptPt": "Say what hurts and since when. Two facts, no story. Speak now.",
+      "promptPt": "Sagen Sie, was weh tut und seit wann. Zwei Angaben, keine Geschichte. Sprechen Sie jetzt.",
       "audioKey": "it-b17-t01",
       "es": "Ho mal di testa da ieri.",
       "pinyin": "oh mal dee TES-ta da ee-EH-ri",
-      "pt": "I've had a headache since yesterday."
+      "pt": "Ich habe seit gestern Kopfschmerzen."
     },
     {
       "tipo": "ouvir",
       "voz": "target_it_m",
       "audioKey": "it-b17-r01",
       "es": "Prende altri farmaci? È allergico a qualcosa?",
-      "pt": "Are you taking other medication? Are you allergic to anything?",
+      "pt": "Nehmen Sie andere Medikamente? Sind Sie gegen etwas allergisch?",
       "tts": "Prende altri farmaci? È allergico a qualcosa?",
       "receptivo": true,
-      "acao": "Answer both questions before they ask twice."
+      "acao": "Beantworten Sie beide Fragen, bevor sie ein zweites Mal kommen."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_f",
       "audioKey": "it-b17-n03",
-      "pt": "Mal di, plus the body part. Mal di testa, mal di gola, mal di stomaco, mal di denti. One pattern, four bad nights."
+      "pt": "Mal di plus Körperteil. Mal di testa, mal di gola, mal di stomaco, mal di denti. Ein Baustein, vier schlechte Nächte."
     },
     {
       "consulta": [
@@ -87,11 +87,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-b17-p02",
-      "promptPt": "Same pattern, different body part: your throat. Speak now.",
+      "promptPt": "Gleicher Baustein, andere Stelle: diesmal der Hals. Sprechen Sie jetzt.",
       "audioKey": "it-b17-t02",
       "es": "Ho mal di gola.",
       "pinyin": "oh mal dee GO-la",
-      "pt": "I have a sore throat.",
+      "pt": "Ich habe Halsschmerzen.",
       "tts": "Ho mal di gola."
     },
     {
@@ -105,11 +105,11 @@
       "encaixe": "aspirina",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-b17-p03",
-      "promptPt": "You cannot take one common ingredient. Subtract it, using the frame from B12. Speak now.",
+      "promptPt": "Einen häufigen Wirkstoff vertragen Sie nicht. Ziehen Sie ihn ab, mit dem Baustein aus B12. Sprechen Sie jetzt.",
       "audioKey": "it-b17-t03",
       "es": "C'è qualcosa senza aspirina?",
       "pinyin": "cheh kwal-KO-za SEN-tsa as-pee-REE-na",
-      "pt": "Is there anything without aspirin?",
+      "pt": "Gibt es etwas ohne Aspirin?",
       "tts": "C'è qualcosa senza aspirina?"
     },
     {
@@ -120,11 +120,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-b17-p04",
-      "promptPt": "Ask whether it needs a prescription before they go and look. Speak now.",
+      "promptPt": "Sie wollen wissen, ob Sie ohne Arzt an das Mittel kommen. Klären Sie das, bevor jemand losgeht und sucht. Sprechen Sie jetzt.",
       "audioKey": "it-b17-t04",
       "es": "Ci vuole la ricetta?",
       "pinyin": "chee VWO-le la ree-CHET-ta",
-      "pt": "Does it need a prescription?",
+      "pt": "Braucht man dafür ein Rezept?",
       "tts": "Ci vuole la ricetta?"
     },
     {
@@ -132,7 +132,7 @@
       "voz": "guide_de_m",
       "audioKey": "it-b17-n04",
       "bloco": "capsula",
-      "pt": "If the pharmacy is closed, read the door. The list taped inside says which one nearby is on duty tonight."
+      "pt": "Ist die Apotheke zu, lesen Sie die Tür. Der Aushang nennt die Apotheke, die heute Nacht Dienst hat."
     },
     {
       "tipo": "ouvir",
@@ -140,7 +140,7 @@
       "audioKey": "it-b17-r02",
       "receptivo": true,
       "es": "Farmacie di turno: via Garibaldi dodici, aperta fino alle otto.",
-      "pt": "Duty pharmacies: via Garibaldi twelve, open until eight.",
+      "pt": "Apotheken im Dienst: Via Garibaldi zwölf, geöffnet bis acht.",
       "tts": "Farmacie di turno: via Garibaldi dodici, aperta fino alle otto."
     },
     {
@@ -154,18 +154,18 @@
       "encaixe": "una farmacia di turno",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-b17-p05",
-      "promptPt": "Ask a passer-by which pharmacy is on duty. Speak now.",
+      "promptPt": "Sie stehen vor der geschlossenen Tür. Fragen Sie einen Passanten, wer heute Dienst hat. Sprechen Sie jetzt.",
       "audioKey": "it-b17-t05",
       "es": "C'è una farmacia di turno qui vicino?",
       "pinyin": "cheh OO-na far-ma-CHEE-a dee TOOR-no kwee vee-CHEE-no",
-      "pt": "Is there a duty pharmacy near here?",
+      "pt": "Gibt es hier in der Nähe eine Apotheke im Dienst?",
       "tts": "C'è una farmacia di turno qui vicino?"
     },
     {
       "tipo": "intro",
       "voz": "guide_de_f",
       "audioKey": "it-b17-n05",
-      "pt": "For an emergency, one number: one-one-two. It works from any phone in Italy, with no credit and usually with no SIM."
+      "pt": "Im Notfall eine Nummer: 112. Sie geht von jedem Telefon in Italien, ohne Guthaben und meist ohne SIM."
     },
     {
       "consulta": [
@@ -175,11 +175,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-b17-p06",
-      "promptPt": "Someone needs help now. Ask for an ambulance. Speak now.",
+      "promptPt": "Jemand braucht sofort ärztliche Hilfe. Fordern Sie sie an. Sprechen Sie jetzt.",
       "audioKey": "it-b17-t06",
       "es": "Chiami un'ambulanza, per favore.",
       "pinyin": "kee-A-mee oo-nam-boo-LAN-tsa per fa-VO-re",
-      "pt": "Call an ambulance, please.",
+      "pt": "Rufen Sie bitte einen Krankenwagen.",
       "tts": "Chiami un'ambulanza, per favore."
     },
     {
@@ -190,11 +190,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-b17-p07",
-      "promptPt": "On the phone to one-one-two, say where you are before anything else. Speak now.",
+      "promptPt": "Sie haben 112 am Ohr. Sagen Sie zuerst Ihren Standort, vor allem anderen. Sprechen Sie jetzt.",
       "audioKey": "it-b17-t07",
       "es": "Sono in via Garibaldi, davanti alla farmacia.",
       "pinyin": "SO-no een VEE-a ga-ree-BAL-dee, da-VAN-tee AL-la far-ma-CHEE-a",
-      "pt": "I'm on via Garibaldi, in front of the pharmacy.",
+      "pt": "Ich bin in der Via Garibaldi, vor der Apotheke.",
       "tts": "Sono in via Garibaldi, davanti alla farmacia."
     },
     {
@@ -207,11 +207,11 @@
       "encaixe": "il pronto soccorso",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-b17-p08",
-      "promptPt": "Ask where the emergency department is, using the frame from B07. Speak now.",
+      "promptPt": "Jetzt braucht es das Krankenhaus, nicht die Apotheke. Fragen Sie mit dem Baustein aus B07. Sprechen Sie jetzt.",
       "audioKey": "it-b17-t08",
       "es": "Dov'è il pronto soccorso?",
       "pinyin": "do-VEH eel PRON-to sok-KOR-so",
-      "pt": "Where is the emergency department?",
+      "pt": "Wo ist die Notaufnahme?",
       "tts": "Dov'è il pronto soccorso?"
     },
     {
@@ -220,7 +220,7 @@
       "audioKey": "it-b17-s01",
       "es": "Ho mal di testa da ieri. C'è qualcosa senza aspirina? Dov'è il pronto soccorso?",
       "pinyin": "oh mal dee TES-ta da ee-EH-ri. cheh kwal-KO-za SEN-tsa as-pee-REE-na. do-VEH eel PRON-to sok-KOR-so",
-      "pt": "Shadow the escalation: symptom, restriction, emergency.",
+      "pt": "Sprechen Sie die Steigerung mit: Symptom, Einschränkung, Notfall.",
       "tts": "Ho mal di testa da ieri. C'è qualcosa senza aspirina? Dov'è il pronto soccorso?",
       "molde": "SENZA"
     },
@@ -229,52 +229,52 @@
       "voz": "guide_de_f",
       "audioKey": "it-b17-n06",
       "bloco": "recap",
-      "pt": "B17 done. Mal di plus the body part, the duty list on the closed door, one-one-two, and pronto soccorso."
+      "pt": "B17 geschafft. Mal di plus Körperteil, der Aushang an der geschlossenen Tür, 112 und pronto soccorso."
     }
   ],
   "aprofundar": {
-    "titulo": "The short version of a bad night",
+    "titulo": "Die kurze Fassung einer schlechten Nacht",
     "secoes": [
       {
-        "titulo": "Mal di plus the body part",
-        "corpo": "Testa, gola, stomaco, denti, schiena. You describe, the pharmacist prescribes — naming a symptom is more useful than guessing at a brand that may not exist here.",
+        "titulo": "Mal di plus Körperteil",
+        "corpo": "Testa, gola, stomaco, denti, schiena. Sie beschreiben, die Apotheke entscheidet — ein Symptom zu nennen bringt mehr, als nach einer Marke zu raten, die es hier vielleicht gar nicht gibt.",
         "exemplos": [
           {
             "es": "Ho mal di stomaco.",
-            "pt": "I have a stomach ache."
+            "pt": "Ich habe Bauchschmerzen."
           },
           {
             "es": "Ho mal di denti.",
-            "pt": "I have toothache."
+            "pt": "Ich habe Zahnschmerzen."
           }
         ]
       },
       {
-        "titulo": "The Italian pharmacist is a first stop",
-        "corpo": "Pharmacies handle a lot of what would be a clinic visit elsewhere, and they will tell you plainly when something needs a doctor instead. Going there first is the normal path, not a shortcut."
+        "titulo": "Die Apotheke ist die erste Station",
+        "corpo": "Apotheken erledigen in Italien vieles, wofür anderswo ein Praxisbesuch nötig wäre, und sie sagen klar, wenn es doch eine Ärztin braucht. Zuerst dorthin zu gehen ist der übliche Weg, keine Abkürzung."
       },
       {
-        "titulo": "The closed door is still information",
-        "corpo": "The rota list taped inside the glass names the pharmacy on duty and its hours. It is the single most useful thing about arriving at a shut pharmacy, and most visitors walk away without reading it."
+        "titulo": "Auch die geschlossene Tür ist Information",
+        "corpo": "Der Turnusaushang innen an der Scheibe nennt die diensthabende Apotheke und ihre Zeiten. Er ist das Nützlichste an einer geschlossenen Apotheke — und die meisten Reisenden gehen weiter, ohne ihn zu lesen."
       },
       {
-        "titulo": "112, and the card you already have",
-        "corpo": "112 reaches emergency services from any phone. If you hold a European Health Insurance Card, or the UK equivalent, carry it — it covers state-provided necessary care on the same terms as a resident, and it is not a substitute for travel insurance."
+        "titulo": "112 und die Karte, die Sie schon haben",
+        "corpo": "Über 112 erreichen Sie von jedem Telefon aus den Rettungsdienst. Die Europäische Krankenversicherungskarte auf der Rückseite Ihrer Versichertenkarte gehört ins Portemonnaie: Sie deckt notwendige Behandlung im staatlichen System zu denselben Bedingungen wie bei Einheimischen ab und ersetzt keine Reiseversicherung."
       }
     ]
   },
   "slot": "B17",
-  "permissao": "You are allowed to go to a pharmacy for something small. Italian pharmacists deal with exactly this all day and will send you to a doctor if it warrants one — you do not have to decide in advance whether your problem is serious enough to be worth their time.",
+  "permissao": "Sie dürfen wegen einer Kleinigkeit in die Apotheke gehen. Genau damit hat man dort den ganzen Tag zu tun, und man schickt Sie zur Ärztin, wenn es das braucht — Sie müssen nicht vorher entscheiden, ob Ihr Anliegen wichtig genug ist.",
   "permissaoAudioKey": "it-b17-n02",
-  "espelho": "Anyone who has waited out an illness abroad because sorting out care felt harder than being unwell knows what this part is for. The calculation is the same at home; travel just adds a language to the excuse.",
+  "espelho": "Wer im Ausland schon einmal eine Krankheit ausgesessen hat, weil der Weg zur Hilfe anstrengender schien als das Kranksein selbst, weiß, wofür dieser Teil da ist. Diese Rechnung machen wir zu Hause genauso; unterwegs kommt nur eine Sprache als Ausrede dazu.",
   "fichasCulturais": [
     {
-      "sinal": "You arrive at a pharmacy on a Sunday evening and it is shut, with a printed sheet taped inside the glass.",
-      "suaLeitura": "Everything is closed until Monday and I will have to wait it out.",
-      "oQueEAli": "Italian pharmacies run a duty rota, and a closed pharmacy is required to display the farmacie di turno list showing which one nearby is open and until when. The sheet in the window is the answer, not a notice about the closure.",
-      "oQueVoceFaz": "Read the list for the nearest address and its hours, or ask a passer-by c'è una farmacia di turno qui vicino?",
-      "oQueMelhora": "A bad night gets solved in twenty minutes instead of lasting until the next morning.",
-      "ondeNaoVale": "Not a route for anything urgent — chest pain, breathing difficulty, a serious injury or a severe allergic reaction is 112 and pronto soccorso, not a pharmacy across town.",
+      "sinal": "Sie stehen sonntagabends vor einer Apotheke, sie ist geschlossen, und innen an der Scheibe klebt ein bedrucktes Blatt.",
+      "suaLeitura": "Bis Montag ist alles zu, ich muss es aussitzen.",
+      "oQueEAli": "Italienische Apotheken haben einen Turnusdienst, und eine geschlossene Apotheke muss die Liste farmacie di turno aushängen: welche in der Nähe offen hat und bis wann. Das Blatt im Fenster ist die Antwort, nicht die Ankündigung der Schließung.",
+      "oQueVoceFaz": "Lesen Sie die nächstgelegene Adresse und die Zeiten ab, oder fragen Sie jemanden: c'è una farmacia di turno qui vicino?",
+      "oQueMelhora": "Eine schlechte Nacht ist in zwanzig Minuten gelöst, statt bis zum nächsten Morgen zu dauern.",
+      "ondeNaoVale": "Kein Weg für etwas Dringendes — Brustschmerz, Atemnot, schwere Verletzung oder starke allergische Reaktion heißt 112 und pronto soccorso, nicht eine Apotheke am anderen Ende der Stadt.",
       "evidencia": "FATO",
       "audioKeys": [
         "it-b17-n04",

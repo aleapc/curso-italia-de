@@ -3,16 +3,16 @@
   "nivel": "avancado",
   "numero": 31,
   "parte": "A03",
-  "titulo": "Who they think they are",
-  "subtitulo": "Italy is a country of towns that became a nation late, and the loyalty still points at the town first",
-  "cena": "You said you loved Italy and the person you said it to asked which part, in a tone that made clear the answer mattered.",
+  "titulo": "Wer sie zu sein glauben",
+  "subtitulo": "Italien ist ein Land aus Städten, das spät zur Nation wurde — und die Treue gilt weiterhin zuerst der Stadt",
+  "cena": "Sie haben gesagt, dass Sie Italien lieben, und Ihr Gegenüber fragte in einem Ton nach dem Wo, der klarmachte: Die Antwort zählt.",
   "moldura": "ganha",
-  "frasePiso": "Praise the town, not the country. Campanilismo is not a quirk here — it is the actual unit of belonging.",
+  "frasePiso": "Loben Sie die Stadt, nicht das Land. Campanilismo ist hier keine Marotte — es ist die eigentliche Einheit der Zugehörigkeit.",
   "moldes": [],
   "fatosDatados": [
     {
       "id": "it-unificazione",
-      "afirmacao": "The Kingdom of Italy was proclaimed in 1861 and Rome became the capital in 1871, making the Italian nation-state younger than most of its European neighbours. Before that the peninsula was a set of separate states, kingdoms and city republics, several under foreign rule — which is the historical root of the strength of local, rather than national, identity.",
+      "afirmacao": "Das Königreich Italien wurde 1861 ausgerufen, Rom wurde 1871 Hauptstadt — der italienische Nationalstaat ist damit jünger als die meisten seiner europäischen Nachbarn. Zuvor bestand die Halbinsel aus einzelnen Staaten, Königreichen und Stadtrepubliken, mehrere davon unter fremder Herrschaft. Das ist die historische Wurzel dafür, dass die lokale und nicht die nationale Identität so stark ist.",
       "fonte": "Treccani — «Risorgimento» e «Unità d'Italia»; Senato della Repubblica — cronologia dell'Unità",
       "ano": 2026,
       "revisarAte": "2029-08-04",
@@ -30,30 +30,30 @@
       "audioKey": "it-a03-n01",
       "gesto": 1,
       "bloco": "aquecimento",
-      "pt": "Ask an Italian where they are from and you rarely get Italy. You get a town, often a neighbourhood of it."
+      "pt": "Fragen Sie jemanden, woher er kommt, und Sie hören selten Italien. Sie hören eine Stadt, oft ein Viertel."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_m",
       "audioKey": "it-a03-n02",
       "bloco": "corpo",
-      "pt": "The country was unified in eighteen sixty-one. The town is far older than the nation, and the loyalty followed the older thing."
+      "pt": "Der Staat wurde achtzehnhunderteinundsechzig vereint. Die Stadt ist viel älter — und die Treue folgte dem Älteren."
     },
     {
       "tipo": "ouvir",
       "voz": "target_it_m",
       "audioKey": "it-a03-r01",
       "receptivo": true,
-      "acao": "Note the town name, not the region. That is the unit that matters to them.",
+      "acao": "Merken Sie sich den Namen der Stadt, nicht der Region. Das ist die Einheit, die zählt.",
       "es": "Io non sono toscano, sono di Siena. È diverso.",
-      "pt": "I'm not Tuscan, I'm from Siena. It's different.",
+      "pt": "Ich bin kein Toskaner, ich bin aus Siena. Das ist etwas anderes.",
       "tts": "Io non sono toscano, sono di Siena. È diverso."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_f",
       "audioKey": "it-a03-n03",
-      "pt": "There is a word for this: campanilismo. Loyalty to everything within sight of your own bell tower."
+      "pt": "Dafür gibt es ein Wort: campanilismo. Treue zu allem, was vom eigenen Glockenturm aus zu sehen ist."
     },
     {
       "consulta": [
@@ -64,11 +64,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-a03-p01",
-      "promptPt": "Praise the specific town rather than the country. Speak now.",
+      "promptPt": "Loben Sie die konkrete Stadt statt das ganze Land. Sprechen Sie jetzt.",
       "audioKey": "it-a03-t01",
       "es": "Siena mi è piaciuta più di Firenze, davvero.",
       "pinyin": "see-EH-na mee eh pya-CHOO-ta pyoo dee fee-REN-tse, dav-VE-ro",
-      "pt": "I liked Siena more than Florence, honestly.",
+      "pt": "Siena hat mir besser gefallen als Florenz, wirklich.",
       "tts": "Siena mi è piaciuta più di Firenze, davvero."
     },
     {
@@ -76,9 +76,9 @@
       "voz": "target_it_f",
       "audioKey": "it-a03-r02",
       "receptivo": true,
-      "acao": "You just earned twenty minutes of real recommendations. Take out something to write on.",
+      "acao": "Sie haben sich zwanzig Minuten echte Empfehlungen verdient. Holen Sie etwas zum Schreiben heraus.",
       "es": "Ecco, brava! Allora ti dico dove devi andare.",
-      "pt": "There you go, well said! Then let me tell you where you have to go.",
+      "pt": "Na also, gut gesagt! Dann sage ich dir, wohin du musst.",
       "tts": "Ecco, brava! Allora ti dico dove devi andare."
     },
     {
@@ -86,16 +86,16 @@
       "voz": "guide_de_m",
       "audioKey": "it-a03-n04",
       "bloco": "capsula",
-      "pt": "The pride runs through food above all. Every region believes its version is the correct one, and they are not entirely joking."
+      "pt": "Am stärksten läuft der Stolz übers Essen. Jede Region hält ihre Version für die richtige — und scherzt dabei nur halb."
     },
     {
       "tipo": "ouvir",
       "voz": "target_it_m",
       "audioKey": "it-a03-r03",
       "receptivo": true,
-      "acao": "Do not adjudicate. Ask how theirs is made and let them show you.",
+      "acao": "Fällen Sie kein Urteil. Fragen Sie, wie man es hier macht, und lassen Sie es sich zeigen.",
       "es": "La carbonara con la panna? Quella è un'offesa.",
-      "pt": "Carbonara with cream? That's an offence.",
+      "pt": "Carbonara mit Sahne? Das ist eine Beleidigung.",
       "tts": "La carbonara con la panna? Quella è un'offesa."
     },
     {
@@ -107,27 +107,27 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-a03-p02",
-      "promptPt": "Ask how it is made here rather than defending any version. Speak now.",
+      "promptPt": "Verteidigen Sie keine Version. Zeigen Sie Neugier auf die hiesige Zubereitung. Sprechen Sie jetzt.",
       "audioKey": "it-a03-t02",
       "es": "E qui come la fate?",
       "pinyin": "eh kwee KO-me la FA-te",
-      "pt": "And how do you make it here?",
+      "pt": "Und wie machen Sie sie hier?",
       "tts": "E qui come la fate?"
     },
     {
       "tipo": "intro",
       "voz": "guide_de_f",
       "audioKey": "it-a03-n05",
-      "pt": "There is a self-critical streak too. Italians complain about Italy constantly, and it is not an invitation to agree."
+      "pt": "Es gibt auch eine selbstkritische Ader. Man klagt ständig über Italien — als Einladung zuzustimmen ist das nicht gemeint."
     },
     {
       "tipo": "ouvir",
       "voz": "target_it_f",
       "audioKey": "it-a03-r04",
       "receptivo": true,
-      "acao": "Do not join in. Sympathise without adding your own complaint about the country.",
+      "acao": "Steigen Sie nicht ein. Zeigen Sie Verständnis, ohne selbst über das Land zu klagen.",
       "es": "Eh, in Italia funziona così, purtroppo. Siamo messi male.",
-      "pt": "Well, that's how it works in Italy, unfortunately. We're in a bad way.",
+      "pt": "Tja, in Italien läuft es leider so. Wir stehen schlecht da.",
       "tts": "Eh, in Italia funziona così, purtroppo. Siamo messi male."
     },
     {
@@ -138,11 +138,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-a03-p03",
-      "promptPt": "Answer that without agreeing that the country is a mess. Speak now.",
+      "promptPt": "Antworten Sie, ohne dem Urteil über das Land zuzustimmen. Sprechen Sie jetzt.",
       "audioKey": "it-a03-t03",
       "es": "Da noi non è tanto diverso, sai.",
       "pinyin": "da noy non eh TAN-to dee-VER-so, sigh",
-      "pt": "It's not so different where I'm from, you know.",
+      "pt": "Bei uns ist es nicht so anders, wissen Sie.",
       "tts": "Da noi non è tanto diverso, sai."
     },
     {
@@ -153,11 +153,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-a03-p04",
-      "promptPt": "Ask what makes their town different from the one next to it. Speak now.",
+      "promptPt": "Sie wollen wissen, was diesen Ort vom Nachbarort abhebt. Fragen Sie nach. Sprechen Sie jetzt.",
       "audioKey": "it-a03-t04",
       "es": "Cosa cambia rispetto al paese qui accanto?",
       "pinyin": "KO-za KAM-bya ris-PET-to al pa-EH-ze kwee ak-KAN-to",
-      "pt": "What's different compared to the town next door?",
+      "pt": "Was ist anders als im Nachbarort?",
       "tts": "Cosa cambia rispetto al paese qui accanto?"
     },
     {
@@ -168,11 +168,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-a03-p05",
-      "promptPt": "Ask which town they are from, specifically. Speak now.",
+      "promptPt": "Ihr Gegenüber hat nur die Region genannt. Werden Sie genauer. Sprechen Sie jetzt.",
       "audioKey": "it-a03-x01",
       "es": "E lei di che paese è, di preciso?",
       "pinyin": "eh lay dee keh pa-EH-ze eh, dee pre-CHEE-zo",
-      "pt": "And what town are you from, exactly?",
+      "pt": "Und aus welchem Ort sind Sie genau?",
       "tts": "E lei di che paese è, di preciso?"
     },
     {
@@ -183,11 +183,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-a03-p06",
-      "promptPt": "Say the local dish here was the best you had. Speak now.",
+      "promptPt": "Das Essen hier war das beste Ihrer Reise. Sagen Sie es. Sprechen Sie jetzt.",
       "audioKey": "it-a03-x02",
       "es": "Il piatto migliore l'ho mangiato qui.",
       "pinyin": "eel pee-AT-to mee-LYO-re lo man-JA-to kwee",
-      "pt": "The best dish I've had, I ate here.",
+      "pt": "Das beste Gericht habe ich hier gegessen.",
       "tts": "Il piatto migliore l'ho mangiato qui."
     },
     {
@@ -195,52 +195,52 @@
       "voz": "guide_de_m",
       "audioKey": "it-a03-n06",
       "bloco": "recap",
-      "pt": "A03 done. The town outranks the country, the food argument is real, and their complaints are theirs to make."
+      "pt": "A03 geschafft. Die Stadt schlägt das Land, der Küchenstreit ist echt, und die Klage gehört den Einheimischen."
     }
   ],
   "aprofundar": {
-    "titulo": "Older than the country",
+    "titulo": "Älter als das Land",
     "secoes": [
       {
         "titulo": "Campanilismo",
-        "corpo": "From campanile, the bell tower. Attachment to everything within sight of your own. It explains why regional rivalry is fiercest between neighbouring towns rather than distant ones, and why praising the specific place lands so much harder than praising Italy.",
+        "corpo": "Von campanile, dem Glockenturm. Die Bindung an alles, was von ihm aus zu sehen ist. Das erklärt, warum die Rivalität zwischen Nachbarorten heftiger ist als zwischen weit entfernten, und warum das Lob des konkreten Ortes viel stärker wirkt als das Lob Italiens.",
         "exemplos": [
           {
             "es": "Io non sono toscano, sono di Siena.",
-            "pt": "I'm not Tuscan, I'm from Siena."
+            "pt": "Ich bin kein Toskaner, ich bin aus Siena."
           },
           {
             "es": "E qui come la fate?",
-            "pt": "And how do you make it here?"
+            "pt": "Und wie machen Sie sie hier?"
           }
         ]
       },
       {
-        "titulo": "The food argument is a real argument",
-        "corpo": "Regional recipe orthodoxy is genuinely held and genuinely enjoyed. The safe position is never to defend a version, and always to ask how it is done here — which is also how you end up eating the good one."
+        "titulo": "Der Küchenstreit ist ein echter Streit",
+        "corpo": "Die regionale Rezept-Orthodoxie wird ernsthaft vertreten und ernsthaft genossen. Die sichere Haltung ist, nie eine Version zu verteidigen und immer zu fragen, wie es hier gemacht wird — so landet auch die gute Version auf Ihrem Teller."
       },
       {
-        "titulo": "Complaining about Italy is an internal right",
-        "corpo": "Self-criticism about bureaucracy, politics and infrastructure is constant and freely expressed. A visitor agreeing enthusiastically changes the register completely. Sympathy without endorsement is the move."
+        "titulo": "Über Italien zu klagen ist ein Innenrecht",
+        "corpo": "Selbstkritik an Bürokratie, Politik und Infrastruktur ist ständig und offen. Stimmt ein Gast begeistert zu, kippt das Register vollständig. Verständnis ohne Bestätigung ist der richtige Zug."
       },
       {
-        "titulo": "Late unification, long memory",
-        "corpo": "The state is younger than the towns inside it by centuries, and several parts of the peninsula were under foreign rule until relatively recently. That is not trivia — it is why the answer to where are you from is almost never the country."
+        "titulo": "Späte Einigung, langes Gedächtnis",
+        "corpo": "Der Staat ist um Jahrhunderte jünger als die Städte in ihm, und mehrere Teile der Halbinsel standen bis vor relativ kurzer Zeit unter fremder Herrschaft. Das ist keine Trivia — es ist der Grund, warum die Antwort auf die Frage nach der Herkunft fast nie das Land ist."
       }
     ]
   },
   "slot": "A03",
-  "permissao": "You are allowed to have a favourite town and say so, even if it is the less famous one. Preferring Siena to Florence out loud is not a controversial opinion here — it is evidence that you were paying attention, and it gets you the good recommendations.",
+  "permissao": "Sie dürfen eine Lieblingsstadt haben und sie nennen, auch wenn es die weniger berühmte ist. Siena laut Florenz vorzuziehen, ist hier keine gewagte Meinung — es ist der Beleg, dass Sie aufmerksam waren, und es bringt Ihnen die guten Empfehlungen.",
   "permissaoAudioKey": "it-a03-n03",
-  "espelho": "Anyone from a country where the next city over is a punchline already understands campanilismo. Italy did not invent local pride — it just kept it at the centre of identity longer than most places did.",
+  "espelho": "Wer aus einer Gegend kommt, in der der Nachbarort eine Pointe ist, versteht campanilismo sofort — es gibt sogar ein eigenes Wort dafür: Kirchturmdenken. Neu ist nur, wie weit vorn dieser Stolz hier in der Identität steht.",
   "fichasCulturais": [
     {
-      "sinal": "Someone complains at length about Italy — the bureaucracy, the trains, the politics — and looks at you.",
-      "suaLeitura": "They want me to agree, and agreeing shows I understand the place.",
-      "oQueEAli": "Criticism of the country is an internal privilege, freely used among Italians and heard differently from a visitor. The complaint is closer to venting among family than to an invitation for outside assessment.",
-      "oQueVoceFaz": "Sympathise without endorsing. Da noi non è tanto diverso does the whole job — it acknowledges the frustration without ranking the countries.",
-      "oQueMelhora": "The conversation continues instead of cooling, and you avoid the small chill that follows a foreigner agreeing that Italy is a mess.",
-      "ondeNaoVale": "Not a rule of silence — if you have lived there, or the complaint is about something specific you also experienced, joining in factually is fine. The line is between sharing an experience and delivering a verdict.",
+      "sinal": "Jemand klagt ausführlich über Italien — die Bürokratie, die Züge, die Politik — und sieht Sie dabei an.",
+      "suaLeitura": "Er will Zustimmung, und zuzustimmen zeigt, dass ich das Land verstehe.",
+      "oQueEAli": "Kritik am eigenen Land ist ein Innenrecht, unter Einheimischen frei geübt und aus dem Mund eines Gastes ganz anders gehört. Die Klage steht dem Luftmachen in der Familie näher als der Bitte um ein Urteil von außen.",
+      "oQueVoceFaz": "Zeigen Sie Verständnis, ohne zu bestätigen. Da noi non è tanto diverso erledigt die ganze Arbeit — es nimmt den Ärger ernst, ohne die Länder zu sortieren.",
+      "oQueMelhora": "Das Gespräch läuft weiter, statt abzukühlen, und Sie vermeiden die kleine Kälte, die einem zustimmenden Gast folgt.",
+      "ondeNaoVale": "Keine Schweigeregel — wenn Sie dort gelebt haben oder die Klage etwas Konkretes betrifft, das Sie selbst erlebt haben, ist sachliches Mitreden in Ordnung. Die Grenze verläuft zwischen Erfahrung teilen und Urteil sprechen.",
       "evidencia": "CONSENSO",
       "audioKeys": [
         "it-a03-n05"

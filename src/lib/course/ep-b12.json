@@ -3,22 +3,22 @@
   "nivel": "basico",
   "numero": 12,
   "parte": "4C",
-  "titulo": "Senza — subtract instead of explaining",
-  "subtitulo": "The densest frame in the module: one word turns any dish on the menu into the dish you actually want",
-  "cena": "The dish you want is on the menu with one ingredient in it that you do not eat, and the waiter is already writing.",
+  "titulo": "Senza — abziehen statt erklären",
+  "subtitulo": "Der dichteste Baustein des Moduls: ein Wort macht aus jedem Gericht auf der Karte das Gericht, das Sie wirklich wollen",
+  "cena": "Das Gericht, das Sie wollen, steht auf der Karte, mit einer Zutat darin, die Sie nicht essen, und der Kellner schreibt schon.",
   "moldura": "ganha",
-  "frasePiso": "You do not have to describe the meal you want. Point at the one on the menu and subtract.",
+  "frasePiso": "Sie müssen das Essen, das Sie wollen, nicht beschreiben. Zeigen Sie auf das von der Karte und ziehen Sie ab.",
   "moldes": [
     "SENZA"
   ],
   "clique": {
     "contagem": [
-      "the trattoria",
-      "the bar",
-      "the sandwich counter"
+      "die Trattoria",
+      "die Bar",
+      "die Panini-Theke"
     ],
-    "desconto": "Nobody taught you a sentence for every dish you might want changed. You learned to subtract, and the menu became editable.",
-    "piso": "Next time something on a menu is nearly right, you will not order it as printed and pick around it. You will remove the part you do not want, in one word."
+    "desconto": "Niemand hat Ihnen einen Satz für jedes Gericht beigebracht, das Sie ändern möchten. Sie haben gelernt abzuziehen, und die Karte wurde editierbar.",
+    "piso": "Wenn das nächste Mal etwas auf einer Karte fast passt, bestellen Sie es nicht wie gedruckt und sortieren dann aus. Sie nehmen den Teil weg, den Sie nicht wollen, in einem Wort."
   },
   "steps": [
     {
@@ -27,14 +27,14 @@
       "audioKey": "it-b12-n01",
       "gesto": 1,
       "bloco": "aquecimento",
-      "pt": "Most of what you want to say at a table is not a new dish. It is a dish on the menu, minus one thing."
+      "pt": "Das meiste, was Sie am Tisch sagen wollen, ist kein neues Gericht. Es ist eines von der Karte, minus eine Sache."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_m",
       "audioKey": "it-b12-n02",
       "bloco": "molde",
-      "pt": "The frame is senza, plus the thing you do not want. Without — and then the ingredient."
+      "pt": "Der Baustein ist senza, plus das, was Sie nicht wollen. Ohne — und dann die Zutat."
     },
     {
       "tipo": "ouvir",
@@ -42,7 +42,7 @@
       "audioKey": "it-b12-t01",
       "es": "Senza cipolla, per favore.",
       "pinyin": "SEN-tsa chee-POL-la per fa-VO-re",
-      "pt": "Without onion, please.",
+      "pt": "Ohne Zwiebel, bitte.",
       "tts": "Senza cipolla, per favore."
     },
     {
@@ -56,18 +56,18 @@
       "encaixe": "cipolla",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-b12-p01",
-      "promptPt": "The salad is right except for one ingredient. Subtract it. Speak now.",
+      "promptPt": "Der Salat stimmt bis auf eine Zutat. Ziehen Sie sie ab. Sprechen Sie jetzt.",
       "audioKey": "it-b12-t01",
       "es": "Senza cipolla, per favore.",
       "pinyin": "SEN-tsa chee-POL-la per fa-VO-re",
-      "pt": "Without onion, please."
+      "pt": "Ohne Zwiebel, bitte."
     },
     {
       "tipo": "ouvir",
       "voz": "target_it_m",
       "audioKey": "it-b12-r01",
       "es": "Certo, senza cipolla. Nient'altro?",
-      "pt": "Of course, no onion. Anything else?",
+      "pt": "Klar, ohne Zwiebel. Sonst noch etwas?",
       "tts": "Certo, senza cipolla. Nient'altro?"
     },
     {
@@ -75,7 +75,7 @@
       "voz": "guide_de_f",
       "audioKey": "it-b12-n03",
       "bloco": "corpo",
-      "pt": "The frame does not care what follows. Any ingredient, any drink, any dish — the word in front never changes."
+      "pt": "Dem Baustein ist egal, was folgt. Jede Zutat, jedes Getränk, jedes Gericht — das Wort davor bleibt gleich."
     },
     {
       "consulta": [
@@ -87,11 +87,11 @@
       "encaixe": "ghiaccio",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-b12-p02",
-      "promptPt": "Same frame, a drink this time: no ice. Speak now.",
+      "promptPt": "Derselbe Baustein, diesmal ein Getränk: kein Eis. Sprechen Sie jetzt.",
       "audioKey": "it-b12-t02",
       "es": "Senza ghiaccio, per favore.",
       "pinyin": "SEN-tsa gee-AT-cho per fa-VO-re",
-      "pt": "Without ice, please.",
+      "pt": "Ohne Eis, bitte.",
       "tts": "Senza ghiaccio, per favore."
     },
     {
@@ -104,25 +104,25 @@
       "encaixe": "glutine",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-b12-p03",
-      "promptPt": "Ask whether there is a gluten-free version. Speak now.",
+      "promptPt": "Sie vertragen kein Gluten. Fragen Sie, was für Sie in Frage kommt. Sprechen Sie jetzt.",
       "audioKey": "it-b12-t03",
       "es": "C'è qualcosa senza glutine?",
       "pinyin": "cheh kwal-KO-za SEN-tsa GLOO-tee-ne",
-      "pt": "Is there anything without gluten?",
+      "pt": "Gibt es etwas ohne Gluten?",
       "tts": "C'è qualcosa senza glutine?"
     },
     {
       "tipo": "intro",
       "voz": "guide_de_m",
       "audioKey": "it-b12-n04",
-      "pt": "Senza glutine is on packaging and menus everywhere. It is the one subtraction Italy already had a printed label for."
+      "pt": "Senza glutine steht überall auf Verpackungen und Karten. Für diese eine Auslassung gab es schon ein gedrucktes Etikett."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_f",
       "audioKey": "it-b12-n05",
       "bloco": "capsula",
-      "pt": "The opposite direction works too. Con adds, and più asks for more of something already there."
+      "pt": "Die andere Richtung geht auch. Con fügt hinzu, und più bittet um mehr von etwas, das schon da ist."
     },
     {
       "consulta": [
@@ -132,11 +132,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-b12-p04",
-      "promptPt": "Add something instead of removing it: with lemon. Speak now.",
+      "promptPt": "Diesmal hinzufügen statt wegnehmen: Zitrone dazu. Sprechen Sie jetzt.",
       "audioKey": "it-b12-t04",
       "es": "Con limone, per favore.",
       "pinyin": "kon lee-MO-ne per fa-VO-re",
-      "pt": "With lemon, please.",
+      "pt": "Mit Zitrone, bitte.",
       "tts": "Con limone, per favore."
     },
     {
@@ -147,11 +147,11 @@
       "voz": "target_it_f",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-b12-p05",
-      "promptPt": "Ask for a little more bread. Speak now.",
+      "promptPt": "Der Korb ist leer und die Soße ist noch da. Bitten Sie um Nachschub. Sprechen Sie jetzt.",
       "audioKey": "it-b12-t05",
       "es": "Un po' più di pane, per favore.",
       "pinyin": "oon po pyoo dee PA-ne per fa-VO-re",
-      "pt": "A little more bread, please.",
+      "pt": "Ein bisschen mehr Brot, bitte.",
       "tts": "Un po' più di pane, per favore."
     },
     {
@@ -165,11 +165,11 @@
       "encaixe": "formaggio",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-b12-p06",
-      "promptPt": "The pasta comes with cheese on top and you would rather it did not. Speak now.",
+      "promptPt": "Die Pasta kommt mit etwas obendrauf, das Sie lieber weglassen. Sprechen Sie jetzt.",
       "audioKey": "it-b12-t06",
       "es": "Senza formaggio, per favore.",
       "pinyin": "SEN-tsa for-MAJ-jo per fa-VO-re",
-      "pt": "Without cheese, please.",
+      "pt": "Ohne Käse, bitte.",
       "tts": "Senza formaggio, per favore."
     },
     {
@@ -177,16 +177,16 @@
       "voz": "target_it_m",
       "audioKey": "it-b12-r02",
       "es": "Il formaggio è già dentro. Le faccio un altro primo?",
-      "pt": "The cheese is already in it. Shall I do you a different first course?",
+      "pt": "Der Käse ist schon drin. Mache ich Ihnen einen anderen ersten Gang?",
       "tts": "Il formaggio è già dentro. Le faccio un altro primo?",
       "receptivo": true,
-      "acao": "Take the alternative dish they are offering."
+      "acao": "Nehmen Sie das andere Gericht an, das angeboten wird."
     },
     {
       "tipo": "intro",
       "voz": "guide_de_m",
       "audioKey": "it-b12-n06",
-      "pt": "Sometimes the answer is no, and the reason is that it was cooked in. Take the alternative they offer — that is the sentence doing its job."
+      "pt": "Manchmal ist die Antwort nein, weil es mitgekocht ist. Nehmen Sie die Alternative — dann hat der Satz gewirkt."
     },
     {
       "consulta": [
@@ -199,11 +199,11 @@
       "encaixe": "burro",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-b12-p07",
-      "promptPt": "Ask whether they can do it without butter. Speak now.",
+      "promptPt": "Fragen Sie, ob die Küche es auch ohne Butter hinbekommt. Sprechen Sie jetzt.",
       "audioKey": "it-b12-t07",
       "es": "Si può fare senza burro?",
       "pinyin": "see pwoh FA-re SEN-tsa BOOR-ro",
-      "pt": "Can it be done without butter?",
+      "pt": "Geht das auch ohne Butter?",
       "tts": "Si può fare senza burro?"
     },
     {
@@ -216,11 +216,11 @@
       "encaixe": "gas",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-b12-p08",
-      "promptPt": "You want the flat kind of bottled water, not the fizzy kind. Order it. Speak now.",
+      "promptPt": "Es gibt zwei Sorten Flaschenwasser. Bestellen Sie die stille. Sprechen Sie jetzt.",
       "audioKey": "it-b12-t08",
       "es": "Acqua senza gas, per favore.",
       "pinyin": "AK-kwa SEN-tsa gas per fa-VO-re",
-      "pt": "Still water, please.",
+      "pt": "Stilles Wasser, bitte.",
       "tts": "Acqua senza gas, per favore."
     },
     {
@@ -229,7 +229,7 @@
       "audioKey": "it-b12-s01",
       "es": "Senza cipolla, per favore. Senza ghiaccio, per favore. Acqua senza gas, per favore.",
       "pinyin": "SEN-tsa chee-POL-la. SEN-tsa gee-AT-cho. AK-kwa SEN-tsa gas per fa-VO-re",
-      "pt": "Shadow one word carrying three completely different requests.",
+      "pt": "Sprechen Sie ein Wort mit, das drei ganz verschiedene Bitten trägt.",
       "tts": "Senza cipolla, per favore. Senza ghiaccio, per favore. Acqua senza gas, per favore.",
       "molde": "SENZA"
     },
@@ -238,52 +238,52 @@
       "voz": "guide_de_f",
       "audioKey": "it-b12-n07",
       "bloco": "recap",
-      "pt": "B12 done. Senza subtracts, con adds, più asks for more — and the menu stops being a fixed list."
+      "pt": "B12 geschafft. Senza zieht ab, con fügt hinzu, più bittet um mehr — und die Karte ist keine feste Liste mehr."
     }
   ],
   "aprofundar": {
-    "titulo": "The editable menu",
+    "titulo": "Die editierbare Karte",
     "secoes": [
       {
-        "titulo": "Senza plus anything",
-        "corpo": "Ingredient, drink, whole category — the word in front is always the same and never changes shape. This is why it carries more of the module than any other frame.",
+        "titulo": "Senza plus alles",
+        "corpo": "Zutat, Getränk, ganze Kategorie — das Wort davor ist immer dasselbe und ändert nie seine Form. Deshalb trägt es mehr vom Modul als jeder andere Baustein.",
         "exemplos": [
           {
             "es": "Senza glutine",
-            "pt": "Without gluten"
+            "pt": "Ohne Gluten"
           },
           {
             "es": "Acqua senza gas",
-            "pt": "Still water"
+            "pt": "Stilles Wasser"
           }
         ]
       },
       {
-        "titulo": "Con and più are the other two directions",
-        "corpo": "Con adds, più asks for more of what is already there. Together with senza you can adjust nearly anything on a table without producing a full sentence."
+        "titulo": "Con und più sind die anderen zwei Richtungen",
+        "corpo": "Con fügt hinzu, più bittet um mehr von dem, was schon da ist. Zusammen mit senza können Sie fast alles auf einem Tisch anpassen, ohne einen ganzen Satz bilden zu müssen."
       },
       {
-        "titulo": "Water is defined by gas",
-        "corpo": "Naturale or senza gas is still; frizzante or con gas is sparkling. Asking for water without saying which usually gets you a question back rather than a default."
+        "titulo": "Wasser wird über die Kohlensäure bestimmt",
+        "corpo": "Naturale oder senza gas ist still, frizzante oder con gas ist sprudelnd. Wer nur Wasser bestellt, bekommt meist eine Rückfrage statt einer Voreinstellung."
       },
       {
-        "titulo": "Cooked in is a real no",
-        "corpo": "If an ingredient is part of the sauce rather than on top, senza is not possible and the kitchen will say so — usually while offering something else. That offer is the useful part of the exchange."
+        "titulo": "Mitgekocht ist ein echtes Nein",
+        "corpo": "Ist eine Zutat Teil der Soße statt Belag, geht senza nicht, und die Küche sagt das auch — meist während sie etwas anderes anbietet. Genau dieses Angebot ist der nützliche Teil des Gesprächs."
       }
     ]
   },
   "slot": "B12",
-  "permissao": "You are allowed to change a dish. Asking for something senza an ingredient is a normal restaurant request in Italy, not a challenge to the kitchen — and it is far more comfortable for everyone than ordering as printed and leaving half of it.",
-  "espelho": "Anyone who has ordered something at home and quietly picked out the ingredient they do not eat knows why this frame matters. The reluctance to modify is not about Italian — it is about not wanting to be a nuisance, in any language.",
+  "permissao": "Sie dürfen ein Gericht ändern. Etwas senza einer Zutat zu bestellen ist in Italien eine normale Bitte im Restaurant und keine Kritik an der Küche — und für alle angenehmer, als es wie gedruckt zu bestellen und die Hälfte stehen zu lassen.",
+  "espelho": "Wer zu Hause schon einmal etwas bestellt und die eine Zutat still an den Tellerrand geschoben hat, weiß, warum dieser Baustein zählt. Die Hemmung, etwas ändern zu lassen, hat nichts mit Italienisch zu tun — sie hat damit zu tun, niemandem lästig fallen zu wollen, in jeder Sprache.",
   "permissaoAudioKey": "it-b12-n02",
   "fichasCulturais": [
     {
-      "sinal": "You ask for a dish without an ingredient and the waiter pauses, then suggests a different dish entirely.",
-      "suaLeitura": "I have asked for something unreasonable and they are steering me away.",
-      "oQueEAli": "In Italian kitchens many ingredients are cooked into the base rather than added at the end. When the answer is è già dentro, the substitution being offered is the practical version of your request, not a refusal of it.",
-      "oQueVoceFaz": "Take the alternative, or ask si può fare senza…? about the specific thing so the kitchen can answer for that dish rather than in general.",
-      "oQueMelhora": "You end up with something that was actually made without the ingredient, instead of a dish that technically had it removed from the top.",
-      "ondeNaoVale": "Not for an allergy, where a polite substitution is not enough and the request has to be unambiguous — that is what the next part is for.",
+      "sinal": "Sie bestellen ein Gericht ohne eine Zutat, der Kellner zögert kurz und schlägt dann ein ganz anderes Gericht vor.",
+      "suaLeitura": "Ich habe etwas Unzumutbares verlangt und werde jetzt weggelenkt.",
+      "oQueEAli": "In italienischen Küchen sind viele Zutaten in die Basis eingekocht statt am Ende zugegeben. Wenn die Antwort è già dentro lautet, ist der vorgeschlagene Tausch die praktische Fassung Ihrer Bitte, keine Absage.",
+      "oQueVoceFaz": "Nehmen Sie die Alternative, oder fragen Sie si può fare senza…? zu genau der einen Sache, damit die Küche für dieses Gericht antworten kann statt allgemein.",
+      "oQueMelhora": "Sie bekommen etwas, das wirklich ohne die Zutat zubereitet wurde, statt eines Gerichts, bei dem sie nur oben abgeräumt wurde.",
+      "ondeNaoVale": "Nicht bei einer Unverträglichkeit, wo ein höflicher Tausch nicht reicht und die Bitte eindeutig sein muss — dafür ist der nächste Teil da.",
       "evidencia": "CONSENSO",
       "audioKeys": [
         "it-b12-n06"

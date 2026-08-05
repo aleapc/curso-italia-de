@@ -1,73 +1,73 @@
 {
   "id": "q-i01",
   "nivel": "intermediario",
-  "titulo": "Quiz — Their clock",
-  "subtitulo": "Two clocks, one gap",
+  "titulo": "Quiz — Ihre Uhr",
+  "subtitulo": "Zwei Uhren, eine Lücke",
   "introAudioKey": "it-i01-q-i",
-  "introPt": "A traveller finds out when the kitchen actually opens.",
-  "cenario": "Outside a restaurant at quarter past six.",
+  "introPt": "Eine Reisende findet heraus, wann die Küche wirklich öffnet.",
+  "cenario": "Vor einem Restaurant, Viertel nach sechs.",
   "dialogo": [
     {
       "audioKey": "it-i01-q01",
       "voz": "target_it_f",
       "es": "A che ora apre la cucina?",
-      "pt": "What time does the kitchen open?"
+      "pt": "Um wie viel Uhr öffnet die Küche?"
     },
     {
       "audioKey": "it-i01-q02",
       "voz": "target_it_m",
       "es": "La cucina apre alle otto. Prima solo aperitivo.",
-      "pt": "The kitchen opens at eight. Before that, only aperitivo."
+      "pt": "Die Küche öffnet um acht. Vorher nur aperitivo."
     },
     {
       "audioKey": "it-i01-q03",
       "voz": "target_it_f",
       "es": "Un tavolo per due alle nove, è possibile?",
-      "pt": "A table for two at nine, is that possible?"
+      "pt": "Ein Tisch für zwei um neun, geht das?"
     },
     {
       "audioKey": "it-i01-q04",
       "voz": "target_it_f",
       "es": "Lei dove va a mangiare la sera?",
-      "pt": "Where do you go to eat in the evening?"
+      "pt": "Wo gehen Sie abends essen?"
     }
   ],
   "perguntas": [
     {
-      "pergunta": "The lunch window generally closes around:",
+      "pergunta": "Das Mittagsfenster schließt in der Regel gegen:",
       "opcoes": [
-        "Four",
-        "Half past two",
-        "Six",
-        "It does not close"
+        "Vier",
+        "Halb drei",
+        "Sechs",
+        "Es schließt nicht"
       ],
       "correta": 1,
-      "explica": "After it the kitchen is closed, not slow."
+      "explica": "Danach ist die Küche zu, nicht langsam."
     },
     {
-      "pergunta": "Dinner service starts:",
+      "pergunta": "Der Abendbetrieb beginnt:",
       "opcoes": [
-        "The same time everywhere",
-        "Later going south — nine is ordinary there",
-        "At six",
-        "Only after ten"
+        "Überall zur selben Zeit",
+        "Nach Süden hin später — dort ist neun gewöhnlich",
+        "Um sechs",
+        "Erst nach zehn"
       ],
       "correta": 1,
-      "explica": "Judging a place by how empty it is at eight will mislead you."
+      "explica": "Ein Lokal danach zu beurteilen, wie leer es um acht ist, führt in die Irre."
     },
     {
-      "pergunta": "A full dinner service at six in a tourist centre signals:",
+      "pergunta": "Voller Abendbetrieb um sechs im Touristenzentrum zeigt:",
       "opcoes": [
-        "Good value",
-        "Who the customers are",
-        "Fresh food",
-        "Early closing"
+        "Gutes Preis-Leistungs-Verhältnis",
+        "Wer die Gäste sind",
+        "Frische Küche",
+        "Frühen Feierabend"
       ],
       "correta": 1,
-      "explica": "Usually with a multilingual menu and photographs."
+      "explica": "Meist zusammen mit mehrsprachiger Karte und Fotos."
     },
     {
-      "pergunta": "Which wording gets the real answer?",
+      "pergunta": "Welche Formulierung bringt die echte Antwort?",
       "opcoes": [
         "Dove dovrei mangiare?",
         "Lei dove va a mangiare?",
@@ -75,18 +75,18 @@
         "È buono qui?"
       ],
       "correta": 1,
-      "explica": "The second asks about their life, not about visitors."
+      "explica": "Die zweite fragt nach ihrem Leben, nicht nach Gästen."
     },
     {
-      "pergunta": "An empty restaurant at eight means:",
+      "pergunta": "Ein leeres Restaurant um acht bedeutet:",
       "opcoes": [
-        "Locals avoid it",
-        "It is early — the room fills between nine and ten",
-        "It just opened",
-        "Bad reviews"
+        "Die Leute von hier meiden es",
+        "Es ist früh — der Raum füllt sich zwischen neun und zehn",
+        "Es hat gerade eröffnet",
+        "Schlechte Bewertungen"
       ],
       "correta": 1,
-      "explica": "At lunch, though, a full room genuinely is a good sign."
+      "explica": "Mittags ist ein voller Raum dagegen wirklich ein gutes Zeichen."
     }
   ]
 }
