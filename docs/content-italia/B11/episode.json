@@ -1,0 +1,302 @@
+{
+  "id": "b11",
+  "nivel": "basico",
+  "numero": 11,
+  "parte": "4B",
+  "titulo": "Quanto costa — zwei Wörter, solange Fragen noch frei ist",
+  "subtitulo": "An der Theke stehen und am Tisch sitzen sind zwei Preise für denselben Kaffee, und beide sind erlaubt",
+  "cena": "Sie stehen zwei Schritte in einer Bar an einem berühmten Platz, der Kaffee ist längst fertig, und niemand hat erwähnt, dass Hinsetzen den Preis ändert.",
+  "moldura": "ganha",
+  "frasePiso": "Fragen Sie nach dem Preis, bevor die Sache existiert, nicht wenn sie schon in Ihrer Hand liegt.",
+  "moldes": [
+    "QUANTO-COSTA"
+  ],
+  "clique": {
+    "contagem": [
+      "die Bar",
+      "der Tisch",
+      "der Marktstand"
+    ],
+    "desconto": "Niemand hat Sie auf den zweiten Preis hingewiesen. Sie haben ihn selbst gefunden, mit einer Frage, eine halbe Sekunde bevor sie nicht mehr zu stellen war.",
+    "piso": "Wenn ein Preis das nächste Mal vorausgesetzt statt genannt wird, warten Sie nicht ab. Sie fragen, in zwei Wörtern, solange Fragen noch frei ist."
+  },
+  "fatosDatados": [
+    {
+      "id": "it-banco-tavolo",
+      "afirmacao": "Italienische Bars dürfen für dasselbe Produkt zwei verschiedene Preise verlangen, je nachdem, ob es im Stehen an der Theke (al banco) oder am Tisch (al tavolo) serviert wird, sofern beide Tarife ausgehängt sind. An zentralen Touristenplätzen kann der Sitzpreis ein Vielfaches des Thekenpreises betragen; der Thekenpreis eines einfachen Espresso lag in Italien 2025 im Schnitt bei etwa 1,20-1,30 €.",
+      "fonte": "Assoutenti — rilevazione prezzi caffè 2025; Il Sole 24 Ore — «Caffè al banco, il listino dei capoluoghi»",
+      "ano": 2025,
+      "revisarAte": "2027-02-04",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "it-b11-n03"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "it-b11-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "In der ersten Runde hören Preise auf, selbstverständlich zu sein. Es gibt zwei erlaubte Preise, und niemand sagt, welchen Sie gewählt haben."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "it-b11-n02",
+      "bloco": "molde",
+      "pt": "Der Baustein ist quanto costa, plus die Sache. Wie viel kostet — und dann das, wozu Sie gleich Ja sagen."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_f",
+      "audioKey": "it-b11-t01",
+      "es": "Quanto costa un caffè al tavolo?",
+      "pinyin": "KWAN-to KOS-ta oon kaf-FEH al TA-vo-lo",
+      "pt": "Wie viel kostet ein Kaffee am Tisch?",
+      "tts": "Quanto costa un caffè al tavolo?"
+    },
+    {
+      "consulta": [
+        "pagar/preco",
+        "mesa/mesa"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "QUANTO-COSTA",
+      "encaixe": "un caffè al tavolo",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-b11-p01",
+      "promptPt": "Sie wollen sich gleich auf einem berühmten Platz hinsetzen. Fragen Sie vorher. Sprechen Sie jetzt.",
+      "audioKey": "it-b11-t01",
+      "es": "Quanto costa un caffè al tavolo?",
+      "pinyin": "KWAN-to KOS-ta oon kaf-FEH al TA-vo-lo",
+      "pt": "Wie viel kostet ein Kaffee am Tisch?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-b11-r01",
+      "es": "Al tavolo sono sei euro, al banco uno e trenta.",
+      "pt": "Am Tisch sind es sechs Euro, an der Theke eins dreißig.",
+      "tts": "Al tavolo sono sei euro, al banco uno e trenta."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "it-b11-n03",
+      "bloco": "corpo",
+      "pt": "Dieser Abstand ist erlaubt, und beide Tarife müssen aushängen. Sie wählen, ob Sie es merken oder nicht."
+    },
+    {
+      "consulta": [
+        "pagar/preco",
+        "comer/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "QUANTO-COSTA",
+      "encaixe": "al banco",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-b11-p02",
+      "promptPt": "Jetzt die andere Hälfte der Wahl: der Preis an der Theke. Sprechen Sie jetzt.",
+      "audioKey": "it-b11-t02",
+      "es": "E al banco, quanto costa?",
+      "pinyin": "eh al BAN-ko, KWAN-to KOS-ta",
+      "pt": "Und an der Theke, wie viel kostet er?",
+      "tts": "E al banco, quanto costa?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "it-b11-n04",
+      "pt": "Un caffè heißt Espresso. Wollen Sie den langen, sagen Sie caffè lungo — sonst kommt der kleine starke."
+    },
+    {
+      "consulta": [
+        "comer/bebida",
+        "pedir/pedido"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-b11-p03",
+      "promptPt": "Sie stehen an der Theke und wollen zwei Dinge auf einmal bestellen. Sprechen Sie jetzt.",
+      "audioKey": "it-b11-t03",
+      "es": "Un caffè e un bicchiere d'acqua, per favore.",
+      "pinyin": "oon kaf-FEH eh oon beek-kee-EH-re DAK-kwa per fa-VO-re",
+      "pt": "Einen Kaffee und ein Glas Wasser, bitte.",
+      "tts": "Un caffè e un bicchiere d'acqua, per favore."
+    },
+    {
+      "consulta": [
+        "pagar/preco"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "QUANTO-COSTA",
+      "encaixe": "in tutto",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-b11-p04",
+      "promptPt": "Zwei Sachen, eine Summe. Fragen Sie nach dem Gesamtbetrag. Sprechen Sie jetzt.",
+      "audioKey": "it-b11-t04",
+      "es": "Quanto costa in tutto?",
+      "pinyin": "KWAN-to KOS-ta een TOOT-to",
+      "pt": "Wie viel kostet das zusammen?",
+      "tts": "Quanto costa in tutto?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-b11-r02",
+      "receptivo": true,
+      "es": "Sono due e cinquanta. Prima paghi alla cassa.",
+      "pt": "Das macht zwei fünfzig. Sie zahlen zuerst an der Kasse.",
+      "tts": "Sono due e cinquanta. Prima paghi alla cassa.",
+      "acao": "Zuerst zur Kasse, zahlen, dann mit dem Bon an die Theke."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "it-b11-n05",
+      "bloco": "capsula",
+      "pt": "In vielen Bars zahlen Sie zuerst an der Kasse und bringen den Bon zur Theke. Zeigt jemand zur cassa, ist genau das gemeint."
+    },
+    {
+      "consulta": [
+        "mesa/mesa"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "C-E",
+      "encaixe": "un tavolo fuori",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-b11-p05",
+      "promptPt": "Sie haben entschieden: der Tisch ist es Ihnen wert. Fragen Sie nach einem draußen. Sprechen Sie jetzt.",
+      "audioKey": "it-b11-t05",
+      "es": "C'è un tavolo fuori?",
+      "pinyin": "cheh oon TA-vo-lo FWO-ri",
+      "pt": "Gibt es einen Tisch draußen?",
+      "tts": "C'è un tavolo fuori?"
+    },
+    {
+      "consulta": [
+        "pagar/preco"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "QUANTO-COSTA",
+      "encaixe": "questo",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-b11-p06",
+      "promptPt": "Am Marktstand, Sie zeigen auf etwas ohne Preisschild. Sprechen Sie jetzt.",
+      "audioKey": "it-b11-t06",
+      "es": "Quanto costa questo?",
+      "pinyin": "KWAN-to KOS-ta KWES-to",
+      "pt": "Wie viel kostet das hier?",
+      "tts": "Quanto costa questo?"
+    },
+    {
+      "consulta": [
+        "pagar/cartao",
+        "reparo/permissao"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "POSSO",
+      "encaixe": "pagare qui",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-b11-p07",
+      "promptPt": "Sie wissen nicht, ob hier oder an der Kasse. Fragen Sie nach. Sprechen Sie jetzt.",
+      "audioKey": "it-b11-t07",
+      "es": "Posso pagare qui?",
+      "pinyin": "POS-so pa-GA-re kwee",
+      "pt": "Kann ich hier zahlen?",
+      "tts": "Posso pagare qui?"
+    },
+    {
+      "consulta": [
+        "pagar/recibo"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-b11-p08",
+      "promptPt": "Bitten Sie um das Papier, das die Bar Ihnen ohnehin ausstellen muss. Sprechen Sie jetzt.",
+      "audioKey": "it-b11-t08",
+      "es": "Lo scontrino, per favore.",
+      "pinyin": "lo skon-TREE-no per fa-VO-re",
+      "pt": "Den Bon, bitte.",
+      "tts": "Lo scontrino, per favore."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_it_f",
+      "audioKey": "it-b11-s01",
+      "es": "Quanto costa un caffè al tavolo? E al banco, quanto costa? Quanto costa in tutto?",
+      "pinyin": "KWAN-to KOS-ta oon kaf-FEH al TA-vo-lo. eh al BAN-ko KWAN-to KOS-ta. KWAN-to KOS-ta een TOOT-to",
+      "pt": "Sprechen Sie dieselben zwei Wörter über drei verschiedene Zusagen mit.",
+      "tts": "Quanto costa un caffè al tavolo? E al banco, quanto costa? Quanto costa in tutto?",
+      "molde": "QUANTO-COSTA"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_f",
+      "audioKey": "it-b11-n06",
+      "bloco": "recap",
+      "pt": "B11 geschafft. Quanto costa deckt Tisch, Theke, Summe und Marktstand ab — bevor Sie zusagen."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Zwei Preise, beide erlaubt",
+    "secoes": [
+      {
+        "titulo": "Quanto costa plus die Sache",
+        "corpo": "Die zwei Wörter bleiben, was folgt, wechselt: ein Produkt, ein Ort, eine Summe. Es ist die billigste Versicherung im ganzen Kurs, denn Fragen kostet nichts und Hinterherwissen schon.",
+        "exemplos": [
+          {
+            "es": "Quanto costa questo?",
+            "pt": "Wie viel kostet das hier?"
+          },
+          {
+            "es": "Quanto costa in tutto?",
+            "pt": "Wie viel kostet das zusammen?"
+          }
+        ]
+      },
+      {
+        "titulo": "Al banco und al tavolo",
+        "corpo": "An der Theke stehen ist das italienische Alltagsritual: bestellen, trinken, gehen, zwei Minuten insgesamt. Sitzen ist ein anderes Produkt — Sie mieten den Stuhl und den Platz, und der Preis sagt das auch."
+      },
+      {
+        "titulo": "Der Abstand hängt aus, er versteckt sich nicht",
+        "corpo": "Bars müssen beide Tarife zeigen. An zentralen Plätzen kann der Sitzpreis ein Vielfaches des Stehpreises sein, in normalen Viertelbars ist der Unterschied oft klein oder gar keiner. Die Variable ist die Lage."
+      },
+      {
+        "titulo": "Erst zahlen, dann bestellen",
+        "corpo": "In vielen Bars zahlen Sie an der cassa und tragen den scontrino zur Theke. Ein Blick auf die Person vor Ihnen beantwortet das schneller als jede Frage."
+      }
+    ]
+  },
+  "slot": "B11",
+  "permissao": "Sie dürfen nach dem Preis eines Kaffees fragen. Niemand in Italien hält quanto costa für kleinlich oder misstrauisch — unangenehm wird dieser Moment nur in der Variante, in der Sie nicht gefragt haben und dann auf die Rechnung reagieren.",
+  "permissaoAudioKey": "it-b11-n01",
+  "espelho": "Wer schon einmal die Rechnung für ein Wasser aus der Minibar bekommen hat, kennt genau diese Form: Der Preis stand irgendwo, man hat nur nicht gefragt, und hinterher fragen fühlt sich schlechter an als vorher. Das hat Italien nicht erfunden — hier ist es nur täglich eine Wahl.",
+  "fichasCulturais": [
+    {
+      "sinal": "Sie setzen sich an einen Außentisch auf einem berühmten Platz, bestellen denselben Espresso wie gestern im Stehen, und die Rechnung ist vier- oder fünfmal so hoch.",
+      "suaLeitura": "Sie haben den Touristenpreis genommen, weil sie meinen Akzent gehört haben.",
+      "oQueEAli": "Italienische Bars dürfen für dasselbe Produkt zwei Tarife führen, al banco und al tavolo, solange beide ausgehängt sind. Der Sitzpreis kauft den Tisch und die Aussicht; auf einem zentralen Platz kostet das tatsächlich so viel.",
+      "oQueVoceFaz": "Entscheiden Sie vor dem Hinsetzen, welches Produkt Sie wollen. Geht es um den Kaffee, trinken Sie ihn im Stehen an der Theke; geht es um den Platz, setzen Sie sich und behandeln Sie den Preis als Miete.",
+      "oQueMelhora": "Der Abstand fühlt sich nicht mehr wie ein Trick an, sondern wird zu Ihrer eigenen Entscheidung — und das ist auch die einzige Version davon, die Sie steuern können.",
+      "ondeNaoVale": "Das heißt nicht, dass jeder Unterschied berechtigt ist: ein Tischzuschlag, der auf der Rechnung auftaucht, ohne irgendwo ausgehängt zu sein, ist eine andere Sache, und der scontrino ist das, womit Sie ihn ansprechen können.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "it-b11-n03"
+      ]
+    }
+  ]
+}

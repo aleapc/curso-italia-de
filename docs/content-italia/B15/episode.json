@@ -1,0 +1,269 @@
+{
+  "id": "b15",
+  "nivel": "basico",
+  "numero": 15,
+  "parte": "5C",
+  "titulo": "Einkaufen: Preis, Größe, anprobieren, umtauschen",
+  "subtitulo": "Vier Fragen decken einen Laden ab — und die zum Umtausch stellen Sie, bevor Sie zahlen",
+  "cena": "Der Laden ist klein, der Inhaber sieht Ihnen beim Entscheiden zu, und Sie wissen nicht, ob man die Ware hier selbst in die Hand nimmt.",
+  "moldura": "ganha",
+  "frasePiso": "Preis fragen, anprobieren, Umtausch klären — in dieser Reihenfolge, bevor die Karte herauskommt.",
+  "moldes": [],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "it-b15-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Ein Laden ist vier Fragen lang. Wie viel, meine Größe, anprobieren, umtauschen."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-b15-r01",
+      "es": "Buongiorno, dica pure.",
+      "pt": "Guten Tag, bitte sehr.",
+      "tts": "Buongiorno, dica pure.",
+      "receptivo": true,
+      "acao": "Grüßen Sie zurück, bevor Sie sagen, was Sie wollen."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "it-b15-n02",
+      "bloco": "corpo",
+      "pt": "Dica pure heißt: Sagen Sie, was Sie brauchen. Grüßen Sie zuerst — stumm hereinkommen wirkt im kleinen Laden seltsam."
+    },
+    {
+      "consulta": [
+        "comprar/olhar"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-b15-p01",
+      "promptPt": "Sie wollen sich umsehen, ohne sich festzulegen. Sagen Sie es freundlich. Sprechen Sie jetzt.",
+      "audioKey": "it-b15-t01",
+      "es": "Buongiorno, do solo un'occhiata.",
+      "pinyin": "bwon-JOR-no, doh SO-lo oo-nok-kee-A-ta",
+      "pt": "Guten Tag, ich schaue mich nur um.",
+      "tts": "Buongiorno, do solo un'occhiata."
+    },
+    {
+      "consulta": [
+        "pagar/preco",
+        "comprar/preco"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "QUANTO-COSTA",
+      "encaixe": "questa",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-b15-p02",
+      "promptPt": "An diesem Stück hängt kein Schild. Nutzen Sie den Baustein aus B11. Sprechen Sie jetzt.",
+      "audioKey": "it-b15-t02",
+      "es": "Quanto costa questa?",
+      "pinyin": "KWAN-to KOS-ta KWES-ta",
+      "pt": "Was kostet das hier?",
+      "tts": "Quanto costa questa?"
+    },
+    {
+      "consulta": [
+        "comprar/tamanho"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "C-E",
+      "encaixe": "una taglia più grande",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-b15-p03",
+      "promptPt": "Es sitzt knapp an den Schultern. Nutzen Sie den Baustein aus B08. Sprechen Sie jetzt.",
+      "audioKey": "it-b15-t03",
+      "es": "C'è una taglia più grande?",
+      "pinyin": "cheh OO-na TA-lya pyoo GRAN-de",
+      "pt": "Gibt es eine größere Größe?",
+      "tts": "C'è una taglia più grande?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-b15-r02",
+      "receptivo": true,
+      "es": "Solo la media e la large. Vuole provarla?",
+      "pt": "Nur M und L. Möchten Sie es anprobieren?",
+      "tts": "Solo la media e la large. Vuole provarla?"
+    },
+    {
+      "consulta": [
+        "comprar/provar",
+        "reparo/permissao"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "POSSO",
+      "encaixe": "provarla",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-b15-p04",
+      "promptPt": "Die Kabine hinten ist frei. Nutzen Sie den Baustein aus B06. Sprechen Sie jetzt.",
+      "audioKey": "it-b15-t04",
+      "es": "Posso provarla?",
+      "pinyin": "POS-so pro-VAR-la",
+      "pt": "Kann ich es anprobieren?",
+      "tts": "Posso provarla?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "it-b15-n03",
+      "bloco": "capsula",
+      "pt": "Jetzt die Frage, die fast alle auslassen. Klären Sie den Umtausch vor dem Zahlen — die Antwort ist je Laden anders."
+    },
+    {
+      "consulta": [
+        "comprar/trocar"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-b15-p05",
+      "promptPt": "Sie sind nicht sicher, ob es zu Hause passt. Klären Sie es vor dem Zahlen. Sprechen Sie jetzt.",
+      "audioKey": "it-b15-t05",
+      "es": "Posso cambiarla se non va bene?",
+      "pinyin": "POS-so kam-bee-AR-la seh non va BEH-ne",
+      "pt": "Kann ich es umtauschen, wenn es nicht passt?",
+      "tts": "Posso cambiarla se non va bene?",
+      "molde": "POSSO",
+      "encaixe": "cambiarla"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-b15-r03",
+      "es": "Entro otto giorni, con lo scontrino.",
+      "pt": "Innerhalb von acht Tagen, mit dem Beleg.",
+      "tts": "Entro otto giorni, con lo scontrino."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "it-b15-n04",
+      "pt": "Mit dem Beleg — schon wieder. Im Laden, beim Essen, im Taxi: Der scontrino macht alles Spätere möglich."
+    },
+    {
+      "consulta": [
+        "comprar/cor"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "C-E",
+      "encaixe": "un altro colore",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-b15-p06",
+      "promptPt": "Die Form gefällt Ihnen, der Ton nicht. Fragen Sie nach. Sprechen Sie jetzt.",
+      "audioKey": "it-b15-t06",
+      "es": "C'è un altro colore?",
+      "pinyin": "cheh oon AL-tro ko-LO-re",
+      "pt": "Gibt es eine andere Farbe?",
+      "tts": "C'è un altro colore?"
+    },
+    {
+      "consulta": [
+        "comprar/embrulho"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "MI-PORTA",
+      "encaixe": "una borsa",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-b15-p07",
+      "promptPt": "Das Stück liegt lose auf dem Tresen. Nutzen Sie den Baustein aus B14. Sprechen Sie jetzt.",
+      "audioKey": "it-b15-t07",
+      "es": "Mi porta una borsa, per favore?",
+      "pinyin": "mee POR-ta OO-na BOR-sa per fa-VO-re",
+      "pt": "Bringen Sie mir bitte eine Tüte?",
+      "tts": "Mi porta una borsa, per favore?"
+    },
+    {
+      "consulta": [
+        "comprar/decidir"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-b15-p08",
+      "promptPt": "Sie kaufen es doch nicht. Gehen Sie freundlich hinaus. Sprechen Sie jetzt.",
+      "audioKey": "it-b15-t08",
+      "es": "Ci penso, grazie mille.",
+      "pinyin": "chee PEN-so, GRA-tsee-eh MEEL-le",
+      "pt": "Ich überlege es mir, vielen Dank.",
+      "tts": "Ci penso, grazie mille."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_it_f",
+      "audioKey": "it-b15-s01",
+      "es": "Quanto costa questa? Posso provarla? Posso cambiarla se non va bene?",
+      "pinyin": "KWAN-to KOS-ta KWES-ta. POS-so pro-VAR-la. POS-so kam-bee-AR-la seh non va BEH-ne",
+      "pt": "Sprechen Sie die drei Fragen mit, die einen Kauf abschließen.",
+      "tts": "Quanto costa questa? Posso provarla? Posso cambiarla se non va bene?",
+      "molde": "POSSO"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_f",
+      "audioKey": "it-b15-n05",
+      "bloco": "recap",
+      "pt": "B15 fertig. Grüßen, Preis fragen, anprobieren, Umtausch klären — und ci penso lässt Sie ohne Kauf gehen."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Vier Fragen, ein Beleg",
+    "secoes": [
+      {
+        "titulo": "Der Gruß ist der Eintritt",
+        "corpo": "Im kleinen Laden ist das buongiorno keine beiläufige Höflichkeit, sondern die Art, als Person und nicht als Laufkundschaft wahrgenommen zu werden. Do solo un'occhiata verschafft Ihnen danach das Recht, in Ruhe zu schauen.",
+        "exemplos": [
+          {
+            "es": "Buongiorno, do solo un'occhiata.",
+            "pt": "Guten Tag, ich schaue mich nur um."
+          },
+          {
+            "es": "Ci penso, grazie mille.",
+            "pt": "Ich überlege es mir, vielen Dank."
+          }
+        ]
+      },
+      {
+        "titulo": "Umtausch ist nicht automatisch",
+        "corpo": "Das Gewährleistungsrecht deckt mangelhafte Ware, aber kein Laden muss etwas zurücknehmen, das Ihnen einfach nicht mehr gefällt. Viele tun es trotzdem, innerhalb einer Frist und mit dem Beleg — genau deshalb fragen Sie vor dem Zahlen."
+      },
+      {
+        "titulo": "Ci penso ist ein vollständiger Abgang",
+        "corpo": "Es heißt: Ich überlege es mir, und es wird als höfliches Nein verstanden, ohne eines zu sein. Niemand erwartet eine Begründung dafür, dass Sie etwas nicht gekauft haben."
+      },
+      {
+        "titulo": "Fernabsatz ist etwas anderes",
+        "corpo": "Das vierzehntägige Widerrufsrecht, das Sie von Online-Bestellungen kennen, gilt EU-weit nur im Fernabsatz und nicht für etwas, das Sie im Laden gekauft haben. Im Laden gilt, was der Laden Ihnen gesagt hat — deshalb lassen Sie es sich sagen."
+      }
+    ]
+  },
+  "slot": "B15",
+  "permissao": "Sie dürfen ohne Kauf hinausgehen. Ci penso, grazie ist in Italien ein vollständiges, normales Ende eines Ladengesprächs — niemandem schuldet man einen Kauf für die Zeit, in der er zwei Größen geholt hat.",
+  "permissaoAudioKey": "it-b15-n01",
+  "espelho": "Wer schon einmal etwas gekauft hat, das er gar nicht wollte, weil Hinausgehen unhöflich schien, kennt den Druck, den dieser Teil wegnimmt. Mit Italienisch hat das nichts zu tun — es ist die Ladenversion davon, jemanden nicht enttäuschen zu wollen, der freundlich war.",
+  "fichasCulturais": [
+    {
+      "sinal": "Sie betreten einen kleinen Laden, der Inhaber grüßt und bleibt in Ihrer Nähe, statt Sie allein stöbern zu lassen.",
+      "suaLeitura": "Man beobachtet mich, oder man setzt mich unter Kaufdruck.",
+      "oQueEAli": "Im kleinen Laden sind Gruß und Aufmerksamkeit der Service, und vom Kunden wird der Gegengruß erwartet. Ganz allein gelassen zu werden liegt hier näher an Gleichgültigkeit als an Respekt.",
+      "oQueVoceFaz": "Sagen Sie buongiorno und do solo un'occhiata. Das beantwortet den Gruß und bittet zugleich um Raum.",
+      "oQueMelhora": "Sie bekommen die Ruhe, richtig zu schauen, und falls Sie doch etwas wollen, ist das Gespräch schon eröffnet statt kalt zu beginnen.",
+      "ondeNaoVale": "Nicht in großen Ketten oder Supermärkten, wo man tatsächlich in Ruhe gelassen wird und ein Gruß in den Raum ungewöhnlich wäre.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "it-b15-n02"
+      ]
+    }
+  ]
+}

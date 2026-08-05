@@ -1,0 +1,258 @@
+{
+  "id": "b18",
+  "nivel": "basico",
+  "numero": 18,
+  "parte": "6C",
+  "titulo": "Der letzte Tag — auschecken, den Koffer abstellen und den Satz sagen, der Sie willkommen macht",
+  "subtitulo": "Das Auschecken ist Verwaltung. Der Abschied nicht — und er ist der Satz, an den man sich erinnert",
+  "cena": "Das Zimmer ist leer, der Flug geht heute Abend um neun, und an der Rezeption steht dasselbe Gesicht wie die ganze Woche.",
+  "moldura": "ganha",
+  "frasePiso": "Rechnung begleichen, Koffer abstellen, und dann einen ehrlichen Satz an die Person, die Ihnen die ganze Woche geholfen hat.",
+  "moldes": [],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "it-b18-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Der letzte Morgen hat zwei Hälften. Der Papierkram geht schnell; der Abschied ist der Teil, den Sie behalten."
+    },
+    {
+      "consulta": [
+        "dormir/checkout"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-b18-p01",
+      "promptPt": "Eröffnen Sie das Auschecken in einem Satz. Sprechen Sie jetzt.",
+      "audioKey": "it-b18-t01",
+      "es": "Buongiorno, vorrei fare il check-out.",
+      "pinyin": "bwon-JOR-no, vor-REI FA-re eel chek-AUT",
+      "pt": "Guten Morgen, ich möchte auschecken.",
+      "tts": "Buongiorno, vorrei fare il check-out."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-b18-r01",
+      "es": "Certo. Ha preso qualcosa dal frigobar?",
+      "pt": "Gern. Haben Sie etwas aus der Minibar genommen?",
+      "tts": "Certo. Ha preso qualcosa dal frigobar?",
+      "receptivo": true,
+      "acao": "Antworten Sie ehrlich und lassen Sie sich die Rechnung trotzdem aufschlüsseln."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "it-b18-n02",
+      "bloco": "corpo",
+      "pt": "Antworten Sie ehrlich und lesen Sie die Rechnung trotzdem — die Kurtaxe landet hier, nicht in der Vorauszahlung."
+    },
+    {
+      "consulta": [
+        "pagar/conta"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-b18-p02",
+      "promptPt": "Sie wollen die Einzelposten sehen, bevor Sie zahlen. Fragen Sie danach. Sprechen Sie jetzt.",
+      "audioKey": "it-b18-t02",
+      "es": "Posso vedere il conto dettagliato?",
+      "pinyin": "POS-so ve-DE-re eel KON-to det-ta-LYA-to",
+      "pt": "Kann ich die aufgeschlüsselte Rechnung sehen?",
+      "tts": "Posso vedere il conto dettagliato?",
+      "molde": "POSSO",
+      "encaixe": "vedere il conto dettagliato"
+    },
+    {
+      "consulta": [
+        "dormir/bagagem",
+        "reparo/permissao"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "POSSO",
+      "encaixe": "lasciare la valigia fino alle sei",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-b18-p03",
+      "promptPt": "Sie haben noch einen ganzen Tag und einen Koffer. Fragen Sie, mit Uhrzeit. Sprechen Sie jetzt.",
+      "audioKey": "it-b18-t03",
+      "es": "Posso lasciare la valigia fino alle sei?",
+      "pinyin": "POS-so la-SHA-re la va-LEE-ja FEE-no AL-le say",
+      "pt": "Kann ich den Koffer bis sechs hierlassen?",
+      "tts": "Posso lasciare la valigia fino alle sei?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-b18-r02",
+      "es": "Certo, gliela mettiamo nel deposito. Nessun problema.",
+      "pt": "Klar, wir stellen ihn in den Gepäckraum. Kein Thema.",
+      "tts": "Certo, gliela mettiamo nel deposito. Nessun problema."
+    },
+    {
+      "consulta": [
+        "dormir/bagagem"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "QUANTO-COSTA",
+      "encaixe": "il deposito",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-b18-p04",
+      "promptPt": "Prüfen Sie, ob die Gepäckaufbewahrung etwas kostet, mit dem Baustein aus B11. Sprechen Sie jetzt.",
+      "audioKey": "it-b18-t04",
+      "es": "Quanto costa il deposito?",
+      "pinyin": "KWAN-to KOS-ta eel de-PO-zee-to",
+      "pt": "Was kostet die Gepäckaufbewahrung?",
+      "tts": "Quanto costa il deposito?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "it-b18-n03",
+      "bloco": "capsula",
+      "pt": "Jetzt der Teil, der keine Verwaltung ist. Sagen Sie etwas Konkretes — konkret trennt Dank von Floskel."
+    },
+    {
+      "consulta": [
+        "simpatia/elogiar"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-b18-p05",
+      "promptPt": "Sagen Sie, dass Sie sich hier sehr wohl gefühlt haben. Sprechen Sie jetzt.",
+      "audioKey": "it-b18-t05",
+      "es": "Siamo stati benissimo, grazie di tutto.",
+      "pinyin": "see-A-mo STA-tee be-NEES-see-mo, GRA-tsee-eh dee TOOT-to",
+      "pt": "Wir haben uns sehr wohl gefühlt, danke für alles.",
+      "tts": "Siamo stati benissimo, grazie di tutto."
+    },
+    {
+      "consulta": [
+        "simpatia/elogiar"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-b18-p06",
+      "promptPt": "Nennen Sie, was wirklich geholfen hat: ihr Tipp mit dem Restaurant. Sprechen Sie jetzt.",
+      "audioKey": "it-b18-t06",
+      "es": "Il ristorante che ci ha consigliato era ottimo.",
+      "pinyin": "eel ris-to-RAN-te keh chee a kon-see-LYA-to EH-ra OT-tee-mo",
+      "pt": "Das Restaurant, das Sie uns empfohlen haben, war ausgezeichnet.",
+      "tts": "Il ristorante che ci ha consigliato era ottimo."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-b18-r03",
+      "es": "Che piacere sentirlo. Torni a trovarci!",
+      "pt": "Schön, das zu hören. Kommen Sie uns wieder besuchen!",
+      "tts": "Che piacere sentirlo. Torni a trovarci!"
+    },
+    {
+      "consulta": [
+        "simpatia/despedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-b18-p07",
+      "promptPt": "Geben Sie den Ball zurück — sagen Sie, dass Sie wiederkommen. Sprechen Sie jetzt.",
+      "audioKey": "it-b18-t07",
+      "es": "Torneremo di sicuro. Alla prossima!",
+      "pinyin": "tor-ne-RE-mo dee see-KOO-ro. AL-la PROS-see-ma",
+      "pt": "Wir kommen bestimmt wieder. Bis zum nächsten Mal!",
+      "tts": "Torneremo di sicuro. Alla prossima!"
+    },
+    {
+      "consulta": [
+        "taxi/destino",
+        "transporte/destino"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "MI-PORTA",
+      "encaixe": "un taxi per l'aeroporto",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-b18-p08",
+      "promptPt": "Bitten Sie um ein Taxi zum Flughafen, mit dem Baustein aus B14. Sprechen Sie jetzt.",
+      "audioKey": "it-b18-t08",
+      "es": "Mi chiama un taxi per l'aeroporto?",
+      "pinyin": "mee kee-A-ma oon TAK-see per la-e-ro-POR-to",
+      "pt": "Rufen Sie mir ein Taxi zum Flughafen?",
+      "tts": "Mi chiama un taxi per l'aeroporto?"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_it_f",
+      "audioKey": "it-b18-s01",
+      "es": "Posso lasciare la valigia fino alle sei? Siamo stati benissimo, grazie di tutto. Alla prossima!",
+      "pinyin": "POS-so la-SHA-re la va-LEE-ja FEE-no AL-le say. see-A-mo STA-tee be-NEES-see-mo GRA-tsee-eh dee TOOT-to. AL-la PROS-see-ma",
+      "pt": "Sprechen Sie den letzten Morgen mit: der Koffer, der Dank, der Abschied.",
+      "tts": "Posso lasciare la valigia fino alle sei? Siamo stati benissimo, grazie di tutto. Alla prossima!",
+      "molde": "POSSO"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_f",
+      "audioKey": "it-b18-n04",
+      "bloco": "recap",
+      "pt": "B18 geschafft, und ME VIRO dazu. Sie kommen an, essen, kaufen, schlafen, holen Hilfe und verabschieden sich gut."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Gut aufhören",
+    "secoes": [
+      {
+        "titulo": "Konkret schlägt überschwänglich",
+        "corpo": "Grazie di tutto ist in Ordnung. Die Sache zu nennen — das Restaurant, das andere Zimmer, der geliehene Schirm — macht aus einer Abwicklung eine Beziehung, die Sie nächstes Jahr wieder aufnehmen können.",
+        "exemplos": [
+          {
+            "es": "Siamo stati benissimo.",
+            "pt": "Wir haben uns sehr wohl gefühlt."
+          },
+          {
+            "es": "Alla prossima!",
+            "pt": "Bis zum nächsten Mal!"
+          }
+        ]
+      },
+      {
+        "titulo": "Deposito bagagli ist normal",
+        "corpo": "Hotels verwahren Gepäck nach dem Auschecken routinemäßig, für Gäste meist kostenlos; Bahnhöfe und Anbieter im Zentrum tun es gegen Gebühr. Danach zu fragen macht aus einem toten letzten Tag einen echten."
+      },
+      {
+        "titulo": "Die letzte Rechnung lesen",
+        "corpo": "Kurtaxe, Minibar und Extras stehen auf der Schlussrechnung, nicht in der vorab bezahlten Buchung. Um die Aufschlüsselung zu bitten ist kein Misstrauen — es ist der letzte Moment, in dem eine Frage noch leicht zu beantworten ist."
+      },
+      {
+        "titulo": "Die Reise endet mit einem Abschied",
+        "corpo": "Dieses Modul begann mit einem Gruß, den Sie gaben, bevor Sie etwas brauchten. Es endet mit einem, den Sie geben, wenn Sie nichts mehr brauchen. Diese Symmetrie ist der ganze Punkt: Die Sprache war nie nur zum Bekommen da."
+      }
+    ]
+  },
+  "slot": "B18",
+  "permissao": "Sie dürfen zum Abschied etwas Herzliches sagen, in unvollkommenem Italienisch, zu jemandem, den Sie vermutlich nie wiedersehen. Das ist keine Sentimentalität — es ist der letzte und leichteste Gebrauch von allem, was Sie gelernt haben, und er kostet einen Satz.",
+  "permissaoAudioKey": "it-b18-n03",
+  "espelho": "Wer ein Hotel schon mit einem Nicken verlassen und erst draußen gedacht hat, dass er der Person an der Rezeption etwas hätte sagen sollen, kennt dieses kleine Bedauern. Es liegt nicht an der Sprache; der Satz lässt sich einfach leichter auslassen als sagen.",
+  "fichasCulturais": [
+    {
+      "sinal": "Sie bedanken sich herzlich an der Rezeption, und man sagt torni a trovarci — kommen Sie uns wieder besuchen.",
+      "suaLeitura": "Eine Höflichkeitsfloskel wie schönen Tag noch, auf die keine echte Antwort erwartet wird.",
+      "oQueEAli": "Es ist eine Floskel, aber eine, die den Rückschlag erwartet. Bleibt sie unbeantwortet, wirkt das Gespräch abgebrochen statt abgeschlossen — in einer Kultur, in der der Schlusswechsel wirklich zählt.",
+      "oQueVoceFaz": "Antworten Sie: torneremo di sicuro, oder einfach alla prossima. Zwei Wörter schließen den Wechsel sauber ab.",
+      "oQueMelhora": "Sie gehen mit einem kleinen Gespräch statt mit einer entgegengenommenen Nettigkeit — und genau so bleibt man in Erinnerung, falls Sie doch wiederkommen.",
+      "ondeNaoVale": "Nicht, wenn Sie sicher nicht wiederkommen und es eine Behauptung wäre, die Sie durchhalten müssten — grazie di tutto allein ist ein vollständiger und ehrlicher Schluss.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "it-b18-n03"
+      ]
+    }
+  ]
+}

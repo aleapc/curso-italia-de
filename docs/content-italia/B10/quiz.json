@@ -1,0 +1,92 @@
+{
+  "id": "q-b10",
+  "nivel": "basico",
+  "titulo": "Quiz — Die Schilder, die Sie lesen können, sind die gefährlichen",
+  "subtitulo": "Aperto, chiuso, guasto, vietato",
+  "introAudioKey": "it-b10-q-i",
+  "introPt": "Eine Reisende klärt, ob ein Laden offen ist — und ab wann.",
+  "cenario": "Vor einem gedruckten Schild an einer Ladentür.",
+  "dialogo": [
+    {
+      "audioKey": "it-b10-q01",
+      "voz": "target_it_m",
+      "es": "Chiuso per ferie. Riapriamo il ventidue agosto.",
+      "pt": "Betriebsferien. Wir öffnen wieder am zweiundzwanzigsten August."
+    },
+    {
+      "audioKey": "it-b10-q02",
+      "voz": "target_it_f",
+      "es": "Scusi, è aperto?",
+      "pt": "Entschuldigung, ist geöffnet?"
+    },
+    {
+      "audioKey": "it-b10-q03",
+      "voz": "target_it_m",
+      "es": "Alle sedici. Ora facciamo la pausa.",
+      "pt": "Um vier. Jetzt ist Mittagspause."
+    },
+    {
+      "audioKey": "it-b10-q04",
+      "voz": "target_it_f",
+      "es": "Cosa vuol dire questo?",
+      "pt": "Was heißt das?"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Auf der Karte steht caldo. Was bekommen Sie?",
+      "opcoes": [
+        "Etwas Kaltes",
+        "Etwas Heißes",
+        "Etwas Scharfes",
+        "Etwas Süßes"
+      ],
+      "correta": 1,
+      "explica": "Der teuerste falsche Freund der Liste — sonst bestellen Sie das Gegenteil."
+    },
+    {
+      "pergunta": "Guasto heißt:",
+      "opcoes": [
+        "Schmackhaft",
+        "Reserviert",
+        "Kaputt",
+        "Betriebsferien"
+      ],
+      "correta": 2,
+      "explica": "Fuori servizio sagt dasselbe: den anderen Automaten suchen."
+    },
+    {
+      "pergunta": "Alle sedici — wie spät ist das?",
+      "opcoes": [
+        "Sechs Uhr",
+        "Sechzehn Minuten nach",
+        "Vier Uhr nachmittags",
+        "Sechs Uhr morgens"
+      ],
+      "correta": 2,
+      "explica": "Geschriebene Zeiten stehen fast immer in der Vierundzwanzig-Stunden-Zählung."
+    },
+    {
+      "pergunta": "Was kündigt orario continuato an?",
+      "opcoes": [
+        "Durchgehend geöffnet, keine Mittagspause",
+        "Ganztägig geschlossen",
+        "Nur nach Vereinbarung",
+        "Durchgehende Warteschlange"
+      ],
+      "correta": 0,
+      "explica": "Es kündigt die Ausnahme an — also ist die pausa in der Gegend die Regel."
+    },
+    {
+      "pergunta": "Spingere und tirare heißen:",
+      "opcoes": [
+        "Auf und zu",
+        "Drücken und ziehen",
+        "Rein und raus",
+        "Verboten und erlaubt"
+      ],
+      "correta": 1,
+      "explica": "Entrata und uscita sind das Paar für rein und raus."
+    }
+  ]
+}

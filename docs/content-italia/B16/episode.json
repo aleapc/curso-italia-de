@@ -1,0 +1,279 @@
+{
+  "id": "b16",
+  "nivel": "basico",
+  "numero": 16,
+  "parte": "6A",
+  "titulo": "Check-in: um das bitten, was das Zimmer besser macht, solange es noch nichts kostet",
+  "subtitulo": "Eine höhere Etage, ein ruhigeres Zimmer, ein späterer Check-out — am Empfang gefragt, wenn die Antwort noch leicht fällt",
+  "cena": "Sie stehen mit dem Schlüssel in der Hand am Empfang und haben dreißig Sekunden, bevor das Gespräch für den Rest der Woche vorbei ist.",
+  "moldura": "ganha",
+  "frasePiso": "Der beste Moment, das Zimmer zu verbessern, ist bevor Sie es gesehen haben. Danach bitten Sie nicht mehr, sondern beanstanden.",
+  "moldes": [],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "it-b16-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Der Check-in sind dreißig Sekunden, in denen noch alles verstellbar ist. Nutzen Sie sie zum Fragen, nicht zum Bestätigen."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-b16-r01",
+      "es": "Buonasera, ha una prenotazione?",
+      "pt": "Guten Abend, haben Sie eine Reservierung?",
+      "tts": "Buonasera, ha una prenotazione?"
+    },
+    {
+      "consulta": [
+        "dormir/checkin",
+        "antes/reserva"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-b16-p01",
+      "promptPt": "Der Empfang wartet auf Ihren Namen. Antworten Sie kurz. Sprechen Sie jetzt.",
+      "audioKey": "it-b16-t01",
+      "es": "Sì, ho una prenotazione a nome Rossi.",
+      "pinyin": "see, oh OO-na pre-no-ta-tsee-O-ne a NO-me ROS-see",
+      "pt": "Ja, ich habe eine Reservierung auf den Namen Rossi.",
+      "tts": "Sì, ho una prenotazione a nome Rossi."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "it-b16-n02",
+      "bloco": "corpo",
+      "pt": "Jetzt fragen. Ein ruhigeres Zimmer kostet das Haus nichts, wenn eines frei ist — und Sie eine Woche Schlaf."
+    },
+    {
+      "consulta": [
+        "dormir/quarto"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "C-E",
+      "encaixe": "una camera più tranquilla",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-b16-p02",
+      "promptPt": "Die Straße draußen ist laut. Nutzen Sie den Baustein aus B08. Sprechen Sie jetzt.",
+      "audioKey": "it-b16-t02",
+      "es": "C'è una camera più tranquilla?",
+      "pinyin": "cheh OO-na KA-me-ra pyoo tran-KWEEL-la",
+      "pt": "Gibt es ein ruhigeres Zimmer?",
+      "tts": "C'è una camera più tranquilla?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-b16-r02",
+      "es": "Le do una all'ultimo piano, sul cortile.",
+      "pt": "Ich gebe Ihnen eines im obersten Stock, zum Innenhof.",
+      "tts": "Le do una all'ultimo piano, sul cortile.",
+      "receptivo": true,
+      "acao": "Sagen Sie ohne Zögern Ja zur Innenhofseite."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "it-b16-n03",
+      "pt": "Camera ist das Zimmer, nicht der Fotoapparat. Sul cortile heißt zum Innenhof, die ruhige Seite fast jedes Hauses."
+    },
+    {
+      "consulta": [
+        "dormir/checkout"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "POSSO",
+      "encaixe": "fare il check-out più tardi",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-b16-p03",
+      "promptPt": "Ihr Flug geht erst abends, das Zimmer wird mittags frei. Nutzen Sie den Baustein aus B06. Sprechen Sie jetzt.",
+      "audioKey": "it-b16-t03",
+      "es": "Posso fare il check-out più tardi?",
+      "pinyin": "POS-so FA-re eel chek-AUT pyoo TAR-dee",
+      "pt": "Kann ich später auschecken?",
+      "tts": "Posso fare il check-out più tardi?"
+    },
+    {
+      "consulta": [
+        "dormir/cafe"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-b16-p04",
+      "promptPt": "Am ersten Morgen wollen Sie den Speisesaal nicht verpassen. Fragen Sie nach der Uhrzeit. Sprechen Sie jetzt.",
+      "audioKey": "it-b16-t04",
+      "es": "A che ora è la colazione?",
+      "pinyin": "a keh O-ra eh la ko-la-tsee-O-ne",
+      "pt": "Um wie viel Uhr gibt es Frühstück?",
+      "tts": "A che ora è la colazione?",
+      "molde": "A-CHE-ORA",
+      "encaixe": "è la colazione"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "it-b16-n04",
+      "bloco": "capsula",
+      "pt": "Erst jetzt die Beanstandungen. Nennen Sie die Sache und hören Sie auf — kein Adjektiv, keine Entschuldigung, keine Geschichte."
+    },
+    {
+      "consulta": [
+        "dormir/problema"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-b16-p05",
+      "promptPt": "Im Zimmer bleibt es heiß, das Gerät an der Wand bleibt stumm. Sagen Sie es schlicht. Sprechen Sie jetzt.",
+      "audioKey": "it-b16-t05",
+      "es": "L'aria condizionata non funziona.",
+      "pinyin": "LA-rya kon-dee-tsyo-NA-ta non foon-tsee-O-na",
+      "pt": "Die Klimaanlage geht nicht.",
+      "tts": "L'aria condizionata non funziona."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "it-b16-n05",
+      "pt": "Non funziona ist die ganze Beanstandung. Tauschen Sie das Substantiv davor: Dusche, WLAN, Aufzug, Schlüssel."
+    },
+    {
+      "consulta": [
+        "dormir/problema",
+        "chegar/conexao"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-b16-p06",
+      "promptPt": "Das Netz im Zimmer geht auch nicht. Melden Sie es. Sprechen Sie jetzt.",
+      "audioKey": "it-b16-t06",
+      "es": "Il wifi non funziona.",
+      "pinyin": "eel WEE-fee non foon-tsee-O-na",
+      "pt": "Das WLAN geht nicht.",
+      "tts": "Il wifi non funziona."
+    },
+    {
+      "consulta": [
+        "dormir/problema"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "MI-PORTA",
+      "encaixe": "un'altra coperta",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-b16-p07",
+      "promptPt": "Nachts wird es kühl im Zimmer. Nutzen Sie den Baustein aus B14. Sprechen Sie jetzt.",
+      "audioKey": "it-b16-t07",
+      "es": "Mi porta un'altra coperta, per favore?",
+      "pinyin": "mee POR-ta oo-NAL-tra ko-PER-ta per fa-VO-re",
+      "pt": "Bringen Sie mir bitte noch eine Decke?",
+      "tts": "Mi porta un'altra coperta, per favore?"
+    },
+    {
+      "consulta": [
+        "dormir/bagagem",
+        "reparo/permissao"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "POSSO",
+      "encaixe": "lasciare le valigie",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-b16-p08",
+      "promptPt": "Sie kommen Stunden zu früh an, mit Gepäck. Nutzen Sie den Baustein aus B06. Sprechen Sie jetzt.",
+      "audioKey": "it-b16-t08",
+      "es": "Posso lasciare le valigie qui?",
+      "pinyin": "POS-so la-SHA-re le va-LEE-je kwee",
+      "pt": "Kann ich die Koffer hier lassen?",
+      "tts": "Posso lasciare le valigie qui?"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_it_f",
+      "audioKey": "it-b16-s01",
+      "es": "C'è una camera più tranquilla? Posso fare il check-out più tardi? L'aria condizionata non funziona.",
+      "pinyin": "cheh OO-na KA-me-ra pyoo tran-KWEEL-la. POS-so FA-re eel chek-AUT pyoo TAR-dee. LA-rya kon-dee-tsyo-NA-ta non foon-tsee-O-na",
+      "pt": "Sprechen Sie die Reihenfolge mit: fragen, fragen, dann melden.",
+      "tts": "C'è una camera più tranquilla? Posso fare il check-out più tardi? L'aria condizionata non funziona.",
+      "molde": "POSSO"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_f",
+      "audioKey": "it-b16-n06",
+      "bloco": "recap",
+      "pt": "B16 fertig. Zuerst das ruhigere Zimmer und den späteren Check-out. Non funziona deckt alles ab, was danach kommt."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Früh fragen, schlicht melden",
+    "secoes": [
+      {
+        "titulo": "Warum der Empfang der Moment ist",
+        "corpo": "Beim Check-in verteilt das Personal gerade die Zimmer und hat Optionen. Eine Stunde später heißt dieselbe Bitte, eine bereits getroffene Entscheidung rückgängig zu machen — ein anderes Gespräch mit deutlich schlechterer Trefferquote."
+      },
+      {
+        "titulo": "Non funziona plus das Substantiv",
+        "corpo": "Die Dusche, der Aufzug, der Schlüssel, der Fernseher. Ein Baustein deckt alles Stillstehende im Haus ab, und Sie brauchen dafür kein Verb für das, was genau fehlt.",
+        "exemplos": [
+          {
+            "es": "La doccia non funziona.",
+            "pt": "Die Dusche geht nicht."
+          },
+          {
+            "es": "L'ascensore non funziona.",
+            "pt": "Der Aufzug geht nicht."
+          }
+        ]
+      },
+      {
+        "titulo": "Sul cortile ist die ruhige Seite",
+        "corpo": "Italienische Stadthäuser sind meist um einen Innenhof gebaut, und Zimmer zum Hof sind deutlich ruhiger als zur Straße. Nach der Hofseite zu fragen ist präziser, als um Ruhe zu bitten."
+      },
+      {
+        "titulo": "Die Kurtaxe läuft getrennt",
+        "corpo": "Die meisten italienischen Städte erheben eine tassa di soggiorno pro Person und Nacht, eingezogen vom Haus, oft in bar und meist nicht in dem enthalten, was Sie online gezahlt haben. Sie steht zu Recht auf der Abrechnung — Sätze und Ausnahmen legt jede comune selbst fest."
+      }
+    ]
+  },
+  "slot": "B16",
+  "permissao": "Sie dürfen beim Check-in nach einem besseren Zimmer fragen. Ob es ein ruhigeres, ein höheres oder einen späteren Check-out gibt, ist ein normales Gespräch am Empfang — und deutlich angenehmer, als am dritten Tag umzuziehen.",
+  "permissaoAudioKey": "it-b16-n01",
+  "espelho": "Wer eine Woche in einem Zimmer zur Anlieferzone verbracht hat und jeden Morgen dachte, er hätte am ersten Abend etwas sagen sollen, kennt diese Lektion schon. Das Zeitfenster zum Fragen ist überall kurz, nicht nur in Italien.",
+  "fichasCulturais": [
+    {
+      "sinal": "Beim Check-out werden ein paar Euro pro Person und Nacht in bar verlangt, zusätzlich zu allem, was Sie online schon gezahlt haben.",
+      "suaLeitura": "Da wird im letzten Moment noch etwas draufgeschlagen, wenn ich schlecht widersprechen kann.",
+      "oQueEAli": "Die meisten italienischen Städte erheben eine tassa di soggiorno, eine kommunale Übernachtungsabgabe, die das Haus für die comune einzieht. Buchungsplattformen lassen sie häufig aus dem vorausgezahlten Betrag heraus, sie steckte also wirklich nicht darin.",
+      "oQueVoceFaz": "Halten Sie etwas Bargeld bereit und fragen Sie beim Check-in quanto è la tassa di soggiorno? — dann kennen Sie die Zahl am ersten Tag statt am siebten.",
+      "oQueMelhora": "Der letzte Morgen enthält keine Überraschung, und Sie suchen keinen Geldautomaten, während das Taxi wartet.",
+      "ondeNaoVale": "Nicht überall — manche comuni erheben sie nicht, die Sätze hängen von Stadt und Hotelkategorie ab, und Kinder unter einem örtlich festgelegten Alter sind meist befreit. Fragen Sie nach dem Betrag, statt ihn zu schätzen.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "it-b16-n01"
+      ]
+    }
+  ],
+  "fatosDatados": [
+    {
+      "id": "it-tassa-soggiorno",
+      "afirmacao": "Die meisten italienischen Kommunen erheben eine tassa di soggiorno, eine Übernachtungsabgabe pro Person und Nacht, die das Beherbergungshaus für die comune einzieht. Sie wird örtlich festgesetzt, variiert nach Stadt und Unterkunftskategorie, ist häufig nicht in den vorausgezahlten Beträgen der Buchungsplattformen enthalten und wird oft in bar im Haus kassiert. Örtliche Befreiungen gelten üblicherweise für Kinder unter einem von der comune festgelegten Alter.",
+      "fonte": "Ministero dell'Economia e delle Finanze — imposta di soggiorno, quadro normativo; regolamenti comunali (Roma, Firenze, Venezia)",
+      "ano": 2026,
+      "revisarAte": "2027-08-04",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "it-b16-n01"
+      ]
+    }
+  ]
+}

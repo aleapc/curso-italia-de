@@ -1,0 +1,92 @@
+{
+  "id": "q-b18",
+  "nivel": "basico",
+  "titulo": "Quiz — Der letzte Tag",
+  "subtitulo": "Auschecken, Koffer abstellen, den Satz sagen",
+  "introAudioKey": "it-b18-q-i",
+  "introPt": "Eine Reisende schließt die Reise richtig ab, statt einfach zu gehen.",
+  "cenario": "Der letzte Morgen im Hotel.",
+  "dialogo": [
+    {
+      "audioKey": "it-b18-q01",
+      "voz": "target_it_f",
+      "es": "Buongiorno, vorrei fare il check-out.",
+      "pt": "Guten Morgen, ich möchte auschecken."
+    },
+    {
+      "audioKey": "it-b18-q02",
+      "voz": "target_it_f",
+      "es": "Posso lasciare la valigia fino alle sei?",
+      "pt": "Kann ich den Koffer bis sechs hierlassen?"
+    },
+    {
+      "audioKey": "it-b18-q03",
+      "voz": "target_it_f",
+      "es": "Il ristorante che ci ha consigliato era ottimo.",
+      "pt": "Das Restaurant, das Sie uns empfohlen haben, war ausgezeichnet."
+    },
+    {
+      "audioKey": "it-b18-q04",
+      "voz": "target_it_m",
+      "es": "Che piacere sentirlo. Torni a trovarci!",
+      "pt": "Schön, das zu hören. Kommen Sie uns wieder besuchen!"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Warum nach der aufgeschlüsselten Rechnung fragen?",
+      "opcoes": [
+        "Um sie anzufechten",
+        "Weil Kurtaxe und Extras dort landen, nicht in der vorab bezahlten Buchung",
+        "Um einen Rabatt zu bekommen",
+        "Für den Arbeitgeber"
+      ],
+      "correta": 1,
+      "explica": "Es ist der letzte Moment, in dem eine Frage noch leicht zu klären ist."
+    },
+    {
+      "pergunta": "Was macht einen Abschied wirksam?",
+      "opcoes": [
+        "Lautstärke",
+        "Konkret zu sagen, was wirklich geholfen hat",
+        "Nur Italienisch zu sprechen",
+        "Trinkgeld"
+      ],
+      "correta": 1,
+      "explica": "Konkret trennt Dank von Floskel."
+    },
+    {
+      "pergunta": "Torni a trovarci erwartet:",
+      "opcoes": [
+        "Keine Antwort",
+        "Einen Rückschlag — torneremo oder alla prossima",
+        "Trinkgeld",
+        "Eine Bewertung"
+      ],
+      "correta": 1,
+      "explica": "Unbeantwortet wirkt das Gespräch abgebrochen."
+    },
+    {
+      "pergunta": "Deposito bagagli nach dem Auschecken ist:",
+      "opcoes": [
+        "Unüblich und unangenehm zu erfragen",
+        "Routine, für Gäste meist kostenlos",
+        "Nur an Bahnhöfen",
+        "Nur für Koffer"
+      ],
+      "correta": 1,
+      "explica": "Es macht aus einem toten letzten Tag einen echten."
+    },
+    {
+      "pergunta": "Wie schließt das Modul?",
+      "opcoes": [
+        "Mit einer Warnung",
+        "Mit einem Abschied",
+        "Mit einer Prüfung",
+        "Mit einer Einkaufsliste"
+      ],
+      "correta": 1,
+      "explica": "Es begann mit einem Gruß, gegeben bevor Sie etwas brauchten."
+    }
+  ]
+}

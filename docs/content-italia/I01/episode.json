@@ -1,0 +1,275 @@
+{
+  "id": "i01",
+  "nivel": "intermediario",
+  "numero": 19,
+  "parte": "I01",
+  "titulo": "Ihre Uhr, und warum früh essen den guten Tisch kostet",
+  "subtitulo": "Ein Lokal, das im Touristenzentrum um sechs Abendessen serviert, sagt Ihnen, für wen es da ist — dieselbe Küche um halb neun ist ein anderer Raum",
+  "cena": "Es ist Viertel nach sechs, Sie haben Hunger, und das einzige Lokal mit Licht hat eine Karte in vier Sprachen draußen hängen.",
+  "moldura": "ganha",
+  "frasePiso": "Fragen Sie, wann sie anfangen. Die Antwort sagt Ihnen, wann Sie essen und vor welcher Art Lokal Sie stehen.",
+  "decisao": "bis halb neun warten und dort essen, wo die Leute von hier essen, statt um sechs in dem Lokal zu sitzen, das nur von Gästen lebt",
+  "moldes": [],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "it-i01-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Italien läuft auf einer späteren Uhr, als die meisten Gäste mitbringen. In dieser Lücke sitzt die Touristenfalle."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-i01-r01",
+      "receptivo": true,
+      "acao": "Merken Sie sich die Uhrzeit und kommen Sie dann wieder. Setzen Sie sich nicht zwei Stunden zu früh woanders hin.",
+      "es": "La cucina apre alle otto. Prima solo aperitivo.",
+      "pt": "Die Küche öffnet um acht. Vorher nur aperitivo.",
+      "tts": "La cucina apre alle otto. Prima solo aperitivo."
+    },
+    {
+      "consulta": [
+        "comer/horario"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-i01-p01",
+      "promptPt": "Sie stehen vor der Tür und wollen die Küchenzeit wissen. Fragen Sie nach. Sprechen Sie jetzt.",
+      "audioKey": "it-i01-t01",
+      "es": "A che ora apre la cucina?",
+      "pinyin": "a keh O-ra A-pre la koo-CHEE-na",
+      "pt": "Um wie viel Uhr öffnet die Küche?",
+      "tts": "A che ora apre la cucina?",
+      "molde": "A-CHE-ORA",
+      "encaixe": "apre la cucina"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "it-i01-n02",
+      "bloco": "corpo",
+      "pt": "Der Abendbetrieb beginnt meist gegen halb acht oder acht, im Süden später, und voll wird der Raum erst nach neun."
+    },
+    {
+      "consulta": [
+        "comer/reserva"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-i01-p02",
+      "promptPt": "Reservieren Sie für die Stunde, zu der hier gegessen wird, nicht für Ihren Hunger. Sprechen Sie jetzt.",
+      "audioKey": "it-i01-t02",
+      "es": "Un tavolo per due alle nove, è possibile?",
+      "pinyin": "oon TA-vo-lo per DOO-eh AL-le NO-ve, eh pos-SEE-bee-le",
+      "pt": "Ein Tisch für zwei um neun, geht das?",
+      "tts": "Un tavolo per due alle nove, è possibile?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "it-i01-n03",
+      "pt": "Und die zwei Stunden? Das, was alle machen: der aperitivo aus dem letzten Teil."
+    },
+    {
+      "consulta": [
+        "comer/horario"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-i01-p03",
+      "promptPt": "Das Mittagessen hat sein eigenes Fenster. Fragen Sie, bis wann es geht. Sprechen Sie jetzt.",
+      "audioKey": "it-i01-t03",
+      "es": "Fino a che ora si pranza?",
+      "pinyin": "FEE-no a keh O-ra see PRAN-tsa",
+      "pt": "Bis wann gibt es Mittagessen?",
+      "tts": "Fino a che ora si pranza?",
+      "molde": "A-CHE-ORA",
+      "encaixe": "si pranza"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-i01-r02",
+      "receptivo": true,
+      "acao": "Halb drei ist die harte Kante. Danach ist die Küche zu, nicht langsam.",
+      "es": "Fino alle due e mezza. Poi la cucina chiude.",
+      "pt": "Bis halb drei. Dann schließt die Küche.",
+      "tts": "Fino alle due e mezza. Poi la cucina chiude."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "it-i01-n04",
+      "bloco": "capsula",
+      "pt": "Wer im Touristenzentrum um sechs volle Menüs serviert, sagt Ihnen damit, für wen er kocht."
+    },
+    {
+      "consulta": [
+        "comer/escolher"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-i01-p04",
+      "promptPt": "Fragen Sie jemanden von hier nach seinem eigenen Abend, nicht nach einer Empfehlung für Sie. Sprechen Sie jetzt.",
+      "audioKey": "it-i01-t04",
+      "es": "Lei dove va a mangiare la sera?",
+      "pinyin": "lay DO-ve va a man-JA-re la SE-ra",
+      "pt": "Wo gehen Sie abends essen?",
+      "tts": "Lei dove va a mangiare la sera?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "it-i01-n05",
+      "pt": "Die Formulierung zählt. Wo soll ich essen bringt die Touristenantwort; wo essen Sie bringt die andere."
+    },
+    {
+      "consulta": [
+        "comer/reserva"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-i01-p05",
+      "promptPt": "Klären Sie, ob man hier überhaupt vorher reservieren muss. Sprechen Sie jetzt.",
+      "audioKey": "it-i01-t05",
+      "es": "Bisogna prenotare?",
+      "pinyin": "bee-ZO-nya pre-no-TA-re",
+      "pt": "Muss man reservieren?",
+      "tts": "Bisogna prenotare?"
+    },
+    {
+      "consulta": [
+        "comer/horario"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "C-E",
+      "encaixe": "un posto senza prenotazione",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-i01-p06",
+      "promptPt": "Sie haben nicht reserviert, und es ist neun. Fragen Sie mit dem Baustein aus B08. Sprechen Sie jetzt.",
+      "audioKey": "it-i01-t06",
+      "es": "C'è un posto senza prenotazione?",
+      "pinyin": "cheh oon POS-to SEN-tsa pre-no-ta-TSYO-ne",
+      "pt": "Gibt es einen Platz ohne Reservierung?",
+      "tts": "C'è un posto senza prenotazione?"
+    },
+    {
+      "consulta": [
+        "comer/horario"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-i01-p07",
+      "promptPt": "Es ist spät, und Sie wollen wissen, ob es noch reicht. Sprechen Sie jetzt.",
+      "audioKey": "it-i01-t07",
+      "es": "Siamo ancora in tempo per mangiare?",
+      "pinyin": "SYA-mo an-KO-ra een TEM-po per man-JA-re",
+      "pt": "Sind wir noch rechtzeitig zum Essen?",
+      "tts": "Siamo ancora in tempo per mangiare?"
+    },
+    {
+      "consulta": [
+        "comer/reserva"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-i01-p08",
+      "promptPt": "Sie stehen ohnehin schon da: sichern Sie sich morgen Abend. Sprechen Sie jetzt.",
+      "audioKey": "it-i01-t08",
+      "es": "Allora prenoto per domani sera.",
+      "pinyin": "al-LO-ra pre-NO-to per do-MA-nee SE-ra",
+      "pt": "Dann reserviere ich für morgen Abend.",
+      "tts": "Allora prenoto per domani sera."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_it_f",
+      "audioKey": "it-i01-s01",
+      "es": "A che ora apre la cucina? Un tavolo per due alle nove, è possibile? Lei dove va a mangiare la sera?",
+      "pinyin": "a keh O-ra A-pre la koo-CHEE-na. oon TA-vo-lo per DOO-eh AL-le NO-ve eh pos-SEE-bee-le. lay DO-ve va a man-JA-re la SE-ra",
+      "pt": "Sprechen Sie die drei Fragen mit, die Ihren Abend retten.",
+      "tts": "A che ora apre la cucina? Un tavolo per due alle nove, è possibile? Lei dove va a mangiare la sera?",
+      "molde": "C-E"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_f",
+      "audioKey": "it-i01-n06",
+      "bloco": "recap",
+      "pt": "I01 geschafft. Küchenzeiten, ein Tisch um neun und lei dove va — die Frage, die die echte Antwort bringt."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Zwei Uhren, eine Lücke",
+    "secoes": [
+      {
+        "titulo": "Das Mittagsfenster ist schmal",
+        "corpo": "Küchen servieren mittags meist von etwa halb eins bis halb drei und hören dann ganz auf. Um drei mit Appetit auf ein volles Menü anzukommen ist der häufigste Weg, unterwegs schlecht zu essen.",
+        "exemplos": [
+          {
+            "es": "Fino a che ora si pranza?",
+            "pt": "Bis wann gibt es Mittagessen?"
+          },
+          {
+            "es": "Siamo ancora in tempo per mangiare?",
+            "pt": "Sind wir noch rechtzeitig zum Essen?"
+          }
+        ]
+      },
+      {
+        "titulo": "Nach Süden hin beginnt das Abendessen später",
+        "corpo": "Im Norden öffnet eine Küche schon mal um halb acht; im Süden ist neun gewöhnlich, und voll wird der Raum um zehn. Zur Ehrlichkeit gehört der Status dieser Zahlen: Die Öffnungszeiten wurden 2011 vollständig liberalisiert, nichts davon ist also Vorschrift, und eine landesweite Erhebung, wann in Italien tatsächlich gegessen wird, war nicht auffindbar. Es ist eine gut belegte Konvention, keine Messung — genau deshalb lehrt dieser Teil das Fragen statt eine auswendig gelernte Uhrzeit."
+      },
+      {
+        "titulo": "Das Signal um sechs",
+        "corpo": "Voller Abendbetrieb um sechs in einer zentralen Touristenlage ist keine Abzocke, sondern eine Geschäftsentscheidung darüber, wer draußen vorbeigeht. Dazu kommen meist eine mehrsprachige Karte und Fotos — dasselbe Signal noch einmal."
+      },
+      {
+        "titulo": "Wie die Frage gestellt ist",
+        "corpo": "Dove dovrei mangiare lädt zu einer Empfehlung ein, die auf Gäste zugeschnitten ist. Lei dove va a mangiare fragt nach dem eigenen Leben und bringt eine andere Liste hervor: meist weiter vom Zentrum weg und günstiger."
+      }
+    ]
+  },
+  "slot": "I01",
+  "permissao": "Sie dürfen zwei Stunden lang Hunger haben. Bis halb neun zu warten ist keine Geduldsprobe mit kultureller Pointe — dort stehen schlicht die guten Tische, und der aperitivo ist genau dafür da, diese Lücke zu füllen.",
+  "permissaoAudioKey": "it-i01-n03",
+  "espelho": "Wer am ersten Reiseabend schon einmal um fünf zu Abend gegessen hat, weil die innere Uhr noch nicht mitgekommen war, kennt diese Lücke. Sie schließt sich in zwei Tagen von selbst; es kostet nur die Restaurants, die man in der Zwischenzeit gesehen hat.",
+  "fichasCulturais": [
+    {
+      "sinal": "Sie gehen um acht Uhr abends an einem Restaurant vorbei, es ist fast leer, und Sie nehmen an, es tauge nichts, und gehen weiter.",
+      "suaLeitura": "Ein leerer Raum zur Essenszeit heißt, die Leute von hier meiden das Lokal.",
+      "oQueEAli": "Acht ist in weiten Teilen Italiens früh und im Süden sehr früh. Der Raum, den Sie beurteilen, füllt sich zwischen neun und zehn; die Leere, die Sie als Urteil lesen, ist nur die Uhrzeit.",
+      "oQueVoceFaz": "Fragen Sie a che ora apre la cucina, reservieren Sie für neun und gehen Sie dazwischen einen aperitivo trinken.",
+      "oQueMelhora": "Sie wählen Restaurants nicht mehr danach aus, welche gerade voller Menschen mit fremdem Zeitplan sind — ein Filter, der zuverlässig die falschen findet.",
+      "ondeNaoVale": "Nicht mittags: Da ist ein voller Raum wirklich ein gutes Zeichen, weil das Fenster schmal ist und alle innerhalb derselben zwei Stunden essen — und nicht bei einem Lokal, das um zehn noch leer ist.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "it-i01-n02"
+      ]
+    }
+  ],
+  "fatosDatados": [
+    {
+      "id": "it-orari-liberalizzati",
+      "afirmacao": "Es gibt in Italien keine gesetzlich festgelegte Abendessenszeit: Öffnungs- und Schließzeiten von Handel und Gastronomie wurden durch Art. 31 des D.L. 201/2011, umgesetzt in das L. 214/2011, vollständig liberalisiert und gelten landesweit ohne regionale Ausführung. Die in diesem Teil vermittelten Zeiten sind daher Konvention, nicht Vorschrift, und eine Istat- oder Branchenerhebung zur durchschnittlichen Beginnzeit des Abendessens war nicht auffindbar — das Nord-Süd-Gefälle ist breit berichtet, aber nicht gemessen.",
+      "fonte": "Camera dei Deputati — dossier «Disciplina degli orari di apertura degli esercizi commerciali»; D.L. 201/2011 conv. L. 214/2011",
+      "ano": 2026,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "it-i01-n02"
+      ]
+    }
+  ]
+}

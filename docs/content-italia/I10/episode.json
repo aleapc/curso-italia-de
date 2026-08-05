@@ -1,0 +1,274 @@
+{
+  "id": "i10",
+  "nivel": "intermediario",
+  "numero": 28,
+  "parte": "I10",
+  "titulo": "Geld hier: die Karte, die man nehmen muss, das Trinkgeld, das niemand erwartet",
+  "subtitulo": "Karten müssen angenommen werden, Trinkgeld ist hier nicht der Mechanismus, getrennt zahlen ist normal, und gehandelt wird nur an zwei Orten",
+  "cena": "Das Gerät geht angeblich gerade nicht, Sie haben zwölf Euro in bar, und Sie überlegen, ob das eine Sackgasse ist oder eine Verhandlung.",
+  "moldura": "ganha",
+  "frasePiso": "Nichts davon ist ein Streit. Stellen Sie die direkte Frage in ruhigem Ton, und die Antwort ist fast immer ja.",
+  "decisao": "höflich auf der Karte bestehen und nicht aus Reflex Trinkgeld geben, statt aus Verlegenheit bar zu zahlen und 15 % draufzulegen, die niemand verlangt hat",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "it-pos-obbligo",
+      "afirmacao": "Händler, Handwerker und Freiberufler in Italien müssen elektronische Kartenzahlung ohne Mindestbetrag annehmen, außer bei objektiver technischer Unmöglichkeit. Seit dem 30. Juni 2022 kostet eine Verweigerung 30 Euro plus 4 % des verweigerten Betrags. Ab dem 1. Januar 2026 muss das POS-Terminal zusätzlich mit der elektronischen Registrierkasse verbunden sein. Die Einhaltung ist lückenhaft und wurde gemessen: Bei Testkäufen von Altroconsumo lehnten 18 % der Taxis in sechs Städten die Karte ab, rund die Hälfte der Tabaccherie und 37 bis 40 % der Marktstände, meist mit der Auskunft, das Gerät sei defekt.",
+      "fonte": "D.L. 179/2012 e successive modifiche; Legge di Bilancio 2025 (collegamento POS-registratore); Altroconsumo — «Pagare con pos: il 18% dei taxi dice no», dicembre 2023",
+      "ano": 2026,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "it-i10-n03"
+      ]
+    },
+    {
+      "id": "it-mancia",
+      "afirmacao": "Trinkgeld ist in Italien freiwillig und klein: Laut FIPE geben rund 60 % der italienischen Gäste mehr oder weniger regelmäßig Trinkgeld, typischerweise ein paar Euro in bar. In der Praxis geht es nur bar — etwa 62 % der Betriebe nehmen Trinkgeld ausschließlich in bar an, und nur 0,8 % erlauben ein elektronisches Trinkgeld. Federconsumatori hält fest, dass Trinkgeld eine freie Entscheidung des Gastes bleiben muss, und behandelt ein vom Lokal auf die Rechnung gesetztes «Trinkgeld» von 10 % als versteckte Kosten, die man beanstanden kann. Für Trinkgeldnormen bei Taxi oder Hotel fand sich keine institutionelle Quelle; die kursierenden Prozentangaben für Taxis stammen aus Reiseblogs und widersprechen einander.",
+      "fonte": "FIPE via QuiFinanza — «Mancia al ristorante, quanto può incidere sul conto»; Linkiesta — «Nei ristoranti italiani è ancora difficile pagare la mancia con carta», gennaio 2025; Federconsumatori Toscana via La Nazione",
+      "ano": 2026,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "it-i10-n02"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "it-i10-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Vier Geldfragen kommen auf jeder Reise hierher vor. Alle vier haben klare Antworten, und keine verlangt Härte."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "it-i10-n02",
+      "bloco": "corpo",
+      "pt": "Erstens: Trinkgeld. Der Service steckt normalerweise im Preis. Aufrunden ist herzlich, fünfzehn Prozent sind fremd."
+    },
+    {
+      "consulta": [
+        "pagar/conta"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-i10-p01",
+      "promptPt": "Runden Sie auf und schließen Sie ab, ohne zu rechnen. Sprechen Sie jetzt.",
+      "audioKey": "it-i10-t01",
+      "es": "Lasci pure il resto, grazie.",
+      "pinyin": "LA-shee POO-re eel RES-to, GRA-tsee-eh",
+      "pt": "Behalten Sie den Rest, danke.",
+      "tts": "Lasci pure il resto, grazie."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "it-i10-n03",
+      "bloco": "capsula",
+      "pt": "Zweitens: Karten. Betriebe müssen sie hier annehmen, ohne Mindestbetrag. Ein defektes Gerät ist manchmal nur eine Vorliebe."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-i10-r01",
+      "receptivo": true,
+      "acao": "Gehen Sie noch nicht zum Geldautomaten. Fragen Sie einmal, in ruhigem Ton, und sehen Sie, was passiert.",
+      "es": "Eh, il POS oggi non va tanto bene...",
+      "pt": "Ach, das Kartengerät läuft heute nicht so gut ...",
+      "tts": "Eh, il POS oggi non va tanto bene..."
+    },
+    {
+      "consulta": [
+        "pagar/cartao"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-i10-p02",
+      "promptPt": "Sie glauben dem Gerät nicht ganz. Bleiben Sie freundlich, ohne Vorwurf. Sprechen Sie jetzt.",
+      "audioKey": "it-i10-t02",
+      "es": "Proviamo lo stesso, per favore?",
+      "pinyin": "pro-VYA-mo lo STES-so, per fa-VO-re",
+      "pt": "Versuchen wir es trotzdem, bitte?",
+      "tts": "Proviamo lo stesso, per favore?"
+    },
+    {
+      "consulta": [
+        "pagar/cartao"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-i10-p03",
+      "promptPt": "Ihr Portemonnaie ist leer, und das ist die ganze Wahrheit. Sagen Sie es. Sprechen Sie jetzt.",
+      "audioKey": "it-i10-t03",
+      "es": "Non ho contanti, mi dispiace.",
+      "pinyin": "non oh kon-TAN-tee, mee dees-pee-A-che",
+      "pt": "Ich habe kein Bargeld, tut mir leid.",
+      "tts": "Non ho contanti, mi dispiace."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "it-i10-n04",
+      "pt": "Drittens: teilen. Getrennt zahlen ist völlig gewöhnlich, und die Summe durch die Zahl der Leute am Tisch zu teilen auch."
+    },
+    {
+      "consulta": [
+        "pagar/dividir"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-i10-p04",
+      "promptPt": "Vier Leute, eine Rechnung, niemand rechnet gern. Machen Sie den Vorschlag. Sprechen Sie jetzt.",
+      "audioKey": "it-i10-t04",
+      "es": "Facciamo alla romana?",
+      "pinyin": "fat-CHA-mo AL-la ro-MA-na",
+      "pt": "Teilen wir gleichmäßig?",
+      "tts": "Facciamo alla romana?"
+    },
+    {
+      "consulta": [
+        "pagar/dividir"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-i10-p05",
+      "promptPt": "An der Kasse zahlt lieber jeder für sich. Sagen Sie es. Sprechen Sie jetzt.",
+      "audioKey": "it-i10-t05",
+      "es": "Conti separati, per favore.",
+      "pinyin": "KON-tee se-pa-RA-tee per fa-VO-re",
+      "pt": "Getrennte Rechnungen, bitte.",
+      "tts": "Conti separati, per favore."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "it-i10-n05",
+      "pt": "Viertens: handeln. In Läden und Restaurants nicht. Auf dem Flohmarkt oder beim Straßenhändler schon, in Maßen."
+    },
+    {
+      "consulta": [
+        "pagar/preco",
+        "comprar/preco"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "QUANTO-COSTA",
+      "encaixe": "se ne prendo due",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-i10-p06",
+      "promptPt": "Auf dem Flohmarkt gefallen Ihnen zwei Stücke statt einem. Nutzen Sie den Baustein aus B11. Sprechen Sie jetzt.",
+      "audioKey": "it-i10-t06",
+      "es": "Quanto costa se ne prendo due?",
+      "pinyin": "KWAN-to KOS-ta seh neh PREN-do DOO-eh",
+      "pt": "Wie viel kostet es, wenn ich zwei nehme?",
+      "tts": "Quanto costa se ne prendo due?"
+    },
+    {
+      "consulta": [
+        "pagar/preco"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-i10-p07",
+      "promptPt": "Der Schein ist groß, der Kauf ist klein. Sagen Sie es an, bevor die Kasse aufgeht. Sprechen Sie jetzt.",
+      "audioKey": "it-i10-t07",
+      "es": "Ho solo cinquanta, va bene?",
+      "pinyin": "oh SO-lo cheen-KWAN-ta, va BEH-ne",
+      "pt": "Ich habe nur einen Fünfziger, geht das?",
+      "tts": "Ho solo cinquanta, va bene?"
+    },
+    {
+      "consulta": [
+        "pagar/recibo"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-i10-p08",
+      "promptPt": "Schließen Sie jede dieser Szenen gleich ab: mit dem Beleg. Sprechen Sie jetzt.",
+      "audioKey": "it-i10-t08",
+      "es": "Mi dà lo scontrino, per favore?",
+      "pinyin": "mee da lo skon-TREE-no per fa-VO-re",
+      "pt": "Geben Sie mir bitte den Kassenbon?",
+      "tts": "Mi dà lo scontrino, per favore?"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_it_f",
+      "audioKey": "it-i10-s01",
+      "es": "Proviamo lo stesso, per favore? Non ho contanti, mi dispiace. Facciamo alla romana?",
+      "pinyin": "pro-VYA-mo lo STES-so per fa-VO-re. non oh kon-TAN-tee mee dees-pee-A-che. fat-CHA-mo AL-la ro-MA-na",
+      "pt": "Sprechen Sie die drei Sätze mit, die fast jede Geldszene klären.",
+      "tts": "Proviamo lo stesso, per favore? Non ho contanti, mi dispiace. Facciamo alla romana?",
+      "molde": "QUANTO-COSTA"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_f",
+      "audioKey": "it-i10-n06",
+      "bloco": "recap",
+      "pt": "I10 geschafft, und APROVEITO dazu. Aufrunden, bei der Karte nachfragen, frei teilen, den Beleg nehmen."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Vier Fragen mit klaren Antworten",
+    "secoes": [
+      {
+        "titulo": "Die Kartenpflicht ist echt",
+        "corpo": "Elektronische Zahlung anzunehmen ist gesetzliche Pflicht, ohne Mindestbetrag, und seit Mitte 2022 kostet eine Verweigerung dreißig Euro plus vier Prozent des verweigerten Betrags. Verweigert wird trotzdem, und es ist gemessen: Bei Testkäufen von Verbraucherverbänden wies etwa jedes fünfte Taxi und rund die Hälfte der Tabaccherie die Karte ab, fast immer mit einem defekten Gerät als Begründung. Ein ruhiges proviamo lo stesso löst die meisten dieser Fälle.",
+        "exemplos": [
+          {
+            "es": "Proviamo lo stesso, per favore?",
+            "pt": "Versuchen wir es trotzdem, bitte?"
+          },
+          {
+            "es": "Non ho contanti, mi dispiace.",
+            "pt": "Ich habe kein Bargeld, tut mir leid."
+          }
+        ]
+      },
+      {
+        "titulo": "Alla romana",
+        "corpo": "Die Summe gleichmäßig auf alle am Tisch aufteilen, unabhängig davon, wer was bestellt hat. Die Accademia della Crusca führt es auf die alte romanata zurück, eine Runde, bei der jeder seinen Anteil am Ganzen zahlte. Es ist kein Witz über knausrige Römer — das wäre pagare alla genovese, ein anderer und unfreundlicher Ausdruck. Gleichmäßig teilen ist unter Freunden der übliche Standard und geht schneller, als jede Position einzeln zuzuordnen."
+      },
+      {
+        "titulo": "Trinkgeld ist nicht der Mechanismus",
+        "corpo": "Etwa sechs von zehn italienischen Gästen geben Trinkgeld, und wenn, dann ein paar Euro in bar statt eines Prozentsatzes. Es läuft in der Praxis wie aus Gewohnheit über Bargeld: Kaum ein Betrieb kann ein Trinkgeld über das Kartengerät abwickeln. Ein auf der Rechnung ausgewiesener Servizio ist bezahlter Service; ein «Trinkgeld» von zehn Prozent, das das Lokal von sich aus draufsetzt, ist etwas anderes, und Verbraucherverbände behandeln es als versteckte Kosten."
+      },
+      {
+        "titulo": "Wo gehandelt wird",
+        "corpo": "Auf Flohmärkten, Secondhand- und Antikmärkten, in Maßen und je nach Umfeld: auf dem Flohmarkt fast erwartet, auf einer hochpreisigen Antiquitätenmesse minimal und förmlich. Läden, Restaurants, Bars und Taxis haben feste Preise. Dieser Punkt ist Hintergrundwissen und keine belegte Angabe — kein Verbraucher- oder Branchenverband veröffentlicht dazu —, aber nichts von dem, was sich fand, widerspricht ihm."
+      }
+    ]
+  },
+  "slot": "I10",
+  "permissao": "Sie dürfen darauf bestehen, mit Karte zu zahlen. Die Pflicht, sie anzunehmen, liegt beim Betrieb, Sie bitten nicht um einen Gefallen, und eine ruhige Frage in normaler Stimmlage klärt das weit öfter als der Weg zum Geldautomaten.",
+  "permissaoAudioKey": "it-i10-n03",
+  "espelho": "Wer zu Hause schon einmal bar gezahlt hat, statt bei «das Gerät ist gerade kaputt» nachzuhaken, kennt den Reflex, um den es hier geht. Zweimal zu fragen ist kurz unangenehm; nicht zu fragen kostet leise und die ganze Woche lang.",
+  "fichasCulturais": [
+    {
+      "sinal": "Sie zücken für einen kleinen Einkauf die Karte und hören, das Gerät gehe heute nicht, oder es gebe einen Mindestbetrag.",
+      "suaLeitura": "Das Gerät ist kaputt und ich muss Bargeld holen, oder ein Mindestbetrag ist normal.",
+      "oQueEAli": "Betriebe in Italien müssen Kartenzahlung ohne Mindestbetrag annehmen. Ein genannter Mindestbetrag ist nicht zulässig, und ein Gerät, das nur bei kleinen Beträgen kränkelt, ist meist eine Vorliebe und kein Defekt.",
+      "oQueVoceFaz": "Fragen Sie proviamo lo stesso, per favore? in ruhigem Ton, und ergänzen Sie bei Bedarf non ho contanti. Die meisten Absagen enden dort.",
+      "oQueMelhora": "Sie behalten den Einkauf, behalten den Beleg und verlieren nicht mehr zwanzig Minuten am Tag an Geldautomaten und ihre Gebühren.",
+      "ondeNaoVale": "Nicht der Rede wert zum Eskalieren — ein wirklich defektes Gerät gibt es, und das ist eine Sache für eine ruhige Frage statt für eine Auseinandersetzung. Kleine Märkte und Händler auf dem Land können trotz der Regel praktisch nur Bargeld nehmen.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "it-i10-n03"
+      ]
+    }
+  ]
+}

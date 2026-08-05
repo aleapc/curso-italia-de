@@ -1,0 +1,287 @@
+{
+  "id": "b09",
+  "nivel": "basico",
+  "numero": 9,
+  "parte": "3B",
+  "titulo": "Das Ticket, das sich selbst entwertet — und das andere",
+  "subtitulo": "Digitale Regionaltickets aktivieren sich heute von allein — Papier braucht weiter den Automaten, und der alte Rat stimmt nur halb",
+  "cena": "Die Anzeige sagt, Ihr Zug fährt in sechs Minuten, und an der Wand hängt ein kleiner grüner Automat, von dem Sie nicht wissen, ob er für Sie gilt.",
+  "moldura": "resolve",
+  "frasePiso": "Digital entwertet sich selbst. Papier braucht den Automaten. Zu wissen, was Sie in der Hand halten, ist die ganze Kunst.",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "it-validazione-digitale",
+      "afirmacao": "Das Biglietto Digitale Regionale aktiviert sich automatisch zur planmäßigen Abfahrtszeit des gewählten Zuges — ein manueller Check-in entfällt. Nach der automatischen Aktivierung lässt es sich nicht mehr auf ein anderes Datum oder eine andere Uhrzeit umbuchen. Der QR-Code muss bei der Kontrolle auf einem Gerät vorgezeigt werden können; wer ihn nicht zeigen kann, gilt unter Umständen als ohne gültigen Fahrschein reisend.",
+      "fonte": "Rail Europe Help — «Italian Regional Train Digital Tickets & QR Codes»; ItalyPlanner — «Italy Regional Trains Guide 2026»",
+      "ano": 2026,
+      "revisarAte": "2027-02-04",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "it-b09-n03"
+      ]
+    },
+    {
+      "id": "it-validazione-carta-multa",
+      "afirmacao": "Regionaltickets aus Papier müssen vor dem Einsteigen weiterhin am Bahnsteigautomaten gestempelt werden. Wer mit einem nicht entwerteten Papierticket fährt, erhält ein verbale di contestazione mit mindestens 50 Euro plus dem Ticketpreis; der Betrag verringert sich bei Zahlung innerhalb von fünf Tagen in einem Trenitalia-Büro.",
+      "fonte": "ItaliaRail — «What does it mean to validate a rail ticket»; ItalyPlanner — «Italy Regional Trains Guide 2026»",
+      "ano": 2026,
+      "revisarAte": "2027-02-04",
+      "evidencia": "CONSENSO",
+      "risco": "medio",
+      "audioKeys": [
+        "it-b09-n04"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "it-b09-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Jeder Reiseführer sagt: in Italien entwerten. Das stimmt heute nur halb — und die richtige Hälfte spart Ihnen fünfzig Euro."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-b09-r01",
+      "es": "Il regionale per Firenze parte dal binario sette.",
+      "pt": "Der Regionalzug nach Florenz fährt von Gleis sieben.",
+      "tts": "Il regionale per Firenze parte dal binario sette.",
+      "receptivo": true,
+      "acao": "Schauen Sie auf die Anzeige, bevor Sie sich irgendwo anstellen."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "it-b09-n02",
+      "bloco": "corpo",
+      "pt": "Zuerst kaufen, nach Ziel. Un biglietto per, dann die Stadt — mehr ist der Kauf nicht."
+    },
+    {
+      "consulta": [
+        "transporte/boleto",
+        "pagar/comprar"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-b09-p01",
+      "promptPt": "Am Schalter, und der Zug fährt bald. Nennen Sie Anzahl und Ziel, mehr braucht es nicht. Sprechen Sie jetzt.",
+      "audioKey": "it-b09-t01",
+      "es": "Un biglietto per Firenze, per favore.",
+      "pinyin": "oon bee-LYET-to per fee-REN-tse per fa-VO-re",
+      "pt": "Eine Fahrkarte nach Florenz, bitte.",
+      "tts": "Un biglietto per Firenze, per favore."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "it-b09-n03",
+      "bloco": "capsula",
+      "pt": "Digital aktiviert sich selbst zur gewählten Abfahrtszeit. Kein Automat, kein Stempel — aber der QR-Code muss zu zeigen sein."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "it-b09-n04",
+      "pt": "Auf Papier gilt die alte Regel: vor dem Einsteigen stempeln. Ohne Stempel sind es fünfzig Euro plus Fahrpreis."
+    },
+    {
+      "consulta": [
+        "transporte/validar"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-b09-p02",
+      "promptPt": "Sie halten eine Papierkarte in der Hand und sind unsicher. Fragen Sie nach der Regel. Sprechen Sie jetzt.",
+      "audioKey": "it-b09-t02",
+      "es": "Devo convalidare il biglietto?",
+      "pinyin": "DEH-vo kon-va-lee-DA-re eel bee-LYET-to",
+      "pt": "Muss ich die Fahrkarte entwerten?",
+      "tts": "Devo convalidare il biglietto?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-b09-r02",
+      "es": "Sì, quello di carta sì. Alla macchinetta verde.",
+      "pt": "Ja, die aus Papier schon. Am kleinen grünen Automaten.",
+      "tts": "Sì, quello di carta sì. Alla macchinetta verde."
+    },
+    {
+      "consulta": [
+        "transporte/validar",
+        "transporte/direcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "DOV-E",
+      "encaixe": "la macchinetta",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-b09-p03",
+      "promptPt": "Jetzt suchen Sie den Automaten. Nehmen Sie den Baustein aus B07. Sprechen Sie jetzt.",
+      "audioKey": "it-b09-t03",
+      "es": "Dov'è la macchinetta?",
+      "pinyin": "do-VEH la mak-kee-NET-ta",
+      "pt": "Wo ist der Entwerter?",
+      "tts": "Dov'è la macchinetta?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "it-b09-n05",
+      "pt": "Dann das Gleis. Binario heißt es, und die Nummer steht auf der Anzeige — Sie müssen sie nicht auswendig wissen."
+    },
+    {
+      "consulta": [
+        "transporte/anden",
+        "transporte/direcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "DOV-E",
+      "encaixe": "il binario sette",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-b09-p04",
+      "promptPt": "Auf der Anzeige steht Gleis sieben. Fragen Sie danach. Sprechen Sie jetzt.",
+      "audioKey": "it-b09-t04",
+      "es": "Dov'è il binario sette?",
+      "pinyin": "do-VEH eel bee-NA-ryo SET-te",
+      "pt": "Wo ist Gleis sieben?",
+      "tts": "Dov'è il binario sette?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-b09-r03",
+      "es": "In fondo, a sinistra.",
+      "pt": "Ganz hinten, links.",
+      "tts": "In fondo, a sinistra."
+    },
+    {
+      "consulta": [
+        "transporte/confirmar",
+        "transporte/destino"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-b09-p05",
+      "promptPt": "Der Zug steht am Gleis. Vergewissern Sie sich vor dem Einsteigen, dass er dorthin fährt. Sprechen Sie jetzt.",
+      "audioKey": "it-b09-t05",
+      "es": "Questo treno va a Firenze?",
+      "pinyin": "KWES-to TREH-no va a fee-REN-tse",
+      "pt": "Fährt dieser Zug nach Florenz?",
+      "tts": "Questo treno va a Firenze?"
+    },
+    {
+      "consulta": [
+        "transporte/horario"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-b09-p06",
+      "promptPt": "Sie wollen die Abfahrt mit Ihrer Karte abgleichen. Fragen Sie nach der Uhrzeit. Sprechen Sie jetzt.",
+      "audioKey": "it-b09-t06",
+      "es": "A che ora parte?",
+      "pinyin": "a keh O-ra PAR-te",
+      "pt": "Wann fährt er ab?",
+      "tts": "A che ora parte?",
+      "molde": "A-CHE-ORA",
+      "encaixe": "parte"
+    },
+    {
+      "consulta": [
+        "transporte/troca"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-b09-p07",
+      "promptPt": "Sie wollen wissen, ob die Fahrt durchgeht. Fragen Sie nach dem Umsteigen. Sprechen Sie jetzt.",
+      "audioKey": "it-b09-t07",
+      "es": "Devo cambiare treno?",
+      "pinyin": "DEH-vo kam-bee-A-re TREH-no",
+      "pt": "Muss ich umsteigen?",
+      "tts": "Devo cambiare treno?"
+    },
+    {
+      "consulta": [
+        "transporte/boleto"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-b09-p08",
+      "promptPt": "Die Kontrolle kommt, Ihr Handy ist gesperrt. Sagen Sie, wo die Karte liegt, und bitten Sie um kurze Geduld. Sprechen Sie jetzt.",
+      "audioKey": "it-b09-t08",
+      "es": "Il biglietto è sul telefono, un momento.",
+      "pinyin": "eel bee-LYET-to eh sool te-LE-fo-no, oon mo-MEN-to",
+      "pt": "Die Fahrkarte ist auf dem Handy, einen Moment.",
+      "tts": "Il biglietto è sul telefono, un momento."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_it_f",
+      "audioKey": "it-b09-s01",
+      "es": "Un biglietto per Firenze, per favore. Devo convalidare il biglietto? Dov'è il binario sette?",
+      "pinyin": "oon bee-LYET-to per fee-REN-tse per fa-VO-re. DEH-vo kon-va-lee-DA-re eel bee-LYET-to. do-VEH eel bee-NA-ryo SET-te",
+      "pt": "Sprechen Sie die Reihenfolge mit: kaufen, Regel klären, Gleis finden.",
+      "tts": "Un biglietto per Firenze, per favore. Devo convalidare il biglietto? Dov'è il binario sette?",
+      "molde": "DOV-E"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_f",
+      "audioKey": "it-b09-n06",
+      "bloco": "recap",
+      "pt": "B09 sitzt. Digital entwertet sich selbst, Papier braucht den grünen Automaten, binario ist das Gleis, der QR-Code muss zu zeigen sein."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Eine Regel, die sich unter dem Ratschlag verändert hat",
+    "secoes": [
+      {
+        "titulo": "Warum der alte Rat überall steht",
+        "corpo": "Jahrzehntelang stand in jedem Reiseführer dasselbe: Fahrkarte stempeln, sonst zahlen Sie. Das war richtig, und für Papier ist es weiterhin richtig. Das digitale Regionalticket aktiviert sich inzwischen selbst zur gewählten Abfahrtszeit — damit ist die Hälfte des Rats still veraltet, ohne dass die Reiseführer nachgezogen hätten."
+      },
+      {
+        "titulo": "Der Preis der Digitalvariante",
+        "corpo": "Die Selbstentwertung nimmt Ihnen das Vergessen ab und dafür die Flexibilität: Sobald das Ticket zur planmäßigen Zeit aktiv wird, lässt es sich nicht mehr auf einen anderen Zug schieben. Umbuchen muss vorher passieren."
+      },
+      {
+        "titulo": "Der QR-Code ist die Fahrkarte",
+        "corpo": "Bei der Kontrolle müssen Sie den Code anzeigen können. Ein leerer Akku oder ein Handy, das Sie nicht entsperren, stellt Sie mit jemandem ohne Fahrkarte gleich — deshalb übt dieser Teil den Satz, der Ihnen zehn Sekunden verschafft."
+      },
+      {
+        "titulo": "Dieser Punkt hat ein kurzes Prüfdatum",
+        "corpo": "Das italienische Regionalticket ist mitten im Übergang zum Digitalen, und die Regel hat sich zuletzt bewegt. Der Kurs markiert das mit einem kurzen Prüfdatum, statt es als erledigt auszugeben — sehen Sie vor der Reise auf der Seite des Betreibers nach, wie es dort gerade steht."
+      }
+    ]
+  },
+  "slot": "B09",
+  "permissao": "Sie dürfen fragen, ob gestempelt werden muss, auch mit dem Handy in der Hand. Die Regel hat sich wirklich geändert und hängt wirklich davon ab, welches Ticket Sie haben — die Frage ist keine Ahnungslosigkeit, sondern der einzige Weg, herauszufinden, welche der beiden Regeln heute für Sie gilt.",
+  "permissaoAudioKey": "it-b09-n01",
+  "espelho": "Wer in der eigenen Stadt schon einmal am falschen Leser gepiepst hat oder unsicher war, ob das Handyticket vor dem Einsteigen aktiviert werden muss, kennt genau dieses Zögern. In Italien ist das kein schwierigeres Problem — nur eines mit dem Zusatz, dass der Rat, den Sie bekommen haben, älter ist als die Regel.",
+  "fichasCulturais": [
+    {
+      "sinal": "Sie steigen mit einem digitalen Ticket in einen Regionalzug und sehen, wie alle anderen Papier in einen kleinen grünen Automaten am Bahnsteig schieben.",
+      "suaLeitura": "Ich habe einen Schritt übersprungen und zahle gleich dafür.",
+      "oQueEAli": "Das digitale Regionalticket aktiviert sich von selbst zur planmäßigen Abfahrtszeit; der Automat gehört zu den Papiertickets, die weiterhin gestempelt werden müssen. Zwei Systeme laufen nebeneinander, und Sie sehen gerade das andere.",
+      "oQueVoceFaz": "Prüfen Sie, welches Ticket Sie tatsächlich haben. Ist es digital, sorgen Sie dafür, dass der QR-Code aufgeht und der Akku hält — das ist Ihre Entwertung.",
+      "oQueMelhora": "Sie suchen keinen Automaten, den Ihr Ticket gar nicht braucht, und stecken die zwei Minuten in das, worauf es bei der Kontrolle ankommt.",
+      "ondeNaoVale": "Nicht bei Papiertickets — dort gilt die alte Regel voll, und die Nachzahlung ist echt. Und kein Grund, gar nicht mehr zu prüfen: Die Regelung ist im Übergang und je nach Betreiber verschieden.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "it-b09-n03",
+        "it-b09-n04"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "q-a01",
+  "nivel": "avancado",
+  "titulo": "Quiz — Wie sie reden, wenn nicht mit Ihnen",
+  "subtitulo": "Schnelle Rede und die fünf Füllwörter",
+  "introAudioKey": "it-a01-q-i",
+  "introPt": "Eine Reisende folgt der Form eines Gesprächs, ohne jedes Wort zu fangen.",
+  "cenario": "Zwei Leute sprechen im Tempo von Muttersprachlern.",
+  "dialogo": [
+    {
+      "audioKey": "it-a01-q01",
+      "voz": "target_it_f",
+      "es": "Ma non lo so, te l'ho già detto!",
+      "pt": "Aber ich weiß es nicht, ich habe es dir schon gesagt!",
+      "tts": "Ma non lo so, te l'ho già detto!"
+    },
+    {
+      "audioKey": "it-a01-q02",
+      "voz": "target_it_f",
+      "es": "Boh, mah, vedremo. Magari domani.",
+      "pt": "Keine Ahnung, tja, mal sehen. Vielleicht morgen.",
+      "tts": "Boh, mah, vedremo. Magari domani."
+    },
+    {
+      "audioKey": "it-a01-q03",
+      "voz": "target_it_m",
+      "es": "Allora, facciamo così: io vado, tu resti.",
+      "pt": "Also gut, machen wir es so: ich gehe, du bleibst.",
+      "tts": "Allora, facciamo così: io vado, tu resti."
+    },
+    {
+      "audioKey": "it-a01-q04",
+      "voz": "target_it_f",
+      "es": "Eh sì, esatto, appunto, dicevo io la stessa cosa!",
+      "pt": "Ja genau, eben, ich habe dasselbe gesagt!",
+      "tts": "Eh sì, esatto, appunto, dicevo io la stessa cosa!"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Boh bedeutet:",
+      "opcoes": [
+        "Vielleicht",
+        "Keine Ahnung — eine vollständige Antwort",
+        "Komm schon",
+        "Genau"
+      ],
+      "correta": 1,
+      "explica": "Warten Sie danach nicht auf mehr."
+    },
+    {
+      "pergunta": "Allora am Satzanfang signalisiert:",
+      "opcoes": [
+        "Verwirrung",
+        "Eine Entscheidung kommt",
+        "Widerspruch",
+        "Einen Abschied"
+      ],
+      "correta": 1,
+      "explica": "Achten Sie darauf, was danach kommt."
+    },
+    {
+      "pergunta": "Zwei Leute, die laut durcheinanderreden, sind meist:",
+      "opcoes": [
+        "Im Streit",
+        "Einer Meinung",
+        "Beim Handeln",
+        "Am Scherzen"
+      ],
+      "correta": 1,
+      "explica": "Esatto, appunto, infatti sind Zustimmungswörter."
+    },
+    {
+      "pergunta": "Non lo so in schneller Rede:",
+      "opcoes": [
+        "Bleibt getrennt",
+        "Fällt zu einem Laut zusammen",
+        "Wird länger",
+        "Wird vermieden"
+      ],
+      "correta": 1,
+      "explica": "Das ist nicht nachlässig — so klingt die Sprache."
+    },
+    {
+      "pergunta": "Sollten Sie dai und guagliò selbst verwenden?",
+      "opcoes": [
+        "Ja, das zeigt Sprachgefühl",
+        "Nein — dieser Teil ist rezeptiv; es wirkt aufgesetzt",
+        "Nur im Süden",
+        "Nur unter Freunden"
+      ],
+      "correta": 1,
+      "explica": "Erkennen, ja; einsetzen, nein."
+    }
+  ]
+}

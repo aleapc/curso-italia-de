@@ -1,0 +1,96 @@
+{
+  "id": "q-a06",
+  "nivel": "avancado",
+  "titulo": "Quiz — Der Kalender vor Ort",
+  "subtitulo": "Zwei Kalender und ein Fest",
+  "introAudioKey": "it-a06-q-i",
+  "introPt": "Eine Reisende plant um die Schließzeiten herum und findet die Sagra.",
+  "cenario": "August, und eine verrammelte Straße.",
+  "dialogo": [
+    {
+      "audioKey": "it-a06-q01",
+      "voz": "target_it_m",
+      "es": "Chiuso per ferie dal dieci al venticinque agosto.",
+      "pt": "Betriebsferien vom zehnten bis fünfundzwanzigsten August.",
+      "tts": "Chiuso per ferie dal dieci al venticinque agosto."
+    },
+    {
+      "audioKey": "it-a06-q02",
+      "voz": "target_it_f",
+      "es": "Domani è il santo patrono, è festa solo qui.",
+      "pt": "Morgen ist der Stadtpatron, Feiertag nur hier.",
+      "tts": "Domani è il santo patrono, è festa solo qui."
+    },
+    {
+      "audioKey": "it-a06-q03",
+      "voz": "target_it_m",
+      "es": "Sabato c'è la sagra del cinghiale, al campo sportivo.",
+      "pt": "Samstag ist das Wildschweinfest, auf dem Sportplatz.",
+      "tts": "Sabato c'è la sagra del cinghiale, al campo sportivo."
+    },
+    {
+      "audioKey": "it-a06-q04",
+      "voz": "target_it_f",
+      "es": "Sì, contanti. Prendi i buoni alla cassa all'ingresso.",
+      "pt": "Ja, bar. Die Bons gibt es an der Kasse am Eingang.",
+      "tts": "Sì, contanti. Prendi i buoni alla cassa all'ingresso."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Ferragosto ist:",
+      "opcoes": [
+        "Der Patronstag jeder Stadt",
+        "Der 15. August, Feiertag und Höhepunkt der Sommerpause",
+        "Ein Essensfest",
+        "Ein regionaler Feiertag"
+      ],
+      "correta": 1,
+      "explica": "Die Städte leeren sich, die Küste füllt sich."
+    },
+    {
+      "pergunta": "Warum kann ein Ort zu sein und der nächste offen?",
+      "opcoes": [
+        "Zufall",
+        "Jede Gemeinde hat ihren eigenen Patronstag",
+        "Das Wetter",
+        "Tarifregeln"
+      ],
+      "correta": 1,
+      "explica": "Rom 29. Juni, Mailand 7. Dezember, Neapel 19. September, Venedig 25. April."
+    },
+    {
+      "pergunta": "Eine Sagra ist:",
+      "opcoes": [
+        "Ein Markt",
+        "Ein Dorffest rund um eine einzige Zutat",
+        "Ein Gottesdienst",
+        "Ein Umzug"
+      ],
+      "correta": 1,
+      "explica": "Lange Tische, ein Gericht, meist das Essen, an das Sie sich erinnern."
+    },
+    {
+      "pergunta": "Wie zahlt man bei einer Sagra?",
+      "opcoes": [
+        "Karte",
+        "Meist bar, oft über ein Bonsystem",
+        "App",
+        "Kostenlos"
+      ],
+      "correta": 1,
+      "explica": "Der eine Ort, an dem die Kartenregel nicht hilft."
+    },
+    {
+      "pergunta": "Wie werden Sagre üblicherweise angekündigt?",
+      "opcoes": [
+        "Online",
+        "Auf Papier — Plakate, Banner, ein Schild am Kreisverkehr",
+        "Im Fernsehen",
+        "Gar nicht, sie sind geheim"
+      ],
+      "correta": 1,
+      "explica": "Deshalb fragt man einen Menschen und kein Handy."
+    }
+  ]
+}

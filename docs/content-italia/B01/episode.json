@@ -1,0 +1,295 @@
+{
+  "id": "b01",
+  "nivel": "basico",
+  "numero": 1,
+  "parte": "1A",
+  "titulo": "Die Doppelkonsonante, die ein anderes Wort ist",
+  "subtitulo": "Sie bringen die Vokale und das /ts/ schon mit — was fehlt, ist die Länge, die aus nono ein nonno macht",
+  "cena": "Sie sagen ein Wort, das Sie zu können glaubten, und das Gegenüber versteht ein anderes.",
+  "moldura": "ganha",
+  "frasePiso": "Sie müssen kaum neue Laute lernen. Sie müssen zwei Dinge lassen: den Knacklaut vor dem Vokal und die Auslautverhärtung.",
+  "moldes": [],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "it-b01-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Italienisch liegt Ihnen näher, als man Ihnen sagt. Die Vokale sitzen, das /ts/ in grazie sitzt, sch in scusi sitzt."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_f",
+      "audioKey": "it-b01-t01",
+      "es": "a — e — i — o — u",
+      "pinyin": "ah — eh — ee — oh — oo",
+      "pt": "Einen Kaffee, bitte.",
+      "tts": "a, e, i, o, u"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "it-b01-n02",
+      "bloco": "corpo",
+      "pt": "Was Sie ablegen müssen, ist der Knacklaut. Im Deutschen trennt er Vokale, im Italienischen klebt alles zusammen."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-b01-t02",
+      "es": "Un caffè, per favore.",
+      "pinyin": "oon kaf-FEH, per fa-VO-re",
+      "pt": "Ich hätte gern ein Bier.",
+      "tts": "Un caffè, per favore."
+    },
+    {
+      "consulta": [
+        "mesa/bebida",
+        "mesa/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-b01-p01",
+      "promptPt": "Bestellen Sie einen Kaffee. Ein Bogen, keine Pause. Sprechen Sie jetzt.",
+      "audioKey": "it-b01-t02",
+      "es": "Un caffè, per favore.",
+      "pinyin": "oon kaf-FEH, per fa-VO-re",
+      "pt": "Ich hätte gern ein Bier."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "it-b01-n03",
+      "pt": "Dov'è ist ein einziger Bogen, nicht dov — è. Genau da hört man den Deutschen zuerst."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_f",
+      "audioKey": "it-b01-t03",
+      "es": "Vorrei una birra.",
+      "pinyin": "vor-RAY oo-na BEER-ra",
+      "pt": "Ein Schokoladeneis.",
+      "tts": "Vorrei una birra."
+    },
+    {
+      "consulta": [
+        "mesa/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-b01-p02",
+      "promptPt": "Ein Bier, bitte. Achten Sie auf das volle o am Ende. Sprechen Sie jetzt.",
+      "audioKey": "it-b01-t03",
+      "es": "Vorrei una birra.",
+      "pinyin": "vor-RAY oo-na BEER-ra",
+      "pt": "Ein Schokoladeneis."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "it-b01-n04",
+      "bloco": "corpo",
+      "pt": "Zweitens: kein Auslaut wird hart. Vado bleibt vado, nicht fato. Rosa bleibt rosa, nicht rossa."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-b01-t04",
+      "es": "Un gelato al cioccolato.",
+      "pinyin": "oon je-LA-to al chok-ko-LA-to",
+      "pt": "Wo ist der Bahnhof?",
+      "tts": "Un gelato al cioccolato."
+    },
+    {
+      "consulta": [
+        "mesa/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-b01-p03",
+      "promptPt": "Sie zeigen auf die Vitrine und bestellen die Schokoladensorte. Sprechen Sie jetzt.",
+      "audioKey": "it-b01-t04",
+      "es": "Un gelato al cioccolato.",
+      "pinyin": "oon je-LA-to al chok-ko-LA-to",
+      "pt": "Wo ist der Bahnhof?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "it-b01-n05",
+      "bloco": "capsula",
+      "pt": "Und die Doppelkonsonante ist echt lang. Nono ist der neunte, nonno ist der Großvater. Das ist kein Detail."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_f",
+      "audioKey": "it-b01-t05",
+      "es": "Dov'è la stazione?",
+      "pinyin": "do-VEH la sta-tsee-O-ne",
+      "pt": "Vielen Dank.",
+      "tts": "Dov'è la stazione?"
+    },
+    {
+      "consulta": [
+        "transporte/direcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-b01-p04",
+      "promptPt": "Fragen Sie nach dem Bahnhof — dov'è in einem Zug. Sprechen Sie jetzt.",
+      "audioKey": "it-b01-t05",
+      "es": "Dov'è la stazione?",
+      "pinyin": "do-VEH la sta-tsee-O-ne",
+      "pt": "Vielen Dank."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-b01-r01",
+      "es": "Sempre dritto, poi a destra.",
+      "pt": "Fünf klare Vokale. Kein Gleiten, kein Verschlucken.",
+      "tts": "Sempre dritto, poi a destra."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-b01-p05",
+      "promptPt": "Bedanken Sie sich. Das z ist Ihr /ts/, das können Sie schon. Sprechen Sie jetzt.",
+      "audioKey": "it-b01-t06",
+      "es": "Grazie mille.",
+      "pinyin": "GRA-tsee-eh MEEL-le",
+      "pt": "Guten Tag!",
+      "tts": "Grazie mille."
+    },
+    {
+      "consulta": [
+        "simpatia/saudacao"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-b01-p06",
+      "promptPt": "Grüßen Sie. Zwei volle Vokale am Ende, kein Schwa. Sprechen Sie jetzt.",
+      "audioKey": "it-b01-t07",
+      "es": "Buongiorno!",
+      "pinyin": "bwon-JOR-no",
+      "pt": "Ein Glas Wasser, bitte.",
+      "tts": "Buongiorno!"
+    },
+    {
+      "consulta": [
+        "mesa/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-b01-p07",
+      "promptPt": "Bestellen Sie ein Glas Wasser. Das doppelte q hält die Länge. Sprechen Sie jetzt.",
+      "audioKey": "it-b01-t08",
+      "es": "Un bicchiere d’acqua, per favore.",
+      "pinyin": "oon bik-KYEH-re DAK-kwa per fa-VO-re",
+      "pt": "Können Sie das wiederholen, bitte?",
+      "tts": "Un bicchiere d’acqua, per favore."
+    },
+    {
+      "consulta": [
+        "reparo/devagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-b01-p08",
+      "promptPt": "Bitten Sie um Wiederholung. Sprechen Sie jetzt.",
+      "audioKey": "it-b01-t09",
+      "es": "Può ripetere, per favore?",
+      "pinyin": "pwoh ree-PEH-teh-re per fa-VO-re",
+      "pt": "Can you repeat that, please?",
+      "tts": "Può ripetere, per favore?"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_it_f",
+      "audioKey": "it-b01-s01",
+      "es": "Un caffè, per favore. Vorrei una birra. Dov'è la stazione? Grazie mille.",
+      "pinyin": "oon kaf-FEH per fa-VO-re. vor-RAY oo-na BEER-ra. do-VEH la sta-tsee-O-ne. GRA-tsee-eh MEEL-le",
+      "pt": "Sprechen Sie mit: nichts trennen, nichts verhärten, die Doppelte halten.",
+      "tts": "Un caffè, per favore. Vorrei una birra. Dov'è la stazione? Grazie mille."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_f",
+      "audioKey": "it-b01-n06",
+      "bloco": "recap",
+      "pt": "Das r ist vorn getippt, nicht hinten gerollt. Wenn es nicht klappt: lieber ein deutsches r als eine Pause davor."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Vier Regeln, kein neuer Laut",
+    "secoes": [
+      {
+        "titulo": "Was Sie schon mitbringen",
+        "corpo": "Die italienischen Vokale sind gespannte Monophthonge, genau wie die deutschen langen. ⟨z⟩ ist /ts/ wie in Zahl — für Englischsprachige der teuerste Laut des Kurses, für Sie geschenkt. ⟨sc⟩ vor e und i ist Ihr sch. Der Wortakzent liegt wie im Deutschen auf Intensität, nicht auf Tonhöhe.",
+        "exemplos": [
+          {
+            "es": "stazione",
+            "pt": "sta-tsee-O-ne — zi is a ts sound"
+          },
+          {
+            "es": "gnocchi",
+            "pt": "NYOK-kee — gn is like the ny in canyon"
+          }
+        ]
+      },
+      {
+        "titulo": "Der Knacklaut muss weg",
+        "corpo": "Deutsch setzt vor jeden vokalisch anlautenden Wortanfang einen Verschluss: das Ei, be-achten. Italienisch bindet stattdessen: l'uscita, dov'è, un'altra. Das ist die auffälligste einzelne Sache am deutschen Akzent im Italienischen und die billigste zu beheben.",
+        "exemplos": [
+          {
+            "es": "nonno",
+            "pt": "grandfather — hold the n"
+          },
+          {
+            "es": "nono",
+            "pt": "ninth — single n"
+          }
+        ]
+      },
+      {
+        "titulo": "Keine Auslautverhärtung",
+        "corpo": "Im Deutschen wird die stimmhafte Konsonante am Wortende und oft zwischen Vokalen stimmlos. Im Italienischen nie. Vado wird nicht zu fato, rosa nicht zu rossa, und ⟨v⟩ bleibt /v/ — vino wird nicht fino, was ein anderes, bestellbares Wort wäre."
+      },
+      {
+        "titulo": "Die Doppelkonsonante ist bedeutungstragend",
+        "corpo": "Deutsch schreibt Doppelkonsonanten, aber spricht sie kurz — sie markieren nur den vorhergehenden Vokal. Im Italienischen werden sie wirklich gehalten und unterscheiden Wörter: nono und nonno, casa und cassa, sono und sonno. Das ist die einzige teure Neuerung in diesem Teil."
+      }
+    ]
+  },
+  "slot": "B01",
+  "permissao": "Sie dürfen mit deutschem Akzent sprechen. Neunzig Prozent Ihrer italienischen Aussprache sind bereits richtig, bevor Sie irgendetwas geübt haben — und die zwei Dinge, die stören, sind Gewohnheiten des Deutschen, keine Fehler von Ihnen. Niemand in Italien erwartet, dass ein Gast akzentfrei klingt; erwartet wird, dass man es versucht.",
+  "permissaoAudioKey": "it-b01-n05",
+  "espelho": "Wer schon einmal gehört hat, wie ein Italiener deutsch spricht und die Endungen anders setzt, kennt die Sache von der anderen Seite. Es ist nie ein Mangel an Mühe, sondern die eigene Sprache, die im Weg steht — und genau deshalb reichen vier Regeln statt einer neuen Lautlehre.",
+  "fichasCulturais": [
+    {
+      "sinal": "Sie sagen ein Wort korrekt und werden trotzdem nicht verstanden, oder es wird als ein anderes Wort wiederholt.",
+      "suaLeitura": "Meine Aussprache ist zu schlecht für dieses Land.",
+      "oQueEAli": "Wahrscheinlich ist genau ein Merkmal schuld, und meistens die Konsonantenlänge oder die verhärtete Endung — beides Dinge, die das Deutsche automatisch tut und das Italienische bedeutungsunterscheidend nutzt.",
+      "oQueVoceFaz": "Wiederholen Sie das Wort einmal langsam und halten Sie die Doppelkonsonante hörbar zu lang. Übertreibung landet hier näher am Richtigen als Vorsicht.",
+      "oQueMelhora": "Sie beheben den einen Punkt, statt die ganze Aussprache für gescheitert zu erklären — und die ist zu neunzig Prozent bereits in Ordnung.",
+      "ondeNaoVale": "Nicht bei Namen und Adressen: da hilft das Zeigen auf den Bildschirm mehr als jede Wiederholung.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "it-b01-n02",
+        "it-b01-n03"
+      ]
+    }
+  ]
+}

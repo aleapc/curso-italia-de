@@ -1,0 +1,291 @@
+{
+  "id": "b14",
+  "nivel": "basico",
+  "numero": 14,
+  "parte": "5B",
+  "titulo": "Mi porta — die Rechnung und die zwei Zeilen, die dazugehören",
+  "subtitulo": "Coperto und servizio sind zulässig, wenn sie ausgewiesen sind; Trinkgeld wird nicht erwartet, und der Beleg ist Pflicht des Betriebs",
+  "cena": "Auf der Rechnung stehen zwei Zeilen, die Sie nicht bestellt haben, und eine Summe, die nicht zu Ihrem Kopfrechnen passt.",
+  "moldura": "ganha",
+  "frasePiso": "Nach der Rechnung fragen, die zwei Zeilen lesen, den Beleg mitnehmen. Das ist die ganze Absicherung.",
+  "moldes": [
+    "MI-PORTA"
+  ],
+  "clique": {
+    "contagem": [
+      "die Trattoria",
+      "die Bar",
+      "die Pizzeria"
+    ],
+    "desconto": "Niemand hat Ihnen für jede Sache einen eigenen Satz gegeben. Ein Baustein trug die Rechnung, das Wasser und den Beleg.",
+    "piso": "Wenn nächstes Mal eine Zeile unklar ist, zahlen Sie nicht stumm und ärgern sich draußen. Sie fragen am Tisch, solange es noch jemand beantworten kann."
+  },
+  "fatosDatados": [
+    {
+      "id": "it-coperto-servizio",
+      "afirmacao": "Der coperto (Gedeckgeld) ist gesetzlich nicht vorgeschrieben, aber zulässig, wenn er auf der Speisekarte klar ausgewiesen ist; ein servizio-Zuschlag, üblicherweise 10-20 %, ist ebenso zulässig, wenn er vorab angegeben wird. Trinkgeld obendrauf wird in Italien nicht erwartet. Die Ausgabe eines scontrino fiscale oder einer fattura ist für den Betrieb bei jedem Geschäft gesetzliche Pflicht.",
+      "fonte": "Altroconsumo — «Coperto e servizio: quando si possono chiedere»; Agenzia delle Entrate — obbligo di certificazione dei corrispettivi",
+      "ano": 2026,
+      "revisarAte": "2027-08-04",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "it-b14-n04"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "it-b14-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Das Ende einer Mahlzeit: ein Satz und zwei Zeilen zum Lesen. Beides richtig, und die Rechnung überrascht Sie nicht mehr."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "it-b14-n02",
+      "bloco": "molde",
+      "pt": "Der Baustein ist mi porta, plus die Sache. Bringen Sie mir — und dann, was Sie am Tisch brauchen."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_f",
+      "audioKey": "it-b14-t01",
+      "es": "Mi porta il conto, per favore?",
+      "pinyin": "mee POR-ta eel KON-to per fa-VO-re",
+      "pt": "Bringen Sie mir bitte die Rechnung?",
+      "tts": "Mi porta il conto, per favore?"
+    },
+    {
+      "consulta": [
+        "pagar/conta"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "MI-PORTA",
+      "encaixe": "il conto",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-b14-p01",
+      "promptPt": "Sie sind fertig und wollen los. Wenden Sie sich an den Kellner. Sprechen Sie jetzt.",
+      "audioKey": "it-b14-t01",
+      "es": "Mi porta il conto, per favore?",
+      "pinyin": "mee POR-ta eel KON-to per fa-VO-re",
+      "pt": "Bringen Sie mir bitte die Rechnung?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "it-b14-n03",
+      "bloco": "corpo",
+      "pt": "Die Rechnung kommt hier nicht von allein. Am Tisch bleiben ist normal, also müssen Sie danach fragen."
+    },
+    {
+      "consulta": [
+        "comer/bebida",
+        "mesa/pedido"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "MI-PORTA",
+      "encaixe": "dell'acqua",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-b14-p02",
+      "promptPt": "Mitten im Essen: Die Karaffe ist leer. Gleicher Baustein. Sprechen Sie jetzt.",
+      "audioKey": "it-b14-t02",
+      "es": "Mi porta dell'acqua, per favore?",
+      "pinyin": "mee POR-ta del-LAK-kwa per fa-VO-re",
+      "pt": "Bringen Sie mir bitte etwas Wasser?",
+      "tts": "Mi porta dell'acqua, per favore?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "it-b14-n04",
+      "bloco": "capsula",
+      "pt": "Zwei Zeilen zum Lesen: coperto, das Gedeck, und servizio. Beide sind zulässig, wenn die Karte sie nennt."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-b14-r01",
+      "receptivo": true,
+      "es": "Coperto due euro a persona, servizio dieci per cento.",
+      "pt": "Gedeck zwei Euro pro Person, Bedienung zehn Prozent.",
+      "tts": "Coperto due euro a persona, servizio dieci per cento.",
+      "acao": "Lesen Sie diese zwei Zeilen, bevor Sie im Kopf rechnen."
+    },
+    {
+      "consulta": [
+        "pagar/conta",
+        "pagar/preco"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-b14-p03",
+      "promptPt": "Eine Zeile sagt Ihnen nichts. Klären Sie sie am Tisch. Sprechen Sie jetzt.",
+      "audioKey": "it-b14-t03",
+      "es": "Scusi, cos'è questa voce?",
+      "pinyin": "SKOO-zee, ko-ZEH KWES-ta VO-che",
+      "pt": "Entschuldigung, was ist dieser Posten?",
+      "tts": "Scusi, cos'è questa voce?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "it-b14-n05",
+      "pt": "Steht servizio schon drauf, sind Sie fertig. Trinkgeld obendrauf erwartet in Italien niemand — aufrunden genügt."
+    },
+    {
+      "consulta": [
+        "pagar/cartao"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "POSSO",
+      "encaixe": "pagare con la carta",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-b14-p04",
+      "promptPt": "Sie haben kein Bargeld dabei. Klären Sie das, bevor er weggeht. Sprechen Sie jetzt.",
+      "audioKey": "it-b14-t04",
+      "es": "Posso pagare con la carta?",
+      "pinyin": "POS-so pa-GA-re kon la KAR-ta",
+      "pt": "Kann ich mit Karte zahlen?",
+      "tts": "Posso pagare con la carta?"
+    },
+    {
+      "consulta": [
+        "pagar/dividir"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-b14-p05",
+      "promptPt": "Sie sind zu zweit, und jeder hat seine eigene Karte. Fragen Sie nach. Sprechen Sie jetzt.",
+      "audioKey": "it-b14-t05",
+      "es": "Possiamo pagare separatamente?",
+      "pinyin": "pos-see-A-mo pa-GA-re se-pa-ra-ta-MEN-te",
+      "pt": "Können wir getrennt zahlen?",
+      "tts": "Possiamo pagare separatamente?"
+    },
+    {
+      "consulta": [
+        "pagar/recibo"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "MI-PORTA",
+      "encaixe": "lo scontrino",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-b14-p06",
+      "promptPt": "Der Bon liegt noch in der Kasse. Er steht Ihnen gesetzlich zu. Sprechen Sie jetzt.",
+      "audioKey": "it-b14-t06",
+      "es": "Mi porta lo scontrino, per favore?",
+      "pinyin": "mee POR-ta lo skon-TREE-no per fa-VO-re",
+      "pt": "Bringen Sie mir bitte den Beleg?",
+      "tts": "Mi porta lo scontrino, per favore?"
+    },
+    {
+      "consulta": [
+        "pagar/conta"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-b14-p07",
+      "promptPt": "Die Posten ergeben nicht die Summe, die unten steht. Ruhig bleiben. Sprechen Sie jetzt.",
+      "audioKey": "it-b14-t07",
+      "es": "Può controllare il totale, per favore?",
+      "pinyin": "pwoh kon-trol-LA-re eel to-TA-le per fa-VO-re",
+      "pt": "Können Sie bitte die Summe prüfen?",
+      "tts": "Può controllare il totale, per favore?",
+      "molde": "MI-PUO",
+      "encaixe": "controllare il totale"
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer",
+        "pagar/conta"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-b14-p08",
+      "promptPt": "Sie runden auf und beenden das freundlich. Sprechen Sie jetzt.",
+      "audioKey": "it-b14-t08",
+      "es": "Va bene così, grazie.",
+      "pinyin": "va BEH-ne ko-ZEE, GRA-tsee-eh",
+      "pt": "Stimmt so, danke.",
+      "tts": "Va bene così, grazie."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_it_f",
+      "audioKey": "it-b14-s01",
+      "es": "Mi porta il conto, per favore? Scusi, cos'è questa voce? Mi porta lo scontrino, per favore?",
+      "pinyin": "mee POR-ta eel KON-to. SKOO-zee ko-ZEH KWES-ta VO-che. mee POR-ta lo skon-TREE-no per fa-VO-re",
+      "pt": "Sprechen Sie den Abschluss mit: fragen, lesen, Beleg mitnehmen.",
+      "tts": "Mi porta il conto, per favore? Scusi, cos'è questa voce? Mi porta lo scontrino, per favore?",
+      "molde": "MI-PORTA"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_f",
+      "audioKey": "it-b14-n06",
+      "bloco": "recap",
+      "pt": "B14 fertig. Mi porta bringt alles an den Tisch, coperto und servizio sind zulässig, der scontrino steht Ihnen zu."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Die Rechnung lesen",
+    "secoes": [
+      {
+        "titulo": "Mi porta plus die Sache",
+        "corpo": "Die Rechnung, Wasser, Brot, der Beleg. Es ist die höfliche Bitte für alles, was physisch an Ihren Tisch kommen soll.",
+        "exemplos": [
+          {
+            "es": "Mi porta il conto, per favore?",
+            "pt": "Bringen Sie mir bitte die Rechnung?"
+          },
+          {
+            "es": "Mi porta lo scontrino?",
+            "pt": "Bringen Sie mir den Beleg?"
+          }
+        ]
+      },
+      {
+        "titulo": "Coperto ist ein regulärer Posten",
+        "corpo": "Es ist ein Gedeckgeld pro Person, gesetzlich nicht vorgeschrieben, aber zulässig, wenn die Karte es ausweist. Ein coperto, der nirgends auf der Karte steht, ist die Variante, nach der man fragt — deshalb liest man die Karte, bevor man sich setzt."
+      },
+      {
+        "titulo": "Servizio ersetzt das Trinkgeld",
+        "corpo": "Steht ein Bedienungszuschlag auf der Rechnung, ist die Bedienung damit bezahlt. Italien lebt nicht vom Trinkgeld, und weitere zehn oder fünfzehn Prozent sind eine auswärtige Gewohnheit, keine Erwartung vor Ort. Aufrunden ist üblich und reicht."
+      },
+      {
+        "titulo": "Der scontrino ist Gesetz",
+        "corpo": "Den Kassenbon auszustellen ist Pflicht des Betriebs, keine Gefälligkeit Ihnen gegenüber. Er ist außerdem das einzige Dokument, mit dem sich hinterher überhaupt etwas klären lässt — deshalb nehmen Sie ihn auch dann mit, wenn nichts zu klären ist."
+      }
+    ]
+  },
+  "slot": "B14",
+  "permissao": "Sie dürfen fragen, was eine Zeile auf der Rechnung bedeutet. Auf einen Posten zeigen und cos'è questa voce fragen ist eine gewöhnliche Frage mit einer gewöhnlichen Antwort, und am Tisch geht das viel leichter als später auf der Straße im Kopf.",
+  "permissaoAudioKey": "it-b14-n05",
+  "espelho": "Wer zu Hause schon einmal eine Rechnung überflogen, etwas Merkwürdiges gesehen und trotzdem stumm bezahlt hat, kennt die eigentliche Hürde. Es war nie die Sprache — es war die Scheu, den Moment um zehn Sekunden zu verlangsamen.",
+  "fichasCulturais": [
+    {
+      "sinal": "Die Teller sind abgeräumt, niemand bringt die Rechnung, der Tisch bleibt Ihrer, und der Kellner geht mehrmals vorbei, ohne stehen zu bleiben.",
+      "suaLeitura": "Man übersieht uns, oder man hat uns vergessen.",
+      "oQueEAli": "Eine ungefragt gebrachte Rechnung würde heißen: Bitte gehen Sie. Der Tisch gehört Ihnen, bis Sie etwas anderes signalisieren, und das Signal ist die Frage. Was wie Vernachlässigung aussieht, ist absichtlich gelassene Ruhe.",
+      "oQueVoceFaz": "Blickkontakt zum Kellner und mi porta il conto, per favore? — mehr ist das Signal nicht.",
+      "oQueMelhora": "Sie warten nicht länger auf etwas, das von allein nie gekommen wäre, und bekommen das ruhige Ende der Mahlzeit, das der Raum Ihnen anbietet.",
+      "ondeNaoVale": "Nicht in einer Bar oder im Selbstbedienungslokal, wo an der Kasse gezahlt wird, und nicht am vollen Mittagstresen, wo schneller Durchlauf der Zweck ist und die Rechnung sofort kommt.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "it-b14-n03"
+      ]
+    }
+  ]
+}

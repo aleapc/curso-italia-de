@@ -1,0 +1,249 @@
+{
+  "id": "a04",
+  "nivel": "avancado",
+  "numero": 32,
+  "parte": "A04",
+  "titulo": "Die alte Debatte",
+  "subtitulo": "Nord und Süd ist die Bruchlinie, die jedes Land irgendwo hat — und die einzige nützliche Haltung für Gäste ist Neugier",
+  "cena": "Jemand hat Ihnen gerade mit Nachdruck erzählt, wie anders die andere Hälfte des Landes ist — und macht eine Pause, als wären Sie jetzt dran.",
+  "moldura": "ganha",
+  "frasePiso": "Fragen, zuhören, nicht bewerten. Die Frage, die Sie willkommen hält, lautet: Wie sieht es von hier aus? Nie: Wer hat recht?",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "it-divario",
+      "afirmacao": "Ein anhaltender wirtschaftlicher Abstand zwischen Nord- und Süditalien ist amtlich dokumentiert: Pro-Kopf-BIP, Erwerbsquote und Haushaltseinkommen liegen im Mezzogiorno deutlich unter dem Zentrum-Norden, und der Abstand hat sich über Jahrzehnte der Politik als beständig erwiesen. Das ist gemessene wirtschaftliche Tatsache; die Erklärungen dafür sind heftig umstritten.",
+      "fonte": "Istat — «Rapporto annuale», capitoli sui divari territoriali; SVIMEZ — «Rapporto sull'economia del Mezzogiorno»",
+      "ano": 2026,
+      "revisarAte": "2027-08-04",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "it-a04-n03"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "it-a04-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Jedes Land hat eine Linie, die durch alles läuft. In Italien verläuft sie grob zwischen Norden und Süden."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "it-a04-n02",
+      "bloco": "corpo",
+      "pt": "Sie hören sie in Witzen, in der Politik, im Fußball — und darin, wo Menschen leben würden und wo nicht."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-a04-r01",
+      "receptivo": true,
+      "acao": "Nicht zustimmen, nicht widersprechen. Stellen Sie eine Frage und lassen Sie weiterreden.",
+      "es": "Al sud si vive meglio, ma il lavoro sta al nord. È così.",
+      "pt": "Im Süden lebt man besser, aber die Arbeit ist im Norden. So ist es.",
+      "tts": "Al sud si vive meglio, ma il lavoro sta al nord. È così."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "it-a04-n03",
+      "bloco": "capsula",
+      "pt": "Der wirtschaftliche Abstand ist gemessen und real. Umstritten ist die Ursache — und genau die ist heikel."
+    },
+    {
+      "consulta": [
+        "conversa/perguntar"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-a04-p01",
+      "promptPt": "Ihr Gegenüber redet über das Land. Lenken Sie es auf die Person vor Ihnen. Sprechen Sie jetzt.",
+      "audioKey": "it-a04-t01",
+      "es": "E lei come l'ha vissuta?",
+      "pinyin": "eh lay KO-me la vees-SOO-ta",
+      "pt": "Und wie haben Sie das erlebt?",
+      "tts": "E lei come l'ha vissuta?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_f",
+      "audioKey": "it-a04-r02",
+      "receptivo": true,
+      "acao": "Das ist eine Familiengeschichte, keine politische Position. Hören Sie sie auch so.",
+      "es": "Mio padre è partito da Bari a vent'anni. Non è più tornato.",
+      "pt": "Mein Vater ging mit zwanzig aus Bari weg. Er kam nie zurück.",
+      "tts": "Mio padre è partito da Bari a vent'anni. Non è più tornato."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "it-a04-n04",
+      "pt": "Die Binnenwanderung hat unzählige Familien geprägt. Was wie Haltung klingt, ist oft Familiengeschichte."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-a04-r03",
+      "receptivo": true,
+      "acao": "Die Fußballrivalität trägt dieselbe Bruchlinie. Genießen Sie sie, aber wählen Sie keine Seite.",
+      "es": "Quando gioca il Napoli contro la Juve, non è solo calcio.",
+      "pt": "Wenn Neapel gegen Juve spielt, ist das nicht nur Fußball.",
+      "tts": "Quando gioca il Napoli contro la Juve, non è solo calcio."
+    },
+    {
+      "consulta": [
+        "conversa/perguntar"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-a04-p02",
+      "promptPt": "Das Spiel bedeutet den Leuten offenbar mehr als Sport. Haken Sie nach, ohne Partei zu ergreifen. Sprechen Sie jetzt.",
+      "audioKey": "it-a04-t02",
+      "es": "Perché è così sentita questa partita?",
+      "pinyin": "per-KEH eh ko-ZEE sen-TEE-ta KWES-ta par-TEE-ta",
+      "pt": "Warum geht dieses Spiel so tief?",
+      "tts": "Perché è così sentita questa partita?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "it-a04-n05",
+      "pt": "Ein Urteil wäre der Fehlgriff. Wer die beiden Landeshälften bewertet, verliert den Rest des Gesprächs."
+    },
+    {
+      "consulta": [
+        "conversa/opiniao"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-a04-p03",
+      "promptPt": "Man wartet auf Ihr Urteil. Sie sind seit drei Wochen im Land. Bleiben Sie ehrlich. Sprechen Sie jetzt.",
+      "audioKey": "it-a04-t03",
+      "es": "Non ne so abbastanza per giudicare.",
+      "pinyin": "non neh so ab-bas-TAN-tsa per joo-dee-KA-re",
+      "pt": "Ich weiß zu wenig darüber, um zu urteilen.",
+      "tts": "Non ne so abbastanza per giudicare."
+    },
+    {
+      "consulta": [
+        "conversa/opiniao"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-a04-p04",
+      "promptPt": "Erzählen Sie von Ihrer Zeit in der anderen Landeshälfte — als Erlebnis, ohne Rangliste. Sprechen Sie jetzt.",
+      "audioKey": "it-a04-t04",
+      "es": "Al sud mi hanno accolto benissimo, devo dire.",
+      "pinyin": "al sood mee AN-no ak-KOL-to be-NEES-see-mo, DE-vo DEE-re",
+      "pt": "Im Süden hat man mich wunderbar aufgenommen, das muss ich sagen.",
+      "tts": "Al sud mi hanno accolto benissimo, devo dire."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_f",
+      "audioKey": "it-a04-r04",
+      "receptivo": true,
+      "acao": "Das kam an. Das Erlebnis war erlaubt; ein Vergleich wäre es nicht gewesen.",
+      "es": "Eh, quello sì. Su quello non si discute.",
+      "pt": "Ah, das schon. Darüber streitet niemand.",
+      "tts": "Eh, quello sì. Su quello non si discute."
+    },
+    {
+      "consulta": [
+        "conversa/perguntar"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-a04-p05",
+      "promptPt": "Sie stehen im Ort Ihres Gegenübers. Fragen Sie nach den letzten Jahrzehnten hier. Sprechen Sie jetzt.",
+      "audioKey": "it-a04-x01",
+      "es": "Qui cos'è cambiato negli anni?",
+      "pinyin": "kwee ko-ZEH kam-bee-A-to NE-lyee AN-nee",
+      "pt": "Was hat sich hier über die Jahre verändert?",
+      "tts": "Qui cos'è cambiato negli anni?"
+    },
+    {
+      "consulta": [
+        "conversa/opiniao"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-a04-p06",
+      "promptPt": "Fassen Sie zusammen, was die Reise Ihnen über das Land gezeigt hat. Sprechen Sie jetzt.",
+      "audioKey": "it-a04-x02",
+      "es": "Ho capito che l'Italia non è una sola.",
+      "pinyin": "oh ka-PEE-to keh lee-TA-lya non eh OO-na SO-la",
+      "pt": "Mir ist klar geworden: Italien ist nicht nur eines.",
+      "tts": "Ho capito che l'Italia non è una sola."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_m",
+      "audioKey": "it-a04-n06",
+      "bloco": "recap",
+      "pt": "A04 geschafft. Der Abstand ist real, die Erklärung umstritten. Ihr Beitrag ist eine Frage, kein Urteil."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Eine Linie, die durch alles läuft",
+    "secoes": [
+      {
+        "titulo": "Tatsache und Deutung sind zweierlei",
+        "corpo": "Dass der wirtschaftliche Abstand existiert, ist gemessen und unstrittig. Warum es ihn gibt — Geschichte, Politik, Staat, organisierte Kriminalität, die Einigung selbst — wird mit echtem Gefühl diskutiert, und genau bei diesem zweiten Teil ist die Meinung eines Gastes nicht gefragt."
+      },
+      {
+        "titulo": "Oft ist es eine Familiengeschichte",
+        "corpo": "Die große Binnenwanderung vom Süden in den Norden hat unzählige italienische Familien geprägt. Wenn Ihnen jemand seine Sicht auf die Teilung erklärt, hören Sie häufig den Lebenslauf seiner Eltern.",
+        "exemplos": [
+          {
+            "es": "E lei come l'ha vissuta?",
+            "pt": "Und wie haben Sie das erlebt?"
+          },
+          {
+            "es": "Non ne so abbastanza per giudicare.",
+            "pt": "Ich weiß zu wenig darüber, um zu urteilen."
+          }
+        ]
+      },
+      {
+        "titulo": "Der Fußball trägt sie mit",
+        "corpo": "Bestimmte Begegnungen stehen stellvertretend für die ganze Debatte, und die Gesänge im Stadion sind härter als alles, was Sie im Gespräch hören werden. Das Spiel zu genießen, ohne eine Seite zu übernehmen, ist gut möglich und deutlich entspannter."
+      },
+      {
+        "titulo": "Erlebnis schlägt Vergleich",
+        "corpo": "Zu sagen, dass man Sie irgendwo herzlich aufgenommen hat, ist ein Bericht über Ihre Reise. Zu sagen, eine Landeshälfte sei besser als die andere, ist ein Urteil über deren Leben. Das Erste geht immer, das Zweite lohnt sich nie."
+      }
+    ]
+  },
+  "slot": "A04",
+  "permissao": "Sie dürfen sagen, dass Sie dazu keine Meinung haben. Non ne so abbastanza per giudicare ist in diesem Gespräch kein Ausweichen — nach drei Wochen im Land ist es die genaue Antwort, und sie wird als Respekt gehört, nicht als Zurückhaltung.",
+  "permissaoAudioKey": "it-a04-n05",
+  "espelho": "Fast jedes Land kennt die eine Debatte, aus der Gäste sich besser heraushalten. Und jeder kennt das Gefühl, wenn ein Besucher im eigenen Land selbstsicher Partei ergreift. Diese Form in Italien wiederzuerkennen ist leichter, als es klingt — Sie kennen sie schon von zu Hause.",
+  "fichasCulturais": [
+    {
+      "sinal": "Jemand kritisiert vor Ihnen die andere Landeshälfte und macht eine Pause, als warte er auf Ihre Sicht.",
+      "suaLeitura": "Meine Meinung ist gefragt, und eine zu haben zeigt, dass ich aufgepasst habe.",
+      "oQueEAli": "Die Pause ist meist rhetorisch und keine echte Bitte um ein Urteil von außen. Die Teilung ist eine interne Debatte mit anderthalb Jahrhunderten Geschichte und sehr oft mit persönlichem Familienbezug.",
+      "oQueVoceFaz": "Ersetzen Sie das Urteil durch eine Frage nach der Erfahrung — e lei come l'ha vissuta? — oder erzählen Sie von sich, ohne etwas zu bewerten.",
+      "oQueMelhora": "Sie bekommen die eigentliche Geschichte, die meist weit interessanter ist als die Position, und bleiben im Gespräch, statt es zu beenden.",
+      "ondeNaoVale": "Kein Grund, über die eigene Reise zu schweigen. Zu sagen, wo man gut behandelt wurde, ist willkommen; heikel wird es erst, wenn daraus ein Vergleich wird.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "it-a04-n04",
+        "it-a04-n05"
+      ]
+    }
+  ]
+}

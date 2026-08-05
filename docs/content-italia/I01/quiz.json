@@ -1,0 +1,92 @@
+{
+  "id": "q-i01",
+  "nivel": "intermediario",
+  "titulo": "Quiz — Ihre Uhr",
+  "subtitulo": "Zwei Uhren, eine Lücke",
+  "introAudioKey": "it-i01-q-i",
+  "introPt": "Eine Reisende findet heraus, wann die Küche wirklich öffnet.",
+  "cenario": "Vor einem Restaurant, Viertel nach sechs.",
+  "dialogo": [
+    {
+      "audioKey": "it-i01-q01",
+      "voz": "target_it_f",
+      "es": "A che ora apre la cucina?",
+      "pt": "Um wie viel Uhr öffnet die Küche?"
+    },
+    {
+      "audioKey": "it-i01-q02",
+      "voz": "target_it_m",
+      "es": "La cucina apre alle otto. Prima solo aperitivo.",
+      "pt": "Die Küche öffnet um acht. Vorher nur aperitivo."
+    },
+    {
+      "audioKey": "it-i01-q03",
+      "voz": "target_it_f",
+      "es": "Un tavolo per due alle nove, è possibile?",
+      "pt": "Ein Tisch für zwei um neun, geht das?"
+    },
+    {
+      "audioKey": "it-i01-q04",
+      "voz": "target_it_f",
+      "es": "Lei dove va a mangiare la sera?",
+      "pt": "Wo gehen Sie abends essen?"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Das Mittagsfenster schließt in der Regel gegen:",
+      "opcoes": [
+        "Vier",
+        "Halb drei",
+        "Sechs",
+        "Es schließt nicht"
+      ],
+      "correta": 1,
+      "explica": "Danach ist die Küche zu, nicht langsam."
+    },
+    {
+      "pergunta": "Der Abendbetrieb beginnt:",
+      "opcoes": [
+        "Überall zur selben Zeit",
+        "Nach Süden hin später — dort ist neun gewöhnlich",
+        "Um sechs",
+        "Erst nach zehn"
+      ],
+      "correta": 1,
+      "explica": "Ein Lokal danach zu beurteilen, wie leer es um acht ist, führt in die Irre."
+    },
+    {
+      "pergunta": "Voller Abendbetrieb um sechs im Touristenzentrum zeigt:",
+      "opcoes": [
+        "Gutes Preis-Leistungs-Verhältnis",
+        "Wer die Gäste sind",
+        "Frische Küche",
+        "Frühen Feierabend"
+      ],
+      "correta": 1,
+      "explica": "Meist zusammen mit mehrsprachiger Karte und Fotos."
+    },
+    {
+      "pergunta": "Welche Formulierung bringt die echte Antwort?",
+      "opcoes": [
+        "Dove dovrei mangiare?",
+        "Lei dove va a mangiare?",
+        "Qual è il migliore?",
+        "È buono qui?"
+      ],
+      "correta": 1,
+      "explica": "Die zweite fragt nach ihrem Leben, nicht nach Gästen."
+    },
+    {
+      "pergunta": "Ein leeres Restaurant um acht bedeutet:",
+      "opcoes": [
+        "Die Leute von hier meiden es",
+        "Es ist früh — der Raum füllt sich zwischen neun und zehn",
+        "Es hat gerade eröffnet",
+        "Schlechte Bewertungen"
+      ],
+      "correta": 1,
+      "explica": "Mittags ist ein voller Raum dagegen wirklich ein gutes Zeichen."
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "q-i03",
+  "nivel": "intermediario",
+  "titulo": "Quiz — Das Gericht, das Sie nie bestellt hätten",
+  "subtitulo": "Die Entscheidung übergeben",
+  "introAudioKey": "it-i03-q-i",
+  "introPt": "Eine Reisende bestellt nicht mehr das eine Gericht, das sie kennt.",
+  "cenario": "Eine Trattoria, die Karte noch zu.",
+  "dialogo": [
+    {
+      "audioKey": "it-i03-q01",
+      "voz": "target_it_f",
+      "es": "Cosa mi consiglia?",
+      "pt": "Was empfehlen Sie?"
+    },
+    {
+      "audioKey": "it-i03-q02",
+      "voz": "target_it_m",
+      "es": "Oggi abbiamo i carciofi. Li facciamo alla giudia.",
+      "pt": "Heute haben wir Artischocken. Wir machen sie nach jüdischer Art."
+    },
+    {
+      "audioKey": "it-i03-q03",
+      "voz": "target_it_f",
+      "es": "Allora prendo quello, mi fido.",
+      "pt": "Dann nehme ich das, ich vertraue Ihnen."
+    },
+    {
+      "audioKey": "it-i03-q04",
+      "voz": "target_it_f",
+      "es": "Un quarto di vino della casa, rosso.",
+      "pt": "Einen Viertelliter Hauswein, rot."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Was bewirken die zwei Wörter mi fido?",
+      "opcoes": [
+        "Sie fragen nach dem Preis",
+        "Sie signalisieren: kein schwieriger Tisch — und die Qualität spiegelt das",
+        "Sie bestellen Nachtisch",
+        "Sie bitten um die Rechnung"
+      ],
+      "correta": 1,
+      "explica": "Der erste Satz bringt eine Empfehlung, der zweite die gute."
+    },
+    {
+      "pergunta": "Müssen Sie alle fünf Gänge bestellen?",
+      "opcoes": [
+        "Ja",
+        "Nein — ein primo und ein contorno sind eine normale Mahlzeit",
+        "Nur abends",
+        "Nur sonntags"
+      ],
+      "correta": 1,
+      "explica": "Sagen Sie, welche Gänge Sie wollen, dann kommt der Rest nicht."
+    },
+    {
+      "pergunta": "Ein festes mehrsprachiges Menü mit Fotos zeigt:",
+      "opcoes": [
+        "Gutes Preis-Leistungs-Verhältnis",
+        "Ein Haus, das darauf gebaut ist, Sie nie wiederzusehen",
+        "Frische Zutaten",
+        "Einen Liebling der Nachbarschaft"
+      ],
+      "correta": 1,
+      "explica": "Das ist das Gegenteil des Anreizes, den Sie wollen."
+    },
+    {
+      "pergunta": "Vino della casa ist:",
+      "opcoes": [
+        "Eine Sparversion",
+        "Meist der Wein der Gegend, den das Haus selbst trinkt",
+        "Immer süß",
+        "Nur für Gruppen"
+      ],
+      "correta": 1,
+      "explica": "Oft die bessere Wahl als die billigste Flasche."
+    },
+    {
+      "pergunta": "Der Kellner nennt ein Gericht ohne Alternativen. Das heißt:",
+      "opcoes": [
+        "Er will Ware loswerden",
+        "Heute gibt es eine richtige Antwort",
+        "Er hat es eilig",
+        "Er hat nicht verstanden"
+      ],
+      "correta": 1,
+      "explica": "Die lange Liste ist die kommerziellere Reaktion."
+    }
+  ]
+}

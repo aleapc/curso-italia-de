@@ -1,0 +1,292 @@
+{
+  "id": "b10",
+  "nivel": "basico",
+  "numero": 10,
+  "parte": "4A",
+  "titulo": "Die Schilder, die Sie lesen können, sind die gefährlichen",
+  "subtitulo": "Italienisch sieht lesbar aus, und genau das ist das Problem — chiuso, riservato, guasto und die Wörter, die etwas anderes heißen",
+  "cena": "Sie stehen vor einer Tür mit einem gedruckten Schild, und alle anderen auf der Straße haben längst verstanden, was Sie noch nicht verstehen.",
+  "moldura": "resolve",
+  "frasePiso": "Sie müssen das Schild nicht ganz lesen. Sie müssen wissen, ob es heißt: rein, später wiederkommen oder andere Tür.",
+  "moldes": [],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "it-b10-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Italienische Schilder sehen lesbar aus, das ist die Falle. Manche Wörter heißen genau das — ein paar nicht, und die kosten."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-b10-r01",
+      "receptivo": true,
+      "es": "Chiuso per ferie. Riapriamo il ventidue agosto.",
+      "pt": "Betriebsferien. Wir öffnen wieder am zweiundzwanzigsten August.",
+      "tts": "Chiuso per ferie. Riapriamo il ventidue agosto.",
+      "acao": "Lesen Sie das Datum, nicht das Wort. Kommen Sie am Zweiundzwanzigsten wieder."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "it-b10-n02",
+      "bloco": "corpo",
+      "pt": "Aperto und chiuso sind das ganze Spiel. Auf und zu, an jeder Tür im Land."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_f",
+      "audioKey": "it-b10-r02",
+      "receptivo": true,
+      "es": "Orario continuato. Aperto tutti i giorni.",
+      "pt": "Durchgehend geöffnet. Täglich offen.",
+      "tts": "Orario continuato. Aperto tutti i giorni.",
+      "acao": "Planen Sie nicht um eine Mittagspause herum. Hier ist durchgehend offen."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "it-b10-n03",
+      "pt": "Jetzt die falschen Freunde. Caldo heißt heiß, nicht kalt. Camera ist das Zimmer, fattoria der Bauernhof."
+    },
+    {
+      "consulta": [
+        "ler/placa"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-b10-p01",
+      "promptPt": "Das Schild ist lang, Sie brauchen nur eines: reingehen oder nicht. Fragen Sie kurz nach. Sprechen Sie jetzt.",
+      "audioKey": "it-b10-t01",
+      "es": "Scusi, è aperto?",
+      "pinyin": "SKOO-zee, eh a-PER-to",
+      "pt": "Entschuldigung, ist geöffnet?",
+      "tts": "Scusi, è aperto?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-b10-r03",
+      "receptivo": true,
+      "es": "Riservato ai clienti. Guasto — fuori servizio.",
+      "pt": "Nur für Gäste. Defekt — außer Betrieb.",
+      "tts": "Riservato ai clienti. Guasto, fuori servizio.",
+      "acao": "Etwas kaufen oder weitergehen, und den anderen Automaten suchen."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "it-b10-n04",
+      "pt": "Guasto ist kaputt, fuori servizio außer Betrieb. Für Sie heißt beides dasselbe: den anderen Automaten suchen."
+    },
+    {
+      "consulta": [
+        "ler/placa",
+        "reparo/traduzir"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-b10-p02",
+      "promptPt": "Sie stehen vor einem Wort, das Sie nicht kennen. Zeigen Sie darauf und fragen Sie. Sprechen Sie jetzt.",
+      "audioKey": "it-b10-t02",
+      "es": "Cosa vuol dire questo?",
+      "pinyin": "KO-za vwol DEE-re KWES-to",
+      "pt": "Was heißt das?",
+      "tts": "Cosa vuol dire questo?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "it-b10-n05",
+      "bloco": "capsula",
+      "pt": "Türen: spingere ist drücken, tirare ziehen. Entrata rein, uscita raus. Vietato heißt verboten, und das ist immer ernst."
+    },
+    {
+      "consulta": [
+        "ler/horario"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-b10-p03",
+      "promptPt": "Die Zeiten auf dem Zettel sind handgeschrieben und unlesbar. Fragen Sie nach der Uhrzeit. Sprechen Sie jetzt.",
+      "audioKey": "it-b10-t03",
+      "es": "A che ora aprite?",
+      "pinyin": "a keh O-ra a-PREE-te",
+      "pt": "Wann machen Sie auf?",
+      "tts": "A che ora aprite?",
+      "molde": "A-CHE-ORA",
+      "encaixe": "aprite"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-b10-r04",
+      "receptivo": true,
+      "es": "Alle sedici. Ora facciamo la pausa.",
+      "pt": "Um vier. Jetzt ist Mittagspause.",
+      "tts": "Alle sedici. Ora facciamo la pausa.",
+      "acao": "Nicht draußen warten. Um vier wiederkommen und die zwei Stunden nutzen."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "it-b10-n06",
+      "pt": "Sedici ist sechzehn — die Vierundzwanzig-Stunden-Zählung. Auf Schildern fast immer, im Gespräch oft."
+    },
+    {
+      "consulta": [
+        "ler/horario"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "C-E",
+      "encaixe": "la pausa",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-b10-p04",
+      "promptPt": "Fragen Sie mit dem Baustein aus B08, ob am Nachmittag zugesperrt wird. Sprechen Sie jetzt.",
+      "audioKey": "it-b10-t04",
+      "es": "C'è la pausa il pomeriggio?",
+      "pinyin": "cheh la PAU-za eel po-me-REE-jo",
+      "pt": "Gibt es nachmittags eine Pause?",
+      "tts": "C'è la pausa il pomeriggio?"
+    },
+    {
+      "consulta": [
+        "ler/placa",
+        "chegar/entrada"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "DOV-E",
+      "encaixe": "l'entrata",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-b10-p05",
+      "promptPt": "An dieser Tür steht uscita. Sie brauchen die andere Seite. Fragen Sie danach. Sprechen Sie jetzt.",
+      "audioKey": "it-b10-t05",
+      "es": "Dov'è l'entrata?",
+      "pinyin": "do-VEH len-TRA-ta",
+      "pt": "Wo ist der Eingang?",
+      "tts": "Dov'è l'entrata?"
+    },
+    {
+      "consulta": [
+        "ler/placa",
+        "reparo/permissao"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "POSSO",
+      "encaixe": "entrare",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-b10-p06",
+      "promptPt": "Auf dem Schild steht riservato, und Sie wissen nicht, ob Sie gemeint sind. Fragen Sie nach. Sprechen Sie jetzt.",
+      "audioKey": "it-b10-t06",
+      "es": "Posso entrare?",
+      "pinyin": "POS-so en-TRA-re",
+      "pt": "Darf ich hinein?",
+      "tts": "Posso entrare?"
+    },
+    {
+      "consulta": [
+        "reparo/repetir"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-b10-p07",
+      "promptPt": "Man liest Ihnen das Schild viel zu schnell vor. Bitten Sie um die Uhrzeit auf Papier. Sprechen Sie jetzt.",
+      "audioKey": "it-b10-t07",
+      "es": "Me lo può scrivere?",
+      "pinyin": "meh lo pwoh skree-VE-re",
+      "pt": "Können Sie es mir aufschreiben?",
+      "tts": "Me lo può scrivere?",
+      "molde": "MI-PUO",
+      "encaixe": "scrivere"
+    },
+    {
+      "consulta": [
+        "ler/placa"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-b10-p08",
+      "promptPt": "Sie wollen den Weg nicht umsonst machen. Klären Sie den Ruhetag am Wochenanfang. Sprechen Sie jetzt.",
+      "audioKey": "it-b10-t08",
+      "es": "Siete chiusi il lunedì?",
+      "pinyin": "see-EH-te kee-OO-zee eel loo-ne-DEE",
+      "pt": "Haben Sie montags geschlossen?",
+      "tts": "Siete chiusi il lunedì?"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_it_f",
+      "audioKey": "it-b10-s01",
+      "es": "Scusi, è aperto? Cosa vuol dire questo? A che ora aprite?",
+      "pinyin": "SKOO-zee eh a-PER-to. KO-za vwol DEE-re KWES-to. a keh O-ra a-PREE-te",
+      "pt": "Sprechen Sie die drei Fragen mit, die jede Tür öffnen.",
+      "tts": "Scusi, è aperto? Cosa vuol dire questo? A che ora aprite?"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_f",
+      "audioKey": "it-b10-n07",
+      "bloco": "recap",
+      "pt": "B10 sitzt. Aperto und chiuso, guasto und vietato, spingere und tirare — und cosa vuol dire questo für alles andere."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Schilder sind zum Erkennen da, und kurz",
+    "secoes": [
+      {
+        "titulo": "Die fünf Wörter, die über die Tür entscheiden",
+        "corpo": "Aperto, chiuso, entrata, uscita, vietato. Wer die erkennt, kommt durch fast jede Tür in Italien, ohne einen einzigen ganzen Satz zu lesen."
+      },
+      {
+        "titulo": "Falsche Freunde, die Geld oder Zeit kosten",
+        "corpo": "Caldo heißt heiß — das teuerste Wort der Liste, weil Sie sonst das Gegenteil von dem bestellen, was Sie wollten. Camera ist das Zimmer, fattoria der Bauernhof, morbido weich, firma die Unterschrift, confetti sind gezuckerte Mandeln. Birra alla spina ist Bier vom Fass. Nichts davon ist exotisch — es sind die Wörter, die am harmlosesten aussehen.",
+        "exemplos": [
+          {
+            "es": "Camera doppia",
+            "pt": "Doppelzimmer"
+          },
+          {
+            "es": "Guasto — fuori servizio",
+            "pt": "Defekt — außer Betrieb"
+          }
+        ]
+      },
+      {
+        "titulo": "Chiuso per ferie",
+        "corpo": "Betriebsferien, am sichtbarsten im August, wenn in ganzen Straßen die kleinen Läden zwei bis drei Wochen zubleiben. Auf dem Schild steht meist das Datum der Wiedereröffnung — lesen Sie also das Datum, nicht das Wort."
+      },
+      {
+        "titulo": "Die pausa gibt es wirklich",
+        "corpo": "Außerhalb der großen Stadtzentren schließen viele Läden am frühen Nachmittag und öffnen gegen vier wieder. Orario continuato an der Tür meint das Gegenteil: durchgehend geöffnet."
+      }
+    ]
+  },
+  "slot": "B10",
+  "permissao": "Sie dürfen fragen, was ein Wort bedeutet, während Sie vor dem Schild stehen, auf dem es steht. Auf ein gedrucktes Wort zu zeigen und cosa vuol dire questo zu fragen, ist völlig normal — es geht schneller als das Handy und ist kein Eingeständnis, dass Sie es hätten wissen müssen.",
+  "permissaoAudioKey": "it-b10-n03",
+  "espelho": "Wer schon einmal vor dem Aushang eines Waschsalons stand und rätselte, ob er heute gilt, kennt das Gefühl. Beim Italienischen kommt hinzu, dass viele Wörter vertraut wirken — aus der Speisekarte, aus dem Musikunterricht, aus dem letzten Urlaub. Genau diese Vertrautheit ist es, die in die Irre führt.",
+  "fichasCulturais": [
+    {
+      "sinal": "Sie kommen an einem Werktag um halb drei zu einem kleinen Laden, und er ist dunkel und verschlossen, ohne Erklärung an der Tür.",
+      "suaLeitura": "Der Laden ist wohl aufgegeben, oder die Zeiten im Netz stimmten nicht.",
+      "oQueEAli": "Außerhalb der großen Stadtzentren schließen viele kleine Betriebe am frühen Nachmittag für einige Stunden und öffnen am späten Nachmittag wieder. Eine Tür mit orario continuato kündigt die Ausnahme an, nicht die Regel.",
+      "oQueVoceFaz": "Lesen Sie auf dem Schild die Uhrzeit der Wiedereröffnung statt des Worts, oder fragen Sie in der Bar nebenan a che ora aprite? Und legen Sie den Nachmittag um vier Uhr herum an.",
+      "oQueMelhora": "Sie stapeln keine Erledigungen mehr in ein Zeitfenster, das nie offen war, und bekommen denselben Laden mit einer ausgeruhten Person hinter dem Tresen.",
+      "ondeNaoVale": "Nicht in touristischen Zentren, Bahnhofsvierteln oder Supermärkten, wo durchgehende Öffnung inzwischen Standard ist — und immer weniger in Mailand, wo die pausa weitgehend verschwunden ist.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "it-b10-n06"
+      ]
+    }
+  ]
+}

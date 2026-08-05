@@ -1,0 +1,96 @@
+{
+  "id": "q-a05",
+  "nivel": "avancado",
+  "titulo": "Quiz — Die andere Sprache",
+  "subtitulo": "Keine Dialekte des Italienischen",
+  "introAudioKey": "it-a05-q-i",
+  "introPt": "Ein Reisender findet heraus, warum sein Italienisch nicht mehr trug.",
+  "cenario": "Zwei Leute wechseln mitten im Gespräch die Sprache.",
+  "dialogo": [
+    {
+      "audioKey": "it-a05-q01",
+      "voz": "target_it_m",
+      "es": "Uè, ma che vuo'? Vien' ccà nu poco.",
+      "pt": "He, was gibt's? Komm mal kurz her.",
+      "tts": "Uè, ma che vuo'? Vien' ccà nu poco."
+    },
+    {
+      "audioKey": "it-a05-q02",
+      "voz": "target_it_f",
+      "es": "Ciao, come xe? Tuto ben, va?",
+      "pt": "Hallo, wie läuft's? Alles gut, ja?",
+      "tts": "Ciao, come xe? Tuto ben, va?"
+    },
+    {
+      "audioKey": "it-a05-q03",
+      "voz": "target_it_f",
+      "es": "Come si dice in dialetto?",
+      "pt": "Wie sagt man das im Dialekt?",
+      "tts": "Come si dice in dialetto?"
+    },
+    {
+      "audioKey": "it-a05-q04",
+      "voz": "target_it_f",
+      "es": "Non è un dialetto, è una lingua. Mia nonna non parlava italiano.",
+      "pt": "Das ist kein Dialekt, das ist eine Sprache. Meine Oma sprach kein Italienisch.",
+      "tts": "Non è un dialetto, è una lingua. Mia nonna non parlava italiano."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Neapolitanisch und Sizilianisch sind:",
+      "opcoes": [
+        "Verdorbenes Italienisch",
+        "Romanische Varietäten, neben dem Toskanischen entstanden, nicht daraus",
+        "Neuer Slang",
+        "Importe aus dem Ausland"
+      ],
+      "correta": 1,
+      "explica": "Das Toskanische gewann eine literarische und politische Auseinandersetzung."
+    },
+    {
+      "pergunta": "Wie viele historische Sprachminderheiten schützt das italienische Recht?",
+      "opcoes": [
+        "Zwei",
+        "Sechs",
+        "Zwölf",
+        "Keine"
+      ],
+      "correta": 2,
+      "explica": "Darunter Sardisch, Friaulisch, Ladinisch, Slowenisch, Deutsch und weitere."
+    },
+    {
+      "pergunta": "Sie wechseln zu etwas Unverständlichem. Was ist passiert?",
+      "opcoes": [
+        "Ihr Italienisch hat versagt",
+        "Sie haben die Sprache gewechselt",
+        "Sie schließen Sie aus",
+        "Sie machen Witze"
+      ],
+      "correta": 1,
+      "explica": "Das Italienisch für Sie war die Rücksichtnahme."
+    },
+    {
+      "pergunta": "Sollten Sie die lokale Wendung nachsprechen?",
+      "opcoes": [
+        "Nein, das ist Spott",
+        "Ja, ruhig schlecht — der Versuch ist das Kompliment",
+        "Nur wenn es perfekt sitzt",
+        "Nur schriftlich"
+      ],
+      "correta": 1,
+      "explica": "Flüssigkeit wäre merkwürdig; der Versuch zeigt Interesse."
+    },
+    {
+      "pergunta": "Jemand korrigiert dialetto zu lingua. Das ist:",
+      "opcoes": [
+        "Eine Rüge",
+        "Information darüber, was es für sie bedeutet",
+        "Ein Witz",
+        "Eine regionale Spitze"
+      ],
+      "correta": 1,
+      "explica": "Beide Reaktionen sind normal."
+    }
+  ]
+}

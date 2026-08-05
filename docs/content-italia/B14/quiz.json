@@ -1,0 +1,92 @@
+{
+  "id": "q-b14",
+  "nivel": "basico",
+  "titulo": "Quiz — Mi porta und die Rechnung",
+  "subtitulo": "Coperto, servizio, scontrino",
+  "introAudioKey": "it-b14-q-i",
+  "introPt": "Eine Reisende fragt nach der Rechnung, liest die zwei Zusatzzeilen und nimmt den Beleg mit.",
+  "cenario": "Das Ende einer Mahlzeit in einer Trattoria.",
+  "dialogo": [
+    {
+      "audioKey": "it-b14-q01",
+      "voz": "target_it_f",
+      "es": "Mi porta il conto, per favore?",
+      "pt": "Bringen Sie mir bitte die Rechnung?"
+    },
+    {
+      "audioKey": "it-b14-q02",
+      "voz": "target_it_m",
+      "es": "Coperto due euro a persona, servizio dieci per cento.",
+      "pt": "Gedeck zwei Euro pro Person, Bedienung zehn Prozent."
+    },
+    {
+      "audioKey": "it-b14-q03",
+      "voz": "target_it_f",
+      "es": "Scusi, cos'è questa voce?",
+      "pt": "Entschuldigung, was ist dieser Posten?"
+    },
+    {
+      "audioKey": "it-b14-q04",
+      "voz": "target_it_f",
+      "es": "Mi porta lo scontrino, per favore?",
+      "pt": "Bringen Sie mir bitte den Beleg?"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Warum kommt die Rechnung nicht von allein?",
+      "opcoes": [
+        "Der Kellner hat es vergessen",
+        "Ungefragt gebracht hieße: Bitte gehen Sie",
+        "Die Küche ist langsam",
+        "Man zahlt an der Kasse"
+      ],
+      "correta": 1,
+      "explica": "Der Tisch gehört Ihnen, bis Sie etwas anderes signalisieren."
+    },
+    {
+      "pergunta": "Ist der coperto gesetzlich vorgeschrieben?",
+      "opcoes": [
+        "Ja, immer",
+        "Nein — aber zulässig, wenn er auf der Karte klar ausgewiesen ist",
+        "Nein, und er ist immer unzulässig",
+        "Nur in Touristenvierteln"
+      ],
+      "correta": 1,
+      "explica": "Ein coperto, der nirgends auf der Karte steht, ist die Variante, nach der man fragt."
+    },
+    {
+      "pergunta": "Servizio steht auf der Rechnung. Zusätzlich Trinkgeld?",
+      "opcoes": [
+        "Ja, fünfzehn Prozent",
+        "Ja, zehn Prozent",
+        "Nein — Trinkgeld obendrauf wird nicht erwartet; aufrunden genügt",
+        "Nur bei guter Bedienung"
+      ],
+      "correta": 2,
+      "explica": "Italien lebt nicht vom Trinkgeld."
+    },
+    {
+      "pergunta": "Der scontrino fiscale ist:",
+      "opcoes": [
+        "Eine Gefälligkeit",
+        "Eine gesetzliche Pflicht des Betriebs",
+        "Freiwilliger Papierkram",
+        "Nur für Firmen"
+      ],
+      "correta": 1,
+      "explica": "Er ist außerdem das einzige Dokument, mit dem sich hinterher etwas klären lässt."
+    },
+    {
+      "pergunta": "Wofür ist mi porta da?",
+      "opcoes": [
+        "Nur für die Rechnung",
+        "Für alles, was physisch an Ihren Tisch kommen soll",
+        "Für Wegbeschreibungen",
+        "Für Preise"
+      ],
+      "correta": 1,
+      "explica": "Die Rechnung, Wasser, Brot, der Beleg."
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "id": "b02",
+  "nivel": "basico",
+  "numero": 2,
+  "parte": "1B",
+  "titulo": "Grüßen, bevor Sie etwas brauchen",
+  "subtitulo": "Buongiorno beim Eintreten ist keine Höflichkeit, sondern die Eintrittskarte — und permesso ist das Wort, das Ihnen den Weg öffnet",
+  "cena": "Sie betreten einen kleinen Laden, gehen wortlos zur Ware, und die Stimmung im Raum ist um einen Grad kühler geworden.",
+  "moldura": "ganha",
+  "frasePiso": "Zuerst grüßen, dann brauchen. In dieser Reihenfolge kostet es nichts; in der anderen kostet es den Ton des ganzen Gesprächs.",
+  "moldes": [],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "it-b02-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Zehn Wörter tragen die erste Woche. Neun davon sind Höflichkeit, und die Reihenfolge ist wichtiger als die Aussprache."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_f",
+      "audioKey": "it-b02-t01",
+      "es": "Buongiorno!",
+      "pinyin": "bwon-JOR-no",
+      "pt": "Guten Tag. Beim Eintreten, in den Raum gesagt, vor allem anderen.",
+      "tts": "Buongiorno!"
+    },
+    {
+      "consulta": [
+        "simpatia/saudacao",
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-b02-p01",
+      "promptPt": "Sie betreten eine Bar am Vormittag. Grüßen Sie, bevor Sie etwas wollen. Sprechen Sie jetzt.",
+      "audioKey": "it-b02-t01",
+      "es": "Buongiorno!",
+      "pinyin": "bwon-JOR-no",
+      "pt": "Guten Tag!"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "it-b02-n02",
+      "bloco": "corpo",
+      "pt": "Buongiorno bis etwa vier, danach buonasera. Wer sich vertut, wird korrigiert und niemandem ist es peinlich."
+    },
+    {
+      "consulta": [
+        "simpatia/saudacao"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-b02-p02",
+      "promptPt": "Jetzt ist es halb acht abends. Grüßen Sie richtig. Sprechen Sie jetzt.",
+      "audioKey": "it-b02-t02",
+      "es": "Buonasera!",
+      "pinyin": "bwo-na-SEH-ra",
+      "pt": "Guten Abend!",
+      "tts": "Buonasera!"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "it-b02-n03",
+      "pt": "Permesso sagt man beim Durchgehen, beim Eintreten, beim Vorbei am Tisch. Es ist kein Entschuldigen, es ist ein Ankündigen."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-b02-t03",
+      "es": "Permesso.",
+      "pinyin": "per-MES-so",
+      "pt": "Darf ich durch. Das doppelte s lang halten.",
+      "tts": "Permesso."
+    },
+    {
+      "consulta": [
+        "reparo/apontar",
+        "chegar/sair"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-b02-p03",
+      "promptPt": "Der Gang ist eng und Sie müssen vorbei. Sprechen Sie jetzt.",
+      "audioKey": "it-b02-t03",
+      "es": "Permesso.",
+      "pinyin": "per-MES-so",
+      "pt": "Darf ich durch."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "it-b02-n04",
+      "bloco": "capsula",
+      "pt": "Scusi ruft jemanden an. Mi scusi entschuldigt. Der Unterschied entscheidet, ob man sich umdreht oder abwehrt."
+    },
+    {
+      "consulta": [
+        "reparo/nao-entendi",
+        "transporte/direcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-b02-p04",
+      "promptPt": "Sie wollen jemanden ansprechen, der Sie nicht gesehen hat. Sprechen Sie jetzt.",
+      "audioKey": "it-b02-t04",
+      "es": "Scusi, posso chiederle una cosa?",
+      "pinyin": "SKOO-zee, POS-so kee-EH-der-le oo-na KO-za",
+      "pt": "Entschuldigung, darf ich Sie etwas fragen?",
+      "tts": "Scusi, posso chiederle una cosa?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-b02-r01",
+      "es": "Certo, mi dica.",
+      "pt": "Natürlich, sagen Sie.",
+      "tts": "Certo, mi dica."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "it-b02-n05",
+      "pt": "Mi dica heißt: Sie haben das Wort. Keine Lebensgeschichte — sagen Sie einfach das, weswegen Sie gekommen sind."
+    },
+    {
+      "consulta": [
+        "compras/so-olhando"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-b02-p05",
+      "promptPt": "Man fragt, ob Sie Hilfe brauchen, Sie sehen sich aber nur um. Sprechen Sie jetzt.",
+      "audioKey": "it-b02-t05",
+      "es": "Sto solo guardando, grazie.",
+      "pinyin": "sto SO-lo gwar-DAN-do, GRA-tsee-eh",
+      "pt": "Ich schaue mich nur um, danke.",
+      "tts": "Sto solo guardando, grazie."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "it-b02-n06",
+      "pt": "Letzter Zug: der Abschluss. Arrivederci beim Hinausgehen — ein Wort, gesagt vor der Tür, nicht danach."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer",
+        "chegar/sair"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-b02-p06",
+      "promptPt": "Sie gehen aus dem Laden, ohne etwas gekauft zu haben. Verabschieden Sie sich warm. Sprechen Sie jetzt.",
+      "audioKey": "it-b02-t06",
+      "es": "Grazie, arrivederci!",
+      "pinyin": "GRA-tsee-eh, ar-ree-ve-DER-chee",
+      "pt": "Danke, auf Wiedersehen!",
+      "tts": "Grazie, arrivederci!"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_f",
+      "audioKey": "it-b02-r02",
+      "es": "Arrivederci, buona giornata!",
+      "pt": "Auf Wiedersehen, schönen Tag noch!",
+      "tts": "Arrivederci, buona giornata!"
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-b02-p07",
+      "promptPt": "Man wünscht Ihnen einen schönen Tag. Geben Sie es zurück, in einem Wort. Sprechen Sie jetzt.",
+      "audioKey": "it-b02-t07",
+      "es": "Altrettanto!",
+      "pinyin": "al-tret-TAN-to",
+      "pt": "Ebenfalls!",
+      "tts": "Altrettanto!"
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-b02-p08",
+      "promptPt": "Bedanken Sie sich bei jemandem, der sich Zeit genommen hat. Sprechen Sie jetzt.",
+      "audioKey": "it-b02-t08",
+      "es": "Grazie, molto gentile.",
+      "pinyin": "GRA-tsee-eh, MOL-to jen-TEE-le",
+      "pt": "Danke, sehr freundlich.",
+      "tts": "Grazie, molto gentile."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_it_f",
+      "audioKey": "it-b02-s01",
+      "es": "Buongiorno! Permesso. Scusi, posso chiederle una cosa? Grazie, arrivederci!",
+      "pinyin": "bwon-JOR-no. per-MES-so. SKOO-zee, POS-so kee-EH-der-le oo-na KO-za. GRA-tsee-eh, ar-ree-ve-DER-chee",
+      "pt": "Sprechen Sie die vier Züge nach, in der Reihenfolge, in der Sie sie brauchen.",
+      "tts": "Buongiorno! Permesso. Scusi, posso chiederle una cosa? Grazie, arrivederci!"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_f",
+      "audioKey": "it-b02-n07",
+      "bloco": "recap",
+      "pt": "B02 sitzt. Buongiorno beim Eintreten, permesso vor dem Schritt, scusi zum Ansprechen, arrivederci an der Tür."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Die Reihenfolge ist der Inhalt",
+    "secoes": [
+      {
+        "titulo": "Grüßen ist eine Handlung, keine Floskel",
+        "corpo": "In einem kleinen italienischen Geschäft registriert das buongiorno Sie als Person statt als Laufkundschaft. Wortlos zur Ware zu gehen ist der häufigste unbeabsichtigte Fehltritt von Besuchern und der billigste zu vermeiden.",
+        "exemplos": [
+          {
+            "es": "Permesso.",
+            "pt": "darf ich durch — bevor Sie sich bewegen"
+          },
+          {
+            "es": "Scusi…",
+            "pt": "Entschuldigung — bevor Sie fragen"
+          }
+        ]
+      },
+      {
+        "titulo": "Permesso kündigt an",
+        "corpo": "Es heißt nicht Entschuldigung, sondern gestatten Sie. Beim Durchgehen, beim Betreten einer Wohnung, beim Vorbeidrängen am vollen Tisch. Auf Deutsch greift man hier reflexhaft zu Entschuldigung, und das ist eine Stufe zu schwer für den Anlass."
+      },
+      {
+        "titulo": "Scusi und mi scusi",
+        "corpo": "Scusi ruft jemanden an — das ist die Version, die Sie hundertmal brauchen. Mi scusi entschuldigt sich tatsächlich. Wer immer die zweite nimmt, klingt, als hätte er ständig etwas angestellt."
+      },
+      {
+        "titulo": "Ciao ist nicht neutral",
+        "corpo": "Ciao gehört unter Duzende. Zu jemandem hinter einem Tresen, zu älteren Menschen, im Amt: buongiorno und arrivederci. Ciao zurückzugeben, wenn man es Ihnen anbietet, ist dagegen völlig richtig."
+      }
+    ]
+  },
+  "slot": "B02",
+  "permissao": "Sie dürfen fast nichts sagen und trotzdem richtig ankommen. Buongiorno, permesso, grazie, arrivederci — vier Wörter, jedes einen Takt früher als der Instinkt. Ciao brauchen Sie nicht, und einen ganzen Satz auch nicht.",
+  "permissaoAudioKey": "it-b02-n06",
+  "espelho": "Ein einziges Wort deckt auf Deutsch drei Dinge ab: sich vorbeischieben, jemanden ansprechen, sich entschuldigen. Entschuldigung passt überall, also fühlt sich das wie eine einzige Gewohnheit an. Das Italienische hält die drei auseinander — permesso, scusi, mi scusi — und wer für alles dasselbe Wort nimmt, fällt lange vor dem Akzent auf.",
+  "fichasCulturais": [
+    {
+      "sinal": "Sie betreten ein kleines Geschäft, gehen direkt zur Ware und merken, dass die Person hinter dem Tresen Sie beobachtet.",
+      "suaLeitura": "Man traut mir nicht, oder man findet mich aufdringlich.",
+      "oQueEAli": "Im kleinen italienischen Laden eröffnet der Gruß die Beziehung, und ohne ihn ist noch gar keine da. Die Aufmerksamkeit ist Bedienung, nicht Misstrauen — sie wartet nur auf den ersten Zug, den Sie noch nicht gemacht haben.",
+      "oQueVoceFaz": "Sagen Sie beim Eintreten buongiorno in den Raum, auch wenn Sie nur schauen wollen. Dann sto solo guardando.",
+      "oQueMelhora": "Sie bekommen Ruhe zum Schauen und, falls Sie doch etwas wollen, ein bereits eröffnetes Gespräch statt eines kalten Starts.",
+      "ondeNaoVale": "Nicht in Supermärkten und großen Ketten, wo ein Gruß in den Raum hinein ungewöhnlich wäre.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "it-b02-n01"
+      ]
+    },
+    {
+      "sinal": "Rundherum sagen alle ciao zueinander, Sie probieren es beim Kellner, und der Ton wird eine Spur kühler.",
+      "suaLeitura": "Ciao ist doch das normale italienische Hallo — ich habe es gerade zehnmal gehört.",
+      "oQueEAli": "Ciao ist informell und gegenseitig; es gehört zwischen Menschen, die sich schon duzen. Gegenüber jemandem, der Sie bedient, überspringt es eine Stufe, die das Italienische weiterhin markiert, und wirkt von einer fremden Person eher zu vertraulich als freundlich.",
+      "oQueVoceFaz": "Sagen Sie buongiorno und buonasera zu allen hinter einem Tresen. Lassen Sie ciao im Ohr statt im Mund, bis jemand es zuerst zu Ihnen sagt.",
+      "oQueMelhora": "Sie bekommen die Wärme der richtigen Höflichkeit statt der kleinen Reibung, zu schnell zu vertraulich gewesen zu sein.",
+      "ondeNaoVale": "Nicht unter Gleichaltrigen in klar lockerer Runde, und nicht mehr, sobald jemand ciao zu Ihnen gesagt hat — dann ist es eine Einladung, und Zurückgeben ist genau richtig.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "it-b02-n02"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "q-i08",
+  "nivel": "intermediario",
+  "titulo": "Quiz — Zu Hause eingeladen",
+  "subtitulo": "Die Form eines Sonntagsessens",
+  "introAudioKey": "it-i08-q-i",
+  "introPt": "Ein Reisender nimmt eine Einladung an und trifft den ganzen Bogen.",
+  "cenario": "Sonntagsessen am Tisch einer italienischen Familie.",
+  "dialogo": [
+    {
+      "audioKey": "it-i08-q01",
+      "voz": "target_it_m",
+      "es": "Domenica venite a pranzo da noi. Alle una.",
+      "pt": "Kommen Sie am Sonntag zu uns zum Mittagessen. Um eins."
+    },
+    {
+      "audioKey": "it-i08-q02",
+      "voz": "target_it_f",
+      "es": "Cosa posso portare?",
+      "pt": "Was kann ich mitbringen?"
+    },
+    {
+      "audioKey": "it-i08-q03",
+      "voz": "target_it_m",
+      "es": "Ma niente, che dice! Portate solo voi stessi.",
+      "pt": "Aber gar nichts, was reden Sie denn! Bringen Sie nur sich selbst mit."
+    },
+    {
+      "audioKey": "it-i08-q04",
+      "voz": "target_it_f",
+      "es": "Ho portato il dolce, spero vada bene.",
+      "pt": "Ich habe das Dessert mitgebracht, ich hoffe, es passt."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Der Gastgeber sagt, Sie sollen nichts mitbringen. Was tun Sie?",
+      "opcoes": [
+        "Nichts mitbringen",
+        "Etwas für den Tisch mitbringen — die Ablehnung gehört zum Austausch",
+        "Noch einmal nachfragen",
+        "Später Blumen schicken"
+      ],
+      "correta": 1,
+      "explica": "Dolce aus einer richtigen Pasticceria ist die sicherste Wahl."
+    },
+    {
+      "pergunta": "Wo setzen Sie sich hin?",
+      "opcoes": [
+        "Irgendwohin",
+        "Warten, bis man Ihnen den Platz zuweist — dove mi metto?",
+        "Ans Kopfende",
+        "Am nächsten zur Tür"
+      ],
+      "correta": 1,
+      "explica": "Die Plätze an einem Familientisch sind nicht neutral."
+    },
+    {
+      "pergunta": "Worauf kommt es beim Anstoßen an?",
+      "opcoes": [
+        "Auf das genaue Wort",
+        "Jeden ansehen, während die Gläser sich berühren",
+        "Aufstehen",
+        "Das Glas austrinken"
+      ],
+      "correta": 1,
+      "explica": "Cin cin und salute sind beide üblich."
+    },
+    {
+      "pergunta": "Ab wann ist Gehen nicht mehr zu früh?",
+      "opcoes": [
+        "Nach dem ersten Gang",
+        "Sobald der Kaffee serviert und getrunken ist",
+        "Nach zwei Stunden",
+        "Wenn jemand gähnt"
+      ],
+      "correta": 1,
+      "explica": "Davor liest sich das Aufstehen, als sei das Essen misslungen."
+    },
+    {
+      "pergunta": "Sie sind satt und es wird weiter angeboten. Bester Zug?",
+      "opcoes": [
+        "Jedes Mal klar ablehnen",
+        "Eine symbolische Menge nehmen und sie mit einem Lob verbinden",
+        "Alles aufessen",
+        "Gehen"
+      ],
+      "correta": 1,
+      "explica": "Außer bei einer Allergie — dann gilt stattdessen B13."
+    }
+  ]
+}

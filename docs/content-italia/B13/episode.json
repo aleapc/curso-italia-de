@@ -1,0 +1,270 @@
+{
+  "id": "b13",
+  "nivel": "basico",
+  "numero": 13,
+  "parte": "5A",
+  "titulo": "Der Hammersatz und die Karte, die ihn für Sie sagt",
+  "subtitulo": "Eine Allergie ist keine Vorliebe — sie braucht einen Satz, der sich nicht abmildern lässt, und eine geschriebene Karte, die eine laute Küche übersteht",
+  "cena": "Der Kellner nickt Ihnen freundlich zu, und Sie können nicht erkennen, ob er das Wort verstanden hat oder nur den Tonfall.",
+  "moldura": "protege",
+  "frasePiso": "Sagen Sie das Wort allergia, nennen Sie das Lebensmittel, und schmücken Sie nichts aus. Dann reichen Sie die Karte hin.",
+  "moldes": [],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "it-b13-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Der letzte Teil war höfliches Abziehen. Hier ist es anders: eine Allergie ist keine Vorliebe und darf nicht so klingen."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "it-b13-n02",
+      "bloco": "corpo",
+      "pt": "Beginnen Sie mit dem Wort allergia. Es ändert, was in der Küche passiert, also kommt es zuerst, nicht zuletzt."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_f",
+      "audioKey": "it-b13-t01",
+      "es": "Ho un'allergia alle arachidi. È grave.",
+      "pinyin": "oh oo-nal-ler-JEE-a AL-le a-RA-kee-dee. eh GRA-ve",
+      "pt": "Ich habe eine Erdnussallergie. Sie ist schwer.",
+      "tts": "Ho un'allergia alle arachidi. È grave."
+    },
+    {
+      "consulta": [
+        "comer/alergia",
+        "saude/alergia"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-b13-p01",
+      "promptPt": "Sagen Sie es vor dem Bestellen, nicht danach. Benennen Sie es und sagen Sie, dass es ernst ist. Sprechen Sie jetzt.",
+      "audioKey": "it-b13-t01",
+      "es": "Ho un'allergia alle arachidi. È grave.",
+      "pinyin": "oh oo-nal-ler-JEE-a AL-le a-RA-kee-dee. eh GRA-ve",
+      "pt": "Ich habe eine Erdnussallergie. Sie ist schwer."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-b13-r01",
+      "es": "Ho capito. Lo dico in cucina.",
+      "pt": "Verstanden. Ich sage es in der Küche.",
+      "tts": "Ho capito. Lo dico in cucina."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "it-b13-n03",
+      "pt": "Lo dico in cucina ist die Antwort, die Sie wollen. Ein warmes Nicken ohne das heißt: die Nachricht blieb am Tisch."
+    },
+    {
+      "consulta": [
+        "comer/alergia"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-b13-p02",
+      "promptPt": "Die Küche wurde nicht erwähnt. Bitten Sie darum, dass sie Bescheid bekommt. Sprechen Sie jetzt.",
+      "audioKey": "it-b13-t02",
+      "es": "Può dirlo in cucina, per favore?",
+      "pinyin": "pwoh DEER-lo een koo-CHEE-na per fa-VO-re",
+      "pt": "Können Sie es der Küche sagen, bitte?",
+      "tts": "Può dirlo in cucina, per favore?",
+      "molde": "MI-PUO",
+      "encaixe": "dirlo in cucina"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "it-b13-n04",
+      "bloco": "capsula",
+      "pt": "Jetzt die Karte. Schreiben Sie sie vor der Reise, auf Italienisch, auf Papier und aufs Handy. Papier geht auch ohne Akku."
+    },
+    {
+      "consulta": [
+        "comer/alergia",
+        "reparo/mostrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-b13-p03",
+      "promptPt": "Reichen Sie die geschriebene Karte hin, statt sich zu wiederholen. Sprechen Sie jetzt.",
+      "audioKey": "it-b13-t03",
+      "es": "Ecco, è scritto qui.",
+      "pinyin": "EK-ko, eh SKREET-to kwee",
+      "pt": "Hier, es steht geschrieben.",
+      "tts": "Ecco, è scritto qui."
+    },
+    {
+      "consulta": [
+        "comer/alergia",
+        "comer/pedido"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-b13-p04",
+      "promptPt": "Fragen Sie direkt, ob es in diesem Gericht enthalten ist. Sprechen Sie jetzt.",
+      "audioKey": "it-b13-t04",
+      "es": "Questo piatto contiene arachidi?",
+      "pinyin": "KWES-to pee-AT-to kon-tee-EH-ne a-RA-kee-dee",
+      "pt": "Enthält dieses Gericht Erdnüsse?",
+      "tts": "Questo piatto contiene arachidi?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-b13-r02",
+      "es": "Questo no, ma è fritto nello stesso olio.",
+      "pt": "Dieses nicht, aber es wird im selben Öl frittiert.",
+      "tts": "Questo no, ma è fritto nello stesso olio.",
+      "receptivo": true,
+      "acao": "Wechseln Sie das Gericht. Dasselbe Öl ist ein echtes Risiko, keine Formalie."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "it-b13-n05",
+      "pt": "Das ist die gute Antwort. Dasselbe Öl, dasselbe Brett, dasselbe Wasser — dieses Risiko druckt keine Karte."
+    },
+    {
+      "consulta": [
+        "comer/alergia"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "SENZA",
+      "encaixe": "arachidi",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-b13-p05",
+      "promptPt": "Fragen Sie mit dem Baustein aus B12, was es ganz ohne gibt. Sprechen Sie jetzt.",
+      "audioKey": "it-b13-t05",
+      "es": "Cosa c'è senza arachidi?",
+      "pinyin": "KO-za cheh SEN-tsa a-RA-kee-dee",
+      "pt": "Was gibt es ohne Erdnüsse?",
+      "tts": "Cosa c'è senza arachidi?"
+    },
+    {
+      "consulta": [
+        "saude/alergia"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-b13-p06",
+      "promptPt": "Sagen Sie in vier Wörtern, was passiert, wenn Sie es essen. Sprechen Sie jetzt.",
+      "audioKey": "it-b13-t06",
+      "es": "Devo andare in ospedale.",
+      "pinyin": "DEH-vo an-DA-re een os-pe-DA-le",
+      "pt": "Ich müsste ins Krankenhaus.",
+      "tts": "Devo andare in ospedale."
+    },
+    {
+      "consulta": [
+        "saude/emergencia"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-b13-p07",
+      "promptPt": "Der schlimmste Fall. Bitten Sie darum, Hilfe zu rufen. Sprechen Sie jetzt.",
+      "audioKey": "it-b13-t07",
+      "es": "Chiami un'ambulanza, per favore.",
+      "pinyin": "kee-A-mee oo-nam-boo-LAN-tsa per fa-VO-re",
+      "pt": "Rufen Sie einen Krankenwagen, bitte.",
+      "tts": "Chiami un'ambulanza, per favore."
+    },
+    {
+      "consulta": [
+        "comer/alergia",
+        "reparo/confirmar"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-b13-p08",
+      "promptPt": "Der Teller ist da. Bestätigen Sie einmal vor dem ersten Bissen. Sprechen Sie jetzt.",
+      "audioKey": "it-b13-t08",
+      "es": "Scusi, è quello senza arachidi?",
+      "pinyin": "SKOO-zee, eh KWEL-lo SEN-tsa a-RA-kee-dee",
+      "pt": "Entschuldigung, ist das das ohne Erdnüsse?",
+      "tts": "Scusi, è quello senza arachidi?",
+      "molde": "SENZA",
+      "encaixe": "arachidi"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_it_f",
+      "audioKey": "it-b13-s01",
+      "es": "Ho un'allergia alle arachidi. È grave. Può dirlo in cucina, per favore?",
+      "pinyin": "oh oo-nal-ler-JEE-a AL-le a-RA-kee-dee. eh GRA-ve. pwoh DEER-lo een koo-CHEE-na per fa-VO-re",
+      "pt": "Sprechen Sie den Hammersatz und die Nachfrage zur Küche mit.",
+      "tts": "Ho un'allergia alle arachidi. È grave. Può dirlo in cucina, per favore?",
+      "molde": "SENZA"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_f",
+      "audioKey": "it-b13-n06",
+      "bloco": "recap",
+      "pt": "B13 geschafft. Allergia zuerst, è grave danach, dann die Karte, und eine Bestätigung vor dem ersten Bissen."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Keine Vorliebe",
+    "secoes": [
+      {
+        "titulo": "Lebensmittel tauschen, Satz behalten",
+        "corpo": "Arachidi ist nur die Übungszutat. Setzen Sie Ihre eigene ein, und der Baustein bleibt stehen: ho un'allergia a…, è grave.",
+        "exemplos": [
+          {
+            "es": "Ho un'allergia ai crostacei.",
+            "pt": "Ich habe eine Allergie gegen Krustentiere."
+          },
+          {
+            "es": "Ho un'allergia al lattosio.",
+            "pt": "Ich habe eine Laktoseallergie."
+          }
+        ]
+      },
+      {
+        "titulo": "Warum è grave seinen Platz verdient",
+        "corpo": "Ohne diese zwei Wörter kann eine Allergie neben einer Abneigung abgelegt werden. Sie holen sie aus dem Gedächtnis des Kellners in den Ablauf der Küche, und sie kosten nichts."
+      },
+      {
+        "titulo": "Schreiben Sie die Karte vor dem Abflug",
+        "corpo": "Eine kurze Zeile auf Italienisch, die das Allergen und die Folge nennt, auf Papier und auf dem Handy. Sie übersteht Lärm, Akzent, Schichtwechsel und einen leeren Akku — Ihre Aussprache nicht."
+      },
+      {
+        "titulo": "Die vierzehn Allergene sind meldepflichtig",
+        "corpo": "EU-Regeln verpflichten Lebensmittelbetriebe, Allergeninformationen bereitzustellen, auch in Restaurants. Deshalb ist questo piatto contiene…? eine Frage, auf die das Personal vorbereitet ist, und keine ungewöhnliche Forderung."
+      }
+    ]
+  },
+  "slot": "B13",
+  "permissao": "Hier dürfen Sie unverblümt sein. Der ganze übrige Kurs dreht sich darum, unkompliziert zu wirken; eine Allergie ist die Ausnahme, in der Klarheit vor Wärme geht, und kein italienischer Kellner denkt schlecht über Sie, weil Sie es zweimal deutlich sagen.",
+  "permissaoAudioKey": "it-b13-n01",
+  "espelho": "Wer eine Allergie hat, kennt den Moment von zu Hause: Die Bedienung nickt, wiederholt es sogar richtig, und der Teller kommt trotzdem falsch. Die Karte ist kein Misstrauen gegen Italien — es ist dieselbe Absicherung, die Sie auch in Ihrer eigenen Stadt wollen.",
+  "fichasCulturais": [
+    {
+      "sinal": "Sie nennen Ihre Allergie, der Kellner lächelt herzlich, sagt etwas Beruhigendes und geht weiter, ohne etwas zu notieren.",
+      "suaLeitura": "Er hat es verstanden — es wäre unhöflich, noch einmal davon anzufangen.",
+      "oQueEAli": "Herzlichkeit ist der Grundton im italienischen Service und sagt nichts darüber, ob die Nachricht die Küche erreicht hat. Sie hören nicht auf Freundlichkeit, sondern auf einen Hinweis auf die Küche — lo dico in cucina.",
+      "oQueVoceFaz": "Wurde die Küche nicht erwähnt, fragen Sie può dirlo in cucina? und reichen die geschriebene Karte hin. Dann bestätigen Sie einmal, wenn der Teller kommt.",
+      "oQueMelhora": "Die Information landet dort, wo das Essen tatsächlich entsteht, statt am Tisch zu bleiben, wo sie freundlich entgegengenommen wurde.",
+      "ondeNaoVale": "Kein Grund, sich ein viertes Mal zu wiederholen, nachdem die Küche erkennbar informiert ist — ab da ist der Blick auf den Teller bei der Ankunft der nützliche Schritt, nicht die Wiederholung.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "it-b13-n03"
+      ]
+    }
+  ]
+}

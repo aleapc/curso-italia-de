@@ -1,0 +1,92 @@
+{
+  "id": "q-b02",
+  "nivel": "basico",
+  "titulo": "Quiz — Sagen, bevor Sie etwas brauchen",
+  "subtitulo": "Timing, nicht Vokabular",
+  "introAudioKey": "it-b02-q-i",
+  "introPt": "Jemand betritt einen Laden, geht durch eine enge Stelle und verabschiedet sich richtig.",
+  "cenario": "Ein kleiner Laden, vormittags.",
+  "dialogo": [
+    {
+      "audioKey": "it-b02-q01",
+      "voz": "target_it_f",
+      "es": "Buongiorno!",
+      "pt": "Guten Tag!"
+    },
+    {
+      "audioKey": "it-b02-q02",
+      "voz": "target_it_m",
+      "es": "Permesso.",
+      "pt": "Darf ich durch."
+    },
+    {
+      "audioKey": "it-b02-q03",
+      "voz": "target_it_f",
+      "es": "Scusi, posso chiederle una cosa?",
+      "pt": "Entschuldigung, darf ich Sie etwas fragen?"
+    },
+    {
+      "audioKey": "it-b02-q04",
+      "voz": "target_it_m",
+      "es": "Arrivederci, buona giornata!",
+      "pt": "Auf Wiedersehen, schönen Tag noch!"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Wann sagt man buongiorno in einem kleinen Laden?",
+      "opcoes": [
+        "Beim Eintreten, bevor Sie irgendetwas ansehen",
+        "Erst beim Bezahlen",
+        "Beim Hinausgehen",
+        "Nur wenn man Sie anspricht"
+      ],
+      "correta": 0,
+      "explica": "Der Gruß ist der Eröffnungszug des ganzen Vorgangs."
+    },
+    {
+      "pergunta": "Was leistet permesso?",
+      "opcoes": [
+        "Es entschuldigt einen Fehler",
+        "Es kündigt eine Bewegung durch den Raum an",
+        "Es stellt eine Frage",
+        "Es beendet ein Gespräch"
+      ],
+      "correta": 1,
+      "explica": "Sie kündigen den Schritt an; Sie entschuldigen nicht Ihr Dasein."
+    },
+    {
+      "pergunta": "Was leistet scusi?",
+      "opcoes": [
+        "Es eröffnet eine Frage oder repariert ein Anrempeln",
+        "Es heißt auf Wiedersehen",
+        "Es heißt danke",
+        "Es heißt bitte"
+      ],
+      "correta": 0,
+      "explica": "Auf Deutsch deckt Entschuldigung beides ab; das Italienische trennt es."
+    },
+    {
+      "pergunta": "Sollten Sie ciao zu einem Kellner sagen, den Sie eben erst sehen?",
+      "opcoes": [
+        "Ja, das ist das normale Hallo",
+        "Besser nicht — es ist informell und gegenseitig",
+        "Nur vormittags",
+        "Nur beim Gehen"
+      ],
+      "correta": 1,
+      "explica": "Buongiorno und arrivederci sind das sichere Paar hinter jedem Tresen."
+    },
+    {
+      "pergunta": "Ab wann löst buonasera das buongiorno ab?",
+      "opcoes": [
+        "Um Mitternacht",
+        "Etwa ab dem späten Nachmittag",
+        "Genau um 18 Uhr",
+        "Gar nicht"
+      ],
+      "correta": 1,
+      "explica": "Der Übergang ist unscharf und regional; ein frühes buonasera stört niemanden."
+    }
+  ]
+}

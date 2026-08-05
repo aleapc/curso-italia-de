@@ -1,0 +1,259 @@
+{
+  "id": "i09",
+  "nivel": "intermediario",
+  "numero": 27,
+  "parte": "I09",
+  "titulo": "Den Nachmittag so verbringen, wie man ihn hier verbringt",
+  "subtitulo": "Der Markt am Vormittag, der Bummel am Abend, das Spiel in der Bar — drei Dinge, die nichts kosten und in keinem Programm stehen",
+  "cena": "Es ist vier Uhr nachmittags, die Museen sind voll, und die Stadt wirkt so verschlafen, als gäbe es nichts zu tun.",
+  "moldura": "ganha",
+  "frasePiso": "Die besten Stunden stehen in keinem Programm. Der Markt vor Mittag, die Piazza ab sechs, und was gerade in der Bar läuft.",
+  "decisao": "die dritte Kirche der Liste gegen den Markt am Vormittag und die Piazza um sechs tauschen, wo die Stadt wirklich ist",
+  "moldes": [],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "it-i09-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Diese Städte haben einen Rhythmus, keine Öffnungszeiten: vormittags Markt, nachmittags Ruhe, ab sechs volle Straßen."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "it-i09-n02",
+      "bloco": "corpo",
+      "pt": "Fangen Sie auf dem Markt an. Nicht zum Einkaufen — um die Saison zu sehen und in acht Minuten mit vier Leuten zu reden."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-i09-r01",
+      "receptivo": true,
+      "acao": "Fassen Sie das Obst nicht an. Zeigen Sie darauf und lassen Sie auswählen.",
+      "es": "Dica signora, cosa le do? Guardi che pomodori.",
+      "pt": "Sagen Sie, was darf ich Ihnen geben? Sehen Sie sich diese Tomaten an.",
+      "tts": "Dica signora, cosa le do? Guardi che pomodori."
+    },
+    {
+      "consulta": [
+        "comprar/mercado",
+        "comer/temporada"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-i09-p01",
+      "promptPt": "Sie wollen die Empfehlung des Standes, nicht Ihre eigene Wahl. Fragen Sie danach. Sprechen Sie jetzt.",
+      "audioKey": "it-i09-t01",
+      "es": "Cosa c'è di buono adesso?",
+      "pinyin": "KO-za cheh dee BWO-no a-DES-so",
+      "pt": "Was ist gerade gut?",
+      "tts": "Cosa c'è di buono adesso?"
+    },
+    {
+      "consulta": [
+        "comprar/mercado"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-i09-p02",
+      "promptPt": "Bestellen Sie eine kleine Menge — genug für zwei Personen, für heute. Sprechen Sie jetzt.",
+      "audioKey": "it-i09-t02",
+      "es": "Me ne dia due etti, per favore.",
+      "pinyin": "meh neh DEE-a DOO-eh ET-tee per fa-VO-re",
+      "pt": "Geben Sie mir bitte zweihundert Gramm davon.",
+      "tts": "Me ne dia due etti, per favore."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "it-i09-n03",
+      "pt": "Un etto sind hundert Gramm, und so kauft man hier ein. Due etti Käse ist eine ganz normale Menge."
+    },
+    {
+      "consulta": [
+        "comprar/mercado",
+        "reparo/permissao"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "POSSO",
+      "encaixe": "assaggiare",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-i09-p03",
+      "promptPt": "Vor dem Kauf wollen Sie sicher sein. Nutzen Sie den Baustein aus B06. Sprechen Sie jetzt.",
+      "audioKey": "it-i09-t03",
+      "es": "Posso assaggiare?",
+      "pinyin": "POS-so as-sa-JA-re",
+      "pt": "Darf ich probieren?",
+      "tts": "Posso assaggiare?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "it-i09-n04",
+      "bloco": "capsula",
+      "pt": "Dann der Bummel am Abend. Ab sechs ist die ganze Stadt draußen, gut angezogen, langsam, ohne bestimmtes Ziel."
+    },
+    {
+      "consulta": [
+        "conversa/planos"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-i09-p04",
+      "promptPt": "Sie wollen abends dort sein, wo alle sind. Fragen Sie nach dem Ort. Sprechen Sie jetzt.",
+      "audioKey": "it-i09-t04",
+      "es": "Dove si fa la passeggiata la sera?",
+      "pinyin": "DO-ve see fa la pas-se-JA-ta la SE-ra",
+      "pt": "Wo geht man abends spazieren?",
+      "tts": "Dove si fa la passeggiata la sera?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-i09-r02",
+      "receptivo": true,
+      "acao": "Gehen Sie um sieben, nicht um fünf. Früher ist die Straße noch leer.",
+      "es": "Sul corso, verso le sette. Prima non c'è nessuno.",
+      "pt": "Auf dem Corso, gegen sieben. Vorher ist niemand da.",
+      "tts": "Sul corso, verso le sette. Prima non c'è nessuno."
+    },
+    {
+      "consulta": [
+        "conversa/planos",
+        "cidade/evento"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-i09-p05",
+      "promptPt": "Vielleicht ist diese Woche etwas los in der Stadt. Erkundigen Sie sich. Sprechen Sie jetzt.",
+      "audioKey": "it-i09-t05",
+      "es": "C'è qualche festa questa settimana?",
+      "pinyin": "cheh KWAL-keh FES-ta KWES-ta set-tee-MA-na",
+      "pt": "Gibt es diese Woche ein Fest?",
+      "tts": "C'è qualche festa questa settimana?",
+      "molde": "C-E",
+      "encaixe": "qualche festa"
+    },
+    {
+      "consulta": [
+        "cidade/evento"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-i09-p06",
+      "promptPt": "In der Bar läuft ein Spiel, und Sie erkennen die Trikots nicht. Sprechen Sie jetzt.",
+      "audioKey": "it-i09-t06",
+      "es": "Chi gioca stasera?",
+      "pinyin": "kee JO-ka sta-SE-ra",
+      "pt": "Wer spielt heute Abend?",
+      "tts": "Chi gioca stasera?"
+    },
+    {
+      "consulta": [
+        "cidade/evento",
+        "reparo/permissao"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "POSSO",
+      "encaixe": "guardare la partita qui",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-i09-p07",
+      "promptPt": "Im Hotel gibt es keinen Fernseher, und Sie würden gern hierbleiben. Nutzen Sie den Baustein. Sprechen Sie jetzt.",
+      "audioKey": "it-i09-t07",
+      "es": "Posso guardare la partita qui?",
+      "pinyin": "POS-so gwar-DA-re la par-TEE-ta kwee",
+      "pt": "Darf ich das Spiel hier sehen?",
+      "tts": "Posso guardare la partita qui?"
+    },
+    {
+      "consulta": [
+        "conversa/perguntar"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-i09-p08",
+      "promptPt": "Sie wollen sich zur richtigen Hälfte der Bar setzen. Fragen Sie nach. Sprechen Sie jetzt.",
+      "audioKey": "it-i09-t08",
+      "es": "Qual è la squadra di qui?",
+      "pinyin": "kwal eh la SKWA-dra dee kwee",
+      "pt": "Welche ist die Mannschaft von hier?",
+      "tts": "Qual è la squadra di qui?"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_it_f",
+      "audioKey": "it-i09-s01",
+      "es": "Cosa c'è di buono adesso? Me ne dia due etti, per favore. Dove si fa la passeggiata la sera?",
+      "pinyin": "KO-za cheh dee BWO-no a-DES-so. meh neh DEE-a DOO-eh ET-tee per fa-VO-re. DO-ve see fa la pas-se-JA-ta la SE-ra",
+      "pt": "Sprechen Sie den Tag mit: Markt, Einkauf, Abend.",
+      "tts": "Cosa c'è di buono adesso? Me ne dia due etti, per favore. Dove si fa la passeggiata la sera?",
+      "molde": "POSSO"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_f",
+      "audioKey": "it-i09-n05",
+      "bloco": "recap",
+      "pt": "I09 geschafft. Markt vor Mittag, Passeggiata ab sieben, das Spiel in der Bar — und etti ist die Einheit."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Der Rhythmus, den niemand aufschreibt",
+    "secoes": [
+      {
+        "titulo": "Etti, nicht Gramm",
+        "corpo": "Un etto ist hundert Gramm. Due etti, tre etti — das ist die Einheit für Käse, Aufschnitt, Oliven und fast alles, was nach Gewicht verkauft wird. Vierhundert Gramm zu verlangen wird verstanden, verrät Sie aber sofort.",
+        "exemplos": [
+          {
+            "es": "Me ne dia due etti.",
+            "pt": "Geben Sie mir zweihundert Gramm davon."
+          },
+          {
+            "es": "Cosa c'è di buono adesso?",
+            "pt": "Was ist gerade gut?"
+          }
+        ]
+      },
+      {
+        "titulo": "Fassen Sie die Ware nicht an",
+        "corpo": "Am Marktstand wählt der Verkäufer aus. Das Obst selbst in die Hand zu nehmen ist ein kleiner Regelbruch mit großem Signal, und Zeigen erledigt dieselbe Aufgabe."
+      },
+      {
+        "titulo": "Die Passeggiata gibt es wirklich, und sie hat eine Uhrzeit",
+        "corpo": "In den meisten Städten beginnt der Abendbummel gegen sechs oder sieben und läuft über eine bestimmte Straße oder Piazza, die alle kennen. Zur falschen Stunde oder in der falschen Straße unterwegs zu sein ist der Grund, warum manche Besucher glauben, es gebe das nicht mehr."
+      },
+      {
+        "titulo": "Das Spiel ist ein Zugang",
+        "corpo": "Zu fragen, welche die Mannschaft der Stadt ist, bevor man selbst etwas über Fußball sagt, ist der einfachste Gesprächsanfang, den eine Bar hergibt. Die Antwort ist nie neutral und fällt immer ausführlich aus."
+      }
+    ]
+  },
+  "slot": "I09",
+  "permissao": "Sie dürfen die dritte Kirche auslassen. Einen Nachmittag auf dem Markt und einen Abend auf derselben Straße wie alle anderen zu verbringen ist kein Versäumnis am Programm — es ist der Teil der Reise, den Sie in fünf Jahren noch erzählen können.",
+  "permissaoAudioKey": "it-i09-n01",
+  "espelho": "Wer nach einer Reise den gewöhnlichen Nachmittag besser erinnert als das Bauwerk, für das er neunzig Minuten angestanden hat, kennt dieses Argument längst. Das Programm lässt sich leichter rechtfertigen; es bleibt nur selten hängen.",
+  "fichasCulturais": [
+    {
+      "sinal": "Um vier Uhr nachmittags ist die Stadt verrammelt und leer, und es sieht aus, als passiere nichts und werde auch nichts passieren.",
+      "suaLeitura": "Hier ist tote Hose, oder alles Interessante ist für Besucher geschlossen.",
+      "oQueEAli": "Der italienische Tag hat ein Tief am Nachmittag und ein Hoch am frühen Abend. Sie sehen nicht die Stadt im Feierabend — Sie sehen sie zwischen ihren beiden Stoßzeiten.",
+      "oQueVoceFaz": "Nutzen Sie das Tief wie die Leute hier, und seien Sie ab etwa sieben auf der Hauptstraße oder der Piazza. Dieselbe Leere füllt sich vollständig.",
+      "oQueMelhora": "Sie planen Ihre Abende nicht mehr so, als ende der Tag um sechs, und Sie erleben die Stunden, in denen der Ort am meisten er selbst ist.",
+      "ondeNaoVale": "Nicht in den größten Touristenzentren, wo sich der Rhythmus weitgehend eingeebnet hat, und nicht im August in einer Stadt, die in die Ferien gefahren ist — dort ist die Ruhe wirklich Ruhe.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "it-i09-n04"
+      ]
+    }
+  ]
+}

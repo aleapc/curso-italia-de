@@ -1,0 +1,254 @@
+{
+  "id": "a05",
+  "nivel": "avancado",
+  "numero": 33,
+  "parte": "A05",
+  "titulo": "Die andere Sprache",
+  "subtitulo": "Zu Hause wird oft gar kein Italienisch gesprochen — und sechs Wörter davon bringen mehr Sympathie als ein ganzer Absatz Hochitalienisch",
+  "cena": "Die beiden, die Sie bedienen, sind auf etwas umgestiegen, das eindeutig nicht das Italienisch ist, das Sie lernen — genau in dem Moment, als sie aufhörten, mit Ihnen zu reden.",
+  "moldura": "ganha",
+  "frasePiso": "Sie verstehen nicht etwa kein Italienisch. Sie hören einer anderen Sprache zu, und das zu merken ist die ganze Kunst.",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "it-lingue-regionali",
+      "afirmacao": "Italiens Regionalsprachen — darunter Neapolitanisch, Sizilianisch, Venezianisch, Sardisch, Friaulisch und Piemontesisch — sind eigenständige romanische Varietäten, die parallel zum Toskanischen entstanden sind und keine Dialekte des Hochitalienischen. Mehrere gelten der UNESCO als gefährdet, und das italienische Recht schützt zwölf historische Sprachminderheiten, darunter Sardisch, Friaulisch, Deutsch, Slowenisch, Albanisch, Griechisch, Katalanisch, Kroatisch, Französisch, Frankoprovenzalisch, Okzitanisch und Ladinisch.",
+      "fonte": "Legge 482/1999 — «Norme in materia di tutela delle minoranze linguistiche storiche»; UNESCO Atlas of the World's Languages in Danger",
+      "ano": 2026,
+      "revisarAte": "2028-08-04",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "it-a05-n03"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "it-a05-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Auf fast jeder Reise hört die Sprache irgendwann auf zu funktionieren. Meist war es kein Italienisch mehr."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-a05-r01",
+      "receptivo": true,
+      "acao": "Das galt nicht Ihnen und es war kein Hochitalienisch. Mit Ihrem Ohr ist alles in Ordnung.",
+      "es": "Uè, ma che vuo'? Vien' ccà nu poco.",
+      "pt": "He, was gibt's? Komm mal kurz her.",
+      "tts": "Uè, ma che vuo'? Vien' ccà nu poco."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "it-a05-n02",
+      "bloco": "corpo",
+      "pt": "Untereinander sprechen viele eine Regionalsprache. Für Sie wechseln sie ins Italienische."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "it-a05-n03",
+      "bloco": "capsula",
+      "pt": "Das ist kein verdorbenes Italienisch. Diese Sprachen wuchsen neben dem Toskanischen; mehrere sind anerkannt."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_f",
+      "audioKey": "it-a05-r02",
+      "receptivo": true,
+      "acao": "Venezianisch. Gleiches Land, kaum wiederzuerkennende Wörter. Genau darum geht es hier.",
+      "es": "Ciao, come xe? Tuto ben, va?",
+      "pt": "Hallo, wie läuft's? Alles gut, ja?",
+      "tts": "Ciao, come xe? Tuto ben, va?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "it-a05-n04",
+      "pt": "Lernen müssen Sie keine. Aber sechs Wörter der lokalen, schlecht gesagt, wirken mehr als korrektes Italienisch."
+    },
+    {
+      "consulta": [
+        "conversa/perguntar"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-a05-p01",
+      "promptPt": "Sie haben etwas auf Italienisch gesagt. Bitten Sie um die hiesige Version. Sprechen Sie jetzt.",
+      "audioKey": "it-a05-t01",
+      "es": "Come si dice in dialetto?",
+      "pinyin": "KO-me see DEE-che een dee-a-LET-to",
+      "pt": "Wie sagt man das im Dialekt?",
+      "tts": "Come si dice in dialetto?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-a05-r03",
+      "receptivo": true,
+      "acao": "Sie haben gerade das beste Gespräch im Raum eröffnet. Sprechen Sie es schlecht nach — genau das ist der Sinn.",
+      "es": "Ah, ti interessa? Allora senti qua...",
+      "pt": "Ah, Interesse? Dann mal herhören...",
+      "tts": "Ah, ti interessa? Allora senti qua..."
+    },
+    {
+      "consulta": [
+        "conversa/perguntar"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-a05-p02",
+      "promptPt": "Es ging zu schnell und Sie wollen es nachmachen. Sprechen Sie jetzt.",
+      "audioKey": "it-a05-t02",
+      "es": "Me lo ripete? Voglio provare.",
+      "pinyin": "meh lo ree-PE-te? VO-lyo pro-VA-re",
+      "pt": "Sagen Sie es noch mal? Ich will es versuchen.",
+      "tts": "Me lo ripete? Voglio provare."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "it-a05-n05",
+      "pt": "Es schlecht auszusprechen ist hier richtig. Perfekt wäre seltsam — der Versuch ist das Kompliment."
+    },
+    {
+      "consulta": [
+        "conversa/elogiar"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-a05-p03",
+      "promptPt": "Der Klang gefällt Ihnen wirklich. Sagen Sie es. Sprechen Sie jetzt.",
+      "audioKey": "it-a05-t03",
+      "es": "Mi piace come suona, è tutta un'altra lingua.",
+      "pinyin": "mee PYA-che KO-me SWO-na, eh TOOT-ta oo-NAL-tra LEEN-gwa",
+      "pt": "Mir gefällt der Klang, das ist eine ganz andere Sprache.",
+      "tts": "Mi piace come suona, è tutta un'altra lingua."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_f",
+      "audioKey": "it-a05-r04",
+      "receptivo": true,
+      "acao": "Die Richtigstellung ist ihr wichtig. Nehmen Sie sie als Information, nicht als Rüge.",
+      "es": "Non è un dialetto, è una lingua. Mia nonna non parlava italiano.",
+      "pt": "Das ist kein Dialekt, das ist eine Sprache. Meine Oma sprach kein Italienisch.",
+      "tts": "Non è un dialetto, è una lingua. Mia nonna non parlava italiano."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "it-a05-n06",
+      "pt": "Diese Unterscheidung wird gefühlt. In Italien sagen alle Dialekt, für manche ist es genau das falsche Wort."
+    },
+    {
+      "consulta": [
+        "conversa/perguntar"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-a05-p04",
+      "promptPt": "Sie fragen sich, ob die Sprache weitergegeben wird. Fragen Sie nach der nächsten Generation. Sprechen Sie jetzt.",
+      "audioKey": "it-a05-t04",
+      "es": "I giovani la parlano ancora?",
+      "pinyin": "ee JO-va-nee la PAR-la-no an-KO-ra",
+      "pt": "Sprechen die Jungen sie noch?",
+      "tts": "I giovani la parlano ancora?"
+    },
+    {
+      "consulta": [
+        "conversa/perguntar"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-a05-p05",
+      "promptPt": "Fragen Sie, wie es bei ihnen zu Hause am Tisch klingt. Sprechen Sie jetzt.",
+      "audioKey": "it-a05-x01",
+      "es": "In famiglia la parlate?",
+      "pinyin": "een fa-MEE-lya la par-LA-te",
+      "pt": "Sprechen Sie sie in der Familie?",
+      "tts": "In famiglia la parlate?"
+    },
+    {
+      "consulta": [
+        "conversa/humor"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-a05-p06",
+      "promptPt": "Sie haben es nachgesprochen und es klang schief. Kommentieren Sie es selbst. Sprechen Sie jetzt.",
+      "audioKey": "it-a05-x02",
+      "es": "L'ho detto malissimo, vero?",
+      "pinyin": "lo DET-to ma-LEES-see-mo, VE-ro",
+      "pt": "Das war ganz schrecklich, oder?",
+      "tts": "L'ho detto malissimo, vero?"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_m",
+      "audioKey": "it-a05-n07",
+      "bloco": "recap",
+      "pt": "A05 geschafft. Wenn Italienisch nicht mehr trägt, ist es oft keins — und die Frage danach öffnet Türen."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Keine Dialekte des Italienischen",
+    "secoes": [
+      {
+        "titulo": "Parallel, nicht abgeleitet",
+        "corpo": "Neapolitanisch, Sizilianisch, Venezianisch, Sardisch und die übrigen sind neben dem Toskanischen aus dem Latein entstanden, nicht daraus. Hochitalienisch wurde Landessprache, weil das Toskanische eine literarische und politische Auseinandersetzung gewann — nicht weil die anderen Versionen davon wären.",
+        "exemplos": [
+          {
+            "es": "Come si dice in dialetto?",
+            "pt": "Wie sagt man das im Dialekt?"
+          },
+          {
+            "es": "I giovani la parlano ancora?",
+            "pt": "Sprechen die Jungen sie noch?"
+          }
+        ]
+      },
+      {
+        "titulo": "Das Wort dialetto ist umstritten",
+        "corpo": "Die meisten Italienerinnen und Italiener sagen beiläufig dialetto, auch über die eigene Sprache. Manche, vor allem Sprecher der eigenständigeren Varietäten, korrigieren Sie deutlich. Beides ist normal und keins davon eine Falle — die Korrektur sagt Ihnen etwas darüber, was die Sprache für sie bedeutet."
+      },
+      {
+        "titulo": "Zwölf geschützte Minderheiten",
+        "corpo": "Das italienische Recht erkennt historische Sprachminderheiten an, darunter Sardisch, Friaulisch, Ladinisch, Slowenisch, Deutsch, Französisch, Okzitanisch, Albanisch, Griechisch, Kroatisch, Katalanisch und Frankoprovenzalisch. In manchen Landesteilen hat die lokale Sprache rechtlichen Status und nicht nur gesellschaftliche Präsenz."
+      },
+      {
+        "titulo": "Absichtlich schlecht ausprobieren",
+        "corpo": "Nach einer Wendung zu fragen und sie zu verunstalten ist das gewünschte Ergebnis. Flüssigkeit wäre merkwürdig; der Versuch zeigt Interesse und ist der schnellste Weg zu einem langen Gespräch mit jemandem, der Ihnen vorher Dreiwortantworten gab."
+      }
+    ]
+  },
+  "slot": "A05",
+  "permissao": "Sie dürfen Leute bitten, Ihnen ein Wort der lokalen Sprache beizubringen, und es laut falsch aussprechen. Ein schlechter Versuch ist kein Spott — er ist das Zuverlässigste, womit ein Gast punkten kann, und deshalb steht dieser Teil am Ende und nicht am Anfang.",
+  "permissaoAudioKey": "it-a05-n05",
+  "espelho": "Wer Großeltern hatte, die zu Hause etwas sprachen, das in der Schule nicht vorkam, erkennt das sofort wieder. Dass eine Landessprache über eine örtliche gelegt wird, ist nichts Italienisches — dort ist es nur besonders gut zu hören.",
+  "fichasCulturais": [
+    {
+      "sinal": "Zwei Leute bedienen Sie in flüssigem Italienisch, drehen sich zueinander und werden völlig unverständlich.",
+      "suaLeitura": "Mein Italienisch ist schlechter als gedacht, oder sie schließen mich absichtlich aus.",
+      "oQueEAli": "Ziemlich sicher haben sie die Sprache gewechselt. Regionalsprachen sind im Alltag untereinander weiter üblich, und das Italienisch für Sie war die Rücksichtnahme.",
+      "oQueVoceFaz": "Fragen Sie, was das war und wie man darin etwas sagt. Diese Frage kommt fast immer als Kompliment an, nicht als Zudringlichkeit.",
+      "oQueMelhora": "Sie messen Ihr Verständnis nicht länger an einer Sprache, die niemand gesprochen hat, und bekommen das begeistertste Gespräch, das im Raum zu haben ist.",
+      "ondeNaoVale": "Nicht überall — in weiten Teilen des Nordens und bei jüngeren Stadtbewohnern ist Hochitalienisch wirklich die Alltagssprache, und es gibt keine zweite, nach der man fragen könnte.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "it-a05-n02"
+      ]
+    }
+  ]
+}

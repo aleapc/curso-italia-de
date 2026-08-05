@@ -1,0 +1,282 @@
+{
+  "id": "i04",
+  "nivel": "intermediario",
+  "numero": 22,
+  "parte": "I04",
+  "titulo": "Der Abend: aperitivo, die Runde und wie man einen Tisch verlässt",
+  "subtitulo": "Aperitivo ist weder Abendessen noch Happy Hour — was davon es ist, entscheidet, ob Sie um neun noch essen",
+  "cena": "Ein Glas steht da, daneben ein Teller mit Kleinigkeiten, und Sie können nicht sagen, ob das ein Snack ist oder die Mahlzeit.",
+  "moldura": "ganha",
+  "frasePiso": "Fragen Sie, was dazugehört, entscheiden Sie, ob es das Abendessen ersetzt, und verlassen Sie den Tisch mit einem Satz statt mit einem Winken.",
+  "decisao": "vor der zweiten Runde entscheiden, ob der Aperitivo das Abendessen ist oder sein Vorspiel, denn das verändert den ganzen restlichen Abend",
+  "moldes": [],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "it-i04-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Der italienische Abend hat einen Schritt vor dem Essen. Ein Getränk, etwas dazu, und eine Entscheidung."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-i04-r01",
+      "receptivo": true,
+      "acao": "Fragen Sie, was dazugehört, bevor Sie das zweite Glas bestellen.",
+      "es": "Facciamo l'aperitivo? Qui viene con il buffet.",
+      "pt": "Machen wir einen Aperitivo? Hier ist das Buffet dabei.",
+      "tts": "Facciamo l'aperitivo? Qui viene con il buffet."
+    },
+    {
+      "consulta": [
+        "conversa/planos",
+        "comer/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-i04-p01",
+      "promptPt": "Sagen Sie zu und fragen Sie, was zum Getränk dazugehört. Sprechen Sie jetzt.",
+      "audioKey": "it-i04-t01",
+      "es": "Volentieri. Cosa c'è compreso?",
+      "pinyin": "vo-len-TYE-ri. KO-za cheh kom-PRE-zo",
+      "pt": "Sehr gern. Was ist inbegriffen?",
+      "tts": "Volentieri. Cosa c'è compreso?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "it-i04-n02",
+      "bloco": "corpo",
+      "pt": "Diese Frage entscheidet den Abend. Kommt ein Buffet dazu, ist das das Abendessen. Sind es Oliven, essen Sie um neun."
+    },
+    {
+      "consulta": [
+        "pagar/preco",
+        "comer/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "QUANTO-COSTA",
+      "encaixe": "l'aperitivo",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-i04-p02",
+      "promptPt": "Fragen Sie nach dem Preis des Aperitivo, mit dem Baustein aus B11. Sprechen Sie jetzt.",
+      "audioKey": "it-i04-t02",
+      "es": "Quanto costa l'aperitivo?",
+      "pinyin": "KWAN-to KOS-ta la-pe-ree-TEE-vo",
+      "pt": "Was kostet der Aperitivo?",
+      "tts": "Quanto costa l'aperitivo?"
+    },
+    {
+      "consulta": [
+        "comer/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-i04-p03",
+      "promptPt": "Bestellen Sie den Klassiker der Stunde, orange im Glas. Sprechen Sie jetzt.",
+      "audioKey": "it-i04-t03",
+      "es": "Un Aperol spritz, per favore.",
+      "pinyin": "oon A-pe-rol spreets per fa-VO-re",
+      "pt": "Einen Aperol Spritz, bitte.",
+      "tts": "Un Aperol spritz, per favore."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "it-i04-n03",
+      "pt": "Etwas ohne Alkohol ist zu dieser Stunde völlig normal. Analcolico heißt das Wort, und niemand zuckt."
+    },
+    {
+      "consulta": [
+        "comer/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "C-E",
+      "encaixe": "qualcosa di analcolico",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-i04-p04",
+      "promptPt": "Heute bleiben Sie nüchtern. Fragen Sie nach der Alternative, mit dem Baustein aus B08. Sprechen Sie jetzt.",
+      "audioKey": "it-i04-t04",
+      "es": "C'è qualcosa di analcolico?",
+      "pinyin": "cheh kwal-KO-za dee a-nal-KO-lee-ko",
+      "pt": "Gibt es etwas ohne Alkohol?",
+      "tts": "C'è qualcosa di analcolico?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "it-i04-n04",
+      "bloco": "capsula",
+      "pt": "Jetzt die Runde. Für alle zu zahlen ist normal — und beim ersten Mal abgelehnt zu werden ebenso."
+    },
+    {
+      "consulta": [
+        "pagar/conta"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-i04-p05",
+      "promptPt": "Bieten Sie an, diese Runde zu übernehmen. Sprechen Sie jetzt.",
+      "audioKey": "it-i04-t05",
+      "es": "Questo giro lo offro io.",
+      "pinyin": "KWES-to JEE-ro lo OF-fro EE-o",
+      "pt": "Diese Runde geht auf mich.",
+      "tts": "Questo giro lo offro io."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-i04-r02",
+      "receptivo": true,
+      "acao": "Einmal darauf bestehen, dann loslassen. Zweimal ist großzügig, dreimal ist ein Ringen.",
+      "es": "Ma no, ci mancherebbe. Offro io, siete ospiti.",
+      "pt": "Auf keinen Fall. Ich lade ein, ihr seid Gäste.",
+      "tts": "Ma no, ci mancherebbe. Offro io, siete ospiti."
+    },
+    {
+      "consulta": [
+        "pagar/conta"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-i04-p06",
+      "promptPt": "Geben Sie elegant nach und sichern Sie sich die nächste. Sprechen Sie jetzt.",
+      "audioKey": "it-i04-t06",
+      "es": "Va bene, ma il prossimo lo offro io.",
+      "pinyin": "va BEH-ne, ma eel PROS-see-mo lo OF-fro EE-o",
+      "pt": "In Ordnung, aber die nächste geht auf mich.",
+      "tts": "Va bene, ma il prossimo lo offro io."
+    },
+    {
+      "consulta": [
+        "conversa/planos",
+        "comer/pedido"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-i04-p07",
+      "promptPt": "Fragen Sie nach dem Lokal für danach — die Empfehlung, die Sie wirklich wollen. Sprechen Sie jetzt.",
+      "audioKey": "it-i04-t07",
+      "es": "Dopo, dove si va a mangiare?",
+      "pinyin": "DO-po, DO-ve see va a man-JA-re",
+      "pt": "Und danach, wo geht man essen?",
+      "tts": "Dopo, dove si va a mangiare?"
+    },
+    {
+      "consulta": [
+        "conversa/despedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-i04-p08",
+      "promptPt": "Es ist Zeit zu gehen. Verabschieden Sie sich richtig, statt sich davonzustehlen. Sprechen Sie jetzt.",
+      "audioKey": "it-i04-t08",
+      "es": "Noi andiamo, grazie della compagnia.",
+      "pinyin": "noy an-DYA-mo, GRA-tsee-eh DEL-la kom-pa-NYEE-a",
+      "pt": "Wir gehen los, danke für die Gesellschaft.",
+      "tts": "Noi andiamo, grazie della compagnia."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_it_f",
+      "audioKey": "it-i04-s01",
+      "es": "Volentieri. Cosa c'è compreso? Questo giro lo offro io. Noi andiamo, grazie della compagnia.",
+      "pinyin": "vo-len-TYE-ri. KO-za cheh kom-PRE-zo. KWES-to JEE-ro lo OF-fro EE-o. noy an-DYA-mo GRA-tsee-eh DEL-la kom-pa-NYEE-a",
+      "pt": "Sprechen Sie den Abend mit: zusagen, klären, anbieten, gehen.",
+      "tts": "Volentieri. Cosa c'è compreso? Questo giro lo offro io. Noi andiamo, grazie della compagnia.",
+      "molde": "QUANTO-COSTA"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_f",
+      "audioKey": "it-i04-n05",
+      "bloco": "recap",
+      "pt": "I04 geschafft. Cosa c'è compreso entscheidet, ob Sie noch essen; grazie della compagnia schließt den Tisch."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Der Schritt vor dem Abendessen",
+    "secoes": [
+      {
+        "titulo": "Aperitivo ist eine Uhrzeit, keine Karte",
+        "corpo": "Ungefähr von sechs oder sieben bis zum Abendessen. Das Getränk hat einen festen Preis, und was dazukommt, schwankt enorm nach Stadt und Lokal — von einer Schale Chips bis zu einem Buffet, aus dem sich eine ganze Mahlzeit bauen lässt.",
+        "exemplos": [
+          {
+            "es": "Cosa c'è compreso?",
+            "pt": "Was ist inbegriffen?"
+          },
+          {
+            "es": "Quanto costa l'aperitivo?",
+            "pt": "Was kostet der Aperitivo?"
+          }
+        ]
+      },
+      {
+        "titulo": "Die Buffet-Variante ist eine Mailänder Gewohnheit",
+        "corpo": "Das großzügige Angebot heißt eigentlich apericena — ein Wort, das Treccani als Aperitivo mit so viel Essen definiert, dass er das Abendessen ersetzen kann. Es ist eine norditalienische Wortschöpfung aus den späten Neunzigern und in Mailand am stärksten. Dass es im Süden kleiner bleibt, sagen alle und misst keine Erhebung — behandeln Sie es als Tendenz, nicht als Grenze."
+      },
+      {
+        "titulo": "Runden und das Ablehnen",
+        "corpo": "Anzubieten wird erwartet; beim ersten Mal abgelehnt zu werden ebenso. Bestehen Sie einmal darauf, und wenn wieder abgelehnt wird, nehmen Sie stattdessen die nächste Runde. Eine Barrechnung Posten für Posten zu teilen ist unüblich und wirkt etwas kühl."
+      },
+      {
+        "titulo": "Mit einem Satz gehen",
+        "corpo": "Sich von einem italienischen Tisch wegzutreiben wird so gelesen, als sei etwas schiefgegangen. Noi andiamo, grazie della compagnia dauert zwei Sekunden und schließt den Abend sauber für alle, die sitzen bleiben."
+      }
+    ]
+  },
+  "slot": "I04",
+  "permissao": "Sie dürfen zur Aperitivo-Stunde etwas ohne Alkohol bestellen und zwei Stunden bei einem Glas am Tisch sitzen. Beides ist kein mangelndes Mitmachen — der Sinn dieser Stunde ist das Sitzen, und niemand zählt Ihre Gläser.",
+  "permissaoAudioKey": "it-i04-n03",
+  "espelho": "Wer schon einmal ein zweites Glas genommen hat, das er gar nicht wollte, weil Gehen zu abrupt gewirkt hätte, kennt die zweite Hälfte dieses Teils. Der Abschiedssatz existiert genau dafür: damit früh nach Hause zu gehen keine Ausrede mehr braucht.",
+  "fichasCulturais": [
+    {
+      "sinal": "Sie bestellen einen Aperitivo, und es kommt Essen, das Sie nicht bestellt haben und von dem niemand etwas gesagt hat.",
+      "suaLeitura": "Hier wird mir etwas hingestellt, das nachher auf der Rechnung steht.",
+      "oQueEAli": "Zur Aperitivo-Stunde ist das Essen, das zum Getränk kommt, im Preis enthalten. Das Getränk kostet mehr als dasselbe Getränk mittags, genau wegen dessen, was daneben steht.",
+      "oQueVoceFaz": "Fragen Sie beim Bestellen cosa c'è compreso? So wissen Sie, ob das ein Snack oder die Mahlzeit ist, und planen das Abendessen danach.",
+      "oQueMelhora": "Entweder Sie suchen um neun kein Lokal mehr, oder Sie essen sich eine Stunde vor dem Abendessen nicht am Buffet satt — beides entscheidet eine einzige Frage.",
+      "ondeNaoVale": "Keine Regel, dass alles auf der Theke gratis ist — mancherorts ist das Buffet ein eigener, bezahlter Posten, und der Umfang des Inbegriffenen schwankt stark zwischen Nord und Süd.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "it-i04-n02"
+      ]
+    }
+  ],
+  "fatosDatados": [
+    {
+      "id": "it-aperitivo-mercato",
+      "afirmacao": "Der Aperitivo ist ein großer, gemessener Markt: FIPE-Confcommercio zählt auf Basis von TradeLab-Daten 14 Millionen Italienerinnen und Italiener, 507 Millionen Abend-Aperitivi pro Jahr und rund 4 Milliarden Euro Umsatz, minus 3,2 % von 2024 auf 2025; der Aperitivo macht 14 % aller Barbesuche aus. Der Preis schwankt enorm nach Stadt — eine Erhebung von 2025 zum Aperol Spritz fand Mailand bei 10,33 Euro gegenüber Neapel bei 2,00 Euro, Rom bei 7,00 Euro und Venedig bei 4,50 Euro.",
+      "fonte": "FIPE-Confcommercio / TradeLab — «Come sta cambiando l'aperitivo», 12 maggio 2026; idealo — rilevazione prezzi Aperol Spritz 2025",
+      "ano": 2026,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "it-i04-n02"
+      ]
+    },
+    {
+      "id": "it-apericena",
+      "afirmacao": "Apericena ist ein eigenes Format und kein Synonym für Aperitivo: Das Wörterbuch Treccani definiert es als Aperitivo mit einer reichen Folge von Häppchen und Kostproben herzhafter und süßer Speisen, «die anstelle des Abendessens verzehrt werden können». Es ist eine norditalienische, Mailänder Wortschöpfung aus den späten 1990er-Jahren, und das Wort selbst gilt als Neologismus. Die Behauptung, das Format bleibe im Süden kleiner, wird breit vertreten, ist aber in keiner gefundenen Erhebung quantifiziert.",
+      "fonte": "Vocabolario Treccani — «apericena»; Libreriamo — «origine della parola macedonia»",
+      "ano": 2026,
+      "revisarAte": "2028-08-05",
+      "evidencia": "CONSENSO",
+      "risco": "baixo",
+      "audioKeys": [
+        "it-i04-n02"
+      ]
+    }
+  ]
+}

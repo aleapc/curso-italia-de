@@ -1,0 +1,276 @@
+{
+  "id": "b04",
+  "nivel": "basico",
+  "numero": 4,
+  "parte": "1D",
+  "titulo": "Die vier Dinge, die mitfliegen",
+  "subtitulo": "Ausweis, eine offline belegbare Buchung, eine funktionierende Verbindung und zwei Zahlwege — heute Abend geprüft, solange das Nachbessern noch billig ist",
+  "cena": "Heute Abend am Küchentisch ist der letzte Moment, in dem sich all das leicht richten lässt — morgen lebt es in einem Handy, das vielleicht keinen Empfang hat.",
+  "moldura": "protege",
+  "frasePiso": "Wenn das Handy am Taxistand ausgeht, muss die Reise trotzdem in Ihrer Hand existieren.",
+  "moldes": [],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "it-b04-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Die Reise von morgen beginnt heute Abend. Vier Dinge prüfen, solange ein Fehler noch nichts kostet."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "it-b04-n02",
+      "bloco": "corpo",
+      "pt": "Erstens: der Ausweis. Prüfen Sie das Ablaufdatum heute Abend, nicht am Gate."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "it-b04-n03",
+      "pt": "Zweitens: die Buchung muss ein totes Handy überleben. Hoteladresse und Rückflug offline greifbar speichern."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-b04-r01",
+      "es": "Buonasera, come posso aiutarla?",
+      "pt": "Guten Abend, wie kann ich Ihnen helfen?",
+      "tts": "Buonasera, come posso aiutarla?"
+    },
+    {
+      "consulta": [
+        "dormir/confirmar"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-b04-p01",
+      "promptPt": "Sie rufen vor dem Flug im Hotel an. Nennen Sie gleich Ihr Anliegen. Sprechen Sie jetzt.",
+      "audioKey": "it-b04-t01",
+      "es": "Vorrei confermare la mia prenotazione.",
+      "pinyin": "vor-RAY kon-fer-MA-re la MEE-a pre-no-ta-tsee-O-ne",
+      "pt": "Ich möchte meine Buchung bestätigen.",
+      "tts": "Vorrei confermare la mia prenotazione."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "it-b04-n04",
+      "pt": "Ein grüner Haken in einer App ist kein Beleg. Lassen Sie sich die Bestätigung dorthin schicken, wo Sie sie behalten."
+    },
+    {
+      "consulta": [
+        "dormir/confirmar",
+        "reparo/escribir"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "MI-PUO",
+      "encaixe": "mandare la conferma",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-b04-p02",
+      "promptPt": "Sie wollen den Beleg offline sichern, nicht nur in der App sehen. Ihr Postfach wartet. Sprechen Sie jetzt.",
+      "audioKey": "it-b04-t02",
+      "es": "Mi può mandare la conferma per email?",
+      "pinyin": "mee pwoh man-DA-re la kon-FER-ma per EE-mayl",
+      "pt": "Können Sie mir die Bestätigung per E-Mail schicken?",
+      "tts": "Mi può mandare la conferma per email?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "it-b04-n05",
+      "bloco": "capsula",
+      "pt": "Ein Hotelname ist kein Ziel. Fahrer und Offline-Karte brauchen Straße und Hausnummer."
+    },
+    {
+      "consulta": [
+        "dormir/endereco"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-b04-p03",
+      "promptPt": "In der Buchung steht nur der Hotelname. Das reicht keinem Fahrer. Sprechen Sie jetzt.",
+      "audioKey": "it-b04-t03",
+      "es": "Qual è l'indirizzo completo?",
+      "pinyin": "kwal eh leen-dee-REET-tso kom-PLEH-to",
+      "pt": "Wie lautet die vollständige Adresse?",
+      "tts": "Qual è l'indirizzo completo?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-b04-r02",
+      "es": "Via Garibaldi quarantadue, secondo piano.",
+      "pt": "Via Garibaldi zweiundvierzig, zweiter Stock.",
+      "tts": "Via Garibaldi quarantadue, secondo piano."
+    },
+    {
+      "consulta": [
+        "reparo/escribir"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "MI-PUO",
+      "encaixe": "scrivere l'indirizzo",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-b04-p04",
+      "promptPt": "Das behalten Sie nicht im Kopf. Bitten Sie um die schriftliche Form. Sprechen Sie jetzt.",
+      "audioKey": "it-b04-t04",
+      "es": "Me lo può scrivere?",
+      "pinyin": "meh lo pwoh SKREE-veh-re",
+      "pt": "Können Sie es mir aufschreiben?",
+      "tts": "Me lo può scrivere?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "it-b04-n06",
+      "pt": "Drittens: die Verbindung. EU-Roaming gilt in Italien — prüfen Sie das Datenvolumen und laden Sie die Karte offline."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "it-b04-n07",
+      "pt": "Viertens: zwei Zahlwege, beide von Ihnen getestet. Und Bargeld für die kleine Bar, die keine Karte nimmt."
+    },
+    {
+      "consulta": [
+        "dormir/chegada-tardia"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-b04-p05",
+      "promptPt": "Ihr Flug landet spät. Sagen Sie Ihre Ankunftszeit und klären Sie, ob jemand Sie noch empfängt. Sprechen Sie jetzt.",
+      "audioKey": "it-b04-t05",
+      "es": "Arrivo dopo le undici. La reception è aperta?",
+      "pinyin": "ar-REE-vo DO-po le OON-dee-chee. la re-SEP-shon eh a-PER-ta",
+      "pt": "Ich komme nach elf an. Ist die Rezeption geöffnet?",
+      "tts": "Arrivo dopo le undici. La reception è aperta?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-b04-r03",
+      "es": "Sì, siamo aperti ventiquattro ore.",
+      "pt": "Ja, wir haben rund um die Uhr geöffnet.",
+      "tts": "Sì, siamo aperti ventiquattro ore."
+    },
+    {
+      "consulta": [
+        "dormir/confirmar"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-b04-p06",
+      "promptPt": "Besorgen Sie sich etwas, das Sie vom Flughafen aus wählen können. Sprechen Sie jetzt.",
+      "audioKey": "it-b04-t06",
+      "es": "Qual è il numero dell'hotel?",
+      "pinyin": "kwal eh eel NOO-meh-ro del-lo-TEL",
+      "pt": "Wie lautet die Telefonnummer des Hotels?",
+      "tts": "Qual è il numero dell'hotel?"
+    },
+    {
+      "consulta": [
+        "dormir/confirmar"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "MI-PUO",
+      "encaixe": "tenere la prenotazione",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-b04-p07",
+      "promptPt": "Sie kommen spät und wollen sicher sein, dass das Zimmer auf Sie wartet. Sprechen Sie jetzt.",
+      "audioKey": "it-b04-t07",
+      "es": "Mi può tenere la prenotazione?",
+      "pinyin": "mee pwoh te-NEH-re la pre-no-ta-tsee-O-ne",
+      "pt": "Können Sie die Buchung für mich halten?",
+      "tts": "Mi può tenere la prenotazione?"
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-b04-p08",
+      "promptPt": "Beenden Sie das Gespräch warm. Sprechen Sie jetzt.",
+      "audioKey": "it-b04-t08",
+      "es": "Perfetto, grazie mille. A presto!",
+      "pinyin": "per-FET-to, GRA-tsee-eh MEEL-le. a PRES-to",
+      "pt": "Perfekt, vielen Dank. Bis bald!",
+      "tts": "Perfetto, grazie mille. A presto!"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_it_f",
+      "audioKey": "it-b04-s01",
+      "es": "Vorrei confermare la mia prenotazione. Qual è l'indirizzo completo? Me lo può scrivere?",
+      "pinyin": "vor-RAY kon-fer-MA-re la MEE-a pre-no-ta-tsee-O-ne. kwal eh leen-dee-REET-tso kom-PLEH-to. meh lo pwoh SKREE-veh-re",
+      "pt": "Sprechen Sie den ganzen Anruf vor dem Flug in einem Durchgang nach.",
+      "tts": "Vorrei confermare la mia prenotazione. Qual è l'indirizzo completo? Me lo può scrivere?"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_f",
+      "audioKey": "it-b04-n08",
+      "bloco": "recap",
+      "pt": "B04 sitzt. Ausweis geprüft, Buchung bestätigt und offline gesichert, Adresse schriftlich, Verbindung und zwei Zahlwege getestet."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Eine Checkliste mit Verfallsdatum",
+    "secoes": [
+      {
+        "titulo": "Offline ist eine Reisefunktion",
+        "corpo": "Ein Screenshot von Adresse, Rückbuchung und Hotelnummer übersteht Flughafen-WLAN, ein gesperrtes Konto und einen leeren Akku — eine Kette aus App-Links tut das nicht. Laden Sie den Kartenausschnitt der Stadt vorher offline herunter."
+      },
+      {
+        "titulo": "Die Airline prüft, auch wenn die Grenze nicht prüft",
+        "corpo": "Im Schengenraum gibt es keine systematische Grenzkontrolle, aber am Gate verlangt die Airline ein gültiges Ausweisdokument mit Foto. Ein abgelaufener Personalausweis fällt genau dort auf, wo es am teuersten ist. Prüfen Sie das Ablaufdatum, bevor Sie zum Flughafen fahren, und rechnen Sie bei Kindern mit kürzeren Laufzeiten."
+      },
+      {
+        "titulo": "Bestätigen ist eine Handlung, kein Dokument",
+        "corpo": "Das nützliche Italienisch zählt hier keine Papiere auf. Es schließt vor der Abreise die brüchigen Stellen der Buchung: bestätigen, die vollständige Adresse holen, sie schriftlich bekommen.",
+        "exemplos": [
+          {
+            "es": "Vorrei confermare la mia prenotazione.",
+            "pt": "Ich möchte meine Buchung bestätigen."
+          },
+          {
+            "es": "Qual è l'indirizzo completo?",
+            "pt": "Wie lautet die vollständige Adresse?"
+          }
+        ]
+      },
+      {
+        "titulo": "Adresse und Stockwerk lesen sich wie zu Hause",
+        "corpo": "Via Garibaldi 42, nicht 42 Via Garibaldi — die Hausnummer steht hinter der Straße, wie im Deutschen. Auch secondo piano meint den zweiten Stock über dem Erdgeschoss. Was fehlt, ist meist der Ort: derselbe Straßenname existiert in vielen italienischen Städten, also gehört die Stadt mit auf den Zettel."
+      }
+    ]
+  },
+  "slot": "B04",
+  "permissao": "Sie dürfen hier übervorbereitet sein. Eine Buchung zweimal zu bestätigen oder eine Adresse zu sichern, die Sie wahrscheinlich nie brauchen, ist nicht ängstlich — es ist der eine Teil der Reise, in dem fünf Minuten heute Abend echten Schutz gegen ein totes Handy oder eine unbesetzte Rezeption kaufen.",
+  "permissaoAudioKey": "it-b04-n01",
+  "espelho": "Wer je die Bordkarte ausgedruckt hat, für den Fall, dass die App streikt, führt diesen Reflex längst aus — nur für ein einziges Dokument. B04 verlangt dieselbe Offline-Gewohnheit für drei weitere. Keine neue Vorsicht, die vertraute, nur ausgedehnt.",
+  "fichasCulturais": [
+    {
+      "sinal": "Sie landen, öffnen die Karte, um zum Hotel zu finden, und es gibt keinen Empfang und nichts Gespeichertes außer dem Hotelnamen.",
+      "suaLeitura": "Ich hätte die Karte vorher offline laden sollen, oder die Reise läuft schon schief.",
+      "oQueEAli": "Ein Hotelname ist keine Route. Fahrer und Offline-Karte brauchen Straße und Hausnummer, und derselbe Straßenname wiederholt sich von Stadt zu Stadt, also zählt auch der Ort.",
+      "oQueVoceFaz": "Fragen Sie vor dem Flug nach der vollständigen Adresse in Schriftform und speichern Sie sie dort, wo sie ohne Empfang funktioniert — nicht nur in einer Buchungs-App.",
+      "oQueMelhora": "Fahrer, Passanten und Offline-Karte können sofort damit arbeiten, statt dass Sie in der Ankunftshalle einen Markennamen in der Hand halten.",
+      "ondeNaoVale": "Kein Ersatz für das Bestätigen der Buchung selbst — eine perfekte Adresse zur falschen Reservierung bleibt die falsche Reservierung.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "it-b04-n05"
+      ]
+    }
+  ]
+}

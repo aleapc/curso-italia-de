@@ -1,0 +1,92 @@
+{
+  "id": "q-b16",
+  "nivel": "basico",
+  "titulo": "Quiz — Check-in: fragen, solange es noch leicht ist",
+  "subtitulo": "Früh fragen, schlicht melden",
+  "introAudioKey": "it-b16-q-i",
+  "introPt": "Eine Reisende nutzt die dreißig Sekunden am Empfang für das, was noch verstellbar ist.",
+  "cenario": "Hotelempfang, bei der Ankunft.",
+  "dialogo": [
+    {
+      "audioKey": "it-b16-q01",
+      "voz": "target_it_f",
+      "es": "C'è una camera più tranquilla?",
+      "pt": "Gibt es ein ruhigeres Zimmer?"
+    },
+    {
+      "audioKey": "it-b16-q02",
+      "voz": "target_it_m",
+      "es": "Le do una all'ultimo piano, sul cortile.",
+      "pt": "Ich gebe Ihnen eines im obersten Stock, zum Innenhof."
+    },
+    {
+      "audioKey": "it-b16-q03",
+      "voz": "target_it_f",
+      "es": "Posso fare il check-out più tardi?",
+      "pt": "Kann ich später auschecken?"
+    },
+    {
+      "audioKey": "it-b16-q04",
+      "voz": "target_it_f",
+      "es": "L'aria condizionata non funziona.",
+      "pt": "Die Klimaanlage geht nicht."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Warum das bessere Zimmer beim Check-in erbitten statt später?",
+      "opcoes": [
+        "Dann ist es billiger",
+        "Das Personal verteilt gerade Zimmer; später hieße, eine Entscheidung rückgängig zu machen",
+        "Nur dann spricht man Englisch",
+        "Später ist es untersagt"
+      ],
+      "correta": 1,
+      "explica": "Das Zeitfenster zum Fragen ist kurz."
+    },
+    {
+      "pergunta": "Sul cortile bedeutet:",
+      "opcoes": [
+        "Zur Straße",
+        "Zum Innenhof — die ruhige Seite",
+        "Im Erdgeschoss",
+        "Mit Balkon"
+      ],
+      "correta": 1,
+      "explica": "Präziser, als um Ruhe zu bitten."
+    },
+    {
+      "pergunta": "Wie melden Sie etwas, das stillsteht?",
+      "opcoes": [
+        "Erst eine lange Entschuldigung",
+        "Das Substantiv plus non funziona",
+        "Indem Sie die Leitung rufen",
+        "Auf Englisch"
+      ],
+      "correta": 1,
+      "explica": "Die Dusche, der Aufzug, der Schlüssel, das WLAN — ein Baustein."
+    },
+    {
+      "pergunta": "Die tassa di soggiorno ist:",
+      "opcoes": [
+        "Ein Versehen auf der Abrechnung",
+        "Eine kommunale Übernachtungsabgabe, meist nicht im Vorauszahlbetrag enthalten",
+        "Ein Trinkgeld",
+        "Eine Reinigungspauschale"
+      ],
+      "correta": 1,
+      "explica": "Örtlich festgesetzt, vom Haus eingezogen."
+    },
+    {
+      "pergunta": "Camera bedeutet im Hotel:",
+      "opcoes": [
+        "Eine Kamera",
+        "Ein Zimmer",
+        "Ein Safe",
+        "Ein Schlüssel"
+      ],
+      "correta": 1,
+      "explica": "Einer der falschen Freunde aus B10."
+    }
+  ]
+}

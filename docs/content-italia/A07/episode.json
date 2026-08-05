@@ -1,0 +1,247 @@
+{
+  "id": "a07",
+  "nivel": "avancado",
+  "numero": 35,
+  "parte": "A07",
+  "titulo": "Signale: Willkommen, leichte Gereiztheit und Zeit zu gehen",
+  "subtitulo": "Das italienische Nein benutzt selten das Wort nein — es kommt als vediamo, als magari und als eine Hand, die sagt: Das Gespräch ist zu Ende",
+  "cena": "Alle haben zu allem Ja gesagt, passiert ist nichts, und Sie wissen nicht, ob die Sache schon vor drei Tagen entschieden war.",
+  "moldura": "ganha",
+  "frasePiso": "Vediamo heißt öfter nein als mal sehen. Wer das liest, spart sich drei Tage Warten auf etwas, das längst entschieden war.",
+  "moldes": [],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "it-a07-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Das Letzte, was man in einer Sprache lernt, ist die Absage ohne das Wort nein. Italienisch hat davon mehrere."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-a07-r01",
+      "receptivo": true,
+      "acao": "Das war ein Nein. Warten Sie nicht länger, machen Sie einen anderen Plan.",
+      "es": "Eh, vediamo... magari più avanti, dai.",
+      "pt": "Tja, mal sehen... vielleicht später mal, komm.",
+      "tts": "Eh, vediamo... magari più avanti, dai."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "it-a07-n02",
+      "bloco": "corpo",
+      "pt": "Vediamo, magari, si vede — alle mildern eine Absage. Das Zögern davor ist die eigentliche Botschaft."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_f",
+      "audioKey": "it-a07-r02",
+      "receptivo": true,
+      "acao": "Ein echtes Ja kommt schnell und konkret. Vergleichen Sie das Tempo mit dem vorigen.",
+      "es": "Sì sì, certo, alle otto, ci sono. Tranquillo.",
+      "pt": "Ja ja, klar, um acht, ich bin da. Keine Sorge.",
+      "tts": "Sì sì, certo, alle otto, ci sono. Tranquillo."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "it-a07-n03",
+      "pt": "So klingt ein Ja: schnell, doppelt, mit einer Uhrzeit darin. Tempo und Detail verraten es, nicht das Wort."
+    },
+    {
+      "consulta": [
+        "conversa/perguntar"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-a07-p01",
+      "promptPt": "Sie wissen nicht, was Sie gerade bekommen haben. Bitten Sie freundlich um Klarheit. Sprechen Sie jetzt.",
+      "audioKey": "it-a07-t01",
+      "es": "Mi dica pure di no, non c'è problema.",
+      "pinyin": "mee DEE-ka POO-re dee no, non cheh pro-BLE-ma",
+      "pt": "Sagen Sie ruhig nein, das ist kein Problem.",
+      "tts": "Mi dica pure di no, non c'è problema."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "it-a07-n04",
+      "bloco": "capsula",
+      "pt": "Jetzt die Gereiztheit. Nicht die Lautstärke — die ist normal. Sondern der Wechsel zur Förmlichkeit und kurze Sätze."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_f",
+      "audioKey": "it-a07-r03",
+      "receptivo": true,
+      "acao": "Signore statt Wärme ist das Signal. Runden Sie ab, statt nachzuhaken.",
+      "es": "Guardi, signore, le ho già detto di no.",
+      "pt": "Hören Sie, mein Herr, ich habe Ihnen schon nein gesagt.",
+      "tts": "Guardi, signore, le ho già detto di no."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "it-a07-n05",
+      "pt": "Guardi am Satzanfang plus signore oder signora ist das höfliche Genug. Nehmen Sie es an."
+    },
+    {
+      "consulta": [
+        "reparo/desculpar"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-a07-p02",
+      "promptPt": "Machen Sie einen Schritt zurück, kurz und würdevoll. Sprechen Sie jetzt.",
+      "audioKey": "it-a07-t02",
+      "es": "Certo, ho capito. Scusi il disturbo.",
+      "pinyin": "CHER-to, oh ka-PEE-to. SKOO-zee eel dees-TOOR-bo",
+      "pt": "Klar, ich habe verstanden. Entschuldigen Sie die Störung.",
+      "tts": "Certo, ho capito. Scusi il disturbo."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "it-a07-n06",
+      "pt": "Auch das Gegensignal lohnt sich. Wenn jemand anfängt, Sie zu duzen, sind Sie hereingelassen worden."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-a07-r04",
+      "receptivo": true,
+      "acao": "Man duzt Sie. Ziehen Sie mit — beim Sie zu bleiben würde jetzt Abstand schaffen.",
+      "es": "Ma dammi del tu, per favore! Come ti chiami?",
+      "pt": "Ach, sag doch du zu mir, bitte! Wie heißt du?",
+      "tts": "Ma dammi del tu, per favore! Come ti chiami?"
+    },
+    {
+      "consulta": [
+        "conversa/perguntar"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-a07-p03",
+      "promptPt": "Nehmen Sie das Angebot an und geben Sie die Frage zurück. Sprechen Sie jetzt.",
+      "audioKey": "it-a07-t03",
+      "es": "Volentieri. Io sono Anna, e tu?",
+      "pinyin": "vo-len-TYE-ri. EE-o SO-no AN-na, eh too",
+      "pt": "Gern. Ich bin Anna, und du?",
+      "tts": "Volentieri. Io sono Anna, e tu?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "it-a07-n07",
+      "pt": "Und der Aufbruch: Der Kaffee kommt, dann wird der Raum langsamer. Zu Hause der Kaffee, am Tisch das Zurücklehnen."
+    },
+    {
+      "consulta": [
+        "conversa/despedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-a07-p04",
+      "promptPt": "Lesen Sie den Raum und gehen Sie, bevor Sie die Letzten sind. Sprechen Sie jetzt.",
+      "audioKey": "it-a07-t04",
+      "es": "Beh, noi ci avviamo. Grazie ancora!",
+      "pinyin": "beh, noy chee av-VYA-mo. GRA-tsee-eh an-KO-ra",
+      "pt": "Also, wir machen uns auf den Weg. Nochmals danke!",
+      "tts": "Beh, noi ci avviamo. Grazie ancora!"
+    },
+    {
+      "consulta": [
+        "conversa/planos"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-a07-p05",
+      "promptPt": "Machen Sie das Ja konkret: Legen Sie die Uhrzeit fest. Sprechen Sie jetzt.",
+      "audioKey": "it-a07-x01",
+      "es": "Allora alle otto, confermiamo?",
+      "pinyin": "al-LO-ra AL-le OT-to, kon-fer-MYA-mo",
+      "pt": "Also um acht, bestätigen wir das?",
+      "tts": "Allora alle otto, confermiamo?"
+    },
+    {
+      "consulta": [
+        "conversa/despedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-a07-p06",
+      "promptPt": "Sie haben eine Absage bekommen. Lassen Sie die Tür trotzdem offen. Sprechen Sie jetzt.",
+      "audioKey": "it-a07-x02",
+      "es": "Nessun problema, magari un'altra volta.",
+      "pinyin": "nes-SOON pro-BLE-ma, ma-GA-ree oo-NAL-tra VOL-ta",
+      "pt": "Kein Problem, vielleicht ein andermal.",
+      "tts": "Nessun problema, magari un'altra volta."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_m",
+      "audioKey": "it-a07-n08",
+      "bloco": "recap",
+      "pt": "A07 geschafft. Vediamo heißt meist nein, guardi plus signore heißt genug, und tu heißt: Sie sind drin."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Das Nein, das nie nein sagt",
+    "secoes": [
+      {
+        "titulo": "Das Tempo verrät es",
+        "corpo": "Ein echtes Ja kommt schnell zurück, wiederholt sich und enthält ein Detail — eine Uhrzeit, einen Ort, einen Namen. Eine Absage kommt langsam, abgefedert und ohne Konkretes. Neben dem Tempo sind die Wörter fast egal.",
+        "exemplos": [
+          {
+            "es": "Sì sì, certo, alle otto.",
+            "pt": "Ja ja, klar, um acht."
+          },
+          {
+            "es": "Eh, vediamo… magari più avanti.",
+            "pt": "Tja, mal sehen… vielleicht später mal."
+          }
+        ]
+      },
+      {
+        "titulo": "Guardi, signore",
+        "corpo": "Der Wechsel von Wärme zu Förmlichkeit ist das Signal für Gereiztheit, und er ist viel verlässlicher als Lautstärke. Guardi am Satzanfang, dazu signore oder signora, wo vorher keines war: Das Gespräch ist zu Ende."
+      },
+      {
+        "titulo": "Tu ist eine Einladung",
+        "corpo": "Zum Du aufgefordert zu werden ist eine kleine Zeremonie der Aufnahme; beim Sie zu bleiben liest sich als Abstandhalten. Ziehen Sie sofort mit, schlagen Sie den Wechsel aber nicht selbst vor."
+      },
+      {
+        "titulo": "Das Signal zum Aufbruch",
+        "corpo": "Zu Hause markiert der Kaffee die letzte Bewegung. Am Tisch tun das die zurückgelehnten Leute und das langsamer werdende Gespräch. Bei diesem Signal zu gehen wirkt elegant; früher zu gehen liest sich, als wäre der Abend misslungen."
+      }
+    ]
+  },
+  "slot": "A07",
+  "permissao": "Sie dürfen ein Nein ausdrücklich anbieten. Mi dica pure di no ist hier ein normaler, gut aufgenommener Satz, und er ist weit besser als drei Tage Warten auf ein Ja, das nie kommen sollte — niemand nimmt es übel, wenn man ihm einen leichten Ausweg lässt.",
+  "permissaoAudioKey": "it-a07-n01",
+  "espelho": "Wer schon einmal gesagt hat, man müsse unbedingt mal zusammen essen, und dabei nein meinte, kennt dieses System bereits — nur betreibt er es sonst in der eigenen Sprache. Die Signale sind andere; der Grund, warum es sie gibt, ist derselbe.",
+  "fichasCulturais": [
+    {
+      "sinal": "Sie bitten jemanden um einen Gefallen, er sagt vediamo oder magari, und dann passiert mehrere Tage lang nichts.",
+      "suaLeitura": "Es wird noch geprüft, ich sollte nachfassen.",
+      "oQueEAli": "Eine abgefederte, langsame, unkonkrete Antwort ist sehr oft eine Absage in einer Form, die beiden Seiten den Halt lässt. Ein Ja kommt hier meist schnell und mit einem konkreten Detail.",
+      "oQueVoceFaz": "Lesen Sie das Tempo statt des Wortes, und wenn Sie es wirklich wissen müssen, sagen Sie mi dica pure di no — das gibt dem anderen einen leichten Ausweg und Ihnen eine echte Antwort.",
+      "oQueMelhora": "Sie warten nicht mehr tagelang auf etwas, das schon im Moment Ihrer Frage entschieden war, und die Beziehung leidet nicht darunter, dass Sie gedrängt haben.",
+      "ondeNaoVale": "Nicht überall — vediamo heißt manchmal wirklich mal sehen, vor allem bei etwas, das tatsächlich noch offen ist. Zu gewichten sind Tempo und Konkretheit, nicht das Wort für sich.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "it-a07-n02",
+        "it-a07-n03"
+      ]
+    }
+  ]
+}

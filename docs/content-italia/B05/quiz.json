@@ -1,0 +1,92 @@
+{
+  "id": "q-b05",
+  "nivel": "basico",
+  "titulo": "Quiz — Drei Antworten, dann Schluss",
+  "subtitulo": "Grund, Dauer, Schlafplatz",
+  "introAudioKey": "it-b05-q-i",
+  "introPt": "Eine Reisende beantwortet die Passkontrolle in drei kurzen Sätzen.",
+  "cenario": "Passkontrolle bei der Ankunft.",
+  "dialogo": [
+    {
+      "audioKey": "it-b05-q01",
+      "voz": "target_it_m",
+      "es": "Qual è il motivo del viaggio?",
+      "pt": "Was ist der Grund Ihrer Reise?"
+    },
+    {
+      "audioKey": "it-b05-q02",
+      "voz": "target_it_f",
+      "es": "Sono in vacanza.",
+      "pt": "Ich bin im Urlaub."
+    },
+    {
+      "audioKey": "it-b05-q03",
+      "voz": "target_it_m",
+      "es": "Quanto tempo si ferma?",
+      "pt": "Wie lange bleiben Sie?"
+    },
+    {
+      "audioKey": "it-b05-q04",
+      "voz": "target_it_f",
+      "es": "Dieci giorni.",
+      "pt": "Zehn Tage."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Welche drei Dinge sind am Schalter zu klären?",
+      "opcoes": [
+        "Grund, Dauer, Unterkunft",
+        "Name, Alter, Beruf",
+        "Geld, Gepäck, Tickets",
+        "Flug, Sitz, Gate"
+      ],
+      "correta": 0,
+      "explica": "Jedes beantworten, dann aufhören."
+    },
+    {
+      "pergunta": "Was heißt eccola und was leistet es?",
+      "opcoes": [
+        "Hier ist sie — der Beleg wird übergeben",
+        "Ich weiß nicht",
+        "Bitte wiederholen",
+        "Danke"
+      ],
+      "correta": 0,
+      "explica": "Es verschiebt den Austausch vom Gedächtnis zum Beleg."
+    },
+    {
+      "pergunta": "Sollen Sie die zehn Tage aus der Lektion nennen?",
+      "opcoes": [
+        "Ja, immer",
+        "Nein, nehmen Sie Ihre echte Zahl",
+        "Nur unter zwei Wochen",
+        "Nur im Urlaub"
+      ],
+      "correta": 1,
+      "explica": "Wahr schlägt flüssig; der Aufbau bleibt so oder so kurz."
+    },
+    {
+      "pergunta": "Ist eine kurze Antwort verdächtig?",
+      "opcoes": [
+        "Ja, erklären Sie mehr",
+        "Nein, kurz heißt: sie passte zur Frage",
+        "Nur wenn Sie zögern",
+        "Nur bei Touristen"
+      ],
+      "correta": 1,
+      "explica": "Was den Schalter wirklich aufhält, sind Erklärungen zu viel."
+    },
+    {
+      "pergunta": "Was tun, wenn Sie die Frage nicht erfasst haben?",
+      "opcoes": [
+        "Raten und nicken",
+        "Scusi, non ho capito la domanda sagen",
+        "Auf Englisch antworten",
+        "Den Pass noch einmal zeigen"
+      ],
+      "correta": 1,
+      "explica": "Nachfragen geht schneller, als eine falsche Antwort zu reparieren."
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "q-b13",
+  "nivel": "basico",
+  "titulo": "Quiz — Der Hammersatz und die Karte",
+  "subtitulo": "Allergia zuerst, è grave danach",
+  "introAudioKey": "it-b13-q-i",
+  "introPt": "Eine Reisende sorgt dafür, dass eine Allergie die Küche erreicht, nicht nur den Tisch.",
+  "cenario": "Beim Bestellen im Restaurant.",
+  "dialogo": [
+    {
+      "audioKey": "it-b13-q01",
+      "voz": "target_it_f",
+      "es": "Ho un'allergia alle arachidi. È grave.",
+      "pt": "Ich habe eine Erdnussallergie. Sie ist schwer."
+    },
+    {
+      "audioKey": "it-b13-q02",
+      "voz": "target_it_m",
+      "es": "Ho capito. Lo dico in cucina.",
+      "pt": "Verstanden. Ich sage es in der Küche."
+    },
+    {
+      "audioKey": "it-b13-q03",
+      "voz": "target_it_f",
+      "es": "Questo piatto contiene arachidi?",
+      "pt": "Enthält dieses Gericht Erdnüsse?"
+    },
+    {
+      "audioKey": "it-b13-q04",
+      "voz": "target_it_m",
+      "es": "Questo no, ma è fritto nello stesso olio.",
+      "pt": "Dieses nicht, aber es wird im selben Öl frittiert."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Warum steht allergia am Satzanfang?",
+      "opcoes": [
+        "Es klingt höflicher",
+        "Es ist das Wort, das ändert, was in der Küche passiert",
+        "Die italienische Grammatik verlangt es",
+        "Es lässt sich leichter aussprechen"
+      ],
+      "correta": 1,
+      "explica": "Deshalb kommt es zuerst, nicht zuletzt."
+    },
+    {
+      "pergunta": "Worauf hören Sie in der Antwort des Kellners?",
+      "opcoes": [
+        "Auf einen warmen Ton",
+        "Auf einen Hinweis auf die Küche",
+        "Auf eine Entschuldigung",
+        "Auf die Wiederholung des Gerichtnamens"
+      ],
+      "correta": 1,
+      "explica": "Lo dico in cucina ist die Antwort, die Sie wollen; Wärme allein ist der Grundton."
+    },
+    {
+      "pergunta": "Warum eine geschriebene Karte mitnehmen?",
+      "opcoes": [
+        "Sie ist gesetzlich vorgeschrieben",
+        "Sie übersteht Lärm, Akzent, Schichtwechsel und einen leeren Akku",
+        "Sie ist billiger",
+        "Kellner mögen sie lieber"
+      ],
+      "correta": 1,
+      "explica": "Papier geht auch ohne Akku."
+    },
+    {
+      "pergunta": "Fritto nello stesso olio ist:",
+      "opcoes": [
+        "Eine Absage",
+        "Eine gute Antwort — sie nennt ein Risiko, das keine Karte druckt",
+        "Ein Verkaufsversuch",
+        "Für eine Allergie ohne Bedeutung"
+      ],
+      "correta": 1,
+      "explica": "Dasselbe Öl, dasselbe Brett, dasselbe Wasser."
+    },
+    {
+      "pergunta": "Was tun Sie, wenn der Teller kommt?",
+      "opcoes": [
+        "Sofort essen",
+        "Einmal bestätigen vor dem ersten Bissen",
+        "Den ganzen Satz wiederholen",
+        "Nach der Leitung fragen"
+      ],
+      "correta": 1,
+      "explica": "Eine Bestätigung, keine vierte Wiederholung."
+    }
+  ]
+}

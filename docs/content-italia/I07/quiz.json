@@ -1,0 +1,92 @@
+{
+  "id": "q-i07",
+  "nivel": "intermediario",
+  "titulo": "Quiz — Lob, das die Küche erreicht",
+  "subtitulo": "Beide Sätze brauchen ein Substantiv",
+  "introAudioKey": "it-i07-q-i",
+  "introPt": "Eine Reisende schickt ein Lob in die Küche und bekommt einen kalten Teller getauscht.",
+  "cenario": "Mitten im Essen in einer familiengeführten Trattoria.",
+  "dialogo": [
+    {
+      "audioKey": "it-i07-q01",
+      "voz": "target_it_f",
+      "es": "La pasta era buonissima, complimenti al cuoco.",
+      "pt": "Die Pasta war hervorragend, ein Kompliment an den Koch."
+    },
+    {
+      "audioKey": "it-i07-q02",
+      "voz": "target_it_m",
+      "es": "Glielo dico subito. È mia madre che cucina.",
+      "pt": "Ich sage es ihr sofort. Meine Mutter kocht."
+    },
+    {
+      "audioKey": "it-i07-q03",
+      "voz": "target_it_f",
+      "es": "Scusi, questo è freddo.",
+      "pt": "Entschuldigung, das ist kalt."
+    },
+    {
+      "audioKey": "it-i07-q04",
+      "voz": "target_it_m",
+      "es": "Mi dispiace tantissimo, glielo cambio subito.",
+      "pt": "Das tut mir sehr leid, ich tausche es sofort."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Was bringt ein Lob bis in die Küche?",
+      "opcoes": [
+        "Lautstärke",
+        "Das Gericht beim Namen nennen",
+        "Trinkgeld",
+        "Es auf Englisch sagen"
+      ],
+      "correta": 1,
+      "explica": "Tutto buono ist höfliches Rauschen."
+    },
+    {
+      "pergunta": "Wie baut man eine Reklamation?",
+      "opcoes": [
+        "Entschuldigung, dann die Sache, dann noch eine Entschuldigung",
+        "Scusi plus die Tatsache, dann aufhören",
+        "Eine lange Erklärung",
+        "Schriftlich"
+      ],
+      "correta": 1,
+      "explica": "Je kürzer der Satz, desto schneller die Lösung."
+    },
+    {
+      "pergunta": "Warum geht zu viel Entschuldigung nach hinten los?",
+      "opcoes": [
+        "Sie ist unhöflich",
+        "Sie begräbt die Tatsache und signalisiert, dass Sie Widerstand erwarten",
+        "Entschuldigungen mag man hier nicht",
+        "Sie ist zu förmlich"
+      ],
+      "correta": 1,
+      "explica": "Ein ruhiger, warmer, sachlicher Satz wird als normal gelesen."
+    },
+    {
+      "pergunta": "Buonissimo, ottimo, squisito sind:",
+      "opcoes": [
+        "Übertrieben",
+        "Alltagswörter, alle stärker als „sehr gut“",
+        "Nur förmlich",
+        "Regional"
+      ],
+      "correta": 1,
+      "explica": "Jedes der drei schlägt „sehr gut“."
+    },
+    {
+      "pergunta": "Das stärkste Lob ist:",
+      "opcoes": [
+        "Squisito",
+        "Trinkgeld",
+        "Zu sagen, dass Sie wiederkommen",
+        "Eine Bewertung"
+      ],
+      "correta": 2,
+      "explica": "Häuser, die wöchentlich dieselben Leute satt machen, messen Arbeit in Wiederbesuchen."
+    }
+  ]
+}

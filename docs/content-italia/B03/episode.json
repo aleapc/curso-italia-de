@@ -1,0 +1,294 @@
+{
+  "id": "b03",
+  "nivel": "basico",
+  "numero": 3,
+  "parte": "1C",
+  "titulo": "Wechseln Sie den Kanal, nicht die Sprache",
+  "subtitulo": "Mi può — plus das, was erledigt werden soll. Ein Baustein, vier Reparaturen, und das Nicken, das Sie den Nachmittag kostet",
+  "cena": "Die Antwort kam schnell und freundlich zurück, Sie haben ein Wort davon erwischt, und die Schlange hinter Ihnen wird nicht kürzer.",
+  "moldura": "resolve",
+  "frasePiso": "Wenn das Hören scheitert, wechseln Sie den Kanal, nicht die Sprache. Langsamer, aufgeschrieben oder auf der Karte — wählen Sie eins und bitten Sie darum.",
+  "moldes": [
+    "MI-PUO"
+  ],
+  "clique": {
+    "contagem": [
+      "die Karte",
+      "die Nummer",
+      "das Ganze"
+    ],
+    "desconto": "Niemand hat Ihnen vier verschiedene Sätze für vier verschiedene Pannen gegeben. Sie haben einen Baustein behalten — mi può — und nur getauscht, was erledigt werden soll.",
+    "piso": "Wenn Ihnen das nächste Mal eine Antwort entgeht, nicken und hoffen Sie nicht. Sie wählen die Reparatur, die Sie brauchen, und bitten um genau die."
+  },
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "it-b03-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Gefährlich ist das höfliche Nicken bei einer nicht verstandenen Antwort. Eine Sekunde gewonnen, der Nachmittag verloren."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-b03-r01",
+      "es": "Allora, deve andare fino al semaforo e poi girare subito dopo il ponte.",
+      "pt": "Also, Sie gehen bis zur Ampel und biegen gleich nach der Brücke ab.",
+      "tts": "Allora, deve andare fino al semaforo e poi girare subito dopo il ponte."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "it-b03-n02",
+      "bloco": "molde",
+      "pt": "Hier ist der Baustein: mi può, dann das, was erledigt werden soll. Eine Öffnung, nur die Handlung wechselt."
+    },
+    {
+      "consulta": [
+        "reparo/devagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "MI-PUO",
+      "encaixe": "ripetere più lentamente",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-b03-p01",
+      "promptPt": "Die Antwort kam zu schnell. Sie brauchen sie noch einmal, in anderem Tempo. Sprechen Sie jetzt.",
+      "audioKey": "it-b03-t01",
+      "es": "Mi può ripetere più lentamente?",
+      "pinyin": "mee pwoh ree-PEH-teh-re pyoo len-ta-MEN-te",
+      "pt": "Können Sie das langsamer wiederholen?",
+      "tts": "Mi può ripetere più lentamente?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-b03-r02",
+      "es": "Certo. Fino al semaforo, poi a destra.",
+      "pt": "Natürlich. Bis zur Ampel, dann rechts.",
+      "tts": "Certo. Fino al semaforo, poi a destra."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "it-b03-n03",
+      "bloco": "corpo",
+      "pt": "Langsamer hilft nicht bei Zahlen, Namen und Adressen. Verschwenden Sie darauf keine weiteren Hörversuche."
+    },
+    {
+      "consulta": [
+        "reparo/escribir"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "MI-PUO",
+      "encaixe": "scrivere",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-b03-p02",
+      "promptPt": "Zahlen bleiben im Ohr nicht hängen. Zettel und Stift liegen bereit. Sprechen Sie jetzt.",
+      "audioKey": "it-b03-t02",
+      "es": "Me lo può scrivere, per favore?",
+      "pinyin": "meh lo pwoh SKREE-veh-re per fa-VO-re",
+      "pt": "Können Sie es mir bitte aufschreiben?",
+      "tts": "Me lo può scrivere, per favore?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "it-b03-n04",
+      "pt": "Dritter Kanal: die Karte. Ein Straßenname lässt drei Abzweigungen offen — reichen Sie das Handy hin."
+    },
+    {
+      "consulta": [
+        "reparo/apontar",
+        "transporte/direcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "MI-PUO",
+      "encaixe": "mostrare sulla mappa",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-b03-p03",
+      "promptPt": "Sie öffnen die Karte auf dem Handy und halten sie hin. Sprechen Sie jetzt.",
+      "audioKey": "it-b03-t03",
+      "es": "Mi può mostrare sulla mappa?",
+      "pinyin": "mee pwoh mos-TRA-re SUL-la MAP-pa",
+      "pt": "Können Sie es mir auf der Karte zeigen?",
+      "tts": "Mi può mostrare sulla mappa?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-b03-r03",
+      "es": "Sì, guardi: è qui, dopo la piazza.",
+      "pt": "Ja, schauen Sie: hier ist es, nach dem Platz.",
+      "tts": "Sì, guardi: è qui, dopo la piazza."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "it-b03-n05",
+      "bloco": "capsula",
+      "pt": "Vierter Kanal: die Antwort kleiner machen, bevor sie wächst. Eine Ja-Nein-Frage macht aus einem Absatz eine Entscheidung."
+    },
+    {
+      "consulta": [
+        "transporte/distancia"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-b03-p04",
+      "promptPt": "Sie wollen nur wissen, ob sich zu Fuß lohnt. Sprechen Sie jetzt.",
+      "audioKey": "it-b03-t04",
+      "es": "È lontano?",
+      "pinyin": "eh lon-TA-no",
+      "pt": "Ist es weit?",
+      "tts": "È lontano?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-b03-r04",
+      "es": "No, cinque minuti a piedi.",
+      "pt": "Nein, fünf Minuten zu Fuß.",
+      "tts": "No, cinque minuti a piedi."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "it-b03-n06",
+      "pt": "Und der ehrliche Satz, der die ganze Leiter startet — schlicht gesagt, ohne Entschuldigung dahinter."
+    },
+    {
+      "consulta": [
+        "reparo/nao-entendi"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-b03-p05",
+      "promptPt": "Sie haben den Faden verloren. Sagen Sie es, ohne sich klein zu machen. Sprechen Sie jetzt.",
+      "audioKey": "it-b03-t05",
+      "es": "Scusi, non ho capito.",
+      "pinyin": "SKOO-zee, non oh ka-PEE-to",
+      "pt": "Entschuldigung, ich habe nicht verstanden.",
+      "tts": "Scusi, non ho capito."
+    },
+    {
+      "consulta": [
+        "reparo/devagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "MI-PUO",
+      "encaixe": "parlare più piano",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-b03-p06",
+      "promptPt": "Setzen Sie das Tempo für das ganze Gespräch, nicht nur für einen Satz. Sprechen Sie jetzt.",
+      "audioKey": "it-b03-t06",
+      "es": "Mi può parlare più piano?",
+      "pinyin": "mee pwoh par-LA-re pyoo PYA-no",
+      "pt": "Können Sie langsamer sprechen?",
+      "tts": "Mi può parlare più piano?"
+    },
+    {
+      "consulta": [
+        "reparo/escribir"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "MI-PUO",
+      "encaixe": "ripetere il numero",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "it-b03-p07",
+      "promptPt": "Nur die Ziffernfolge ist Ihnen entgangen, der Rest saß. Bitten Sie um genau die. Sprechen Sie jetzt.",
+      "audioKey": "it-b03-t07",
+      "es": "Mi può ripetere il numero?",
+      "pinyin": "mee pwoh ree-PEH-teh-re eel NOO-meh-ro",
+      "pt": "Können Sie die Nummer wiederholen?",
+      "tts": "Mi può ripetere il numero?"
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "it-b03-p08",
+      "promptPt": "Man war geduldig mit Ihnen. Sagen Sie es. Sprechen Sie jetzt.",
+      "audioKey": "it-b03-t08",
+      "es": "Grazie, molto gentile.",
+      "pinyin": "GRA-tsee-eh, MOL-to jen-TEE-le",
+      "pt": "Danke, sehr freundlich.",
+      "tts": "Grazie, molto gentile."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_it_f",
+      "audioKey": "it-b03-s01",
+      "es": "Scusi, non ho capito. Mi può ripetere più lentamente? Me lo può scrivere, per favore?",
+      "pinyin": "SKOO-zee non oh ka-PEE-to. mee pwoh ree-PEH-teh-re pyoo len-ta-MEN-te. meh lo pwoh SKREE-veh-re per fa-VO-re",
+      "pt": "Sprechen Sie die ersten drei Stufen nach, ohne Entschuldigung obendrauf.",
+      "tts": "Scusi, non ho capito. Mi può ripetere più lentamente? Me lo può scrivere, per favore?"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_f",
+      "audioKey": "it-b03-n07",
+      "bloco": "recap",
+      "pt": "B03 sitzt. Mi può plus Handlung: langsamer, aufschreiben, auf der Karte. È lontano? kürzt die Antwort. Der Baustein bleibt."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Reparatur ist ein Kanalwechsel",
+    "secoes": [
+      {
+        "titulo": "Stufen nicht stapeln",
+        "corpo": "Beginnen Sie mit der kleinsten Reparatur, die reichen könnte. Wenn langsamer genügt, hören Sie dort auf. Zum Aufschreiben gehen Sie erst bei dem über, was zerbrechlich bleibt: Zahlen, Namen, Adressen, Uhrzeiten, Medikamente.",
+        "exemplos": [
+          {
+            "es": "Mi può ripetere più lentamente?",
+            "pt": "fragt nach Tempo, nicht nach Lautstärke"
+          },
+          {
+            "es": "Me lo può scrivere?",
+            "pt": "holt es ganz aus Ihren Ohren heraus"
+          }
+        ]
+      },
+      {
+        "titulo": "Più lentamente, nicht più forte",
+        "corpo": "Wer nur um Wiederholung bittet, bekommt meist denselben Satz lauter, und das hilft nicht. Erst wenn Sie die gewünschte Änderung benennen — langsamer —, wird der zweite Versuch anders als der erste."
+      },
+      {
+        "titulo": "Aufschreiben schlägt das dritte Zuhören",
+        "corpo": "Ein drittes identisches Zuhören ändert das Ergebnis selten. Geschrieben liegt das Detail außerhalb Ihres Kopfes, und beide Seiten prüfen dasselbe Objekt. Deshalb beendet diese Stufe die meisten dieser Situationen."
+      },
+      {
+        "titulo": "Non ho capito ist kein Geständnis",
+        "corpo": "Es ist eine Statusmeldung, und es ist normal. Jede Person in dieser Schlange hat es schon gesagt. Schlicht gesagt, ohne gestapelte Entschuldigung, klingt es nach Klarheit statt nach Schwäche."
+      }
+    ]
+  },
+  "slot": "B03",
+  "permissao": "Sie dürfen non ho capito sagen und es schlicht so meinen, ohne alles Entschuldigende drumherum. Eine Antwort an einem lauten Ort zu verlieren gehört zu einem echten Gespräch — die Leiter gibt es genau dafür, damit Sie Verstehen nie vortäuschen müssen, um weiterzukommen.",
+  "permissaoAudioKey": "it-b03-n06",
+  "espelho": "Dasselbe höfliche Nicken passiert am Bahnschalter zu Hause, wenn die Auskunft schnell kommt und die Schlange drückt — und es endet genauso: falsches Gleis, falscher Preis, falsche Abzweigung. Es ist keine Lücke in Ihrem Italienisch, sondern das, was jeder unter dem kleinen Druck macht, nicht langsam wirken zu wollen. Ein paar Brocken Italienisch verschärfen das sogar: Sie klingen gut genug, dass man Ihnen im vollen Tempo antwortet.",
+  "fichasCulturais": [
+    {
+      "sinal": "Sie nicken und sagen grazie zu einer Antwort, die Sie nicht wirklich erwischt haben, und stehen zehn Minuten später auf der falschen Flussseite.",
+      "suaLeitura": "Ich wollte die Schlange nicht aufhalten und mein Italienisch nicht schlechter aussehen lassen, als es ist.",
+      "oQueEAli": "Das Nicken schützt das Gespräch für eine Sekunde und übergibt Ihnen später ein echtes Problem — in einem Moment, in dem die Person mit der Antwort längst weg ist und nicht mehr helfen kann.",
+      "oQueVoceFaz": "Sagen Sie sofort non ho capito, im selben Atemzug wie das Nicken, das Sie gerade machen wollten. Dann wählen Sie eine Stufe: langsamer, aufgeschrieben oder auf der Karte.",
+      "oQueMelhora": "Die Korrektur passiert, solange die Person mit der Antwort noch vor Ihnen steht — der einzige Moment, in dem sie nichts kostet.",
+      "ondeNaoVale": "Kein Ersatz dafür, es überhaupt zu versuchen: non ho capito nach jedem Satz, ohne den Austausch zu wagen, wirkt wie Aufgeben statt wie Reparatur.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "it-b03-n01"
+      ]
+    }
+  ]
+}
