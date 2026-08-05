@@ -49,7 +49,7 @@
         "mesa/pedir"
       ],
       "tipo": "responde",
-      "voz": "target_it_f",
+      "voz": "target_it_m",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-b01-p01",
       "promptPt": "Bestellen Sie einen Kaffee. Ein Bogen, keine Pause. Sprechen Sie jetzt.",
@@ -108,7 +108,7 @@
         "mesa/pedir"
       ],
       "tipo": "responde",
-      "voz": "target_it_f",
+      "voz": "target_it_m",
       "promptVoz": "guide_de_m",
       "promptAudioKey": "it-b01-p03",
       "promptPt": "Sie zeigen auf die Vitrine und bestellen die Schokoladensorte. Sprechen Sie jetzt.",

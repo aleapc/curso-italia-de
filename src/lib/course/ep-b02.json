@@ -85,7 +85,7 @@
         "chegar/sair"
       ],
       "tipo": "responde",
-      "voz": "target_it_f",
+      "voz": "target_it_m",
       "promptVoz": "guide_de_f",
       "promptAudioKey": "it-b02-p03",
       "promptPt": "Der Gang ist eng und Sie müssen vorbei. Sprechen Sie jetzt.",
