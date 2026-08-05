@@ -6,7 +6,7 @@
   "titulo": "Dov'è — die Frage, die Ihre Füße bewegt",
   "subtitulo": "Den offiziellen Taxistand finden, die Adresse nennen, das Auto dort anhalten, wo Sie wirklich aussteigen wollen",
   "cena": "Jemand hat Ihnen eine Fahrt angeboten, bevor Sie den Ausgang erreicht haben, und der offizielle Standplatz liegt irgendwo, wo Sie noch nicht waren.",
-  "moldura": "resolve",
+  "moldura": "ganha",
   "frasePiso": "Fragen Sie nach dem Ort beim Namen, gehen Sie hin, und lassen Sie Taxameter und Adresse den Rest machen.",
   "moldes": [
     "DOV-E"

@@ -26,7 +26,7 @@ export const outline: ModuloOutline[] = [
       { id: 'b07', titulo: 'Dov\'è — die Frage, die Ihre Füße bewegt', pronta: true },
       { id: 'b08', titulo: 'Stellen Sie die Frage, deren Antwort in den Kopf passt', pronta: true },
       { id: 'b09', titulo: 'Das Ticket, das sich selbst entwertet — und das andere', pronta: true },
-      { id: 'b10', titulo: 'Die Schilder, die Sie lesen können, sind die gefährlichen', pronta: true },
+      { id: 'b10', titulo: 'Die Schilder, die Sie lesen können, sind die verräterischen', pronta: true },
       { id: 'b11', titulo: 'Quanto costa — zwei Wörter, solange Fragen noch frei ist', pronta: true },
       { id: 'b12', titulo: 'Senza — abziehen statt erklären', pronta: true },
       { id: 'b13', titulo: 'Der Hammersatz und die Karte, die ihn für Sie sagt', pronta: true },

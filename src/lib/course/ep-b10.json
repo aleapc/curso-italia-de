@@ -3,10 +3,10 @@
   "nivel": "basico",
   "numero": 10,
   "parte": "4A",
-  "titulo": "Die Schilder, die Sie lesen können, sind die gefährlichen",
-  "subtitulo": "Italienisch sieht lesbar aus, und genau das ist das Problem — chiuso, riservato, guasto und die Wörter, die etwas anderes heißen",
+  "titulo": "Die Schilder, die Sie lesen können, sind die verräterischen",
+  "subtitulo": "Italienisch sieht lesbar aus, und genau das ist die Falle — chiuso, riservato, guasto, und die Wörter, die etwas anderes bedeuten",
   "cena": "Sie stehen vor einer Tür mit einem gedruckten Schild, und alle anderen auf der Straße haben längst verstanden, was Sie noch nicht verstehen.",
-  "moldura": "resolve",
+  "moldura": "ganha",
   "frasePiso": "Sie müssen das Schild nicht ganz lesen. Sie müssen wissen, ob es heißt: rein, später wiederkommen oder andere Tür.",
   "moldes": [],
   "steps": [
