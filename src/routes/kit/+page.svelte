@@ -37,7 +37,7 @@
 </script>
 
 <svelte:head>
-  <title>Spickzettel · ¡Dime!</title>
+  <title>Spickzettel · Dimmi!</title>
 </svelte:head>
 
 <KitTela>
