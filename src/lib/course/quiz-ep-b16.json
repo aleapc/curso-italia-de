@@ -1,0 +1,92 @@
+{
+  "id": "q-b16",
+  "nivel": "basico",
+  "titulo": "Quiz — Check-in: ask while it is still free to ask",
+  "subtitulo": "Ask first, report plainly",
+  "introAudioKey": "it-b16-q-i",
+  "introPt": "A traveller spends the thirty seconds at the desk on the things that are still adjustable.",
+  "cenario": "Hotel front desk, on arrival.",
+  "dialogo": [
+    {
+      "audioKey": "it-b16-q01",
+      "voz": "target_it_f",
+      "es": "C'è una camera più tranquilla?",
+      "pt": "Is there a quieter room?"
+    },
+    {
+      "audioKey": "it-b16-q02",
+      "voz": "target_it_m",
+      "es": "Le do una all'ultimo piano, sul cortile.",
+      "pt": "I'll give you one on the top floor, facing the courtyard."
+    },
+    {
+      "audioKey": "it-b16-q03",
+      "voz": "target_it_f",
+      "es": "Posso fare il check-out più tardi?",
+      "pt": "Can I check out later?"
+    },
+    {
+      "audioKey": "it-b16-q04",
+      "voz": "target_it_f",
+      "es": "L'aria condizionata non funziona.",
+      "pt": "The air conditioning doesn't work."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Why ask for the better room at check-in rather than later?",
+      "opcoes": [
+        "It is cheaper then",
+        "Staff are allocating rooms and have options; later means undoing a decision",
+        "It is the only time they speak English",
+        "Hotels forbid it later"
+      ],
+      "correta": 1,
+      "explica": "The window for asking is short."
+    },
+    {
+      "pergunta": "Sul cortile means:",
+      "opcoes": [
+        "On the street",
+        "Facing the internal courtyard — the quiet side",
+        "On the ground floor",
+        "With a balcony"
+      ],
+      "correta": 1,
+      "explica": "More precise than asking for quiet."
+    },
+    {
+      "pergunta": "How do you report anything broken?",
+      "opcoes": [
+        "A long apology first",
+        "The noun plus non funziona",
+        "By calling the manager",
+        "In English"
+      ],
+      "correta": 1,
+      "explica": "The shower, the lift, the key, the wifi — one structure."
+    },
+    {
+      "pergunta": "The tassa di soggiorno is:",
+      "opcoes": [
+        "An error on the bill",
+        "A municipal tourist tax, usually not included in prepaid totals",
+        "A tip",
+        "A cleaning fee"
+      ],
+      "correta": 1,
+      "explica": "Set locally, collected by the property."
+    },
+    {
+      "pergunta": "Camera in a hotel means:",
+      "opcoes": [
+        "A camera",
+        "A room",
+        "A safe",
+        "A key"
+      ],
+      "correta": 1,
+      "explica": "One of the false friends from B10."
+    }
+  ]
+}

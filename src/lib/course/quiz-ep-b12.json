@@ -1,0 +1,92 @@
+{
+  "id": "q-b12",
+  "nivel": "basico",
+  "titulo": "Quiz — Senza",
+  "subtitulo": "Subtract instead of explaining",
+  "introAudioKey": "it-b12-q-i",
+  "introPt": "A traveller edits a dish on the menu instead of describing a new one.",
+  "cenario": "At a trattoria table.",
+  "dialogo": [
+    {
+      "audioKey": "it-b12-q01",
+      "voz": "target_it_f",
+      "es": "Senza cipolla, per favore.",
+      "pt": "Without onion, please."
+    },
+    {
+      "audioKey": "it-b12-q02",
+      "voz": "target_it_m",
+      "es": "Certo, senza cipolla. Nient'altro?",
+      "pt": "Of course, no onion. Anything else?"
+    },
+    {
+      "audioKey": "it-b12-q03",
+      "voz": "target_it_f",
+      "es": "Acqua senza gas, per favore.",
+      "pt": "Still water, please."
+    },
+    {
+      "audioKey": "it-b12-q04",
+      "voz": "target_it_m",
+      "es": "Il formaggio è già dentro. Le faccio un altro primo?",
+      "pt": "The cheese is already in it. Shall I do you a different first course?"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "How do you order still water?",
+      "opcoes": [
+        "Acqua senza gas",
+        "Acqua frizzante",
+        "Acqua con gas",
+        "Acqua semplice"
+      ],
+      "correta": 0,
+      "explica": "Naturale works too; frizzante and con gas are sparkling."
+    },
+    {
+      "pergunta": "The waiter says è già dentro. What does that mean?",
+      "opcoes": [
+        "It costs extra",
+        "The ingredient is cooked into the base, so senza is not possible",
+        "It is already ordered",
+        "They are out of it"
+      ],
+      "correta": 1,
+      "explica": "The substitution they offer next is the useful part."
+    },
+    {
+      "pergunta": "Which word adds instead of removing?",
+      "opcoes": [
+        "Senza",
+        "Con",
+        "Meno",
+        "Poco"
+      ],
+      "correta": 1,
+      "explica": "Più asks for more of what is already there."
+    },
+    {
+      "pergunta": "Does senza change shape depending on what follows?",
+      "opcoes": [
+        "Yes, by gender",
+        "Yes, by number",
+        "No, never",
+        "Only with drinks"
+      ],
+      "correta": 2,
+      "explica": "That is why it carries more of the module than any other frame."
+    },
+    {
+      "pergunta": "Which situation does senza NOT cover on its own?",
+      "opcoes": [
+        "No onion",
+        "No ice",
+        "An allergy",
+        "No cheese"
+      ],
+      "correta": 2,
+      "explica": "An allergy needs an unambiguous sentence, not a polite subtraction."
+    }
+  ]
+}

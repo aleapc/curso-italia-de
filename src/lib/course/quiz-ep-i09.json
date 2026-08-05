@@ -1,0 +1,92 @@
+{
+  "id": "q-i09",
+  "nivel": "intermediario",
+  "titulo": "Quiz — Spending the afternoon the way they spend it",
+  "subtitulo": "The rhythm nobody writes down",
+  "introAudioKey": "it-i09-q-i",
+  "introPt": "A traveller finds the market, the walk and the match.",
+  "cenario": "A morning market and an evening street.",
+  "dialogo": [
+    {
+      "audioKey": "it-i09-q01",
+      "voz": "target_it_m",
+      "es": "Dica signora, cosa le do? Guardi che pomodori.",
+      "pt": "Tell me, what can I give you? Look at these tomatoes."
+    },
+    {
+      "audioKey": "it-i09-q02",
+      "voz": "target_it_f",
+      "es": "Cosa c'è di buono adesso? Me ne dia due etti.",
+      "pt": "What's good right now? Give me two hundred grams."
+    },
+    {
+      "audioKey": "it-i09-q03",
+      "voz": "target_it_f",
+      "es": "Dove si fa la passeggiata la sera?",
+      "pt": "Where do people take the evening walk?"
+    },
+    {
+      "audioKey": "it-i09-q04",
+      "voz": "target_it_m",
+      "es": "Sul corso, verso le sette. Prima non c'è nessuno.",
+      "pt": "On the main street, around seven. Before that there's nobody."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Un etto is:",
+      "opcoes": [
+        "One kilogram",
+        "One hundred grams",
+        "One portion",
+        "One euro's worth"
+      ],
+      "correta": 1,
+      "explica": "Due etti of cheese is a normal, unembarrassing amount."
+    },
+    {
+      "pergunta": "At a market stall, who picks the produce?",
+      "opcoes": [
+        "You do",
+        "The vendor — point and let them pick",
+        "Either",
+        "Depends on the region"
+      ],
+      "correta": 1,
+      "explica": "Handling the fruit yourself is a small breach with a large signal."
+    },
+    {
+      "pergunta": "The passeggiata starts around:",
+      "opcoes": [
+        "Four",
+        "Six or seven",
+        "Nine",
+        "After dinner"
+      ],
+      "correta": 1,
+      "explica": "Going at the wrong hour is why some visitors think it stopped happening."
+    },
+    {
+      "pergunta": "Why is asking about the local team a good opener?",
+      "opcoes": [
+        "It shows knowledge",
+        "The answer is never neutral and is always given at length",
+        "Italians expect it",
+        "It gets discounts"
+      ],
+      "correta": 1,
+      "explica": "Ask before saying anything about football yourself."
+    },
+    {
+      "pergunta": "The town is shuttered at four. What is happening?",
+      "opcoes": [
+        "It is closed for the day",
+        "It is between its two busy periods",
+        "A holiday",
+        "A strike"
+      ],
+      "correta": 1,
+      "explica": "The peak is the early evening."
+    }
+  ]
+}

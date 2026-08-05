@@ -1,0 +1,92 @@
+{
+  "id": "q-i05",
+  "nivel": "intermediario",
+  "titulo": "Quiz — The five questions everyone asks you",
+  "subtitulo": "A script you can prepare",
+  "introAudioKey": "it-i05-q-i",
+  "introPt": "A traveller stays in the conversation and walks away with a recommendation.",
+  "cenario": "A stranger strikes up a conversation.",
+  "dialogo": [
+    {
+      "audioKey": "it-i05-q01",
+      "voz": "target_it_m",
+      "es": "Di dove siete? È la prima volta in Italia?",
+      "pt": "Where are you from? Is this your first time in Italy?"
+    },
+    {
+      "audioKey": "it-i05-q02",
+      "voz": "target_it_f",
+      "es": "Siamo di Boston. No, la seconda.",
+      "pt": "We're from Boston. No, the second."
+    },
+    {
+      "audioKey": "it-i05-q03",
+      "voz": "target_it_f",
+      "es": "Mi piace tantissimo, soprattutto i mercati.",
+      "pt": "I like it enormously, the markets above all."
+    },
+    {
+      "audioKey": "it-i05-q04",
+      "voz": "target_it_m",
+      "es": "Allora domani deve andare a quello di Sant'Ambrogio. Meno turisti.",
+      "pt": "Then tomorrow you have to go to the Sant'Ambrogio one. Fewer tourists."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Why prepare the five answers in advance?",
+      "opcoes": [
+        "To sound fluent",
+        "So you spend the conversation listening instead of assembling",
+        "To avoid mistakes",
+        "Because they are tested"
+      ],
+      "correta": 1,
+      "explica": "The gain is attention, not the sentences."
+    },
+    {
+      "pergunta": "What does mi piace tutto do to a conversation?",
+      "opcoes": [
+        "Opens it",
+        "Ends it — there is nothing to improve on",
+        "Sounds rude",
+        "Invites a discount"
+      ],
+      "correta": 1,
+      "explica": "Naming one thing gets you the local version."
+    },
+    {
+      "pergunta": "What is the whole trick after answering?",
+      "opcoes": [
+        "Thank them",
+        "Ask one of the same questions back",
+        "Leave",
+        "Switch to English"
+      ],
+      "correta": 1,
+      "explica": "Italians expect questions returned."
+    },
+    {
+      "pergunta": "Lei versus tu:",
+      "opcoes": [
+        "Tu with everyone",
+        "Lei is safe with anyone older, working, or newly met; follow if they switch",
+        "Lei only in the south",
+        "They are identical"
+      ],
+      "correta": 1,
+      "explica": "You are never wrong for having started with lei."
+    },
+    {
+      "pergunta": "You lost the thread. What do you do?",
+      "opcoes": [
+        "Nod and smile",
+        "Say mi sono perso and ask for a repeat",
+        "Leave politely",
+        "Answer anyway"
+      ],
+      "correta": 1,
+      "explica": "Leaving with a polite smile is the only costly version."
+    }
+  ]
+}

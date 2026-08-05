@@ -1,0 +1,92 @@
+{
+  "id": "q-i03",
+  "nivel": "intermediario",
+  "titulo": "Quiz — The dish you were never going to order",
+  "subtitulo": "Handing over the decision",
+  "introAudioKey": "it-i03-q-i",
+  "introPt": "A traveller stops ordering the one item they recognise.",
+  "cenario": "A trattoria, menu still unopened.",
+  "dialogo": [
+    {
+      "audioKey": "it-i03-q01",
+      "voz": "target_it_f",
+      "es": "Cosa mi consiglia?",
+      "pt": "What do you recommend?"
+    },
+    {
+      "audioKey": "it-i03-q02",
+      "voz": "target_it_m",
+      "es": "Oggi abbiamo i carciofi. Li facciamo alla giudia.",
+      "pt": "Today we have artichokes. We do them Jewish-style."
+    },
+    {
+      "audioKey": "it-i03-q03",
+      "voz": "target_it_f",
+      "es": "Allora prendo quello, mi fido.",
+      "pt": "Then I'll have that, I trust you."
+    },
+    {
+      "audioKey": "it-i03-q04",
+      "voz": "target_it_f",
+      "es": "Un quarto di vino della casa, rosso.",
+      "pt": "A quarter litre of house wine, red."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "What do the two words mi fido do?",
+      "opcoes": [
+        "Ask the price",
+        "Signal you will not be a difficult table — and the quality reflects it",
+        "Order dessert",
+        "Ask for the bill"
+      ],
+      "correta": 1,
+      "explica": "The first sentence gets a recommendation; the second gets the good one."
+    },
+    {
+      "pergunta": "Must you order all five courses?",
+      "opcoes": [
+        "Yes",
+        "No — a primo and a contorno is a normal meal",
+        "Only at dinner",
+        "Only on Sundays"
+      ],
+      "correta": 1,
+      "explica": "Say which courses you want so the rest does not arrive."
+    },
+    {
+      "pergunta": "A fixed multilingual menu with photographs signals:",
+      "opcoes": [
+        "Good value",
+        "Food designed around never seeing you again",
+        "Fresh ingredients",
+        "A local favourite"
+      ],
+      "correta": 1,
+      "explica": "That is the opposite of the incentive you want."
+    },
+    {
+      "pergunta": "Vino della casa is:",
+      "opcoes": [
+        "A downgrade",
+        "Usually the local wine the place actually drinks",
+        "Always sweet",
+        "Only for groups"
+      ],
+      "correta": 1,
+      "explica": "Often the better call than the cheapest bottle."
+    },
+    {
+      "pergunta": "The waiter names one dish with no alternatives. That means:",
+      "opcoes": [
+        "They are offloading stock",
+        "There is a right answer today",
+        "They are rushed",
+        "They did not understand"
+      ],
+      "correta": 1,
+      "explica": "A long list of options is the more commercial response."
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "q-b01",
+  "nivel": "basico",
+  "titulo": "Quiz — Die Doppelkonsonante, die ein anderes Wort ist",
+  "subtitulo": "Vier Regeln, kein neuer Laut",
+  "introAudioKey": "it-b01-q-i",
+  "introPt": "Eine Bestellung an der Theke, in einem Bogen gesprochen.",
+  "cenario": "Eine Bar am Vormittag.",
+  "dialogo": [
+    {
+      "audioKey": "it-b01-q01",
+      "voz": "target_it_m",
+      "es": "Un caffè, per favore.",
+      "pt": "Einen Kaffee, bitte."
+    },
+    {
+      "audioKey": "it-b01-q02",
+      "voz": "target_it_f",
+      "es": "Vorrei una birra.",
+      "pt": "Ich hätte gern ein Bier."
+    },
+    {
+      "audioKey": "it-b01-q03",
+      "voz": "target_it_f",
+      "es": "Dov'è la stazione?",
+      "pt": "Wo ist der Bahnhof?"
+    },
+    {
+      "audioKey": "it-b01-q04",
+      "voz": "target_it_m",
+      "es": "Sempre dritto, poi a destra.",
+      "pt": "Straight ahead, then right."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Was unterscheidet nono von nonno?",
+      "opcoes": [
+        "Der Akzent",
+        "Die Länge der Konsonante — sie ist bedeutungstragend",
+        "Nichts",
+        "Die Region"
+      ],
+      "correta": 1,
+      "explica": "Deutsch schreibt Doppelkonsonanten, hält sie aber nicht."
+    },
+    {
+      "pergunta": "Was passiert mit vado, wenn man deutsch spricht?",
+      "opcoes": [
+        "Nichts",
+        "Es wird zu fato — Auslautverhärtung",
+        "Es wird länger",
+        "Der Akzent wandert"
+      ],
+      "correta": 1,
+      "explica": "Im Italienischen wird nie verhärtet. Auch vino wird nicht fino."
+    },
+    {
+      "pergunta": "Warum ist dov'è ein einziger Bogen?",
+      "opcoes": [
+        "Es ist ein Wort",
+        "Italienisch bindet, Deutsch trennt mit dem Knacklaut",
+        "Es ist eine Frage",
+        "Regional"
+      ],
+      "correta": 1,
+      "explica": "Der Knacklaut ist das auffälligste Merkmal des deutschen Akzents hier."
+    },
+    {
+      "pergunta": "Welchen Laut bringen Sie schon mit?",
+      "opcoes": [
+        "Das getippte r",
+        "Das /ts/ in grazie",
+        "Die Doppelkonsonante",
+        "Den offenen Auslaut"
+      ],
+      "correta": 1,
+      "explica": "⟨z⟩ ist Ihr z aus Zahl — für Englischsprachige der teuerste Laut des Kurses."
+    },
+    {
+      "pergunta": "Was passiert mit der unbetonten Endsilbe?",
+      "opcoes": [
+        "Sie wird zum Schwa reduziert",
+        "Sie bleibt voll — sie trägt Geschlecht und Zahl",
+        "Sie fällt weg",
+        "Sie wird betont"
+      ],
+      "correta": 1,
+      "explica": "Genau die Endung ist die Information."
+    }
+  ]
+}

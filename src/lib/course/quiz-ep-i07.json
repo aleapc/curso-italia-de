@@ -1,0 +1,92 @@
+{
+  "id": "q-i07",
+  "nivel": "intermediario",
+  "titulo": "Quiz — Praise that reaches the kitchen",
+  "subtitulo": "Both sentences need a noun",
+  "introAudioKey": "it-i07-q-i",
+  "introPt": "A traveller sends a compliment to the kitchen and gets a cold dish replaced.",
+  "cenario": "Mid-meal at a family-run trattoria.",
+  "dialogo": [
+    {
+      "audioKey": "it-i07-q01",
+      "voz": "target_it_f",
+      "es": "La pasta era buonissima, complimenti al cuoco.",
+      "pt": "The pasta was outstanding, compliments to the cook."
+    },
+    {
+      "audioKey": "it-i07-q02",
+      "voz": "target_it_m",
+      "es": "Glielo dico subito. È mia madre che cucina.",
+      "pt": "I'll tell her right away. It's my mother who cooks."
+    },
+    {
+      "audioKey": "it-i07-q03",
+      "voz": "target_it_f",
+      "es": "Scusi, questo è freddo.",
+      "pt": "Sorry, this is cold."
+    },
+    {
+      "audioKey": "it-i07-q04",
+      "voz": "target_it_m",
+      "es": "Mi dispiace tantissimo, glielo cambio subito.",
+      "pt": "I'm terribly sorry, I'll change it right away."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "What makes a compliment travel to the kitchen?",
+      "opcoes": [
+        "Volume",
+        "Naming the dish",
+        "Tipping",
+        "Saying it in English"
+      ],
+      "correta": 1,
+      "explica": "Tutto buono is polite noise."
+    },
+    {
+      "pergunta": "How should a complaint be built?",
+      "opcoes": [
+        "Apology, then the problem, then another apology",
+        "Scusi plus the fact, then stop",
+        "A long explanation",
+        "In writing"
+      ],
+      "correta": 1,
+      "explica": "The shorter the sentence, the faster the fix."
+    },
+    {
+      "pergunta": "Why does over-apologising backfire?",
+      "opcoes": [
+        "It is rude",
+        "It buries the fact and signals you expect resistance",
+        "Italians dislike apologies",
+        "It is too formal"
+      ],
+      "correta": 1,
+      "explica": "A flat warm factual sentence is read as normal."
+    },
+    {
+      "pergunta": "Buonissimo, ottimo, squisito are:",
+      "opcoes": [
+        "Excessive",
+        "Ordinary words, all stronger than 'very good'",
+        "Formal only",
+        "Regional"
+      ],
+      "correta": 1,
+      "explica": "Any of the three beats 'very good'."
+    },
+    {
+      "pergunta": "The strongest compliment is:",
+      "opcoes": [
+        "Squisito",
+        "A tip",
+        "Saying you'll come back",
+        "A review"
+      ],
+      "correta": 2,
+      "explica": "Places that feed the same people weekly measure work in return visits."
+    }
+  ]
+}

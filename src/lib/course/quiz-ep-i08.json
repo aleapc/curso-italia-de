@@ -1,0 +1,92 @@
+{
+  "id": "q-i08",
+  "nivel": "intermediario",
+  "titulo": "Quiz — Being invited into someone's home",
+  "subtitulo": "The shape of a Sunday lunch",
+  "introAudioKey": "it-i08-q-i",
+  "introPt": "A traveller accepts an invitation and gets the whole arc right.",
+  "cenario": "Sunday lunch at an Italian family's table.",
+  "dialogo": [
+    {
+      "audioKey": "it-i08-q01",
+      "voz": "target_it_m",
+      "es": "Domenica venite a pranzo da noi. Alle una.",
+      "pt": "Come to lunch at ours on Sunday. At one."
+    },
+    {
+      "audioKey": "it-i08-q02",
+      "voz": "target_it_f",
+      "es": "Cosa posso portare?",
+      "pt": "What can I bring?"
+    },
+    {
+      "audioKey": "it-i08-q03",
+      "voz": "target_it_m",
+      "es": "Ma niente, che dice! Portate solo voi stessi.",
+      "pt": "Nothing at all, what are you saying! Just bring yourselves."
+    },
+    {
+      "audioKey": "it-i08-q04",
+      "voz": "target_it_f",
+      "es": "Ho portato il dolce, spero vada bene.",
+      "pt": "I brought dessert, I hope that's all right."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "The host says bring nothing. What do you do?",
+      "opcoes": [
+        "Bring nothing",
+        "Bring something for the table — the refusal is part of the exchange",
+        "Ask again",
+        "Send flowers later"
+      ],
+      "correta": 1,
+      "explica": "Dessert from a proper pasticceria is the safest choice."
+    },
+    {
+      "pergunta": "Where do you sit?",
+      "opcoes": [
+        "Anywhere",
+        "Wait to be placed — ask dove mi metto?",
+        "At the head",
+        "Nearest the door"
+      ],
+      "correta": 1,
+      "explica": "Seats at a family table are not neutral."
+    },
+    {
+      "pergunta": "What matters most in the toast?",
+      "opcoes": [
+        "The exact word",
+        "Looking at each person as you touch glasses",
+        "Standing up",
+        "Finishing the glass"
+      ],
+      "correta": 1,
+      "explica": "Cin cin and salute are both standard."
+    },
+    {
+      "pergunta": "When does leaving stop being early?",
+      "opcoes": [
+        "After the first course",
+        "Once coffee has been served and drunk",
+        "After two hours",
+        "When someone yawns"
+      ],
+      "correta": 1,
+      "explica": "Before that, standing up reads as the meal having gone wrong."
+    },
+    {
+      "pergunta": "You are full and they keep offering. Best move?",
+      "opcoes": [
+        "Refuse flatly each time",
+        "Take a token amount and pair it with praise",
+        "Eat it all",
+        "Leave"
+      ],
+      "correta": 1,
+      "explica": "Unless there is an allergy — then B13 applies instead."
+    }
+  ]
+}

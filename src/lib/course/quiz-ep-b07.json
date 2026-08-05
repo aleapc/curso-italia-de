@@ -1,0 +1,92 @@
+{
+  "id": "q-b07",
+  "nivel": "basico",
+  "titulo": "Quiz — Dov’è — the question that moves your feet",
+  "subtitulo": "Rank, address, and where to stop",
+  "introAudioKey": "it-b07-q-i",
+  "introPt": "A traveller finds the official taxi rank and closes the ride properly.",
+  "cenario": "From arrivals to the hotel door.",
+  "dialogo": [
+    {
+      "audioKey": "it-b07-q01",
+      "voz": "target_it_f",
+      "es": "Scusi, dov’è la fermata dei taxi?",
+      "pt": "Excuse me, where is the taxi rank?"
+    },
+    {
+      "audioKey": "it-b07-q02",
+      "voz": "target_it_m",
+      "es": "Uscita cinque, appena fuori.",
+      "pt": "Exit five, just outside."
+    },
+    {
+      "audioKey": "it-b07-q03",
+      "voz": "target_it_f",
+      "es": "A questo indirizzo, per favore.",
+      "pt": "To this address, please."
+    },
+    {
+      "audioKey": "it-b07-q04",
+      "voz": "target_it_f",
+      "es": "Qui va bene, grazie.",
+      "pt": "Here is fine, thank you."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "What is dov’è a contraction of?",
+      "opcoes": [
+        "Dove è",
+        "Dove sono",
+        "Da ove",
+        "Dov’era"
+      ],
+      "correta": 0,
+      "explica": "The accent tells you the stress lands on the end."
+    },
+    {
+      "pergunta": "Why walk past someone offering a ride inside the terminal?",
+      "opcoes": [
+        "They are always dishonest",
+        "Licensed taxis work from marked ranks with a meter and receipt",
+        "It is illegal to accept",
+        "They only take cash"
+      ],
+      "correta": 1,
+      "explica": "Inside the building is outside that system."
+    },
+    {
+      "pergunta": "How should you give the address?",
+      "opcoes": [
+        "Recite it from memory",
+        "Show the saved screen while saying it",
+        "Spell it letter by letter",
+        "Write it on paper"
+      ],
+      "correta": 1,
+      "explica": "Italian numbers come after the street and names repeat across cities."
+    },
+    {
+      "pergunta": "When do you ask for la ricevuta?",
+      "opcoes": [
+        "Before you get out",
+        "The next day",
+        "At the hotel",
+        "Never"
+      ],
+      "correta": 0,
+      "explica": "It is the only artifact that survives the door closing."
+    },
+    {
+      "pergunta": "What does qui va bene do?",
+      "opcoes": [
+        "Asks the price",
+        "Stops the car where you can actually get out",
+        "Thanks the driver",
+        "Confirms the address"
+      ],
+      "correta": 1,
+      "explica": "You close the ride before you open the hotel."
+    }
+  ]
+}

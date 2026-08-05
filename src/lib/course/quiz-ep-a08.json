@@ -1,0 +1,96 @@
+{
+  "id": "q-a08",
+  "nivel": "avancado",
+  "titulo": "Quiz — The goodbye that gets you invited back",
+  "subtitulo": "The pocket card",
+  "introAudioKey": "it-a08-q-i",
+  "introPt": "A traveller closes the trip with the right three clauses.",
+  "cenario": "The last morning.",
+  "dialogo": [
+    {
+      "audioKey": "it-a08-q01",
+      "voz": "target_it_f",
+      "es": "Grazie di tutto, davvero. Il caffè migliore della città.",
+      "pt": "Thanks for everything, really. The best coffee in the city.",
+      "tts": "Grazie di tutto, davvero. Il caffè migliore della città."
+    },
+    {
+      "audioKey": "it-a08-q02",
+      "voz": "target_it_m",
+      "es": "Ma quando torni? Che ti aspetto, eh!",
+      "pt": "So when are you coming back? I'll be expecting you!",
+      "tts": "Ma quando torni? Che ti aspetto, eh!"
+    },
+    {
+      "audioKey": "it-a08-q03",
+      "voz": "target_it_f",
+      "es": "L'anno prossimo, in primavera. Te lo prometto.",
+      "pt": "Next year, in spring. I promise you.",
+      "tts": "L'anno prossimo, in primavera. Te lo prometto."
+    },
+    {
+      "audioKey": "it-a08-q04",
+      "voz": "target_it_m",
+      "es": "In bocca al lupo per il viaggio! Buon rientro.",
+      "pt": "Good luck for the journey! Safe trip home.",
+      "tts": "In bocca al lupo per il viaggio! Buon rientro."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "The goodbye formula has three parts:",
+      "opcoes": [
+        "Greeting, thanks, goodbye",
+        "The person, the specific thing, and the return",
+        "Name, address, phone",
+        "Praise, apology, promise"
+      ],
+      "correta": 1,
+      "explica": "Miss the middle one and it is just politeness."
+    },
+    {
+      "pergunta": "What do you answer to in bocca al lupo?",
+      "opcoes": [
+        "Grazie",
+        "Crepi, or crepi il lupo",
+        "Prego",
+        "Altrettanto"
+      ],
+      "correta": 1,
+      "explica": "Thanking is held to break the charm."
+    },
+    {
+      "pergunta": "Which sentence has to be automatic?",
+      "opcoes": [
+        "Quanto costa",
+        "Non ho capito, me lo può ripetere",
+        "Buongiorno",
+        "Grazie mille"
+      ],
+      "correta": 1,
+      "explica": "It keeps every other sentence usable."
+    },
+    {
+      "pergunta": "Why say a season rather than maybe?",
+      "opcoes": [
+        "It is a binding promise",
+        "A vague maybe closes the door politely; a season keeps it open",
+        "It is more formal",
+        "To get a discount"
+      ],
+      "correta": 1,
+      "explica": "People do remember."
+    },
+    {
+      "pergunta": "Arrivederci literally means:",
+      "opcoes": [
+        "Farewell",
+        "Until we see each other again",
+        "Good day",
+        "Safe travels"
+      ],
+      "correta": 1,
+      "explica": "Italian closes with next time rather than finality."
+    }
+  ]
+}

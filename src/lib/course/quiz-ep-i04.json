@@ -1,0 +1,92 @@
+{
+  "id": "q-i04",
+  "nivel": "intermediario",
+  "titulo": "Quiz — The evening",
+  "subtitulo": "The step before dinner",
+  "introAudioKey": "it-i04-q-i",
+  "introPt": "A traveller works out whether the aperitivo is dinner.",
+  "cenario": "A bar at seven in the evening.",
+  "dialogo": [
+    {
+      "audioKey": "it-i04-q01",
+      "voz": "target_it_m",
+      "es": "Facciamo l'aperitivo? Qui viene con il buffet.",
+      "pt": "Shall we do aperitivo? Here it comes with the buffet."
+    },
+    {
+      "audioKey": "it-i04-q02",
+      "voz": "target_it_f",
+      "es": "Volentieri. Cosa c'è compreso?",
+      "pt": "Gladly. What's included?"
+    },
+    {
+      "audioKey": "it-i04-q03",
+      "voz": "target_it_f",
+      "es": "Questo giro lo offro io.",
+      "pt": "This round's on me."
+    },
+    {
+      "audioKey": "it-i04-q04",
+      "voz": "target_it_m",
+      "es": "Ma no, ci mancherebbe. Offro io, siete ospiti.",
+      "pt": "Absolutely not. It's on me, you're guests."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "What does cosa c'è compreso? decide?",
+      "opcoes": [
+        "The price",
+        "Whether this is dinner or a snack before it",
+        "Where to sit",
+        "Who pays"
+      ],
+      "correta": 1,
+      "explica": "If a buffet is included, this is dinner."
+    },
+    {
+      "pergunta": "The big buffet version of aperitivo is:",
+      "opcoes": [
+        "National",
+        "Strongest in Milan and the north",
+        "A southern habit",
+        "A tourist invention"
+      ],
+      "correta": 1,
+      "explica": "Further south, aperitivo stays small and dinner follows."
+    },
+    {
+      "pergunta": "Your offer to pay is refused. What do you do?",
+      "opcoes": [
+        "Insist until they accept",
+        "Insist once, then claim the next round",
+        "Say nothing",
+        "Split the tab item by item"
+      ],
+      "correta": 1,
+      "explica": "Twice is generous, three times is a fight."
+    },
+    {
+      "pergunta": "Why is the food arriving unordered?",
+      "opcoes": [
+        "It is a mistake",
+        "It is included in the drink's price",
+        "It will be charged separately",
+        "It is a promotion"
+      ],
+      "correta": 1,
+      "explica": "That is why the drink costs more than at noon."
+    },
+    {
+      "pergunta": "How do you leave an Italian table?",
+      "opcoes": [
+        "Drift away",
+        "With a sentence — noi andiamo, grazie della compagnia",
+        "Pay and go",
+        "Wait for everyone"
+      ],
+      "correta": 1,
+      "explica": "Drifting away reads as something having gone wrong."
+    }
+  ]
+}

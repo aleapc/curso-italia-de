@@ -1,0 +1,92 @@
+{
+  "id": "q-b04",
+  "nivel": "basico",
+  "titulo": "Quiz — The four files that board with you",
+  "subtitulo": "Checked tonight, while fixing is cheap",
+  "introAudioKey": "it-b04-q-i",
+  "introPt": "A traveller calls the hotel the night before and closes every gap.",
+  "cenario": "A pre-flight phone call.",
+  "dialogo": [
+    {
+      "audioKey": "it-b04-q01",
+      "voz": "target_it_m",
+      "es": "Buonasera, come posso aiutarla?",
+      "pt": "Good evening, how can I help?"
+    },
+    {
+      "audioKey": "it-b04-q02",
+      "voz": "target_it_f",
+      "es": "Vorrei confermare la mia prenotazione.",
+      "pt": "I would like to confirm my booking."
+    },
+    {
+      "audioKey": "it-b04-q03",
+      "voz": "target_it_f",
+      "es": "Qual è l’indirizzo completo?",
+      "pt": "What is the full address?"
+    },
+    {
+      "audioKey": "it-b04-q04",
+      "voz": "target_it_m",
+      "es": "Via Garibaldi quarantadue, secondo piano.",
+      "pt": "Via Garibaldi 42, second floor."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Why ask for the full address before flying?",
+      "opcoes": [
+        "A hotel name is not routable by a driver or offline map",
+        "It is polite",
+        "It is required by law",
+        "To compare prices"
+      ],
+      "correta": 0,
+      "explica": "Street and number are what a map and a driver can act on."
+    },
+    {
+      "pergunta": "Where do Italian addresses put the number?",
+      "opcoes": [
+        "Before the street name",
+        "After the street name",
+        "Never written",
+        "Only on envelopes"
+      ],
+      "correta": 1,
+      "explica": "Via Garibaldi 42, not 42 Via Garibaldi."
+    },
+    {
+      "pergunta": "Why is a green tick in an app not enough?",
+      "opcoes": [
+        "It expires",
+        "It fails with no signal or a locked account",
+        "It is not legal proof",
+        "It is always wrong"
+      ],
+      "correta": 1,
+      "explica": "Offline is a travel feature."
+    },
+    {
+      "pergunta": "Which frame asks someone to do something for you?",
+      "opcoes": [
+        "Mi può plus the action",
+        "Vorrei plus a noun",
+        "Dov’è plus a place",
+        "Posso plus the action"
+      ],
+      "correta": 0,
+      "explica": "Mi può mandare, mi può scrivere, mi può tenere."
+    },
+    {
+      "pergunta": "How many payment methods should you carry tested?",
+      "opcoes": [
+        "One is fine",
+        "Two, both tested by you",
+        "Three minimum",
+        "None, cash only"
+      ],
+      "correta": 1,
+      "explica": "Cards decline abroad for reasons nobody explains at the counter."
+    }
+  ]
+}

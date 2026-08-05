@@ -1,0 +1,92 @@
+{
+  "id": "q-b02",
+  "nivel": "basico",
+  "titulo": "Quiz — Say it before you need it",
+  "subtitulo": "Timing, not vocabulary",
+  "introAudioKey": "it-b02-q-i",
+  "introPt": "A traveller enters a shop, moves through a crowd and leaves properly.",
+  "cenario": "A small shop, morning.",
+  "dialogo": [
+    {
+      "audioKey": "it-b02-q01",
+      "voz": "target_it_f",
+      "es": "Buongiorno!",
+      "pt": "Good morning!"
+    },
+    {
+      "audioKey": "it-b02-q02",
+      "voz": "target_it_m",
+      "es": "Permesso.",
+      "pt": "Coming through."
+    },
+    {
+      "audioKey": "it-b02-q03",
+      "voz": "target_it_f",
+      "es": "Scusi, posso chiederle una cosa?",
+      "pt": "Excuse me, can I ask you something?"
+    },
+    {
+      "audioKey": "it-b02-q04",
+      "voz": "target_it_m",
+      "es": "Arrivederci, buona giornata!",
+      "pt": "Goodbye, have a good day!"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "When do you say buongiorno in a small shop?",
+      "opcoes": [
+        "On the way in, before looking at anything",
+        "Only when paying",
+        "When leaving",
+        "Only if spoken to first"
+      ],
+      "correta": 0,
+      "explica": "The greeting is the opening move of the transaction."
+    },
+    {
+      "pergunta": "What does permesso do?",
+      "opcoes": [
+        "Apologises for a mistake",
+        "Announces a movement through space",
+        "Asks a question",
+        "Ends a conversation"
+      ],
+      "correta": 1,
+      "explica": "You announce the move; you do not apologise for existing."
+    },
+    {
+      "pergunta": "What does scusi do?",
+      "opcoes": [
+        "Opens a question or repairs a bump",
+        "Means goodbye",
+        "Means thank you",
+        "Means please"
+      ],
+      "correta": 0,
+      "explica": "English collapses both into excuse me; Italian keeps them apart."
+    },
+    {
+      "pergunta": "Should you say ciao to a waiter you just met?",
+      "opcoes": [
+        "Yes, it is the normal hello",
+        "Better not — it is informal and mutual",
+        "Only in the morning",
+        "Only when leaving"
+      ],
+      "correta": 1,
+      "explica": "Buongiorno and arrivederci are the safe pair with anyone behind a counter."
+    },
+    {
+      "pergunta": "When does buonasera take over from buongiorno?",
+      "opcoes": [
+        "At midnight",
+        "Around mid-afternoon",
+        "At exactly 6pm",
+        "It never does"
+      ],
+      "correta": 1,
+      "explica": "The changeover is fuzzy and regional; an early buonasera offends nobody."
+    }
+  ]
+}

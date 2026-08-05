@@ -7,9 +7,9 @@ export const curso = {
   /** Idioma do comprador (a voz-guia). */
   buyerLang: 'de',
   /** Idioma do destino (a fala nativa ensinada). */
-  targetLang: 'es',
+  targetLang: 'it',
   /** Par para o link do Google Tradutor: sl = comprador, tl = destino. */
-  translatorPair: { sl: 'de', tl: 'es' },
+  translatorPair: { sl: 'de', tl: 'it' },
   /** Moeda do destino. */
   destCurrency: 'EUR',
   /**
@@ -18,7 +18,7 @@ export const curso = {
    * todos em EUR) — nesse caso o /bolso mostra a nota "mesma moeda", sem conversor.
    */
   homeCurrencies: [] as string[],
-  timeZone: 'Europe/Madrid'
+  timeZone: 'Europe/Rome'
 } as const;
 
 export type CursoConfig = typeof curso;

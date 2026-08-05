@@ -1,0 +1,92 @@
+{
+  "id": "q-b17",
+  "nivel": "basico",
+  "titulo": "Quiz — Pharmacy, pain, emergency",
+  "subtitulo": "The green cross, the duty list, 112",
+  "introAudioKey": "it-b17-q-i",
+  "introPt": "A traveller solves a bad night instead of waiting it out.",
+  "cenario": "Sunday evening, in front of a closed pharmacy.",
+  "dialogo": [
+    {
+      "audioKey": "it-b17-q01",
+      "voz": "target_it_f",
+      "es": "Ho mal di testa da ieri.",
+      "pt": "I've had a headache since yesterday."
+    },
+    {
+      "audioKey": "it-b17-q02",
+      "voz": "target_it_m",
+      "es": "Prende altri farmaci? È allergico a qualcosa?",
+      "pt": "Are you taking other medication? Are you allergic to anything?"
+    },
+    {
+      "audioKey": "it-b17-q03",
+      "voz": "target_it_f",
+      "es": "C'è qualcosa senza aspirina?",
+      "pt": "Is there anything without aspirin?"
+    },
+    {
+      "audioKey": "it-b17-q04",
+      "voz": "target_it_m",
+      "es": "Farmacie di turno: via Garibaldi dodici, aperta fino alle otto.",
+      "pt": "Duty pharmacies: via Garibaldi twelve, open until eight."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "What is the pattern for naming pain?",
+      "opcoes": [
+        "Mal di plus the body part",
+        "Dolore che plus a verb",
+        "Sto male di plus the organ",
+        "Ho il problema del"
+      ],
+      "correta": 0,
+      "explica": "Testa, gola, stomaco, denti, schiena."
+    },
+    {
+      "pergunta": "A pharmacy is closed. What is taped inside the glass?",
+      "opcoes": [
+        "An apology",
+        "The farmacie di turno list — which one nearby is on duty and when",
+        "A price list",
+        "Nothing useful"
+      ],
+      "correta": 1,
+      "explica": "The closed door is still information."
+    },
+    {
+      "pergunta": "What is 112?",
+      "opcoes": [
+        "The police only",
+        "The single European emergency number, working from any phone",
+        "A taxi line",
+        "Directory enquiries"
+      ],
+      "correta": 1,
+      "explica": "It works with no credit and, in most cases, no SIM."
+    },
+    {
+      "pergunta": "Should you name the medicine or the symptom?",
+      "opcoes": [
+        "The medicine brand you use at home",
+        "The symptom — the pharmacist chooses",
+        "Neither, just point",
+        "The dose"
+      ],
+      "correta": 1,
+      "explica": "Your brand may not exist here."
+    },
+    {
+      "pergunta": "When is a duty pharmacy across town the wrong answer?",
+      "opcoes": [
+        "Never",
+        "For a headache",
+        "For chest pain, breathing difficulty or a severe reaction — that is 112",
+        "On weekdays"
+      ],
+      "correta": 2,
+      "explica": "Escalate rather than walk."
+    }
+  ]
+}

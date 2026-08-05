@@ -1,0 +1,98 @@
+{
+  "id": "q-b08",
+  "nivel": "basico",
+  "titulo": "Quiz — Ask the question whose answer fits in your head",
+  "subtitulo": "Exists, distance, map",
+  "introAudioKey": "it-b08-q-i",
+  "introPt": "A traveller shrinks a three-street answer into one usable move.",
+  "cenario": "On a street corner, looking for a pharmacy.",
+  "dialogo": [
+    {
+      "audioKey": "it-b08-q01",
+      "voz": "target_it_f",
+      "es": "C'è una farmacia qui vicino?",
+      "pt": "Is there a pharmacy near here?"
+    },
+    {
+      "audioKey": "it-b08-q02",
+      "voz": "target_it_m",
+      "es": "Sì, prende la seconda a destra, poi sempre dritto fino alla chiesa.",
+      "pt": "Yes, take the second right, then straight on to the church."
+    },
+    {
+      "audioKey": "it-b08-q03",
+      "voz": "target_it_f",
+      "es": "È lontano?",
+      "pt": "Is it far?"
+    },
+    {
+      "audioKey": "it-b08-q04",
+      "voz": "target_it_m",
+      "es": "No, dieci minuti a piedi.",
+      "pt": "No, ten minutes on foot."
+    },
+    {
+      "audioKey": "it-b08-q05",
+      "voz": "target_it_f",
+      "es": "Mi può mostrare sulla mappa?",
+      "pt": "Can you show me on the map?"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Why open with c'è instead of dov'è?",
+      "opcoes": [
+        "It is more polite",
+        "The answer is yes or no, which fits in your head",
+        "Italians prefer it",
+        "Dov'è is grammatically wrong here"
+      ],
+      "correta": 1,
+      "explica": "Ask the question whose answer you can actually carry."
+    },
+    {
+      "pergunta": "What is the cash machine called in Italy?",
+      "opcoes": [
+        "Il bancomat",
+        "L'ATM",
+        "La cassa",
+        "Il denaro"
+      ],
+      "correta": 0,
+      "explica": "The same word also covers the debit card."
+    },
+    {
+      "pergunta": "You lost the middle of a long answer. What do you do?",
+      "opcoes": [
+        "Ask them to repeat the whole thing",
+        "Nod and walk away",
+        "Shrink it — ask è lontano?",
+        "Ask in English"
+      ],
+      "correta": 2,
+      "explica": "Reduce rather than repeat."
+    },
+    {
+      "pergunta": "What is ci sono for?",
+      "opcoes": [
+        "The past tense",
+        "The plural of c'è, which travel rarely needs",
+        "Polite form",
+        "Questions about people"
+      ],
+      "correta": 1,
+      "explica": "Almost every travel question is singular — learn c'è properly."
+    },
+    {
+      "pergunta": "Destra, sinistra, sempre dritto — what is your job with these?",
+      "opcoes": [
+        "Produce them fluently",
+        "Recognise them; your production job is shrinking the answer",
+        "Avoid them",
+        "Translate them aloud"
+      ],
+      "correta": 1,
+      "explica": "Direction words are receptive vocabulary."
+    }
+  ]
+}

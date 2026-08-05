@@ -1,0 +1,92 @@
+{
+  "id": "q-b15",
+  "nivel": "basico",
+  "titulo": "Quiz — Buying: price, size, try it, change it",
+  "subtitulo": "Four questions, one receipt",
+  "introAudioKey": "it-b15-q-i",
+  "introPt": "A traveller finishes a purchase without leaving a question for later.",
+  "cenario": "A small shop.",
+  "dialogo": [
+    {
+      "audioKey": "it-b15-q01",
+      "voz": "target_it_f",
+      "es": "Buongiorno, do solo un'occhiata.",
+      "pt": "Good morning, I'm just having a look."
+    },
+    {
+      "audioKey": "it-b15-q02",
+      "voz": "target_it_f",
+      "es": "Quanto costa questa?",
+      "pt": "How much is this one?"
+    },
+    {
+      "audioKey": "it-b15-q03",
+      "voz": "target_it_f",
+      "es": "Posso cambiarla se non va bene?",
+      "pt": "Can I exchange it if it doesn't fit?"
+    },
+    {
+      "audioKey": "it-b15-q04",
+      "voz": "target_it_m",
+      "es": "Entro otto giorni, con lo scontrino.",
+      "pt": "Within eight days, with the receipt."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Why greet on the way into a small shop?",
+      "opcoes": [
+        "It is legally required",
+        "It is how you register as a person rather than as traffic",
+        "To get a discount",
+        "To be served faster"
+      ],
+      "correta": 1,
+      "explica": "Do solo un'occhiata then buys you the right to browse in peace."
+    },
+    {
+      "pergunta": "When do you ask about exchanging something?",
+      "opcoes": [
+        "After you get home",
+        "Before you pay",
+        "Only if it breaks",
+        "Never"
+      ],
+      "correta": 1,
+      "explica": "The answer differs by shop, and it is cheap to ask beforehand."
+    },
+    {
+      "pergunta": "Is a shop obliged to take back something you changed your mind about?",
+      "opcoes": [
+        "Yes, always",
+        "No — the guarantee covers faulty goods, not second thoughts",
+        "Yes, within fourteen days",
+        "Only with a card payment"
+      ],
+      "correta": 1,
+      "explica": "Many will anyway, within a window and with the receipt."
+    },
+    {
+      "pergunta": "What does ci penso do?",
+      "opcoes": [
+        "Asks for a discount",
+        "Reserves the item",
+        "Is a complete, polite exit without buying",
+        "Asks for the manager"
+      ],
+      "correta": 2,
+      "explica": "Nobody expects an explanation for why you did not buy something."
+    },
+    {
+      "pergunta": "Does the EU fourteen-day withdrawal right cover an in-store purchase?",
+      "opcoes": [
+        "Yes",
+        "No — it applies to distance selling",
+        "Only for clothes",
+        "Only above fifty euros"
+      ],
+      "correta": 1,
+      "explica": "In-store, the rule is whatever the shop told you."
+    }
+  ]
+}

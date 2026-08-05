@@ -1,0 +1,92 @@
+{
+  "id": "q-b03",
+  "nivel": "basico",
+  "titulo": "Quiz — Change the channel",
+  "subtitulo": "Mi può plus the repair you need",
+  "introAudioKey": "it-b03-q-i",
+  "introPt": "A traveller loses an answer and climbs the repair ladder instead of nodding.",
+  "cenario": "Asking directions on the street.",
+  "dialogo": [
+    {
+      "audioKey": "it-b03-q01",
+      "voz": "target_it_m",
+      "es": "Deve andare fino al semaforo e poi girare dopo il ponte.",
+      "pt": "Go to the traffic light then turn after the bridge."
+    },
+    {
+      "audioKey": "it-b03-q02",
+      "voz": "target_it_f",
+      "es": "Scusi, non ho capito.",
+      "pt": "Sorry, I did not understand."
+    },
+    {
+      "audioKey": "it-b03-q03",
+      "voz": "target_it_f",
+      "es": "Mi può ripetere più lentamente?",
+      "pt": "Can you repeat that more slowly?"
+    },
+    {
+      "audioKey": "it-b03-q04",
+      "voz": "target_it_m",
+      "es": "No, cinque minuti a piedi.",
+      "pt": "No, five minutes on foot."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "What is the frame taught in this part?",
+      "opcoes": [
+        "Mi può plus the action you need",
+        "Vorrei plus a noun",
+        "Dov’è plus a place",
+        "C’è plus a thing"
+      ],
+      "correta": 0,
+      "explica": "One opening; you swap only the action."
+    },
+    {
+      "pergunta": "Why ask for più lentamente rather than repeating?",
+      "opcoes": [
+        "It is more polite",
+        "Repeating usually gets the same sentence louder",
+        "It is shorter",
+        "It is more formal"
+      ],
+      "correta": 1,
+      "explica": "Naming the change is what makes the second attempt different."
+    },
+    {
+      "pergunta": "When should you move to writing?",
+      "opcoes": [
+        "Immediately, always",
+        "When the payload is a number, name or address",
+        "Never",
+        "Only for prices"
+      ],
+      "correta": 1,
+      "explica": "A third identical listen rarely changes the result."
+    },
+    {
+      "pergunta": "What does È lontano? accomplish?",
+      "opcoes": [
+        "Asks the price",
+        "Shrinks a paragraph into a decision",
+        "Asks for the name",
+        "Ends the conversation"
+      ],
+      "correta": 1,
+      "explica": "You only needed to know whether to walk."
+    },
+    {
+      "pergunta": "Is non ho capito a confession of weakness?",
+      "opcoes": [
+        "Yes, avoid it",
+        "No, it is a status report and it is normal",
+        "Only for beginners",
+        "Only if said twice"
+      ],
+      "correta": 1,
+      "explica": "Delivered plainly, it reads as clarity."
+    }
+  ]
+}

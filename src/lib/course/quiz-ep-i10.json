@@ -1,0 +1,92 @@
+{
+  "id": "q-i10",
+  "nivel": "intermediario",
+  "titulo": "Quiz — Money here",
+  "subtitulo": "Four questions with plain answers",
+  "introAudioKey": "it-i10-q-i",
+  "introPt": "A traveller pays by card, splits the bill and skips the tip reflex.",
+  "cenario": "A small shop and a restaurant table.",
+  "dialogo": [
+    {
+      "audioKey": "it-i10-q01",
+      "voz": "target_it_m",
+      "es": "Eh, il POS oggi non va tanto bene...",
+      "pt": "Ah, the card machine isn't working too well today..."
+    },
+    {
+      "audioKey": "it-i10-q02",
+      "voz": "target_it_f",
+      "es": "Proviamo lo stesso, per favore? Non ho contanti.",
+      "pt": "Shall we try it anyway, please? I don't have cash."
+    },
+    {
+      "audioKey": "it-i10-q03",
+      "voz": "target_it_f",
+      "es": "Facciamo alla romana?",
+      "pt": "Shall we split it evenly?"
+    },
+    {
+      "audioKey": "it-i10-q04",
+      "voz": "target_it_f",
+      "es": "Mi dà lo scontrino, per favore?",
+      "pt": "Could you give me the receipt, please?"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Is a merchant allowed to refuse your card for a small purchase?",
+      "opcoes": [
+        "Yes, below ten euros",
+        "No — acceptance is a legal requirement with no minimum",
+        "Only in cities",
+        "Only for tourists"
+      ],
+      "correta": 1,
+      "explica": "A stated minimum is not permitted."
+    },
+    {
+      "pergunta": "What is alla romana?",
+      "opcoes": [
+        "A Roman dish",
+        "Splitting the total evenly among everyone at the table",
+        "Paying for others",
+        "Tipping"
+      ],
+      "correta": 1,
+      "explica": "Faster than itemising, which is why it exists."
+    },
+    {
+      "pergunta": "How much do you tip in a restaurant?",
+      "opcoes": [
+        "Fifteen percent",
+        "Ten percent",
+        "Rounding up is warm; a percentage is a foreign habit",
+        "Nothing ever"
+      ],
+      "correta": 2,
+      "explica": "Service is normally covered by the price or a declared servizio line."
+    },
+    {
+      "pergunta": "Where does haggling actually happen?",
+      "opcoes": [
+        "Everywhere",
+        "Flea markets, antique fairs and street vendors — mildly",
+        "Restaurants",
+        "Taxis"
+      ],
+      "correta": 1,
+      "explica": "Shops, bars and taxis are fixed-price."
+    },
+    {
+      "pergunta": "The terminal really might be broken. So what is the right register?",
+      "opcoes": [
+        "Demand and escalate",
+        "A level question, not a confrontation",
+        "Walk out",
+        "Call the police"
+      ],
+      "correta": 1,
+      "explica": "Most refusals end at proviamo lo stesso."
+    }
+  ]
+}

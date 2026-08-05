@@ -1,0 +1,92 @@
+{
+  "id": "q-i01",
+  "nivel": "intermediario",
+  "titulo": "Quiz — Their clock",
+  "subtitulo": "Two clocks, one gap",
+  "introAudioKey": "it-i01-q-i",
+  "introPt": "A traveller finds out when the kitchen actually opens.",
+  "cenario": "Outside a restaurant at quarter past six.",
+  "dialogo": [
+    {
+      "audioKey": "it-i01-q01",
+      "voz": "target_it_f",
+      "es": "A che ora apre la cucina?",
+      "pt": "What time does the kitchen open?"
+    },
+    {
+      "audioKey": "it-i01-q02",
+      "voz": "target_it_m",
+      "es": "La cucina apre alle otto. Prima solo aperitivo.",
+      "pt": "The kitchen opens at eight. Before that, only aperitivo."
+    },
+    {
+      "audioKey": "it-i01-q03",
+      "voz": "target_it_f",
+      "es": "Un tavolo per due alle nove, è possibile?",
+      "pt": "A table for two at nine, is that possible?"
+    },
+    {
+      "audioKey": "it-i01-q04",
+      "voz": "target_it_f",
+      "es": "Lei dove va a mangiare la sera?",
+      "pt": "Where do you go to eat in the evening?"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "The lunch window generally closes around:",
+      "opcoes": [
+        "Four",
+        "Half past two",
+        "Six",
+        "It does not close"
+      ],
+      "correta": 1,
+      "explica": "After it the kitchen is closed, not slow."
+    },
+    {
+      "pergunta": "Dinner service starts:",
+      "opcoes": [
+        "The same time everywhere",
+        "Later going south — nine is ordinary there",
+        "At six",
+        "Only after ten"
+      ],
+      "correta": 1,
+      "explica": "Judging a place by how empty it is at eight will mislead you."
+    },
+    {
+      "pergunta": "A full dinner service at six in a tourist centre signals:",
+      "opcoes": [
+        "Good value",
+        "Who the customers are",
+        "Fresh food",
+        "Early closing"
+      ],
+      "correta": 1,
+      "explica": "Usually with a multilingual menu and photographs."
+    },
+    {
+      "pergunta": "Which wording gets the real answer?",
+      "opcoes": [
+        "Dove dovrei mangiare?",
+        "Lei dove va a mangiare?",
+        "Qual è il migliore?",
+        "È buono qui?"
+      ],
+      "correta": 1,
+      "explica": "The second asks about their life, not about visitors."
+    },
+    {
+      "pergunta": "An empty restaurant at eight means:",
+      "opcoes": [
+        "Locals avoid it",
+        "It is early — the room fills between nine and ten",
+        "It just opened",
+        "Bad reviews"
+      ],
+      "correta": 1,
+      "explica": "At lunch, though, a full room genuinely is a good sign."
+    }
+  ]
+}

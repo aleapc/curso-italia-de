@@ -1,0 +1,96 @@
+{
+  "id": "q-a03",
+  "nivel": "avancado",
+  "titulo": "Quiz — Who they think they are",
+  "subtitulo": "Older than the country",
+  "introAudioKey": "it-a03-q-i",
+  "introPt": "A traveller praises the town instead of the country.",
+  "cenario": "A conversation about where you have been.",
+  "dialogo": [
+    {
+      "audioKey": "it-a03-q01",
+      "voz": "target_it_m",
+      "es": "Io non sono toscano, sono di Siena. È diverso.",
+      "pt": "I'm not Tuscan, I'm from Siena. It's different.",
+      "tts": "Io non sono toscano, sono di Siena. È diverso."
+    },
+    {
+      "audioKey": "it-a03-q02",
+      "voz": "target_it_f",
+      "es": "Siena mi è piaciuta più di Firenze, davvero.",
+      "pt": "I liked Siena more than Florence, honestly.",
+      "tts": "Siena mi è piaciuta più di Firenze, davvero."
+    },
+    {
+      "audioKey": "it-a03-q03",
+      "voz": "target_it_m",
+      "es": "La carbonara con la panna? Quella è un'offesa.",
+      "pt": "Carbonara with cream? That's an offence.",
+      "tts": "La carbonara con la panna? Quella è un'offesa."
+    },
+    {
+      "audioKey": "it-a03-q04",
+      "voz": "target_it_f",
+      "es": "Eh, in Italia funziona così, purtroppo.",
+      "pt": "Well, that's how it works in Italy, unfortunately.",
+      "tts": "Eh, in Italia funziona così, purtroppo."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Campanilismo is:",
+      "opcoes": [
+        "Bell-ringing",
+        "Loyalty to everything within sight of your own bell tower",
+        "A festival",
+        "A political party"
+      ],
+      "correta": 1,
+      "explica": "Rivalry is fiercest between neighbouring towns."
+    },
+    {
+      "pergunta": "When was Italy unified?",
+      "opcoes": [
+        "1815",
+        "1861",
+        "1918",
+        "1946"
+      ],
+      "correta": 1,
+      "explica": "Rome became the capital in 1871 - younger than most of its neighbours."
+    },
+    {
+      "pergunta": "Someone attacks a recipe. Best response?",
+      "opcoes": [
+        "Defend your version",
+        "Ask how it is made here",
+        "Agree",
+        "Change the subject"
+      ],
+      "correta": 1,
+      "explica": "Which is also how you end up eating the good one."
+    },
+    {
+      "pergunta": "An Italian complains about Italy. Do you agree?",
+      "opcoes": [
+        "Yes, enthusiastically",
+        "No - sympathise without endorsing",
+        "Argue",
+        "Stay silent forever"
+      ],
+      "correta": 1,
+      "explica": "Da noi non è tanto diverso does the whole job."
+    },
+    {
+      "pergunta": "Praising the specific town rather than the country:",
+      "opcoes": [
+        "Is presumptuous",
+        "Lands much harder and gets you real recommendations",
+        "Is rude to the country",
+        "Makes no difference"
+      ],
+      "correta": 1,
+      "explica": "The town is older than the nation."
+    }
+  ]
+}

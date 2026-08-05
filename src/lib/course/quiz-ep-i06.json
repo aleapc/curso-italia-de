@@ -1,0 +1,92 @@
+{
+  "id": "q-i06",
+  "nivel": "intermediario",
+  "titulo": "Quiz — Telling them about yesterday",
+  "subtitulo": "Three verbs make a story",
+  "introAudioKey": "it-i06-q-i",
+  "introPt": "A traveller turns a day into an account someone wants to continue.",
+  "cenario": "Chatting with the person behind the counter.",
+  "dialogo": [
+    {
+      "audioKey": "it-i06-q01",
+      "voz": "target_it_m",
+      "es": "Allora, cosa avete fatto ieri?",
+      "pt": "So, what did you do yesterday?"
+    },
+    {
+      "audioKey": "it-i06-q02",
+      "voz": "target_it_f",
+      "es": "Ieri sono andato a Firenze. Ho mangiato la bistecca alla fiorentina.",
+      "pt": "Yesterday I went to Florence. I ate the Florentine steak."
+    },
+    {
+      "audioKey": "it-i06-q03",
+      "voz": "target_it_m",
+      "es": "Ah, quella vera! E dove, scusa?",
+      "pt": "Ah, the real one! And where, may I ask?"
+    },
+    {
+      "audioKey": "it-i06-q04",
+      "voz": "target_it_f",
+      "es": "Mi è piaciuto moltissimo. Domani andiamo a Siena. Lei c'è stato?",
+      "pt": "I liked it very much. Tomorrow we're going to Siena. Have you been?"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Which verbs take sono in the past?",
+      "opcoes": [
+        "All of them",
+        "Verbs of movement and change",
+        "Only andare",
+        "Verbs about food"
+      ],
+      "correta": 1,
+      "explica": "Sono andato, sono andata, siamo andati — the ending agrees with you."
+    },
+    {
+      "pergunta": "Ho mangiato — why ho and not sono?",
+      "opcoes": [
+        "It is irregular",
+        "Verbs that do something to a thing take ho, and never change ending",
+        "Because it is food",
+        "Regional variation"
+      ],
+      "correta": 1,
+      "explica": "That difference is most of the grammar you need here."
+    },
+    {
+      "pergunta": "Mi è piaciuto literally means:",
+      "opcoes": [
+        "I liked it",
+        "It pleased me — the thing is the subject",
+        "I want it",
+        "I tried it"
+      ],
+      "correta": 1,
+      "explica": "Which is why it changes with the thing, not with you."
+    },
+    {
+      "pergunta": "Why name a low point in your account?",
+      "opcoes": [
+        "To be negative",
+        "Because liking everything reads as politeness rather than experience",
+        "It is expected of foreigners",
+        "To get a discount"
+      ],
+      "correta": 1,
+      "explica": "It turns a report into a conversation."
+    },
+    {
+      "pergunta": "Eh, tutti dicono così means:",
+      "opcoes": [
+        "They are mocking you",
+        "They are asking for the next level of detail",
+        "The conversation is over",
+        "They disagree"
+      ],
+      "correta": 1,
+      "explica": "Answer with the specific, then hand the question back."
+    }
+  ]
+}

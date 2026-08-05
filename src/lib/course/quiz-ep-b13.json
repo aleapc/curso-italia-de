@@ -1,0 +1,92 @@
+{
+  "id": "q-b13",
+  "nivel": "basico",
+  "titulo": "Quiz — The hammer sentence, and the card",
+  "subtitulo": "Allergia first, è grave second",
+  "introAudioKey": "it-b13-q-i",
+  "introPt": "A traveller makes sure an allergy reaches the kitchen, not just the table.",
+  "cenario": "Ordering at a restaurant.",
+  "dialogo": [
+    {
+      "audioKey": "it-b13-q01",
+      "voz": "target_it_f",
+      "es": "Ho un'allergia alle arachidi. È grave.",
+      "pt": "I have a peanut allergy. It is serious."
+    },
+    {
+      "audioKey": "it-b13-q02",
+      "voz": "target_it_m",
+      "es": "Ho capito. Lo dico in cucina.",
+      "pt": "Understood. I'll tell the kitchen."
+    },
+    {
+      "audioKey": "it-b13-q03",
+      "voz": "target_it_f",
+      "es": "Questo piatto contiene arachidi?",
+      "pt": "Does this dish contain peanuts?"
+    },
+    {
+      "audioKey": "it-b13-q04",
+      "voz": "target_it_m",
+      "es": "Questo no, ma è fritto nello stesso olio.",
+      "pt": "Not this one, but it's fried in the same oil."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Why does allergia go first in the sentence?",
+      "opcoes": [
+        "It sounds more polite",
+        "It is the word that changes what happens in the kitchen",
+        "Italian grammar requires it",
+        "It is easier to pronounce"
+      ],
+      "correta": 1,
+      "explica": "So it goes first, not last."
+    },
+    {
+      "pergunta": "What are you listening for in the waiter's reply?",
+      "opcoes": [
+        "A warm tone",
+        "A reference to the kitchen",
+        "An apology",
+        "A repeat of the dish name"
+      ],
+      "correta": 1,
+      "explica": "Lo dico in cucina is the answer you want; warmth alone is the default register."
+    },
+    {
+      "pergunta": "Why carry a written card?",
+      "opcoes": [
+        "It is required by law",
+        "It survives noise, accents, a shift change and a dead battery",
+        "It is cheaper",
+        "Waiters prefer it"
+      ],
+      "correta": 1,
+      "explica": "Paper works when the battery does not."
+    },
+    {
+      "pergunta": "Fritto nello stesso olio is:",
+      "opcoes": [
+        "A refusal",
+        "A good answer — it names a risk the menu never prints",
+        "An upsell",
+        "Irrelevant to an allergy"
+      ],
+      "correta": 1,
+      "explica": "Same oil, same board, same water."
+    },
+    {
+      "pergunta": "What do you do when the plate arrives?",
+      "opcoes": [
+        "Eat immediately",
+        "Confirm once before the first bite",
+        "Repeat the whole sentence",
+        "Ask for the manager"
+      ],
+      "correta": 1,
+      "explica": "One confirmation, not a fourth repetition."
+    }
+  ]
+}

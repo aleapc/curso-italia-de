@@ -1,0 +1,92 @@
+{
+  "id": "q-b05",
+  "nivel": "basico",
+  "titulo": "Quiz — Three answers, then stop",
+  "subtitulo": "Purpose, length, where you sleep",
+  "introAudioKey": "it-b05-q-i",
+  "introPt": "A traveller answers passport control in three short sentences.",
+  "cenario": "Passport control on arrival.",
+  "dialogo": [
+    {
+      "audioKey": "it-b05-q01",
+      "voz": "target_it_m",
+      "es": "Qual è il motivo del viaggio?",
+      "pt": "What is the purpose of your trip?"
+    },
+    {
+      "audioKey": "it-b05-q02",
+      "voz": "target_it_f",
+      "es": "Sono in vacanza.",
+      "pt": "I am on holiday."
+    },
+    {
+      "audioKey": "it-b05-q03",
+      "voz": "target_it_m",
+      "es": "Quanto tempo si ferma?",
+      "pt": "How long are you staying?"
+    },
+    {
+      "audioKey": "it-b05-q04",
+      "voz": "target_it_f",
+      "es": "Dieci giorni.",
+      "pt": "Ten days."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "What are the three jobs at the desk?",
+      "opcoes": [
+        "Purpose, duration, accommodation",
+        "Name, age, job",
+        "Money, luggage, tickets",
+        "Flight, seat, gate"
+      ],
+      "correta": 0,
+      "explica": "Answer each, then stop."
+    },
+    {
+      "pergunta": "What does eccola mean and do?",
+      "opcoes": [
+        "Here it is — hands over the evidence",
+        "I do not know",
+        "Please repeat",
+        "Thank you"
+      ],
+      "correta": 0,
+      "explica": "It moves the exchange from memory to evidence."
+    },
+    {
+      "pergunta": "Should you use the ten days from the lesson?",
+      "opcoes": [
+        "Yes, always",
+        "No, use your real number",
+        "Only if under two weeks",
+        "Only for holidays"
+      ],
+      "correta": 1,
+      "explica": "True beats fluent; the structure stays short either way."
+    },
+    {
+      "pergunta": "Is a short answer suspicious?",
+      "opcoes": [
+        "Yes, explain more",
+        "No, short means it matched the question",
+        "Only if you pause",
+        "Only for tourists"
+      ],
+      "correta": 1,
+      "explica": "Over-explaining is what actually slows the desk down."
+    },
+    {
+      "pergunta": "What if you did not catch the question?",
+      "opcoes": [
+        "Guess and nod",
+        "Say scusi, non ho capito la domanda",
+        "Answer in English",
+        "Show the passport again"
+      ],
+      "correta": 1,
+      "explica": "Asking is faster than recovering from a wrong answer."
+    }
+  ]
+}

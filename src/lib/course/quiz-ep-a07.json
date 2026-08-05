@@ -1,0 +1,96 @@
+{
+  "id": "q-a07",
+  "nivel": "avancado",
+  "titulo": "Quiz — Signals",
+  "subtitulo": "The no that never says no",
+  "introAudioKey": "it-a07-q-i",
+  "introPt": "A traveller reads a refusal correctly and saves three days.",
+  "cenario": "Asking someone for a favour.",
+  "dialogo": [
+    {
+      "audioKey": "it-a07-q01",
+      "voz": "target_it_m",
+      "es": "Eh, vediamo... magari più avanti, dai.",
+      "pt": "Well, we'll see... maybe further along, come on.",
+      "tts": "Eh, vediamo... magari più avanti, dai."
+    },
+    {
+      "audioKey": "it-a07-q02",
+      "voz": "target_it_f",
+      "es": "Sì sì, certo, alle otto, ci sono. Tranquillo.",
+      "pt": "Yes yes, of course, at eight, I'll be there. Don't worry.",
+      "tts": "Sì sì, certo, alle otto, ci sono. Tranquillo."
+    },
+    {
+      "audioKey": "it-a07-q03",
+      "voz": "target_it_f",
+      "es": "Guardi, signore, le ho già detto di no.",
+      "pt": "Look, sir, I've already told you no.",
+      "tts": "Guardi, signore, le ho già detto di no."
+    },
+    {
+      "audioKey": "it-a07-q04",
+      "voz": "target_it_m",
+      "es": "Ma dammi del tu, per favore! Come ti chiami?",
+      "pt": "Oh, use tu with me, please! What's your name?",
+      "tts": "Ma dammi del tu, per favore! Come ti chiami?"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "What tells you it is a real yes?",
+      "opcoes": [
+        "The word sì",
+        "Speed, repetition and a concrete detail",
+        "Volume",
+        "A handshake"
+      ],
+      "correta": 1,
+      "explica": "A refusal arrives slowly, hedged, without specifics."
+    },
+    {
+      "pergunta": "Guardi plus a switch to signore means:",
+      "opcoes": [
+        "Politeness",
+        "The conversation is finished",
+        "A question",
+        "Formality by default"
+      ],
+      "correta": 1,
+      "explica": "More reliable than volume."
+    },
+    {
+      "pergunta": "Someone asks you to use tu. You should:",
+      "opcoes": [
+        "Stay on lei to be safe",
+        "Follow the switch immediately",
+        "Ask permission",
+        "Use both"
+      ],
+      "correta": 1,
+      "explica": "Refusing it reads as keeping distance."
+    },
+    {
+      "pergunta": "Mi dica pure di no is:",
+      "opcoes": [
+        "Rude",
+        "A normal, well-received sentence that gets you a real answer",
+        "Sarcastic",
+        "Too formal"
+      ],
+      "correta": 1,
+      "explica": "Nobody is offended by an easy way out."
+    },
+    {
+      "pergunta": "In a home, the signal that it is time to go is:",
+      "opcoes": [
+        "The clock",
+        "Coffee having been served and drunk",
+        "Someone yawning",
+        "The door"
+      ],
+      "correta": 1,
+      "explica": "Leaving before it reads as the evening having failed."
+    }
+  ]
+}

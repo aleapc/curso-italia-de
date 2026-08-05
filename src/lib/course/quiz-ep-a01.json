@@ -1,0 +1,96 @@
+{
+  "id": "q-a01",
+  "nivel": "avancado",
+  "titulo": "Quiz — How they talk when it isn't to you",
+  "subtitulo": "Fast speech and the five fillers",
+  "introAudioKey": "it-a01-q-i",
+  "introPt": "A traveller follows the shape of a conversation without catching every word.",
+  "cenario": "Two people talking at native speed.",
+  "dialogo": [
+    {
+      "audioKey": "it-a01-q01",
+      "voz": "target_it_f",
+      "es": "Ma non lo so, te l'ho già detto!",
+      "pt": "But I don't know, I already told you!",
+      "tts": "Ma non lo so, te l'ho già detto!"
+    },
+    {
+      "audioKey": "it-a01-q02",
+      "voz": "target_it_f",
+      "es": "Boh, mah, vedremo. Magari domani.",
+      "pt": "Dunno, well, we'll see. Maybe tomorrow.",
+      "tts": "Boh, mah, vedremo. Magari domani."
+    },
+    {
+      "audioKey": "it-a01-q03",
+      "voz": "target_it_m",
+      "es": "Allora, facciamo così: io vado, tu resti.",
+      "pt": "Right then, let's do this: I go, you stay.",
+      "tts": "Allora, facciamo così: io vado, tu resti."
+    },
+    {
+      "audioKey": "it-a01-q04",
+      "voz": "target_it_f",
+      "es": "Eh sì, esatto, appunto, dicevo io la stessa cosa!",
+      "pt": "Yes exactly, precisely, I was saying the same thing!",
+      "tts": "Eh sì, esatto, appunto, dicevo io la stessa cosa!"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Boh means:",
+      "opcoes": [
+        "Maybe",
+        "I have no idea - a complete answer",
+        "Come on",
+        "Exactly"
+      ],
+      "correta": 1,
+      "explica": "Do not wait for more after it."
+    },
+    {
+      "pergunta": "Allora at the start of a sentence signals:",
+      "opcoes": [
+        "Confusion",
+        "A decision is coming",
+        "Disagreement",
+        "A goodbye"
+      ],
+      "correta": 1,
+      "explica": "Pay attention to what follows it."
+    },
+    {
+      "pergunta": "Two people talking over each other loudly are usually:",
+      "opcoes": [
+        "Arguing",
+        "Agreeing",
+        "Bargaining",
+        "Joking"
+      ],
+      "correta": 1,
+      "explica": "Esatto, appunto, infatti are agreement words."
+    },
+    {
+      "pergunta": "Non lo so in fast speech:",
+      "opcoes": [
+        "Stays separate",
+        "Collapses into one sound",
+        "Gets longer",
+        "Is avoided"
+      ],
+      "correta": 1,
+      "explica": "That is not sloppy - it is what the language sounds like."
+    },
+    {
+      "pergunta": "Should you use dai and guagliò yourself?",
+      "opcoes": [
+        "Yes, it shows fluency",
+        "No - this module is receptive; it lands as performative",
+        "Only in the south",
+        "Only with friends"
+      ],
+      "correta": 1,
+      "explica": "Recognise it; do not deploy it."
+    }
+  ]
+}

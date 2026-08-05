@@ -1,0 +1,92 @@
+{
+  "id": "q-b10",
+  "nivel": "basico",
+  "titulo": "Quiz — The signs you can read are the ones that trick you",
+  "subtitulo": "Aperto, chiuso, guasto, vietato",
+  "introAudioKey": "it-b10-q-i",
+  "introPt": "A traveller works out whether a shop is open, and when it will be.",
+  "cenario": "In front of a printed sign on a shop door.",
+  "dialogo": [
+    {
+      "audioKey": "it-b10-q01",
+      "voz": "target_it_m",
+      "es": "Chiuso per ferie. Riapriamo il ventidue agosto.",
+      "pt": "Closed for holidays. We reopen on the twenty-second of August."
+    },
+    {
+      "audioKey": "it-b10-q02",
+      "voz": "target_it_f",
+      "es": "Scusi, è aperto?",
+      "pt": "Excuse me, is it open?"
+    },
+    {
+      "audioKey": "it-b10-q03",
+      "voz": "target_it_m",
+      "es": "Alle sedici. Ora facciamo la pausa.",
+      "pt": "At four. We're on the break now."
+    },
+    {
+      "audioKey": "it-b10-q04",
+      "voz": "target_it_f",
+      "es": "Cosa vuol dire questo?",
+      "pt": "What does this mean?"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "What does camera mean on an Italian sign?",
+      "opcoes": [
+        "A camera",
+        "A room",
+        "A cash desk",
+        "A waiter"
+      ],
+      "correta": 1,
+      "explica": "A classic false friend — the ones that look safest are the expensive ones."
+    },
+    {
+      "pergunta": "Guasto means:",
+      "opcoes": [
+        "Tasty",
+        "Reserved",
+        "Broken",
+        "Closed for holidays"
+      ],
+      "correta": 2,
+      "explica": "Fuori servizio says the same thing: find the other machine."
+    },
+    {
+      "pergunta": "Alle sedici is what time?",
+      "opcoes": [
+        "Six",
+        "Sixteen minutes past",
+        "Four in the afternoon",
+        "Six in the morning"
+      ],
+      "correta": 2,
+      "explica": "Written hours are almost always on the twenty-four hour clock."
+    },
+    {
+      "pergunta": "What does orario continuato announce?",
+      "opcoes": [
+        "Open straight through, no afternoon break",
+        "Closed all day",
+        "Open by appointment",
+        "Continuous queue"
+      ],
+      "correta": 0,
+      "explica": "It announces the exception, which tells you the pausa is the rule nearby."
+    },
+    {
+      "pergunta": "Spingere and tirare are:",
+      "opcoes": [
+        "Open and closed",
+        "Push and pull",
+        "In and out",
+        "Forbidden and allowed"
+      ],
+      "correta": 1,
+      "explica": "Entrata and uscita are the in and out pair."
+    }
+  ]
+}

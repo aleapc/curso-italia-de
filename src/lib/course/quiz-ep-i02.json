@@ -1,0 +1,92 @@
+{
+  "id": "q-i02",
+  "nivel": "intermediario",
+  "titulo": "Quiz — The order of operations at the counter",
+  "subtitulo": "No queue, but not chaos",
+  "introAudioKey": "it-i02-q-i",
+  "introPt": "A traveller gets served in the order they arrived.",
+  "cenario": "A busy bar at breakfast.",
+  "dialogo": [
+    {
+      "audioKey": "it-i02-q01",
+      "voz": "target_it_m",
+      "es": "Prego? A chi tocca?",
+      "pt": "Yes? Whose turn is it?"
+    },
+    {
+      "audioKey": "it-i02-q02",
+      "voz": "target_it_f",
+      "es": "A me, grazie. Un caffè e un cornetto.",
+      "pt": "Me, thanks. A coffee and a croissant."
+    },
+    {
+      "audioKey": "it-i02-q03",
+      "voz": "target_it_f",
+      "es": "Si paga prima alla cassa?",
+      "pt": "Do you pay at the till first?"
+    },
+    {
+      "audioKey": "it-i02-q04",
+      "voz": "target_it_m",
+      "es": "Sì, poi porta lo scontrino qui al banco.",
+      "pt": "Yes, then bring the receipt here to the counter."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "A chi tocca? — what do you answer?",
+      "opcoes": [
+        "Nothing, wait",
+        "A me, grazie, then your order immediately",
+        "Sorry",
+        "Repeat the question"
+      ],
+      "correta": 1,
+      "explica": "Silence hands your place away."
+    },
+    {
+      "pergunta": "Why do later arrivals get served first?",
+      "opcoes": [
+        "Rudeness",
+        "Service runs on proximity and eye contact, not a queue",
+        "They are regulars",
+        "They pay more"
+      ],
+      "correta": 1,
+      "explica": "Standing back reads as not being ready."
+    },
+    {
+      "pergunta": "Do you pay before or after?",
+      "opcoes": [
+        "Always before",
+        "Always after",
+        "It varies — one question, or watch the person in front",
+        "Only with cash"
+      ],
+      "correta": 2,
+      "explica": "There is no way to tell from the doorway."
+    },
+    {
+      "pergunta": "The cappuccino-after-eleven rule:",
+      "opcoes": [
+        "Is strictly enforced",
+        "Is a real convention with no rule, refusal or penalty",
+        "Is a myth entirely",
+        "Applies only in Rome"
+      ],
+      "correta": 1,
+      "explica": "Knowing the convention exists is different from obeying it."
+    },
+    {
+      "pergunta": "Where does the no-queue approach NOT apply?",
+      "opcoes": [
+        "Everywhere it applies",
+        "Where there is a ticket machine — pharmacies, delis, post offices",
+        "Only in the south",
+        "In hotels"
+      ],
+      "correta": 1,
+      "explica": "Ignoring a numbered queue is genuinely rude."
+    }
+  ]
+}

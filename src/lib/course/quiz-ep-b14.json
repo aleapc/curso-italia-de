@@ -1,0 +1,92 @@
+{
+  "id": "q-b14",
+  "nivel": "basico",
+  "titulo": "Quiz — Mi porta, and the bill",
+  "subtitulo": "Coperto, servizio, scontrino",
+  "introAudioKey": "it-b14-q-i",
+  "introPt": "A traveller asks for the bill, reads the two extra lines, and takes the receipt.",
+  "cenario": "The end of a meal at a trattoria.",
+  "dialogo": [
+    {
+      "audioKey": "it-b14-q01",
+      "voz": "target_it_f",
+      "es": "Mi porta il conto, per favore?",
+      "pt": "Could you bring me the bill, please?"
+    },
+    {
+      "audioKey": "it-b14-q02",
+      "voz": "target_it_m",
+      "es": "Coperto due euro a persona, servizio dieci per cento.",
+      "pt": "Cover charge two euros per person, service ten percent."
+    },
+    {
+      "audioKey": "it-b14-q03",
+      "voz": "target_it_f",
+      "es": "Scusi, cos'è questa voce?",
+      "pt": "Sorry, what is this item?"
+    },
+    {
+      "audioKey": "it-b14-q04",
+      "voz": "target_it_f",
+      "es": "Mi porta lo scontrino, per favore?",
+      "pt": "Could you bring me the receipt, please?"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Why does the bill not arrive on its own?",
+      "opcoes": [
+        "The waiter forgot",
+        "Bringing it unrequested would be hurrying you out",
+        "It is a slow kitchen",
+        "You have to pay at the till"
+      ],
+      "correta": 1,
+      "explica": "The table is yours until you signal otherwise."
+    },
+    {
+      "pergunta": "Is the coperto required by law?",
+      "opcoes": [
+        "Yes, always",
+        "No — but it is lawful when clearly indicated on the menu",
+        "No, and it is always illegal",
+        "Only in tourist areas"
+      ],
+      "correta": 1,
+      "explica": "A coperto that appears nowhere on the menu is the version worth questioning."
+    },
+    {
+      "pergunta": "Servizio is on the bill. Should you also tip?",
+      "opcoes": [
+        "Yes, fifteen percent",
+        "Yes, ten percent",
+        "No — tipping on top is not expected; rounding up is plenty",
+        "Only for good service"
+      ],
+      "correta": 2,
+      "explica": "Italy does not run on tipping."
+    },
+    {
+      "pergunta": "The scontrino fiscale is:",
+      "opcoes": [
+        "A courtesy",
+        "A legal obligation for the business",
+        "Optional paperwork",
+        "Only for companies"
+      ],
+      "correta": 1,
+      "explica": "It is also the only document that lets you dispute anything afterwards."
+    },
+    {
+      "pergunta": "What does mi porta cover?",
+      "opcoes": [
+        "Only the bill",
+        "Anything that has to physically arrive at your table",
+        "Directions",
+        "Prices"
+      ],
+      "correta": 1,
+      "explica": "The bill, water, bread, the receipt."
+    }
+  ]
+}

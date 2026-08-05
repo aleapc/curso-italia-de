@@ -1,0 +1,92 @@
+{
+  "id": "q-b09",
+  "nivel": "basico",
+  "titulo": "Quiz — The ticket that validates itself, and the one that does not",
+  "subtitulo": "Buy, check the rule, find the platform",
+  "introAudioKey": "it-b09-q-i",
+  "introPt": "A traveller buys a regional ticket and works out which validation rule applies.",
+  "cenario": "At the station, six minutes before departure.",
+  "dialogo": [
+    {
+      "audioKey": "it-b09-q01",
+      "voz": "target_it_f",
+      "es": "Un biglietto per Firenze, per favore.",
+      "pt": "One ticket to Florence, please."
+    },
+    {
+      "audioKey": "it-b09-q02",
+      "voz": "target_it_f",
+      "es": "Devo convalidare il biglietto?",
+      "pt": "Do I have to validate the ticket?"
+    },
+    {
+      "audioKey": "it-b09-q03",
+      "voz": "target_it_m",
+      "es": "Sì, quello di carta sì. Alla macchinetta verde.",
+      "pt": "Yes, the paper one yes. At the little green machine."
+    },
+    {
+      "audioKey": "it-b09-q04",
+      "voz": "target_it_f",
+      "es": "Dov'è il binario sette?",
+      "pt": "Where is platform seven?"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "When does a Biglietto Digitale Regionale validate?",
+      "opcoes": [
+        "When you scan it at the machine",
+        "Automatically, at the scheduled departure time you chose",
+        "When the inspector checks it",
+        "It never needs validating"
+      ],
+      "correta": 1,
+      "explica": "No manual check-in — and after it auto-activates it can no longer be moved."
+    },
+    {
+      "pergunta": "What happens with an unstamped paper regional ticket?",
+      "opcoes": [
+        "Nothing, the rule was abolished",
+        "A warning only",
+        "A fine from €50 plus the price of the ticket",
+        "You buy a new one on board at no extra cost"
+      ],
+      "correta": 2,
+      "explica": "Reducible if paid within five days at a Trenitalia office."
+    },
+    {
+      "pergunta": "What is il binario?",
+      "opcoes": [
+        "The platform",
+        "The ticket",
+        "The carriage",
+        "The timetable"
+      ],
+      "correta": 0,
+      "explica": "The number is on the screen — you do not produce it from memory."
+    },
+    {
+      "pergunta": "Your phone battery dies before inspection. What is your position?",
+      "opcoes": [
+        "Fine, the ticket is registered in the system",
+        "You may be treated as travelling without a valid ticket",
+        "The inspector will look you up by name",
+        "You get a free replacement"
+      ],
+      "correta": 1,
+      "explica": "The QR is the ticket — it has to be displayable."
+    },
+    {
+      "pergunta": "Why does this part carry a short review date?",
+      "opcoes": [
+        "The audio expires",
+        "Italian regional ticketing is mid-transition and the rule moved recently",
+        "Prices change",
+        "The course is unfinished"
+      ],
+      "correta": 1,
+      "explica": "Check the operator's own page before a trip rather than trusting old advice."
+    }
+  ]
+}

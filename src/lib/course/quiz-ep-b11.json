@@ -1,0 +1,92 @@
+{
+  "id": "q-b11",
+  "nivel": "basico",
+  "titulo": "Quiz — Quanto costa — two words, asked while asking is still free",
+  "subtitulo": "Two prices, both legal",
+  "introAudioKey": "it-b11-q-i",
+  "introPt": "A traveller finds out about the second price before sitting down.",
+  "cenario": "A bar on a famous square.",
+  "dialogo": [
+    {
+      "audioKey": "it-b11-q01",
+      "voz": "target_it_f",
+      "es": "Quanto costa un caffè al tavolo?",
+      "pt": "How much is a coffee at the table?"
+    },
+    {
+      "audioKey": "it-b11-q02",
+      "voz": "target_it_m",
+      "es": "Al tavolo sono sei euro, al banco uno e trenta.",
+      "pt": "At the table it's six euros, at the counter one thirty."
+    },
+    {
+      "audioKey": "it-b11-q03",
+      "voz": "target_it_f",
+      "es": "Quanto costa in tutto?",
+      "pt": "How much is it all together?"
+    },
+    {
+      "audioKey": "it-b11-q04",
+      "voz": "target_it_m",
+      "es": "Sono due e cinquanta. Prima paghi alla cassa.",
+      "pt": "That's two fifty. You pay at the till first."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Why does the same coffee have two prices?",
+      "opcoes": [
+        "The waiter decides",
+        "Standing and seated are two legal tariffs, both displayed",
+        "Tourists pay more",
+        "The second one includes a tip"
+      ],
+      "correta": 1,
+      "explica": "The seated price buys the table and the square."
+    },
+    {
+      "pergunta": "What does un caffè get you?",
+      "opcoes": [
+        "A long black coffee",
+        "An espresso",
+        "A cappuccino",
+        "Coffee with milk"
+      ],
+      "correta": 1,
+      "explica": "For the long one, say caffè lungo."
+    },
+    {
+      "pergunta": "Someone points at the cassa. What is happening?",
+      "opcoes": [
+        "You pay at the till first, then take the receipt to the counter",
+        "They are closing",
+        "You must sit",
+        "Cash only"
+      ],
+      "correta": 0,
+      "explica": "Watching the person ahead of you answers this faster than asking."
+    },
+    {
+      "pergunta": "When is quanto costa worth asking?",
+      "opcoes": [
+        "After the item arrives",
+        "Before you commit",
+        "Only at markets",
+        "When the bill seems wrong"
+      ],
+      "correta": 1,
+      "explica": "Asking is free; finding out afterwards is not."
+    },
+    {
+      "pergunta": "A table charge that appears nowhere on the menu is:",
+      "opcoes": [
+        "Normal",
+        "The same as al tavolo pricing",
+        "A different matter, and the scontrino is what lets you raise it",
+        "Required by law"
+      ],
+      "correta": 2,
+      "explica": "The tariffs have to be displayed."
+    }
+  ]
+}

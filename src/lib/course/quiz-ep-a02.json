@@ -1,0 +1,96 @@
+{
+  "id": "q-a02",
+  "nivel": "avancado",
+  "titulo": "Quiz — What they laugh at",
+  "subtitulo": "Receptive humour",
+  "introAudioKey": "it-a02-q-i",
+  "introPt": "A traveller gets teased and handles it right.",
+  "cenario": "At a table with new acquaintances.",
+  "dialogo": [
+    {
+      "audioKey": "it-a02-q01",
+      "voz": "target_it_m",
+      "es": "Ma tu sei scemo, eh! Guarda che roba.",
+      "pt": "You're an idiot, you know! Look at that.",
+      "tts": "Ma tu sei scemo, eh! Guarda che roba."
+    },
+    {
+      "audioKey": "it-a02-q02",
+      "voz": "target_it_f",
+      "es": "Il mio italiano è un disastro, lo so.",
+      "pt": "My Italian is a disaster, I know.",
+      "tts": "Il mio italiano è un disastro, lo so."
+    },
+    {
+      "audioKey": "it-a02-q03",
+      "voz": "target_it_m",
+      "es": "Ma no, ma va! Parli benissimo, complimenti.",
+      "pt": "Not at all, come on! You speak really well, well done.",
+      "tts": "Ma no, ma va! Parli benissimo, complimenti."
+    },
+    {
+      "audioKey": "it-a02-q04",
+      "voz": "target_it_m",
+      "es": "Certo, come no. E io sono il Papa.",
+      "pt": "Sure, of course. And I'm the Pope.",
+      "tts": "Certo, come no. E io sono il Papa."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Sfottò is:",
+      "opcoes": [
+        "An insult",
+        "Affectionate mockery between people with a relationship",
+        "A regional dish",
+        "A card game"
+      ],
+      "correta": 1,
+      "explica": "The licence is earned, not shared with the room."
+    },
+    {
+      "pergunta": "Can you repeat a regional joke as a foreigner?",
+      "opcoes": [
+        "Yes, it shows you fit in",
+        "No - it reads as a foreigner judging a family argument",
+        "Only in the north",
+        "Only about your own town"
+      ],
+      "correta": 1,
+      "explica": "North and south have been teasing each other for 150 years."
+    },
+    {
+      "pergunta": "Which joke always works?",
+      "opcoes": [
+        "About their politics",
+        "About their driving",
+        "About yourself",
+        "About the food"
+      ],
+      "correta": 2,
+      "explica": "Your Italian, your appetite, your cappuccino at four."
+    },
+    {
+      "pergunta": "Come no said deadpan means:",
+      "opcoes": [
+        "Of course",
+        "Absolutely not",
+        "Maybe",
+        "How come"
+      ],
+      "correta": 1,
+      "explica": "The marker is tone, not words."
+    },
+    {
+      "pergunta": "You missed the joke. Best move?",
+      "opcoes": [
+        "Laugh anyway",
+        "Say ah, mi prendi in giro, or ask",
+        "Change the subject",
+        "Leave"
+      ],
+      "correta": 1,
+      "explica": "The polite laugh gives you away anyway."
+    }
+  ]
+}

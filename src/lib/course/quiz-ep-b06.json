@@ -1,0 +1,92 @@
+{
+  "id": "q-b06",
+  "nivel": "basico",
+  "titulo": "Quiz — Posso, and then whatever you want to do",
+  "subtitulo": "One frame for the whole first hour",
+  "introAudioKey": "it-b06-q-i",
+  "introPt": "A traveller handles five small permissions with one opening.",
+  "cenario": "Arrivals hall, first hour.",
+  "dialogo": [
+    {
+      "audioKey": "it-b06-q01",
+      "voz": "target_it_f",
+      "es": "Posso pagare con la carta?",
+      "pt": "Can I pay by card?"
+    },
+    {
+      "audioKey": "it-b06-q02",
+      "voz": "target_it_m",
+      "es": "Certo, anche per un caffè.",
+      "pt": "Of course, even for a coffee."
+    },
+    {
+      "audioKey": "it-b06-q03",
+      "voz": "target_it_f",
+      "es": "Posso aspettare qui?",
+      "pt": "Can I wait here?"
+    },
+    {
+      "audioKey": "it-b06-q04",
+      "voz": "target_it_m",
+      "es": "Sì, si accomodi pure.",
+      "pt": "Yes, go right ahead."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "What follows posso?",
+      "opcoes": [
+        "A noun",
+        "The infinitive of the action",
+        "A name",
+        "A number"
+      ],
+      "correta": 1,
+      "explica": "Posso pagare, posso usare, posso aspettare — the verb never changes shape."
+    },
+    {
+      "pergunta": "What does si accomodi mean?",
+      "opcoes": [
+        "Please wait outside",
+        "Go ahead, sit, help yourself",
+        "It is closed",
+        "Pay first"
+      ],
+      "correta": 1,
+      "explica": "A yes with a welcome attached."
+    },
+    {
+      "pergunta": "An Italian counter says qui no, ma… — what should you do?",
+      "opcoes": [
+        "Thank them and leave",
+        "Stay one beat: the alternative usually follows",
+        "Ask again",
+        "Try another counter"
+      ],
+      "correta": 1,
+      "explica": "The no is often only the first half of the answer."
+    },
+    {
+      "pergunta": "Why ask instead of memorising the rule?",
+      "opcoes": [
+        "Rules vary by building, city and hour",
+        "It is more polite",
+        "Rules are secret",
+        "To practise speaking"
+      ],
+      "correta": 0,
+      "explica": "The frame answers everywhere, including where no guide exists."
+    },
+    {
+      "pergunta": "Which of these is NOT built with posso?",
+      "opcoes": [
+        "Can I charge my phone",
+        "Can I leave the suitcase",
+        "Where is the exit",
+        "Can I use the toilet"
+      ],
+      "correta": 2,
+      "explica": "That one needs dov’è, which is the next part."
+    }
+  ]
+}

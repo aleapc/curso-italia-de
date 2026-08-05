@@ -1,0 +1,96 @@
+{
+  "id": "q-a04",
+  "nivel": "avancado",
+  "titulo": "Quiz — The old argument",
+  "subtitulo": "A line that runs through everything",
+  "introAudioKey": "it-a04-q-i",
+  "introPt": "A traveller asks instead of ranking.",
+  "cenario": "A conversation about north and south.",
+  "dialogo": [
+    {
+      "audioKey": "it-a04-q01",
+      "voz": "target_it_m",
+      "es": "Al sud si vive meglio, ma il lavoro sta al nord.",
+      "pt": "Life is better in the south, but the work is in the north.",
+      "tts": "Al sud si vive meglio, ma il lavoro sta al nord."
+    },
+    {
+      "audioKey": "it-a04-q02",
+      "voz": "target_it_f",
+      "es": "Mio padre è partito da Bari a vent'anni. Non è più tornato.",
+      "pt": "My father left Bari at twenty. He never went back.",
+      "tts": "Mio padre è partito da Bari a vent'anni. Non è più tornato."
+    },
+    {
+      "audioKey": "it-a04-q03",
+      "voz": "target_it_f",
+      "es": "Non ne so abbastanza per giudicare.",
+      "pt": "I don't know enough to judge.",
+      "tts": "Non ne so abbastanza per giudicare."
+    },
+    {
+      "audioKey": "it-a04-q04",
+      "voz": "target_it_f",
+      "es": "Al sud mi hanno accolto benissimo, devo dire.",
+      "pt": "In the south they welcomed me wonderfully, I have to say.",
+      "tts": "Al sud mi hanno accolto benissimo, devo dire."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "The economic gap between north and south is:",
+      "opcoes": [
+        "A stereotype",
+        "Measured fact, with contested explanations",
+        "A recent invention",
+        "Closed"
+      ],
+      "correta": 1,
+      "explica": "Istat and SVIMEZ document it; the causes are argued about."
+    },
+    {
+      "pergunta": "When someone tells you their view on the divide, you are often hearing:",
+      "opcoes": [
+        "Party politics",
+        "A family story",
+        "A joke",
+        "A tourist pitch"
+      ],
+      "correta": 1,
+      "explica": "Internal migration shaped enormous numbers of families."
+    },
+    {
+      "pergunta": "The wrong move is:",
+      "opcoes": [
+        "Asking a question",
+        "Delivering a verdict on which half is better",
+        "Saying you don't know",
+        "Sharing your experience"
+      ],
+      "correta": 1,
+      "explica": "Any ranking costs you the rest of the conversation."
+    },
+    {
+      "pergunta": "Napoli versus Juventus is:",
+      "opcoes": [
+        "Only football",
+        "A proxy for the whole argument",
+        "A friendly",
+        "Recent"
+      ],
+      "correta": 1,
+      "explica": "Enjoy it without adopting a side."
+    },
+    {
+      "pergunta": "Which is safe to say?",
+      "opcoes": [
+        "The north is better organised",
+        "The south is friendlier",
+        "In the south they welcomed me wonderfully",
+        "Neither half works"
+      ],
+      "correta": 2,
+      "explica": "Experience is allowed; comparison is not."
+    }
+  ]
+}
