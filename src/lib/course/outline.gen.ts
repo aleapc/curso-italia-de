@@ -13,8 +13,8 @@ import type { ModuloOutline } from '../types';
 export const outline: ModuloOutline[] = [
   {
     nivel: 'basico',
-    nome: 'Basic · Get by',
-    descricao: 'The Spanish that gets the day done: arriving, ordering, paying, moving, and getting help.',
+    nome: 'Grundstufe · Zurechtkommen',
+    descricao: 'Das Italienisch, mit dem Sie durch den Tag kommen: ankommen, bestellen, bezahlen, sich bewegen und um Hilfe bitten.',
     cor: 'terracota',
     licoes: [
       { id: 'b01', titulo: 'Die Doppelkonsonante, die ein anderes Wort ist', pronta: true },
@@ -39,8 +39,8 @@ export const outline: ModuloOutline[] = [
   },
   {
     nivel: 'intermediario',
-    nome: 'Intermediate · Get the good stuff',
-    descricao: 'Eat where they eat, when they eat, at the price they pay.',
+    nome: 'Mittelstufe · Das Gute mitnehmen',
+    descricao: 'Essen Sie dort, wo sie essen, wann sie essen, zu dem Preis, den sie zahlen.',
     cor: 'oliva',
     licoes: [
       { id: 'i01', titulo: 'Ihre Uhr, und warum früh essen den guten Tisch kostet', pronta: true },
@@ -57,8 +57,8 @@ export const outline: ModuloOutline[] = [
   },
   {
     nivel: 'avancado',
-    nome: 'Advanced · Read the room',
-    descricao: 'The humour, the pride, the old argument, and what their silence means.',
+    nome: 'Oberstufe · Den Raum lesen',
+    descricao: 'Der Humor, der Stolz, der alte Streit — und was ihr Schweigen bedeutet.',
     cor: 'indigo',
     licoes: [
       { id: 'a01', titulo: 'Wie sie reden, wenn nicht mit Ihnen', pronta: true },
