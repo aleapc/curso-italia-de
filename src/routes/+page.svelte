@@ -63,10 +63,10 @@
 
 <section class="mt-2">
   <h1 class="text-2xl font-extrabold leading-tight">
-    ¡Hola! 👋
+    Ciao! 👋
   </h1>
   <p class="mt-1 text-carvao/70">
-    Spanisch und Kultur fürs Überleben in Spanien — hören, laut mitsprechen, nicht über den Tisch gezogen werden.
+    Italienisch und Kultur fürs Überleben in Italien — hören, laut mitsprechen, nicht über den Tisch gezogen werden.
   </p>
 </section>
 

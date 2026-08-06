@@ -1,0 +1,33 @@
+{
+  "marca": "Dimmi!",
+  "cabecalho": "Italien auf einen Blick",
+  "titulo": "Reisehelfer",
+  "subtitulo": "Das Wichtigste bleibt auch im Flugmodus verfügbar.",
+  "rotulos": {
+    "cambio": "Währungsrechner",
+    "valorEm": "Betrag in",
+    "dataCotacao": "Kursdatum",
+    "avisoCotacao": "Nur als Anhaltspunkt. Prüfe vor dem Bezahlen den Kurs deiner Karte oder Bank.",
+    "tomadas": "Stecker & Strom",
+    "emergencia": "Notfall",
+    "ligar": "Anrufen",
+    "saberUtil": "Gut zu wissen"
+  },
+  "mesmaMoeda": "Italien und Deutschland zahlen beide in Euro — du brauchst keine Umrechnung.",
+  "moedas": {
+    "EUR": { "flag": "🇪🇺", "locale": "de-DE" }
+  },
+  "cambio": {
+    "date": "2026-08-05",
+    "rates": {}
+  },
+  "emergencia": [
+    { "numero": "112", "oQue": "Einheitliche Notrufnummer, kostenlos, rund um die Uhr — Polizei, Rettungsdienst und Feuerwehr. Diese Nummer zuerst merken." },
+    { "numero": "113", "oQue": "Polizei (Polizia di Stato)" },
+    { "numero": "115", "oQue": "Feuerwehr (Vigili del Fuoco)" },
+    { "numero": "118", "oQue": "Medizinischer Notruf / Rettungswagen (emergenza sanitaria)" }
+  ],
+  "saberUtil": [
+    { "emoji": "📞", "texto": "Der Notruf 112 ist vom Festnetz wie vom Handy kostenlos, an jedem Tag und zu jeder Uhrzeit; angenommen wird auf Italienisch und in der Regel auch in einer weiteren Sprache." }
+  ]
+}
