@@ -1,0 +1,1 @@
+var e={sku:`curso-italia-de`,buyerLang:`de`,targetLang:`it`,translatorPair:{sl:`de`,tl:`it`},destCurrency:`EUR`,homeCurrencies:[],timeZone:`Europe/Rome`};export{e as t};
